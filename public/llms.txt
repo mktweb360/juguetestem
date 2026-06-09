@@ -1,0 +1,54 @@
+# JugueteSTEM.es — LLMs.txt
+
+## Site Description
+
+JugueteSTEM.es is a Spanish affiliate blog and toy review site targeting Spanish parents looking to buy educational and STEM toys for their children on Amazon. Published by Mkt Web 360 SLU (CIF B87679304).
+
+## Main Topics
+
+- Montessori toys and wooden educational materials
+- STEM kits: science, robotics, and programming for children
+- Educational board games and family games
+- Construction toys: LEGO, Playmobil, magnetic sets
+- Educational books and visual encyclopedias for children
+- Buying guides for parents by age group
+
+## Content Index
+
+### Store Pages
+- /tienda — Main store with all toy categories
+- /tienda/juguetes-montessori — Montessori wooden toys
+- /tienda/juguetes-stem — STEM science and robotics kits
+- /tienda/juegos-mesa-educativos — Educational board games
+- /tienda/construccion-lego — LEGO, Playmobil and magnetic construction
+- /tienda/libros-educativos — Educational books and encyclopedias
+
+### Featured Products
+- /tienda/juguetes-montessori/hape-torre-colores-montessori — Hape stacking tower (best seller)
+- /tienda/juguetes-stem/lego-boost-programacion — LEGO Boost robotics kit
+- /tienda/juguetes-stem/thames-kosmos-quimica-junior — Thames & Kosmos chemistry set
+- /tienda/juegos-mesa-educativos/dixit-juego-mesa — Dixit board game
+- /tienda/construccion-lego/lego-classic-caja-creativa — LEGO Classic large box
+- /tienda/libros-educativos/donde-esta-wally-coleccion — Where's Wally complete collection
+
+### Blog Posts
+- /blog/mejores-juguetes-montessori-3-anos — Best Montessori toys for 3-year-olds 2025
+- /blog/juguetes-stem-ninos-8-anos — Best STEM toys for 8-12 year olds
+- /blog/mejores-juegos-mesa-familia — 10 best family board games 2025
+- /blog/lego-vs-playmobil-cual-elegir — LEGO vs Playmobil: which to choose
+- /blog/como-elegir-juguete-educativo — How to choose a truly educational toy
+- /blog/juguetes-regalo-navidad-ninos — Best Christmas gift toys 2025 by age
+- /blog/introduccion-programacion-ninos — How to introduce coding to kids
+- /blog/beneficios-juego-libre-montessori — Benefits of free play and Montessori philosophy
+
+## Affiliate Disclosure
+
+Participates in Amazon Associates (ID: cclaserdepi01-21). Commissions earned on qualifying purchases at no extra cost to users.
+
+## Language
+
+All content in Spanish (es-ES).
+
+## Contact
+
+info@mktweb360.com
