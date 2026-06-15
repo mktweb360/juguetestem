@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   },
   description: "Las mejores reseñas y guías de juguetes educativos y STEM para niños. Montessori, ciencia, robótica, juegos de mesa y más.",
   metadataBase: new URL("https://www.juguetestem.es"),
+  verification: {
+    google: "gTV4UlsEexaJvqIeMXuD1MOd4QV4WXWhnk_tfThO4Wc",
+  },
   openGraph: {
     type: "website",
     locale: "es_ES",
