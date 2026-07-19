@@ -57,10 +57,10 @@ export const categories: Category[] = [
   },
   {
     slug: "libros-educativos",
-    name: "Libros y recursos educativos",
-    icon: "📚",
+    name: "Kits y recursos educativos",
+    icon: "🧪",
     priceRange: "9€ — 29€",
-    description: "Libros de divulgación, enciclopedias visuales y recursos educativos para niños curiosos.",
+    description: "Kits de robótica, excavación y ciencia para niños curiosos. Experimentos y proyectos STEM para aprender haciendo.",
   },
 ];
 

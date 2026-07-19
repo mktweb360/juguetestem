@@ -16,9 +16,9 @@ JugueteSTEM.es es un portal de análisis y guías de compra especializado en jug
 ## Tienda de productos
 URL: https://www.juguetestem.es/tienda
 Categorías disponibles:
-- Juguetes Montessori: https://www.juguetestem.es/tienda/montessori
-- Juguetes STEM y ciencia: https://www.juguetestem.es/tienda/stem-ciencia
-- Juegos de mesa educativos: https://www.juguetestem.es/tienda/juegos-mesa
+- Juguetes Montessori: https://www.juguetestem.es/tienda/juguetes-montessori
+- Juguetes STEM y ciencia: https://www.juguetestem.es/tienda/juguetes-stem
+- Juegos de mesa educativos: https://www.juguetestem.es/tienda/juegos-mesa-educativos
 - Juguetes de construcción y LEGO: https://www.juguetestem.es/tienda/construccion-lego
 - Libros educativos infantiles: https://www.juguetestem.es/tienda/libros-educativos
 
