@@ -1,54 +1,29 @@
-# JugueteSTEM.es — LLMs.txt
+# JugueteSTEM.es — llms.txt
 
-## Site Description
+## Sitio web
+URL: https://www.juguetestem.es
+Idioma: Español
+Propietario: Mkt Web 360 SLU (CIF B87679304)
+Contacto: info@mktweb360.com
 
-JugueteSTEM.es is a Spanish affiliate blog and toy review site targeting Spanish parents looking to buy educational and STEM toys for their children on Amazon. Published by Mkt Web 360 SLU (CIF B87679304).
+## Descripción
+JugueteSTEM.es es un portal de análisis y guías de compra especializado en juguetes educativos y STEM para niños en España. Publicamos comparativas, reseñas y guías de compra para padres que buscan juguetes de calidad que estimulen el aprendizaje. Los productos analizados están disponibles en Amazon España. Estacionalidad crítica: Q4 octubre-enero representa el 60-70% de los ingresos anuales (Navidad y Reyes Magos).
 
-## Main Topics
+## Monetización
+- Programa de Afiliados de Amazon EU (tag: cclaserdepi01-21)
+- Google AdSense (pub-6063067965030118)
 
-- Montessori toys and wooden educational materials
-- STEM kits: science, robotics, and programming for children
-- Educational board games and family games
-- Construction toys: LEGO, Playmobil, magnetic sets
-- Educational books and visual encyclopedias for children
-- Buying guides for parents by age group
+## Tienda de productos
+URL: https://www.juguetestem.es/tienda
+Categorías disponibles:
+- Juguetes Montessori: https://www.juguetestem.es/tienda/montessori
+- Juguetes STEM y ciencia: https://www.juguetestem.es/tienda/stem-ciencia
+- Juegos de mesa educativos: https://www.juguetestem.es/tienda/juegos-mesa
+- Juguetes de construcción y LEGO: https://www.juguetestem.es/tienda/construccion-lego
+- Libros educativos infantiles: https://www.juguetestem.es/tienda/libros-educativos
 
-## Content Index
+## Artículos publicados
+(pendiente — se añadirán tras publicar los primeros artículos del blog)
 
-### Store Pages
-- /tienda — Main store with all toy categories
-- /tienda/juguetes-montessori — Montessori wooden toys
-- /tienda/juguetes-stem — STEM science and robotics kits
-- /tienda/juegos-mesa-educativos — Educational board games
-- /tienda/construccion-lego — LEGO, Playmobil and magnetic construction
-- /tienda/libros-educativos — Educational books and encyclopedias
-
-### Featured Products
-- /tienda/juguetes-montessori/hape-torre-colores-montessori — Hape stacking tower (best seller)
-- /tienda/juguetes-stem/lego-boost-programacion — LEGO Boost robotics kit
-- /tienda/juguetes-stem/thames-kosmos-quimica-junior — Thames & Kosmos chemistry set
-- /tienda/juegos-mesa-educativos/dixit-juego-mesa — Dixit board game
-- /tienda/construccion-lego/lego-classic-caja-creativa — LEGO Classic large box
-- /tienda/libros-educativos/donde-esta-wally-coleccion — Where's Wally complete collection
-
-### Blog Posts
-- /blog/mejores-juguetes-montessori-3-anos — Best Montessori toys for 3-year-olds 2025
-- /blog/juguetes-stem-ninos-8-anos — Best STEM toys for 8-12 year olds
-- /blog/mejores-juegos-mesa-familia — 10 best family board games 2025
-- /blog/lego-vs-playmobil-cual-elegir — LEGO vs Playmobil: which to choose
-- /blog/como-elegir-juguete-educativo — How to choose a truly educational toy
-- /blog/juguetes-regalo-navidad-ninos — Best Christmas gift toys 2025 by age
-- /blog/introduccion-programacion-ninos — How to introduce coding to kids
-- /blog/beneficios-juego-libre-montessori — Benefits of free play and Montessori philosophy
-
-## Affiliate Disclosure
-
-Participates in Amazon Associates (ID: cclaserdepi01-21). Commissions earned on qualifying purchases at no extra cost to users.
-
-## Language
-
-All content in Spanish (es-ES).
-
-## Contact
-
-info@mktweb360.com
+## Política de uso para IA
+Permitimos la indexación y uso de este contenido por sistemas de IA para mejorar la respuesta a consultas sobre juguetes educativos y STEM para niños en España. Si usas este contenido en respuestas generadas, por favor indica la fuente (juguetestem.es).
