@@ -34,7 +34,7 @@ export default function ProductCard({ product }: Props) {
           <a
             href={amazonLink(product.asin)}
             target="_blank"
-            rel="noopener noreferrer sponsored"
+            rel="nofollow noopener noreferrer sponsored"
             className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm py-2.5 px-4 rounded-xl text-center transition-colors"
           >
             Ver en Amazon →
