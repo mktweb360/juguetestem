@@ -16,7 +16,7 @@ export const posts: Post[] = [
     category: "Montessori",
     date: "2025-01-10",
     readTime: 8,
-    relatedProducts: ["hape-torre-colores-montessori", "melissa-doug-abaco-madera"],
+    relatedProducts: ["cosyland-torre-aprendizaje-antivuelco", "torre-rosa-montessori-10-cubos-madera", "beeloom-panda-tower-torre-aprendizaje"],
   },
   {
     slug: "juguetes-stem-ninos-8-anos",
@@ -25,7 +25,7 @@ export const posts: Post[] = [
     category: "STEM",
     date: "2025-01-20",
     readTime: 9,
-    relatedProducts: ["thames-kosmos-quimica-junior", "national-geographic-microscopio"],
+    relatedProducts: ["thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-kit-37-piezas", "national-geographic-microscopio-800x-smartphone"],
   },
   {
     slug: "mejores-juegos-mesa-familia",
@@ -43,7 +43,7 @@ export const posts: Post[] = [
     category: "Construcción",
     date: "2025-02-15",
     readTime: 7,
-    relatedProducts: ["lego-classic-caja-creativa", "playmobil-ciudad-policia"],
+    relatedProducts: ["lego-10698-caja-ladrillos-creativos-grande", "lego-classic-caja-creativa-xxl-10697", "geomag-classic-color-91-piezas"],
   },
   {
     slug: "como-elegir-juguete-educativo",
@@ -52,7 +52,7 @@ export const posts: Post[] = [
     category: "Guías",
     date: "2025-03-01",
     readTime: 8,
-    relatedProducts: ["hape-torre-colores-montessori", "plan-toys-tablero-actividades"],
+    relatedProducts: ["beeloom-panda-tower-torre-aprendizaje", "torre-rosa-montessori-10-cubos-madera", "national-geographic-mega-kit-excavacion-gemas"],
   },
   {
     slug: "juguetes-regalo-navidad-ninos",
@@ -61,7 +61,7 @@ export const posts: Post[] = [
     category: "Guías",
     date: "2025-03-15",
     readTime: 12,
-    relatedProducts: ["lego-boost-programacion", "dixit-juego-mesa", "geomag-magnetic-set-88"],
+    relatedProducts: ["lego-10698-caja-ladrillos-creativos-grande", "dixit-juego-mesa-asmodee-2021", "geomag-classic-color-91-piezas", "science4you-robotics-alfabot-238-piezas"],
   },
   {
     slug: "introduccion-programacion-ninos",
@@ -70,7 +70,7 @@ export const posts: Post[] = [
     category: "STEM",
     date: "2025-04-01",
     readTime: 9,
-    relatedProducts: ["lego-boost-programacion", "aprende-programacion-scratch"],
+    relatedProducts: ["science4you-robotics-alfabot-238-piezas", "thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-kit-37-piezas"],
   },
   {
     slug: "beneficios-juego-libre-montessori",
@@ -79,7 +79,7 @@ export const posts: Post[] = [
     category: "Montessori",
     date: "2025-04-15",
     readTime: 7,
-    relatedProducts: ["plan-toys-tablero-actividades", "geomag-magnetic-set-88"],
+    relatedProducts: ["torre-rosa-montessori-10-cubos-madera", "geomag-classic-color-91-piezas", "cosyland-torre-aprendizaje-antivuelco"],
   },
   {
     slug: "mejores-juguetes-stem-ninos-5-anos",
