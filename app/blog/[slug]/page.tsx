@@ -544,6 +544,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   const content = articleContent[slug] ?? [];
   const relatedProducts = post.relatedProducts.map((s) => getProductBySlug(s)).filter(Boolean);
+  const relatedPosts = (post.relatedPosts ?? []).map((s) => getPostBySlug(s)).filter(Boolean);
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -697,6 +698,25 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <h2 className="text-xl font-extrabold text-gray-900 mb-5">Productos recomendados en este artículo</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {relatedProducts.map((p) => p && <ProductCard key={p.slug} product={p} />)}
+            </div>
+          </div>
+        )}
+
+        {relatedPosts.length > 0 && (
+          <div className="mt-12 pt-8 border-t border-gray-100">
+            <h2 className="text-xl font-extrabold text-gray-900 mb-5">Artículos relacionados</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {relatedPosts.map((p) => p && (
+                <Link
+                  key={p.slug}
+                  href={`/blog/${p.slug}`}
+                  className="block bg-gray-50 rounded-xl p-5 hover:bg-purple-50 transition-colors"
+                >
+                  <span className="text-xs font-bold text-purple-600 uppercase tracking-wide">{p.category}</span>
+                  <h3 className="font-bold text-gray-900 mt-1 mb-1 leading-snug">{p.title}</h3>
+                  <p className="text-gray-500 text-sm line-clamp-2">{p.excerpt}</p>
+                </Link>
+              ))}
             </div>
           </div>
         )}
