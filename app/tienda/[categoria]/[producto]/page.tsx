@@ -25,27 +25,18 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
   const cat = categories.find((c) => c.slug === categoria);
   if (!product || !cat) notFound();
 
-  const stars = "★".repeat(Math.round(product.rating)) + "☆".repeat(5 - Math.round(product.rating));
   const related = getProductsByCategory(categoria).filter((p) => p.slug !== producto).slice(0, 2);
 
+  // Sin `offers` (precio) ni `aggregateRating`: precio y opiniones solo pueden
+  // mostrarse vía la API oficial de Amazon (Creators API). Emitir precio estático
+  // o ratings de Amazon incumple el Operating Agreement de Amazon y la política
+  // de datos estructurados de Google.
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
     name: product.name,
     description: product.shortDescription,
-    offers: {
-      "@type": "Offer",
-      url: amazonLink(product.asin),
-      priceCurrency: "EUR",
-      price: product.price.replace("€", "").replace(",", "."),
-      availability: "https://schema.org/InStock",
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: product.rating,
-      reviewCount: product.reviewCount,
-      bestRating: 5,
-    },
+    sku: product.asin,
   };
 
   const breadcrumbSchema = {
@@ -64,7 +55,7 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
     "@type": "FAQPage",
     mainEntity: [
       { "@type": "Question", name: `¿Para qué edad es ${product.name}?`, acceptedAnswer: { "@type": "Answer", text: product.specs["Edad"] ? `${product.name} está recomendado para ${product.specs["Edad"]}.` : "Consulta las especificaciones del producto." } },
-      { "@type": "Question", name: `¿Cuánto cuesta ${product.name}?`, acceptedAnswer: { "@type": "Answer", text: `El precio orientativo de ${product.name} es de ${product.price} en Amazon.es. Los precios pueden variar.` } },
+      { "@type": "Question", name: `¿Dónde comprar ${product.name}?`, acceptedAnswer: { "@type": "Answer", text: `Puedes ver el precio actualizado y comprar ${product.name} en su ficha de Amazon.es. El precio varía según disponibilidad y ofertas.` } },
       { "@type": "Question", name: `¿Es seguro ${product.name}?`, acceptedAnswer: { "@type": "Answer", text: `${product.name} cumple con la normativa CE de seguridad para juguetes en la Unión Europea.` } },
     ],
   };
@@ -99,14 +90,6 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
             )}
             <h1 className="text-2xl font-extrabold text-gray-900 mb-2">{product.name}</h1>
             <p className="text-gray-600 mb-4">{product.shortDescription}</p>
-
-            <div className="flex items-center gap-2 mb-5">
-              <span className="text-yellow-400">{stars}</span>
-              <span className="font-bold text-gray-700">{product.rating}</span>
-              <span className="text-gray-400 text-sm">({product.reviewCount.toLocaleString("es-ES")} reseñas en Amazon)</span>
-            </div>
-
-            <div className="text-3xl font-extrabold text-purple-700 mb-5">{product.price}</div>
 
             <a
               href={amazonLink(product.asin)}
@@ -171,8 +154,8 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
               <p className="text-gray-600 text-sm mt-1">{product.specs["Edad"] ? `Está recomendado para ${product.specs["Edad"]}.` : "Consulta las especificaciones del producto para más información."}</p>
             </div>
             <div>
-              <h3 className="font-bold text-gray-800 text-sm">¿Cuánto cuesta {product.name}?</h3>
-              <p className="text-gray-600 text-sm mt-1">El precio orientativo es de {product.price} en Amazon.es. Los precios pueden variar según disponibilidad y ofertas.</p>
+              <h3 className="font-bold text-gray-800 text-sm">¿Dónde comprar {product.name}?</h3>
+              <p className="text-gray-600 text-sm mt-1">Puedes ver el precio actualizado y comprarlo en su ficha de Amazon.es a través de nuestro enlace. El precio varía según disponibilidad y ofertas.</p>
             </div>
             <div>
               <h3 className="font-bold text-gray-800 text-sm">¿Es seguro este juguete?</h3>
