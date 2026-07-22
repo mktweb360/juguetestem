@@ -86,7 +86,7 @@ export const products: Product[] = [
   {
     slug: "cosyland-torre-aprendizaje-antivuelco",
     name: "COSYLAND Torre de Aprendizaje Montessori Antivuelco CPC Bambu",
-    asin: "B0CZ4J4Z9M",
+    asin: "B0CZ9837NN",
     categorySlug: "juguetes-montessori",
     categoryName: "Juguetes Montessori",
     price: "€79,99",
@@ -223,7 +223,7 @@ export const products: Product[] = [
   {
     slug: "lego-10698-caja-ladrillos-creativos-grande",
     name: "LEGO 10698 Classic Caja de Ladrillos Creativos Grande 4+ años",
-    asin: "B0B6JXPR6K",
+    asin: "B00PY3EYQO",
     categorySlug: "construccion-lego",
     categoryName: "Construcción y LEGO",
     price: "€54,99",
