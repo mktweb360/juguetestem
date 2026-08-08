@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Política de privacidad — JugueteSTEM.es",
   description: "Política de privacidad y protección de datos de JugueteSTEM.es.",
+  alternates: { canonical: "/politica-de-privacidad" },
 };
 
 export default function PoliticaPrivacidadPage() {

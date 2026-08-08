@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Sobre nosotros — JugueteSTEM.es",
   description: "Quiénes somos y cómo elegimos los juguetes que recomendamos en JugueteSTEM.es.",
+  alternates: { canonical: "/sobre-nosotros" },
 };
 
 export default function SobreNosotrosPage() {

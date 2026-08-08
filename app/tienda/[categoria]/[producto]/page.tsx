@@ -10,12 +10,13 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ categoria: string; producto: string }> }): Promise<Metadata> {
-  const { producto } = await params;
+  const { categoria, producto } = await params;
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
     title: `${product.name} — Análisis y opinión`,
     description: product.shortDescription,
+    alternates: { canonical: `/tienda/${categoria}/${producto}` },
   };
 }
 

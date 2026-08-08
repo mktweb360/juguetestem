@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Política de cookies — JugueteSTEM.es",
   description: "Qué cookies utilizamos en JugueteSTEM.es y cómo gestionarlas.",
+  alternates: { canonical: "/politica-de-cookies" },
 };
 
 export default function PoliticaCookiesPage() {

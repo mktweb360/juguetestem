@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { categories, getFeaturedProducts } from "@/data/products";
 import { getLatestPosts } from "@/data/posts";
 import ProductCard from "@/components/ProductCard";
+
+export const metadata: Metadata = {
+  title: "JugueteSTEM.es — Juguetes educativos y STEM para niños",
+  description: "Las mejores reseñas y guías de juguetes educativos y STEM para niños. Montessori, ciencia, robótica, juegos de mesa y más.",
+  alternates: { canonical: "https://www.juguetestem.es" },
+};
 
 export default function HomePage() {
   const featured = getFeaturedProducts(6);

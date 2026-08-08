@@ -5,6 +5,7 @@ import { posts } from "@/data/posts";
 export const metadata: Metadata = {
   title: "Blog — Guías y análisis de juguetes educativos",
   description: "Artículos, guías de compra y análisis de juguetes educativos y STEM para niños. Todo en español.",
+  alternates: { canonical: "/blog" },
 };
 
 const categories = [...new Set(posts.map((p) => p.category))];
