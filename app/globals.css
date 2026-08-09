@@ -1,4 +1,18 @@
+/* STAGED FIX — juguetestem.es — app/globals.css
+   CWV improvement: wire up the Geist font loaded by next/font in layout.tsx
+   so body text renders in Geist instead of Arial (display:swap fallback).
+   Deploy: cp juguetestem-cwv-globals.css ../juguetestem/app/globals.css       */
+
 @import "tailwindcss";
+
+@theme inline {
+  --background: #ffffff;
+  --foreground: #171717;
+  --color-primary: #7c3aed;
+  --color-accent: #f97316;
+  /* CWV: map Tailwind's font-sans to the Geist variable injected by next/font */
+  --font-sans: var(--font-geist-sans);
+}
 
 :root {
   --background: #ffffff;
@@ -10,5 +24,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* CWV fix: use the Geist font variable injected by next/font; Arial is the
+     fallback only before the font is available (display: swap).              */
+  font-family: var(--font-geist-sans, Arial, Helvetica, sans-serif);
 }
