@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ categoria
   return {
     title: `${product.name} — Análisis y opinión`,
     description: product.shortDescription,
-    alternates: { canonical: `/tienda/${categoria}/${producto}` },
+    alternates: { canonical: `https://www.juguetestem.es/tienda/${categoria}/${producto}` },
   };
 }
 
@@ -90,7 +90,7 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
               </span>
             )}
             <h1 className="text-2xl font-extrabold text-gray-900 mb-2">{product.name}</h1>
-            <p className="text-gray-600 mb-4">{product.shortDescription}</p>
+            <p className="text-gray-600 mb-6">{product.shortDescription}</p>
 
             <a
               href={amazonLink(product.asin)}
@@ -98,9 +98,9 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
               rel="noopener noreferrer sponsored"
               className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-center py-4 px-6 rounded-xl text-lg transition-colors mb-2"
             >
-              Comprar en Amazon →
+              Ver precio en Amazon →
             </a>
-            <p className="text-xs text-gray-400 text-center">Precio puede variar. Enlace de afiliado.</p>
+            <p className="text-xs text-gray-400 text-center">Precio actualizado en Amazon. Enlace de afiliado.</p>
           </div>
         </div>
 
@@ -146,7 +146,6 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
           </dl>
         </div>
 
-        {/* FAQ */}
         <div className="bg-white rounded-2xl border border-gray-100 p-6 mb-10">
           <h2 className="font-extrabold text-gray-900 mb-5">Preguntas frecuentes</h2>
           <div className="space-y-4">

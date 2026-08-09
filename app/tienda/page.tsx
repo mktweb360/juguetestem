@@ -5,7 +5,7 @@ import { categories, getProductsByCategory } from "@/data/products";
 export const metadata: Metadata = {
   title: "Tienda — Juguetes educativos y STEM",
   description: "Explora todas las categorías de juguetes educativos y STEM: Montessori, ciencia, juegos de mesa, construcción y libros.",
-  alternates: { canonical: "/tienda" },
+  alternates: { canonical: "https://www.juguetestem.es/tienda" },
 };
 
 const collectionSchema = {

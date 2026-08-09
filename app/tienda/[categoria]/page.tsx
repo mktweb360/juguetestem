@@ -16,6 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ categoria
   return {
     title: `${cat.name} — Mejores juguetes ${cat.name}`,
     description: cat.description,
+    alternates: { canonical: `https://www.juguetestem.es/tienda/${categoria}` },
   };
 }
 
