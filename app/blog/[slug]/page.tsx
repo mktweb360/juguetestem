@@ -536,6 +536,193 @@ const articleContent: Record<string, ArticleSection[]> = {
     { heading: "Conclusión", text: "Para un niño con altas capacidades el criterio de compra no es la edad indicada en la caja, sino si el material tiene techo. Los tres kits analizados comparten la misma virtud: el contenido incluido es un punto de partida, y lo que viene después lo decide el niño." },
     { faqs: [{ q: "¿Debo comprar juguetes de más edad para un niño con altas capacidades?", a: "Normalmente no. Las altas capacidades son cognitivas, pero la coordinación motriz y la madurez emocional van con la edad cronológica. Es mejor elegir materiales abiertos de su edad que permitan profundizar sin límite que kits pensados para niños tres años mayores." }, { q: "¿Cómo evitar que un niño con altas capacidades se aburra con un kit?", a: "Elige kits donde el contenido oficial sea el suelo y no el techo, y añade siempre una capa de proyecto propio: diseñar un experimento nuevo, programar un comportamiento no previsto, catalogar muestras durante semanas. El aburrimiento aparece cuando el material se agota, no cuando es fácil." }, { q: "¿Los niños con altas capacidades necesitan juguetes distintos a los demás?", a: "No distintos, sino usados de otra forma. Los mismos materiales de calidad funcionan; lo que cambia es la velocidad a la que agotan el contenido guiado y la necesidad de tener siempre una vía abierta para seguir profundizando por su cuenta." }, { q: "¿Los juegos de estrategia son adecuados para altas capacidades?", a: "Sí, y especialmente los que tienen componente de azar. Enseñan que la inteligencia no garantiza el resultado, una lección importante para niños acostumbrados a que las tareas cognitivas les salgan bien a la primera." }] },
   ],
+
+  "mejor-tablet-ninos-educativa-2025": [
+  {
+    text: "Una tablet educativa bien elegida puede ser una herramienta de aprendizaje potente — o una fuente de distracción cara. La diferencia la marcan el control parental, la durabilidad y el ecosistema de contenido educativo, no solo la pantalla y el procesador.",
+  },
+  {
+    heading: "Qué hace educativa a una tablet",
+    list: [
+      "Controles parentales nativos robustos: tiempo de pantalla por app, filtrado de contenido por edad y compras bloqueadas de serie.",
+      "Contenido educativo licenciado: acceso a plataformas como Khan Academy, ABCmouse o Duolingo dentro del ecosistema cerrado de la tablet.",
+      "Durabilidad ante caídas: funda de espuma o carcasa reforzada integrada, no añadida después.",
+      "Cámara de calidad suficiente para videollamadas con profesores y exploración del entorno.",
+      "Autonomía de batería para una jornada escolar completa: mínimo 8-10 horas de uso activo.",
+    ],
+  },
+  {
+    heading: "Por edades: qué tablet elegir",
+    text: "De 3 a 5 años: la Amazon Fire HD 8 Kids Edition (139-159€) es la opción más completa a este precio — funda de espuma incluida, garantía de 2 años ante roturas y acceso a Amazon Kids+ con miles de libros, vídeos y juegos educativos. Para uso exclusivamente educativo con menos distracciones, el LeapFrog LeapPad (80-100€) ofrece un ecosistema más cerrado y dirigido, aunque con catálogo limitado.\n\nDe 6 a 9 años: la Amazon Fire HD 10 Kids Pro (179-199€) escala con pantalla más grande orientada al aprendizaje activo. La Samsung Galaxy Tab A9 Kids Edition (229-249€) añade más potencia y mayor catálogo de apps educativas en Google Play con supervisión parental.\n\nDe 10 a 13 años: el iPad (9ª gen, 329-399€) ofrece acceso al App Store completo con control parental a través de Tiempo de Pantalla — la mejor opción cuando las necesidades académicas se vuelven exigentes. El Lenovo Tab M10 Plus (199-249€) es la mejor relación calidad-precio con Google Kids Space integrado para uso escolar controlado.",
+  },
+  {
+    heading: "Control parental: lo imprescindible",
+    list: [
+      "Tiempo de pantalla por apps: poder limitar un juego a 30 minutos mientras una app educativa permanece sin restricción.",
+      "Filtrado de contenido por edad: las categorías deben aplicarse automáticamente sin necesitar configuración manual de cada app.",
+      "Compras bloqueadas de serie: ninguna compra in-app ni suscripción sin PIN del adulto.",
+      "Historial de uso visible para los padres: saber qué apps usó el niño, cuánto tiempo y qué contenido consumió.",
+      "Geolocalización no es necesaria: estas son tablets de uso doméstico — no es un criterio relevante en la decisión.",
+    ],
+  },
+  {
+    heading: "¿iPad o tablet dedicada?",
+    text: "El iPad dura 5-6 años con actualizaciones de iOS garantizadas, tiene el mejor soporte de apps educativas del mercado y se integra con servicios escolares como Google Classroom y Microsoft Teams. Cuesta más y es más frágil sin funda adicional. Las tablets Kids dedicadas como Amazon Fire o LeapFrog tienen más protección física incorporada, precio inferior y ecosistemas de contenido supervisado, pero el catálogo de apps se queda pequeño rápido y el soporte de software suele cortarse antes. La recomendación práctica: tablets Kids hasta los 8 años, iPad a partir de los 9.",
+  },
+  {
+    heading: "Lo que debes evitar al elegir",
+    list: [
+      "Tablets baratas sin marca con Android genérico: sin actualizaciones de seguridad, sin soporte y con rendimiento que frustra al niño en pocas semanas.",
+      "Pantallas de baja resolución por debajo de 1280×800: generan fatiga visual en uso prolongado de lectura y vídeo.",
+      "Tablets sin funda protectora para menores de 8 años: el primer impacto contra el suelo no es una cuestión de si sucede, sino de cuándo.",
+      "Apps educativas con compras in-app sin aviso visible: revisa los permisos y la política de cada app antes de instalarla.",
+    ],
+  },
+  {
+    faqs: [
+      {
+        q: "¿Desde qué edad se puede dar una tablet a un niño?",
+        a: "La OMS recomienda no exponer a pantallas antes de los 2 años. De 2 a 5 años, el máximo recomendado es 1 hora diaria con supervisión activa de un adulto. A partir de los 6 años se puede ampliar progresivamente, siempre con control de contenidos y tiempo de uso.",
+      },
+      {
+        q: "¿Cuánto debe costar una tablet educativa de calidad?",
+        a: "El mínimo para una experiencia aceptable es 100€. Por debajo de esa cifra, el rendimiento suele ser tan frustrante que el niño pierde el interés — y no es problema del niño, sino del hardware. El punto óptimo para la mayoría de familias está entre 139€ y 200€.",
+      },
+      {
+        q: "¿Necesita internet una tablet educativa?",
+        a: "No para el contenido ya descargado: libros, juegos y vídeos de plataformas como Amazon Kids+ funcionan offline una vez descargados. Sí para actualizaciones de apps, streaming y contenido nuevo. Una conexión WiFi doméstica es suficiente — no necesita datos móviles.",
+      },
+    ],
+  },
+],
+  "mejor-telescopio-ninos-principiantes-2025": [
+  {
+    text: "El telescopio es probablemente el juguete científico con mayor potencial de asombro. Un niño que ve Saturno y sus anillos por primera vez no lo olvida. Pero elegir mal — un telescopio de juguete con óptica deficiente — puede apagar ese interés para siempre.",
+  },
+  {
+    heading: "Tipos de telescopio: cuál es mejor para niños",
+    text: "Hay tres tipos principales, y no todos son igual de adecuados para principiantes. El telescopio refractor usa lentes: es el más fácil de usar, requiere prácticamente ningún mantenimiento y es ideal para observar la Luna y planetas — la mejor opción para iniciarse. El reflector newtoniano usa espejos: ofrece la mejor relación apertura/precio, pero necesita colimación (alineación de espejos) periódica, lo que lo hace más adecuado para niños mayores o con ayuda adulta. El catadióptrico (Schmidt-Cassegrain) es compacto y potente, pero su precio es elevado y su uso complejo — no recomendado para principiantes.",
+  },
+  {
+    heading: "La apertura lo es todo",
+    text: "El parámetro más importante en un telescopio es la apertura: el diámetro del objetivo. Los aumentos impresos en la caja (50x, 100x, 200x) son datos de marketing; la apertura es lo que determina cuánta luz capta y qué calidad de imagen ofrece realmente. Con 60-70mm de apertura se puede ver la Luna con detalle, Júpiter como disco con sus cuatro lunas galileanas y los anillos de Saturno. Con 80-90mm ya aparecen nebulosas brillantes y cúmulos estelares. Con 100mm o más se entra en observación más seria. La regla práctica: más aumentos con poca apertura produce imágenes borrosas y oscuras — siempre prioriza la apertura sobre el número de aumentos.",
+  },
+  {
+    heading: "Montura: la parte más olvidada",
+    text: "La montura es el sistema que mueve el telescopio, y los principiantes casi nunca la tienen en cuenta. La montura altazimutal se mueve en dos ejes — horizontal y vertical — de forma intuitiva, como una cámara en trípode. Es la correcta para niños: simple, estable y sin configuración previa. La montura ecuatorial compensa automáticamente la rotación de la Tierra, lo que facilita seguir los objetos, pero su configuración es compleja y solo tiene sentido para mayores de 12 años con ayuda adulta. Regla simple para niños: siempre montura altazimutal.",
+  },
+  {
+    heading: "Los 5 mejores telescopios para niños en 2025",
+    table: {
+      headers: ["Modelo", "Tipo", "Apertura", "Precio", "Mejor para"],
+      rows: [
+        ["Celestron PowerSeeker 70AZ", "Refractor", "70mm", "79-99€", "Primer telescopio, Luna y planetas"],
+        ["Bresser Junior 70/700 AZ", "Refractor", "70mm", "69-89€", "Óptica sólida, incluye mapa estelar"],
+        ["Orion StarBlast 4.5 Astro", "Reflector", "114mm", "199-229€", "Salto de calidad real, 10+ años"],
+        ["Sky-Watcher Heritage 130P", "Dobsoniano", "130mm", "199-249€", "Mejor óptica por precio, 12+ años"],
+        ["Celestron AstroMaster 90AZ", "Refractor", "90mm", "179-199€", "Más luminoso, ideal para planetas"],
+      ],
+    },
+  },
+  {
+    heading: "Qué podrán ver con su telescopio",
+    text: "Con 60-70mm de apertura: la Luna con cráteres y montañas con un nivel de detalle impresionante, Júpiter como disco con sus cuatro lunas galileanas visibles y los anillos de Saturno — este último es el momento más impactante para cualquier principiante. Con 80mm en adelante se añaden la nebulosa de Orión y cúmulos estelares como las Pléyades. Lo que no podrán ver: galaxias lejanas con detalle, nebulosas difusas como en las fotografías de la NASA — esas imágenes usan exposiciones de horas con telescopios de 200mm o más. El ojo humano siempre ve bastante menos que una cámara de larga exposición, pero lo que sí se ve sigue siendo extraordinario.",
+  },
+  {
+    heading: "Errores al comprar el primer telescopio",
+    list: [
+      "Comprar por el número de aumentos en la caja: es un dato de marketing que no refleja la calidad óptica real del instrumento.",
+      "Comprar un telescopio de juguete de plástico: la óptica deficiente produce imágenes tan malas que el niño pierde el interés en la primera noche de uso.",
+      "No asegurarse de que el trípode es estable: a 100 aumentos, la más mínima vibración arruina la imagen — un trípode endeble inutiliza incluso un buen telescopio.",
+      "Esperar ver como las fotos del Hubble: las fotografías astronómicas usan exposición de horas y procesado posterior — el ojo siempre verá mucho menos, aunque siga siendo absolutamente impresionante.",
+    ],
+  },
+  {
+    faqs: [
+      {
+        q: "¿Desde qué edad puede usar un telescopio un niño?",
+        a: "Con ayuda adulta, desde los 8 años con un refractor sencillo y montura altazimutal. Solos, con un altazimutal simple como el Celestron PowerSeeker, a partir de los 10-11 años — necesitan paciencia para apuntar al objeto y ajustar el enfoque.",
+      },
+      {
+        q: "¿Dónde es mejor usar el telescopio?",
+        a: "Lejos de la ciudad, si es posible. La contaminación lumínica es el mayor enemigo de la observación: en una ciudad grande solo se ven los objetos más brillantes. A 30-40 km de zona urbana el cielo cambia radicalmente. La Luna y los planetas son la excepción: se ven bien desde cualquier lugar.",
+      },
+      {
+        q: "¿Necesita mantenimiento un telescopio para niños?",
+        a: "Los refractores prácticamente ninguno: el sistema de lentes es estanco y raramente necesita ajustes. Los reflectores necesitan colimación (realinear los espejos) aproximadamente una vez al año — un proceso de 10 minutos con un colimador que suele venir incluido.",
+      },
+      {
+        q: "¿Qué complementos son útiles desde el primer día?",
+        a: "Un ocular adicional de diferente focal para cambiar el aumento según el objeto observado, un filtro lunar que reduce el exceso de luz de la Luna llena para ver más detalle, y una aplicación de astronomía como SkySafari o Stellarium para identificar qué hay en el cielo cada noche.",
+      },
+    ],
+  },
+],
+  "juguetes-ninos-necesidades-especiales-tdah-tea": [
+  {
+    text: "Los juguetes no son iguales para todos los niños. Para un niño con TDAH, TEA o dificultades de aprendizaje, el juguete correcto puede ser una herramienta terapéutica — y el incorrecto puede generar frustración, sobrecarga sensorial y rechazo. Esta guía está basada en criterios utilizados por terapeutas ocupacionales y logopedas.",
+  },
+  {
+    heading: "TDAH: juguetes para la atención y la regulación",
+    text: "Los niños con TDAH se benefician de juguetes con ciclos cortos de recompensa, actividad física integrada y elementos manipulativos que canalizan la necesidad de movimiento. Los tipos que mejor funcionan son la construcción por bloques — LEGO, Magna-Tiles — con secuencias claras y resultado visual inmediato; los juegos de movimiento con reglas simples como trampolín o pistas de obstáculos; los fidgets y juguetes sensoriales como spinners, cubos antiestrés o slime, que activan el canal propioceptivo y ayudan a la autorregulación; y los juegos de memoria y cartas con sesiones cortas, reglas simples y alta rotación para mantener el interés.",
+    list: [
+      "Lo que NO funciona con TDAH: juegos de larga duración sin pausa estructurada.",
+      "Evitar: juguetes con instrucciones complejas en papel que requieren leer antes de actuar.",
+      "Evitar: pantallas sin límite de tiempo — la dopamina de la pantalla compite con el juego físico y pierde.",
+    ],
+  },
+  {
+    heading: "TEA: juguetes para la estimulación sensorial y social",
+    text: "Los niños en el espectro autista tienen perfiles sensoriales muy variables: algunos son hipersensibles (evitan estímulos intensos) y otros hiposensibles (buscan estímulos fuertes). Antes de elegir un juguete, conviene conocer el perfil sensorial del niño. Para estimulación sensorial funcionan las mantas con peso (grounding sensorial), los kits de arena cinética, los juguetes de texturas variadas y las luces LED con control de intensidad ajustable. Para desarrollo social son útiles los juegos de causa-efecto simples que enseñan relaciones predecibles, los libros de emociones con fotografías reales de caras y los muñecos con expresiones marcadas para practicar el reconocimiento emocional.",
+    list: [
+      "Evitar para TEA: juguetes con sonidos inesperados o muy agudos sin posibilidad de bajar el volumen.",
+      "Evitar: estímulos visuales caóticos o que cambien de forma impredecible.",
+      "Evitar: juegos con reglas sociales implícitas no explicadas — las instrucciones deben ser explícitas y visuales.",
+    ],
+  },
+  {
+    heading: "Dificultades de aprendizaje: dislexia y discalculia",
+    text: "La dislexia no es un problema de visión ni de inteligencia — es una dificultad en el procesamiento fonológico que hace que leer requiera mucho más esfuerzo que al resto de niños. Los juguetes y recursos más útiles evitan el texto convencional: audiolibros, juegos de rimas y fonemas, puzles con letras texturizadas que trabajan la asociación fonema-grafema de forma táctil. La discalculia es la dificultad paralela con los números: los bloques de unidades físicas (regletas Cuisenaire, bloques Dienes), las regletas numéricas y los juegos de medida y peso manipulativos permiten trabajar los conceptos matemáticos sin depender de la abstracción simbólica. Para ambas condiciones, cualquier juego que elimine la presión del tiempo y la competición, que permita intentos múltiples sin penalización y que muestre el progreso de forma visible, tiene más valor terapéutico que cualquier app correctora.",
+  },
+  {
+    heading: "Criterios para elegir: checklist para padres",
+    list: [
+      "Nivel de estimulación sensorial ajustable: volumen, luz e intensidad controlables por el niño o el adulto.",
+      "Ciclo de actividad corto (5-15 minutos) o claramente pausable sin frustración.",
+      "Instrucciones visuales o por imágenes disponibles — no solo texto.",
+      "Resultado tangible y claro que el niño puede ver o tocar al finalizar la actividad.",
+      "Sin competición implícita si genera frustración: mejor cooperativo o de juego libre.",
+      "Posibilidad de jugar solo o acompañado según el momento y el estado del niño.",
+    ],
+  },
+  {
+    heading: "Marcas y productos reconocidos por terapeutas ocupacionales",
+    list: [
+      "Hape: madera, estimulación sensorial y motricidad fina. Especialmente recomendada para niños con TEA e hipersensibilidad táctil por sus acabados suaves y colores poco saturados.",
+      "Melissa & Doug: desarrollo motor fino, puzles y actividades de coordinación mano-ojo con materiales de alta calidad y piezas grandes.",
+      "ThinkFun: resolución de problemas a ritmo propio, sin presión de tiempo. Sus puzles lógicos son especialmente útiles para niños con TDAH que se frustran con el juego competitivo.",
+      "Lakeshore Learning: material educativo terapéutico ampliamente utilizado en centros de atención temprana y aulas de educación especial.",
+      "Fat Brain Toys: juego sensorial y cognitivo con materiales inusuales que estimulan la curiosidad y la exploración.",
+      "LEGO: la gama Duplo para pequeños (piezas grandes, construcción libre sin instrucciones) y la Classic para construcción abierta sin modelo fijo — ambas recomendadas para TDAH por el ciclo corto de recompensa visual.",
+    ],
+  },
+  {
+    faqs: [
+      {
+        q: "¿Necesito un diagnóstico para usar estos juguetes?",
+        a: "No. Muchos de estos juguetes benefician a cualquier niño, con o sin diagnóstico. Los juguetes sensoriales, los de construcción libre y los de causa-efecto son herramientas de desarrollo universal. El diagnóstico ayuda a afinar la elección, pero no es necesario para empezar.",
+      },
+      {
+        q: "¿El precio indica calidad terapéutica?",
+        a: "No directamente. Un bote de arena cinética de 15€ puede ser más útil para un niño con TEA que un juguete electrónico de 80€. La calidad terapéutica la determina el ajuste al perfil sensorial del niño, no el precio del juguete. Marcas económicas como Lidl Playtive o Action tienen opciones sensoriales que funcionan muy bien.",
+      },
+      {
+        q: "¿Puedo pedir una recomendación personalizada?",
+        a: "Sí, y es lo más recomendable. El terapeuta ocupacional o el logopeda del niño son la mejor fuente de recomendación individualizada: conocen el perfil sensorial, los objetivos terapéuticos del momento y qué tipo de estimulación conviene potenciar o evitar. Esta guía ofrece criterios generales; ellos pueden concretar.",
+      },
+    ],
+  },
+],
 };
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {

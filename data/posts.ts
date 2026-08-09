@@ -445,6 +445,64 @@ export const posts: Post[] = [
     relatedProducts: ["science4you-robotics-alfabot-238-piezas", "thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-800x-smartphone"],
     relatedPosts: ["robotica-ninos-primeros-pasos", "thames-kosmos-analisis-gama-completa", "juguetes-educativos-10-anos"],
   },
+
+  {
+    slug: "mejor-tablet-ninos-educativa-2025",
+    title: "Mejor tablet educativa para niños 2025: guía por edades y necesidades",
+    excerpt:
+      "Comparativa de las mejores tablets educativas para niños: Fire HD Kids, iPad, Lenovo. Cuál elegir según edad y uso.",
+    category: "Guías",
+    date: "2025-08-07",
+    readTime: 10,
+    relatedProducts: [
+      "science4you-robotics-alfabot-238-piezas",
+      "national-geographic-microscopio-kit-37-piezas",
+      "thames-kosmos-intro-chemistry-27-experimentos",
+    ],
+    relatedPosts: [
+      "juguetes-stem-ninos-8-anos",
+      "introduccion-programacion-ninos",
+      "como-elegir-juguete-educativo",
+    ],
+  },
+  {
+    slug: "mejor-telescopio-ninos-principiantes-2025",
+    title: "Mejor telescopio para niños y principiantes 2025: guía de compra",
+    excerpt:
+      "Los mejores telescopios para niños desde 8 años: qué apertura necesitan, qué montura elegir y qué objetos podrán ver.",
+    category: "STEM",
+    date: "2025-08-07",
+    readTime: 9,
+    relatedProducts: [
+      "national-geographic-microscopio-kit-37-piezas",
+      "national-geographic-mega-kit-excavacion-gemas",
+      "thames-kosmos-kids-first-science-kit",
+    ],
+    relatedPosts: [
+      "mejores-kits-ciencia-ninos",
+      "juguetes-stem-ninos-8-anos",
+      "national-geographic-juguetes-educativos-analisis",
+    ],
+  },
+  {
+    slug: "juguetes-ninos-necesidades-especiales-tdah-tea",
+    title: "Juguetes para niños con necesidades especiales: TDAH, TEA y dificultades de aprendizaje",
+    excerpt:
+      "Guía de juguetes adaptados para niños con TDAH, TEA y dificultades de aprendizaje: estimulación sensorial, atención y desarrollo motor.",
+    category: "Guías",
+    date: "2025-08-07",
+    readTime: 11,
+    relatedProducts: [
+      "geomag-classic-color-91-piezas",
+      "lego-10698-caja-ladrillos-creativos-grande",
+      "torre-rosa-montessori-10-cubos-madera",
+    ],
+    relatedPosts: [
+      "como-elegir-juguete-educativo",
+      "juguetes-madera-vs-plastico-diferencias",
+      "beneficios-juego-libre-montessori",
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
