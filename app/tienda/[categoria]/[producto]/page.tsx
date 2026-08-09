@@ -81,8 +81,13 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
         </nav>
 
         <div className="grid md:grid-cols-2 gap-8 mb-10">
-          <div className="bg-purple-50 rounded-2xl flex items-center justify-center p-12">
-            <span className="text-8xl">{cat.icon}</span>
+          <div className="rounded-2xl overflow-hidden bg-gray-100">
+            <img
+              src={`/images/products/${product.categorySlug}.jpg`}
+              alt={product.name}
+              className="w-full h-64 object-cover"
+              loading="eager"
+            />
           </div>
 
           <div>
@@ -100,9 +105,9 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
               rel="noopener noreferrer sponsored"
               className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-center py-4 px-6 rounded-xl text-lg transition-colors mb-2"
             >
-              Ver precio en Amazon →
+              🛒 Comprar en Amazon →
             </a>
-            <p className="text-xs text-gray-400 text-center">Precio actualizado en Amazon. Enlace de afiliado.</p>
+            <p className="text-xs text-gray-400 text-center mt-1">Se abrirá Amazon.es · Enlace de afiliado</p>
           </div>
         </div>
 
