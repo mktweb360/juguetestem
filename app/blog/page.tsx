@@ -36,14 +36,21 @@ export default function BlogPage() {
           <Link
             key={post.slug}
             href={`/blog/${post.slug}`}
-            className="bg-white rounded-2xl border border-gray-100 p-6 hover:shadow-md transition-shadow"
+            className="bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-md transition-shadow flex flex-col"
           >
-            <span className="text-xs font-bold text-purple-600 uppercase tracking-wide">{post.category}</span>
-            <h2 className="font-extrabold text-gray-900 mt-1 mb-2 leading-tight hover:text-purple-700 transition-colors">{post.title}</h2>
-            <p className="text-gray-500 text-sm mb-3 line-clamp-3">{post.excerpt}</p>
-            <div className="flex items-center justify-between text-xs text-gray-400">
-              <span>{new Date(post.date).toLocaleDateString("es-ES", { year: "numeric", month: "long", day: "numeric" })}</span>
-              <span>{post.readTime} min lectura</span>
+            {post.image && (
+              <div className="overflow-hidden bg-gray-50">
+                <img src={post.image} alt={post.title} className="w-full h-40 object-cover hover:scale-105 transition-transform duration-300" loading="lazy" />
+              </div>
+            )}
+            <div className="p-6 flex flex-col flex-1">
+              <span className="text-xs font-bold text-purple-600 uppercase tracking-wide">{post.category}</span>
+              <h2 className="font-extrabold text-gray-900 mt-1 mb-2 leading-tight hover:text-purple-700 transition-colors">{post.title}</h2>
+              <p className="text-gray-500 text-sm mb-3 line-clamp-3 flex-1">{post.excerpt}</p>
+              <div className="flex items-center justify-between text-xs text-gray-400">
+                <span>{new Date(post.date).toLocaleDateString("es-ES", { year: "numeric", month: "long", day: "numeric" })}</span>
+                <span>{post.readTime} min lectura</span>
+              </div>
             </div>
           </Link>
         ))}

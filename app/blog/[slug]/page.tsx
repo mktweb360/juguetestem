@@ -790,6 +790,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <span>⏱ {post.readTime} min de lectura</span>
         </div>
 
+        {post.image && (
+          <div className="mb-8 -mx-4 sm:-mx-6 overflow-hidden rounded-xl">
+            <img src={post.image} alt={post.title} className="w-full h-56 sm:h-72 object-cover" loading="eager" />
+          </div>
+        )}
+
         <AffiliateDisclosure />
 
         <div className="prose prose-gray max-w-none">
@@ -911,11 +917,16 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                 <Link
                   key={p.slug}
                   href={`/blog/${p.slug}`}
-                  className="block bg-gray-50 rounded-xl p-5 hover:bg-purple-50 transition-colors"
+                  className="block bg-gray-50 rounded-xl overflow-hidden hover:bg-purple-50 transition-colors"
                 >
-                  <span className="text-xs font-bold text-purple-600 uppercase tracking-wide">{p.category}</span>
-                  <h3 className="font-bold text-gray-900 mt-1 mb-1 leading-snug">{p.title}</h3>
-                  <p className="text-gray-500 text-sm line-clamp-2">{p.excerpt}</p>
+                  {p.image && (
+                    <img src={p.image} alt={p.title} className="w-full h-32 object-cover" loading="lazy" />
+                  )}
+                  <div className="p-5">
+                    <span className="text-xs font-bold text-purple-600 uppercase tracking-wide">{p.category}</span>
+                    <h3 className="font-bold text-gray-900 mt-1 mb-1 leading-snug">{p.title}</h3>
+                    <p className="text-gray-500 text-sm line-clamp-2">{p.excerpt}</p>
+                  </div>
                 </Link>
               ))}
             </div>
