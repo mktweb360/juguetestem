@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { categories, products, getProductBySlug, getProductsByCategory, amazonLink } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
+import { getPostBySlug } from "@/data/posts";
 
 export async function generateStaticParams() {
   return products.map((p) => ({ categoria: p.categorySlug, producto: p.slug }));
@@ -27,6 +28,7 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
   if (!product || !cat) notFound();
 
   const related = getProductsByCategory(categoria).filter((p) => p.slug !== producto).slice(0, 2);
+  const relatedGuides = (product.relatedPosts ?? []).map((s) => getPostBySlug(s)).filter(Boolean);
 
   // Sin `offers` (precio) ni `aggregateRating`: precio y opiniones solo pueden
   // mostrarse vía la API oficial de Amazon (Creators API). Emitir precio estático
@@ -163,6 +165,28 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
             </div>
           </div>
         </div>
+
+        {relatedGuides.length > 0 && (
+          <div className="mb-10">
+            <h2 className="text-xl font-extrabold text-gray-900 mb-5">Guías relacionadas</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {relatedGuides.map((p) => p && (
+                <a
+                  key={p.slug}
+                  href={`/blog/${p.slug}`}
+                  className="flex items-start gap-3 bg-purple-50 border border-purple-100 rounded-2xl p-4 hover:bg-purple-100 transition-colors group"
+                >
+                  <span className="text-purple-600 text-xl shrink-0 mt-0.5">📖</span>
+                  <div>
+                    <span className="text-xs font-bold text-purple-700 uppercase tracking-wide">{p.category}</span>
+                    <h3 className="font-bold text-gray-900 text-sm mt-0.5 leading-tight group-hover:text-purple-700 transition-colors">{p.title}</h3>
+                    <span className="text-purple-700 font-semibold text-xs mt-1 inline-block">Leer guía →</span>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
 
         {related.length > 0 && (
           <div>

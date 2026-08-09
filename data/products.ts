@@ -16,6 +16,7 @@ export interface Product {
   badge?: string;
   categorySlug: string;
   categoryName?: string;
+  relatedPosts?: string[];
 }
 
 export interface Category {
@@ -82,6 +83,7 @@ export const products: Product[] = [
     cons: ["Requiere vigilancia de adulto", "Peso máximo limitado"],
     specs: { "Niveles": "3 altura regulable", "Material": "Madera", "Certificación": "CE", "Color": "Gris", "Uso": "Cocina y baño" },
     badge: "Más vendida",
+    relatedPosts: ["torre-aprendizaje-bebe-guia", "beeloom-panda-tower-analisis", "mejores-juguetes-montessori-2025"],
   },
   {
     slug: "cosyland-torre-aprendizaje-antivuelco",
@@ -98,6 +100,7 @@ export const products: Product[] = [
     pros: ["Certificación CPC garantía de seguridad", "Estructura antivuelco más estable del mercado", "Desde 18 meses", "Bambu natural sostenible", "Más de 2.000 valoraciones positivas"],
     cons: ["Montaje requiere herramientas básicas", "Precio ligeramente superior a competidores"],
     specs: { "Desde": "18 meses", "Certificación": "CPC", "Material": "Bambu natural", "Seguridad": "Antivuelco patentada" },
+    relatedPosts: ["torre-aprendizaje-bebe-guia", "mejores-juguetes-montessori-3-anos", "mejores-juguetes-montessori-2025"],
   },
   {
     slug: "torre-rosa-montessori-10-cubos-madera",
@@ -114,6 +117,7 @@ export const products: Product[] = [
     pros: ["Fabricación artesanal española en Galicia", "Madera y tintes 100% naturales", "Personalización de nombre gratuita", "Material pedagógico auténtico Montessori", "Apoya pequeñas empresas locales"],
     cons: ["Entrega algo más lenta que grandes marcas", "Solo disponible en madera natural"],
     specs: { "Cubos": "10 (diferentes tamaños)", "Material": "Madera natural + tintes naturales", "Fabricación": "Artesanal Galicia", "Personalización": "Nombre sin coste" },
+    relatedPosts: ["torre-rosa-montessori-beneficios", "mejores-juguetes-montessori-2025", "juguetes-madera-vs-plastico-diferencias"],
   },
 
   // JUGUETES STEM Y CIENCIA
@@ -133,6 +137,7 @@ export const products: Product[] = [
     cons: ["Requiere vigilancia de adulto", "Instrucciones en inglés principalmente"],
     specs: { "Experimentos": "27", "Edad": "8-12 años", "Manual": "48 páginas a todo color", "Marca": "Thames & Kosmos", "Áreas": "Química, reacciones, cristalización" },
     badge: "Recomendado STEM",
+    relatedPosts: ["kits-quimica-ninos-seguros-guia", "thames-kosmos-analisis-gama-completa", "mejores-kits-ciencia-ninos"],
   },
   {
     slug: "national-geographic-microscopio-kit-37-piezas",
@@ -149,6 +154,7 @@ export const products: Product[] = [
     pros: ["37 piezas completo sin necesitar más", "3 niveles de aumento 40x-400x", "Gemas y minerales reales incluidos", "Guía de laboratorio interactiva", "Marca National Geographic de confianza"],
     cons: ["Instrucciones no garantizadas en español", "Requiere pilas AA no incluidas"],
     specs: { "Aumento": "40x / 100x / 400x", "Piezas": "37", "Preparados": "6 de plantas + 6 en blanco", "Extras": "Gemas y minerales reales", "Luz": "Superior e inferior" },
+    relatedPosts: ["microscopio-ninos-guia-compra", "national-geographic-juguetes-educativos-analisis", "juguetes-stem-ninos-8-anos"],
   },
   {
     slug: "national-geographic-microscopio-800x-smartphone",
@@ -165,6 +171,7 @@ export const products: Product[] = [
     pros: ["Soporte smartphone para fotos y vídeos", "Hasta 800x de aumento", "Disco filtro 6 colores para resaltar objetos", "2 oculares de campo amplio", "Caja preparados y accesorios incluidos"],
     cons: ["Instrucciones no garantizadas en español", "Solo 309g puede moverse", "Pilas AA no incluidas"],
     specs: { "Aumento": "40x - 800x", "Oculares": "WF10x + WF20x", "Smartphone": "Soporte incluido", "Filtros": "6 colores", "Edad": "6+ años" },
+    relatedPosts: ["microscopio-ninos-guia-compra", "national-geographic-juguetes-educativos-analisis", "juguetes-ninos-altas-capacidades"],
   },
 
   // JUEGOS DE MESA EDUCATIVOS
@@ -184,6 +191,7 @@ export const products: Product[] = [
     cons: ["Requiere creatividad verbal", "Las cartas pueden repetirse con mucho uso"],
     specs: { "Jugadores": "3-8", "Edad": "8+ años", "Duración": "30 min", "Premio": "Spiel des Jahres", "Idioma": "Multilenguaje incluye español" },
     badge: "Premio Spiel des Jahres",
+    relatedPosts: ["dixit-juego-analisis-opinion", "mejores-juegos-mesa-familia", "juegos-mesa-educativos-primaria"],
   },
   {
     slug: "catan-junior-devir-6-anos",
@@ -200,6 +208,7 @@ export const products: Product[] = [
     pros: ["Versión accesible del juego más exitoso del mundo", "Introduce estrategia desde 6 años", "Partidas de solo 30 minutos", "En español, catalán y portugués", "Mecánicas simplificadas pero profundas"],
     cons: ["Fichas de plástico (no madera como versión adultos)", "Solo 2-4 jugadores"],
     specs: { "Jugadores": "2-4", "Edad": "6+ años", "Duración": "30 min", "Idioma": "Español + Catalán + Portugués", "Recursos": "Madera, cabras, melaza, espadas" },
+    relatedPosts: ["catan-junior-analisis-estrategia", "mejores-juegos-mesa-familia", "juguetes-educativos-6-anos"],
   },
   {
     slug: "virus-juego-cartas-tranjis-games",
@@ -217,6 +226,7 @@ export const products: Product[] = [
     cons: ["Puede generar conflictos entre jugadores sensibles", "Solo 2-6 jugadores"],
     specs: { "Jugadores": "2-6", "Edad": "8+ años", "Duración": "20 min", "Cartas": "68 + 2 personalizables", "Idiomas": "Español, Inglés, Alemán, Francés" },
     badge: "Superventas",
+    relatedPosts: ["juegos-cartas-educativos-familia", "mejores-juegos-mesa-familia", "pensamiento-critico-ninos-juegos"],
   },
 
   // CONSTRUCCIÓN Y LEGO
@@ -236,6 +246,7 @@ export const products: Product[] = [
     cons: ["Precio superior a marcas alternativas", "Sin instrucciones específicas (libertad creativa)"],
     specs: { "Piezas": "790", "Colores": "33", "Incluye": "Ventanas + puertas + ruedas + ojos + 2 bases", "Edad": "4+ años", "Referencia": "10698" },
     badge: "Más completa",
+    relatedPosts: ["lego-classic-10698-analisis", "mejores-lego-educativos", "lego-vs-otras-marcas-construccion"],
   },
   {
     slug: "lego-classic-caja-creativa-xxl-10697",
@@ -252,6 +263,7 @@ export const products: Product[] = [
     pros: ["39 colores, la más variada de la gama", "Piezas especiales incluidas", "Guía con ideas por edades", "Apta para grandes proyectos", "Excelente regalo duradero"],
     cons: ["Precio elevado", "Tamaño de caja grande"],
     specs: { "Colores": "39", "Incluye": "Puertas, ventanas, ruedas, ojos", "Guía": "Ideas por edades", "Edad": "4+ años", "Referencia": "10697" },
+    relatedPosts: ["mejores-lego-educativos", "lego-vs-otras-marcas-construccion", "construccion-magnetica-beneficios-educativos"],
   },
   {
     slug: "geomag-classic-color-91-piezas",
@@ -268,6 +280,7 @@ export const products: Product[] = [
     pros: ["91 piezas para construcciones complejas", "Fabricado en Suiza con máxima calidad", "Compatible con todos los sets Geomag", "Estimula pensamiento espacial y STEM", "Libre de BPA, seguro para niños"],
     cons: ["Precio elevado", "Las piezas pequeñas requieren vigilancia de adulto"],
     specs: { "Piezas": "91 (barras + bolas)", "Fabricación": "Suiza", "Compatibilidad": "Todos los sets Geomag", "Edad": "3+ años", "Certificación": "Sin BPA" },
+    relatedPosts: ["geomag-magnetico-construccion-guia", "construccion-magnetica-beneficios-educativos", "lego-vs-otras-marcas-construccion"],
   },
 
   // LIBROS Y RECURSOS EDUCATIVOS
@@ -287,6 +300,7 @@ export const products: Product[] = [
     cons: ["Montaje tedioso requiere paciencia", "Pilas AA no incluidas"],
     specs: { "Piezas": "238", "Robots": "3 modelos diferentes", "Motor": "Incluido (pilas AA)", "Libro": "9 idiomas incluido español", "Edad": "6-10+ años" },
     badge: "Top ventas robótica",
+    relatedPosts: ["robotica-ninos-primeros-pasos", "juguetes-stem-ninos-8-anos", "juguetes-ninos-altas-capacidades"],
   },
   {
     slug: "national-geographic-mega-kit-excavacion-gemas",
@@ -304,6 +318,7 @@ export const products: Product[] = [
     cons: ["Requiere superficie protegida para excavar", "El bloque puede ser difícil para niños pequeños"],
     specs: { "Gemas": "15 reales auténticas", "Incluye": "Herramientas + guía + bolsa colección", "Edad": "6+ años", "Marca": "National Geographic" },
     badge: "Más vendido",
+    relatedPosts: ["excavacion-gemas-minerales-ninos", "national-geographic-juguetes-educativos-analisis", "juguetes-stem-ninas-guia"],
   },
   {
     slug: "thames-kosmos-kids-first-science-kit",
@@ -320,6 +335,7 @@ export const products: Product[] = [
     pros: ["Edad de inicio desde 5 años", "12 experimentos seguros para pequeños", "Herramientas de laboratorio de tamaño infantil", "Manual 28 páginas a todo color", "Marca Thames & Kosmos de confianza"],
     cons: ["Requiere supervisión adulta", "Instrucciones principalmente en inglés"],
     specs: { "Experimentos": "12", "Edad": "5+ años", "Manual": "28 páginas a todo color", "Herramientas": "Tamaño infantil incluidas" },
+    relatedPosts: ["kits-quimica-ninos-seguros-guia", "mejores-juguetes-stem-ninos-5-anos", "thames-kosmos-analisis-gama-completa"],
   },
 ];
 

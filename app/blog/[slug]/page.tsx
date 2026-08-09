@@ -890,6 +890,18 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </div>
         )}
 
+        {post.categoryCta && (
+          <div className="mt-12 rounded-2xl bg-purple-50 border border-purple-100 px-6 py-5 flex items-center justify-between gap-4">
+            <p className="text-purple-800 font-semibold text-sm">¿Buscas el juguete adecuado?</p>
+            <Link
+              href={post.categoryCta.href}
+              className="shrink-0 inline-flex items-center gap-1 bg-purple-600 hover:bg-purple-700 text-white font-bold text-sm px-5 py-2.5 rounded-xl transition-colors"
+            >
+              {post.categoryCta.text}
+            </Link>
+          </div>
+        )}
+
         {relatedPosts.length > 0 && (
           <div className="mt-12 pt-8 border-t border-gray-100">
             <h2 className="text-xl font-extrabold text-gray-900 mb-5">Artículos relacionados</h2>

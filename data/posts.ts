@@ -7,6 +7,7 @@ export interface Post {
   readTime: number;
   relatedProducts: string[];
   relatedPosts?: string[];
+  categoryCta?: { href: string; text: string };
 }
 
 export const posts: Post[] = [
@@ -18,6 +19,7 @@ export const posts: Post[] = [
     date: "2025-01-10",
     readTime: 8,
     relatedProducts: ["cosyland-torre-aprendizaje-antivuelco", "torre-rosa-montessori-10-cubos-madera", "beeloom-panda-tower-torre-aprendizaje"],
+    categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes Montessori →" },
   },
   {
     slug: "juguetes-stem-ninos-8-anos",
@@ -27,6 +29,7 @@ export const posts: Post[] = [
     date: "2025-01-20",
     readTime: 9,
     relatedProducts: ["thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-kit-37-piezas", "national-geographic-microscopio-800x-smartphone"],
+    categoryCta: { href: "/tienda/juguetes-stem", text: "Ver juguetes STEM →" },
   },
   {
     slug: "mejores-juegos-mesa-familia",
@@ -36,6 +39,7 @@ export const posts: Post[] = [
     date: "2025-07-10",
     readTime: 8,
     relatedProducts: ["dixit-juego-mesa-asmodee-2021", "virus-juego-cartas-tranjis-games", "catan-junior-devir-6-anos"],
+    categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de mesa →" },
   },
   {
     slug: "lego-vs-playmobil-cual-elegir",
@@ -45,6 +49,7 @@ export const posts: Post[] = [
     date: "2025-02-15",
     readTime: 7,
     relatedProducts: ["lego-10698-caja-ladrillos-creativos-grande", "lego-classic-caja-creativa-xxl-10697", "geomag-classic-color-91-piezas"],
+    categoryCta: { href: "/tienda/construccion-lego", text: "Ver sets de construcción →" },
   },
   {
     slug: "como-elegir-juguete-educativo",
@@ -54,6 +59,7 @@ export const posts: Post[] = [
     date: "2025-03-01",
     readTime: 8,
     relatedProducts: ["beeloom-panda-tower-torre-aprendizaje", "torre-rosa-montessori-10-cubos-madera", "national-geographic-mega-kit-excavacion-gemas"],
+    categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes educativos →" },
   },
   {
     slug: "juguetes-regalo-navidad-ninos",
@@ -63,6 +69,7 @@ export const posts: Post[] = [
     date: "2025-03-15",
     readTime: 12,
     relatedProducts: ["lego-10698-caja-ladrillos-creativos-grande", "dixit-juego-mesa-asmodee-2021", "geomag-classic-color-91-piezas", "science4you-robotics-alfabot-238-piezas"],
+    categoryCta: { href: "/tienda/construccion-lego", text: "Ver juguetes para regalar →" },
   },
   {
     slug: "introduccion-programacion-ninos",
@@ -72,6 +79,7 @@ export const posts: Post[] = [
     date: "2025-04-01",
     readTime: 9,
     relatedProducts: ["science4you-robotics-alfabot-238-piezas", "thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-kit-37-piezas"],
+    categoryCta: { href: "/tienda/juguetes-stem", text: "Ver juguetes STEM →" },
   },
   {
     slug: "beneficios-juego-libre-montessori",
@@ -81,6 +89,7 @@ export const posts: Post[] = [
     date: "2025-04-15",
     readTime: 7,
     relatedProducts: ["torre-rosa-montessori-10-cubos-madera", "geomag-classic-color-91-piezas", "cosyland-torre-aprendizaje-antivuelco"],
+    categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes Montessori →" },
   },
   {
     slug: "mejores-juguetes-stem-ninos-5-anos",
@@ -90,6 +99,7 @@ export const posts: Post[] = [
     date: "2025-07-01",
     readTime: 7,
     relatedProducts: ["thames-kosmos-kids-first-science-kit", "national-geographic-mega-kit-excavacion-gemas", "geomag-classic-color-91-piezas"],
+    categoryCta: { href: "/tienda/juguetes-stem", text: "Ver juguetes STEM →" },
   },
   {
     slug: "mejores-juguetes-montessori-2025",
@@ -99,6 +109,7 @@ export const posts: Post[] = [
     date: "2025-07-03",
     readTime: 8,
     relatedProducts: ["cosyland-torre-aprendizaje-antivuelco", "beeloom-panda-tower-torre-aprendizaje", "torre-rosa-montessori-10-cubos-madera"],
+    categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes Montessori →" },
   },
   {
     slug: "juguetes-reyes-magos-2026",
@@ -108,6 +119,7 @@ export const posts: Post[] = [
     date: "2025-07-05",
     readTime: 9,
     relatedProducts: ["national-geographic-mega-kit-excavacion-gemas", "catan-junior-devir-6-anos", "lego-10698-caja-ladrillos-creativos-grande", "science4you-robotics-alfabot-238-piezas"],
+    categoryCta: { href: "/tienda/libros-educativos", text: "Ver kits educativos →" },
   },
   {
     slug: "mejores-kits-ciencia-ninos",
@@ -117,6 +129,7 @@ export const posts: Post[] = [
     date: "2025-07-08",
     readTime: 8,
     relatedProducts: ["thames-kosmos-intro-chemistry-27-experimentos", "thames-kosmos-kids-first-science-kit", "national-geographic-microscopio-kit-37-piezas"],
+    categoryCta: { href: "/tienda/juguetes-stem", text: "Ver kits de ciencia →" },
   },
   {
     slug: "juguetes-educativos-3-anos",
@@ -126,6 +139,7 @@ export const posts: Post[] = [
     date: "2025-07-12",
     readTime: 7,
     relatedProducts: ["torre-rosa-montessori-10-cubos-madera", "geomag-classic-color-91-piezas", "cosyland-torre-aprendizaje-antivuelco"],
+    categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes educativos →" },
   },
   {
     slug: "mejores-lego-educativos",
@@ -135,6 +149,7 @@ export const posts: Post[] = [
     date: "2025-07-14",
     readTime: 7,
     relatedProducts: ["lego-10698-caja-ladrillos-creativos-grande", "lego-classic-caja-creativa-xxl-10697", "geomag-classic-color-91-piezas"],
+    categoryCta: { href: "/tienda/construccion-lego", text: "Ver sets LEGO →" },
   },
   {
     slug: "regalos-navidad-ninos-inteligentes",
@@ -144,6 +159,7 @@ export const posts: Post[] = [
     date: "2025-07-16",
     readTime: 9,
     relatedProducts: ["national-geographic-microscopio-kit-37-piezas", "dixit-juego-mesa-asmodee-2021", "science4you-robotics-alfabot-238-piezas", "lego-10698-caja-ladrillos-creativos-grande"],
+    categoryCta: { href: "/tienda/juguetes-stem", text: "Ver juguetes para regalo →" },
   },
   {
     slug: "torre-aprendizaje-bebe-guia",
@@ -154,6 +170,7 @@ export const posts: Post[] = [
     readTime: 7,
     relatedProducts: ["cosyland-torre-aprendizaje-antivuelco", "beeloom-panda-tower-torre-aprendizaje", "torre-rosa-montessori-10-cubos-madera"],
     relatedPosts: ["mejores-juguetes-montessori-2025", "beeloom-panda-tower-analisis", "juguetes-0-2-anos-desarrollo"],
+    categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver torres de aprendizaje →" },
   },
   {
     slug: "torre-rosa-montessori-beneficios",
@@ -164,6 +181,7 @@ export const posts: Post[] = [
     readTime: 6,
     relatedProducts: ["torre-rosa-montessori-10-cubos-madera", "cosyland-torre-aprendizaje-antivuelco", "beeloom-panda-tower-torre-aprendizaje"],
     relatedPosts: ["torre-aprendizaje-bebe-guia", "juguetes-montessori-casa-ambiente-preparado", "mejores-juguetes-montessori-2025"],
+    categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes Montessori →" },
   },
   {
     slug: "juguetes-montessori-casa-ambiente-preparado",
@@ -174,6 +192,7 @@ export const posts: Post[] = [
     readTime: 9,
     relatedProducts: ["torre-rosa-montessori-10-cubos-madera", "cosyland-torre-aprendizaje-antivuelco", "beeloom-panda-tower-torre-aprendizaje"],
     relatedPosts: ["torre-aprendizaje-bebe-guia", "torre-rosa-montessori-beneficios", "juguetes-madera-vs-plastico-diferencias"],
+    categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes Montessori →" },
   },
   {
     slug: "juguetes-madera-vs-plastico-diferencias",
@@ -184,6 +203,7 @@ export const posts: Post[] = [
     readTime: 7,
     relatedProducts: ["torre-rosa-montessori-10-cubos-madera", "beeloom-panda-tower-torre-aprendizaje", "geomag-classic-color-91-piezas"],
     relatedPosts: ["torre-rosa-montessori-beneficios", "juguetes-montessori-casa-ambiente-preparado", "geomag-magnetico-construccion-guia"],
+    categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes de madera →" },
   },
   {
     slug: "beeloom-panda-tower-analisis",
@@ -194,6 +214,7 @@ export const posts: Post[] = [
     readTime: 7,
     relatedProducts: ["beeloom-panda-tower-torre-aprendizaje", "cosyland-torre-aprendizaje-antivuelco", "torre-rosa-montessori-10-cubos-madera"],
     relatedPosts: ["torre-aprendizaje-bebe-guia", "torre-rosa-montessori-beneficios", "mejores-juguetes-montessori-2025"],
+    categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver torres Montessori →" },
   },
   {
     slug: "juguetes-0-2-anos-desarrollo",
@@ -204,6 +225,7 @@ export const posts: Post[] = [
     readTime: 8,
     relatedProducts: ["torre-rosa-montessori-10-cubos-madera", "cosyland-torre-aprendizaje-antivuelco", "beeloom-panda-tower-torre-aprendizaje"],
     relatedPosts: ["torre-aprendizaje-bebe-guia", "torre-rosa-montessori-beneficios", "mejores-juguetes-4-anos"],
+    categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes para bebés →" },
   },
   {
     slug: "microscopio-ninos-guia-compra",
@@ -214,6 +236,7 @@ export const posts: Post[] = [
     readTime: 8,
     relatedProducts: ["national-geographic-microscopio-kit-37-piezas", "national-geographic-microscopio-800x-smartphone", "thames-kosmos-intro-chemistry-27-experimentos"],
     relatedPosts: ["national-geographic-juguetes-educativos-analisis", "kits-quimica-ninos-seguros-guia", "mejores-kits-ciencia-ninos"],
+    categoryCta: { href: "/tienda/juguetes-stem", text: "Ver microscopios y ciencia →" },
   },
   {
     slug: "kits-quimica-ninos-seguros-guia",
@@ -224,6 +247,7 @@ export const posts: Post[] = [
     readTime: 8,
     relatedProducts: ["thames-kosmos-intro-chemistry-27-experimentos", "thames-kosmos-kids-first-science-kit", "national-geographic-mega-kit-excavacion-gemas"],
     relatedPosts: ["thames-kosmos-analisis-gama-completa", "microscopio-ninos-guia-compra", "robotica-ninos-primeros-pasos"],
+    categoryCta: { href: "/tienda/juguetes-stem", text: "Ver kits de química →" },
   },
   {
     slug: "robotica-ninos-primeros-pasos",
@@ -234,6 +258,7 @@ export const posts: Post[] = [
     readTime: 8,
     relatedProducts: ["science4you-robotics-alfabot-238-piezas", "thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-kit-37-piezas"],
     relatedPosts: ["kits-quimica-ninos-seguros-guia", "thames-kosmos-analisis-gama-completa", "juguetes-ninos-altas-capacidades"],
+    categoryCta: { href: "/tienda/juguetes-stem", text: "Ver kits de robótica →" },
   },
   {
     slug: "national-geographic-juguetes-educativos-analisis",
@@ -244,6 +269,7 @@ export const posts: Post[] = [
     readTime: 7,
     relatedProducts: ["national-geographic-mega-kit-excavacion-gemas", "national-geographic-microscopio-kit-37-piezas", "national-geographic-microscopio-800x-smartphone"],
     relatedPosts: ["microscopio-ninos-guia-compra", "kits-quimica-ninos-seguros-guia", "mejores-kits-ciencia-ninos"],
+    categoryCta: { href: "/tienda/juguetes-stem", text: "Ver juguetes educativos →" },
   },
   {
     slug: "thames-kosmos-analisis-gama-completa",
@@ -254,6 +280,7 @@ export const posts: Post[] = [
     readTime: 7,
     relatedProducts: ["thames-kosmos-intro-chemistry-27-experimentos", "thames-kosmos-kids-first-science-kit", "science4you-robotics-alfabot-238-piezas"],
     relatedPosts: ["kits-quimica-ninos-seguros-guia", "robotica-ninos-primeros-pasos", "juguetes-stem-ninas-guia"],
+    categoryCta: { href: "/tienda/juguetes-stem", text: "Ver kits Thames & Kosmos →" },
   },
   {
     slug: "juguetes-stem-ninas-guia",
@@ -264,6 +291,7 @@ export const posts: Post[] = [
     readTime: 7,
     relatedProducts: ["national-geographic-mega-kit-excavacion-gemas", "thames-kosmos-kids-first-science-kit", "national-geographic-microscopio-kit-37-piezas"],
     relatedPosts: ["microscopio-ninos-guia-compra", "national-geographic-juguetes-educativos-analisis", "juguetes-ninos-altas-capacidades"],
+    categoryCta: { href: "/tienda/juguetes-stem", text: "Ver juguetes STEM →" },
   },
   {
     slug: "juegos-mesa-educativos-primaria",
@@ -274,6 +302,7 @@ export const posts: Post[] = [
     readTime: 8,
     relatedProducts: ["dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos", "virus-juego-cartas-tranjis-games"],
     relatedPosts: ["dixit-juego-analisis-opinion", "catan-junior-analisis-estrategia", "mejores-juegos-mesa-familia"],
+    categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de mesa →" },
   },
   {
     slug: "dixit-juego-analisis-opinion",
@@ -284,6 +313,7 @@ export const posts: Post[] = [
     readTime: 7,
     relatedProducts: ["dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos", "virus-juego-cartas-tranjis-games"],
     relatedPosts: ["juegos-mesa-educativos-primaria", "catan-junior-analisis-estrategia", "juegos-cartas-educativos-familia"],
+    categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de mesa →" },
   },
   {
     slug: "catan-junior-analisis-estrategia",
@@ -294,6 +324,7 @@ export const posts: Post[] = [
     readTime: 7,
     relatedProducts: ["catan-junior-devir-6-anos", "dixit-juego-mesa-asmodee-2021", "virus-juego-cartas-tranjis-games"],
     relatedPosts: ["juegos-mesa-educativos-primaria", "dixit-juego-analisis-opinion", "juegos-cartas-educativos-familia"],
+    categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de mesa →" },
   },
   {
     slug: "juegos-cartas-educativos-familia",
@@ -304,6 +335,7 @@ export const posts: Post[] = [
     readTime: 6,
     relatedProducts: ["virus-juego-cartas-tranjis-games", "dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos"],
     relatedPosts: ["dixit-juego-analisis-opinion", "catan-junior-analisis-estrategia", "juegos-mesa-educativos-primaria"],
+    categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de cartas →" },
   },
   {
     slug: "lego-vs-otras-marcas-construccion",
@@ -314,6 +346,7 @@ export const posts: Post[] = [
     readTime: 7,
     relatedProducts: ["lego-10698-caja-ladrillos-creativos-grande", "lego-classic-caja-creativa-xxl-10697", "geomag-classic-color-91-piezas"],
     relatedPosts: ["lego-classic-10698-analisis", "geomag-magnetico-construccion-guia", "mejores-lego-educativos"],
+    categoryCta: { href: "/tienda/construccion-lego", text: "Ver sets de construcción →" },
   },
   {
     slug: "lego-classic-10698-analisis",
@@ -324,6 +357,7 @@ export const posts: Post[] = [
     readTime: 7,
     relatedProducts: ["lego-10698-caja-ladrillos-creativos-grande", "lego-classic-caja-creativa-xxl-10697", "geomag-classic-color-91-piezas"],
     relatedPosts: ["lego-vs-otras-marcas-construccion", "geomag-magnetico-construccion-guia", "construccion-magnetica-beneficios-educativos"],
+    categoryCta: { href: "/tienda/construccion-lego", text: "Ver sets LEGO →" },
   },
   {
     slug: "geomag-magnetico-construccion-guia",
@@ -334,6 +368,7 @@ export const posts: Post[] = [
     readTime: 7,
     relatedProducts: ["geomag-classic-color-91-piezas", "lego-10698-caja-ladrillos-creativos-grande", "lego-classic-caja-creativa-xxl-10697"],
     relatedPosts: ["construccion-magnetica-beneficios-educativos", "lego-vs-otras-marcas-construccion", "juguetes-madera-vs-plastico-diferencias"],
+    categoryCta: { href: "/tienda/construccion-lego", text: "Ver Geomag →" },
   },
   {
     slug: "construccion-magnetica-beneficios-educativos",
@@ -344,6 +379,7 @@ export const posts: Post[] = [
     readTime: 6,
     relatedProducts: ["geomag-classic-color-91-piezas", "lego-10698-caja-ladrillos-creativos-grande", "science4you-robotics-alfabot-238-piezas"],
     relatedPosts: ["geomag-magnetico-construccion-guia", "lego-vs-otras-marcas-construccion", "juguetes-stem-ninas-guia"],
+    categoryCta: { href: "/tienda/construccion-lego", text: "Ver construcción magnética →" },
   },
   {
     slug: "regalos-educativos-cumpleanos-guia",
@@ -354,6 +390,7 @@ export const posts: Post[] = [
     readTime: 8,
     relatedProducts: ["national-geographic-mega-kit-excavacion-gemas", "thames-kosmos-kids-first-science-kit", "science4you-robotics-alfabot-238-piezas"],
     relatedPosts: ["juguetes-educativos-6-anos", "juguetes-educativos-10-anos", "excavacion-gemas-minerales-ninos"],
+    categoryCta: { href: "/tienda/libros-educativos", text: "Ver kits educativos →" },
   },
   {
     slug: "juguetes-educativos-6-anos",
@@ -364,6 +401,7 @@ export const posts: Post[] = [
     readTime: 7,
     relatedProducts: ["catan-junior-devir-6-anos", "national-geographic-mega-kit-excavacion-gemas", "geomag-classic-color-91-piezas"],
     relatedPosts: ["regalos-educativos-cumpleanos-guia", "catan-junior-analisis-estrategia", "excavacion-gemas-minerales-ninos"],
+    categoryCta: { href: "/tienda/libros-educativos", text: "Ver kits educativos →" },
   },
   {
     slug: "juguetes-educativos-10-anos",
@@ -374,6 +412,7 @@ export const posts: Post[] = [
     readTime: 7,
     relatedProducts: ["science4you-robotics-alfabot-238-piezas", "thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-800x-smartphone"],
     relatedPosts: ["robotica-ninos-primeros-pasos", "thames-kosmos-analisis-gama-completa", "microscopio-ninos-guia-compra"],
+    categoryCta: { href: "/tienda/libros-educativos", text: "Ver kits educativos →" },
   },
   {
     slug: "excavacion-gemas-minerales-ninos",
@@ -384,6 +423,7 @@ export const posts: Post[] = [
     readTime: 7,
     relatedProducts: ["national-geographic-mega-kit-excavacion-gemas", "thames-kosmos-kids-first-science-kit", "national-geographic-microscopio-kit-37-piezas"],
     relatedPosts: ["national-geographic-juguetes-educativos-analisis", "juguetes-stem-casa-sin-comprar", "regalos-educativos-cumpleanos-guia"],
+    categoryCta: { href: "/tienda/libros-educativos", text: "Ver kits de excavación →" },
   },
   {
     slug: "juguetes-stem-casa-sin-comprar",
@@ -394,6 +434,7 @@ export const posts: Post[] = [
     readTime: 8,
     relatedProducts: ["thames-kosmos-kids-first-science-kit", "national-geographic-mega-kit-excavacion-gemas", "science4you-robotics-alfabot-238-piezas"],
     relatedPosts: ["excavacion-gemas-minerales-ninos", "aprendizaje-basado-proyectos-casa", "pensamiento-critico-ninos-juegos"],
+    categoryCta: { href: "/tienda/libros-educativos", text: "Ver kits STEM →" },
   },
   {
     slug: "aprendizaje-basado-proyectos-casa",
@@ -404,6 +445,7 @@ export const posts: Post[] = [
     readTime: 8,
     relatedProducts: ["science4you-robotics-alfabot-238-piezas", "thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-kit-37-piezas"],
     relatedPosts: ["juguetes-stem-casa-sin-comprar", "juguetes-educativos-10-anos", "robotica-ninos-primeros-pasos"],
+    categoryCta: { href: "/tienda/libros-educativos", text: "Ver kits educativos →" },
   },
   {
     slug: "juguetes-educativos-navidad-2025",
@@ -414,6 +456,7 @@ export const posts: Post[] = [
     readTime: 8,
     relatedProducts: ["lego-10698-caja-ladrillos-creativos-grande", "science4you-robotics-alfabot-238-piezas", "national-geographic-mega-kit-excavacion-gemas"],
     relatedPosts: ["regalos-educativos-cumpleanos-guia", "juguetes-reyes-magos-2026", "regalos-navidad-ninos-inteligentes"],
+    categoryCta: { href: "/tienda/construccion-lego", text: "Ver regalos educativos →" },
   },
   {
     slug: "mejores-juguetes-4-anos",
@@ -424,6 +467,7 @@ export const posts: Post[] = [
     readTime: 7,
     relatedProducts: ["torre-rosa-montessori-10-cubos-madera", "geomag-classic-color-91-piezas", "cosyland-torre-aprendizaje-antivuelco"],
     relatedPosts: ["juguetes-0-2-anos-desarrollo", "torre-rosa-montessori-beneficios", "juguetes-montessori-casa-ambiente-preparado"],
+    categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes para 4 años →" },
   },
   {
     slug: "pensamiento-critico-ninos-juegos",
@@ -434,6 +478,7 @@ export const posts: Post[] = [
     readTime: 8,
     relatedProducts: ["dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos", "thames-kosmos-intro-chemistry-27-experimentos"],
     relatedPosts: ["juegos-mesa-educativos-primaria", "juguetes-stem-casa-sin-comprar", "aprendizaje-basado-proyectos-casa"],
+    categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos →" },
   },
   {
     slug: "juguetes-ninos-altas-capacidades",
@@ -444,6 +489,7 @@ export const posts: Post[] = [
     readTime: 8,
     relatedProducts: ["science4you-robotics-alfabot-238-piezas", "thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-800x-smartphone"],
     relatedPosts: ["robotica-ninos-primeros-pasos", "thames-kosmos-analisis-gama-completa", "juguetes-educativos-10-anos"],
+    categoryCta: { href: "/tienda/juguetes-stem", text: "Ver kits STEM →" },
   },
 
   {
@@ -464,6 +510,7 @@ export const posts: Post[] = [
       "introduccion-programacion-ninos",
       "como-elegir-juguete-educativo",
     ],
+    categoryCta: { href: "/tienda/juguetes-stem", text: "Ver juguetes educativos →" },
   },
   {
     slug: "mejor-telescopio-ninos-principiantes-2025",
@@ -483,6 +530,7 @@ export const posts: Post[] = [
       "juguetes-stem-ninos-8-anos",
       "national-geographic-juguetes-educativos-analisis",
     ],
+    categoryCta: { href: "/tienda/juguetes-stem", text: "Ver kits de ciencia →" },
   },
   {
     slug: "juguetes-ninos-necesidades-especiales-tdah-tea",
@@ -502,6 +550,7 @@ export const posts: Post[] = [
       "juguetes-madera-vs-plastico-diferencias",
       "beneficios-juego-libre-montessori",
     ],
+    categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes sensoriales →" },
   },
 ];
 
