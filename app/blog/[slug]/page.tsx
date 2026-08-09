@@ -742,6 +742,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     datePublished: post.date,
     author: { "@type": "Organization", name: "JugueteSTEM.es" },
     publisher: { "@type": "Organization", name: "JugueteSTEM.es", url: "https://www.juguetestem.es" },
+    image: { "@type": "ImageObject", url: `https://www.juguetestem.es/blog/${post.slug}/opengraph-image`, width: 1200, height: 630 },
   };
 
   const faqItems = content.flatMap((s) => s.faqs ?? []);
