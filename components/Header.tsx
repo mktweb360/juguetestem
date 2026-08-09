@@ -9,10 +9,23 @@ export default function Header() {
   return (
     <header className="bg-white border-b border-purple-100 sticky top-0 z-50 shadow-sm">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="text-2xl">🧩</span>
-          <span className="font-extrabold text-xl text-purple-700">JugueteSTEM</span>
-          <span className="hidden sm:inline text-xs text-gray-400 font-normal">.es</span>
+        <Link href="/" className="flex items-center shrink-0">
+          <svg viewBox="0 0 210 44" height="36" xmlns="http://www.w3.org/2000/svg" aria-label="JugueteSTEM">
+            <defs>
+              <linearGradient id="js-g" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stopColor="#e879f9"/>
+                <stop offset="100%" stopColor="#7c3aed"/>
+              </linearGradient>
+            </defs>
+            <rect x="0" y="2" width="40" height="40" rx="10" fill="url(#js-g)"/>
+            <circle cx="20" cy="22" r="3.5" fill="white"/>
+            <ellipse cx="20" cy="22" rx="13" ry="5" fill="none" stroke="white" strokeWidth="2"/>
+            <ellipse cx="20" cy="22" rx="13" ry="5" fill="none" stroke="white" strokeWidth="2" transform="rotate(60 20 22)"/>
+            <ellipse cx="20" cy="22" rx="13" ry="5" fill="none" stroke="white" strokeWidth="2" transform="rotate(120 20 22)"/>
+            <text x="50" y="30" fontFamily="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" fontWeight="800" fontSize="19" fill="#6d28d9">Juguete</text>
+            <text x="133" y="30" fontFamily="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" fontWeight="900" fontSize="19" fill="#7c3aed">STEM</text>
+            <text x="175" y="30" fontFamily="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" fontWeight="400" fontSize="12" fill="#94a3b8">.es</text>
+          </svg>
         </Link>
 
         <nav className="hidden md:flex items-center gap-6 text-sm font-semibold">

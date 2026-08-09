@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 46" height="46">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <!-- Icon box -->
+  <rect x="0" y="3" width="40" height="40" rx="10" fill="url(#g)"/>
+  <!-- Icon -->
+  <g transform="translate(0,3)">
+  <!-- Center nucleus -->
+  <circle cx="15" cy="16" r="2.8" fill="white"/>
+  <!-- Orbit 1 (horizontal ellipse) -->
+  <ellipse cx="15" cy="16" rx="10" ry="4" fill="none" stroke="white" stroke-width="1.8"/>
+  <!-- Orbit 2 (tilted 60deg) -->
+  <ellipse cx="15" cy="16" rx="10" ry="4" fill="none" stroke="white" stroke-width="1.8" transform="rotate(60 15 16)"/>
+  <!-- Orbit 3 (tilted 120deg) -->
+  <ellipse cx="15" cy="16" rx="10" ry="4" fill="none" stroke="white" stroke-width="1.8" transform="rotate(120 15 16)"/>
+</g>
+  <!-- Site name -->
+  <text x="50" y="31" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-weight="800" font-size="20" fill="#6d28d9">JugueteSTEM</text>
+  <!-- TLD -->
+  <text x="176" y="31" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-weight="400" font-size="13" fill="#94a3b8">.es</text>
+</svg>
