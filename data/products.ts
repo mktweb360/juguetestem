@@ -341,7 +341,7 @@ export const products: Product[] = [
   {
     slug: "hape-laberinto-bolas-madera-coordinacion",
     name: "Hape Laberinto de Bolas de Madera — Coordinación Oculo-Manual 12m+",
-    asin: "B000URLM72",
+    asin: "B006GCRJ9Q",
     categorySlug: "juguetes-montessori",
     categoryName: "Juguetes Montessori",
     price: "€17,99",
@@ -378,7 +378,7 @@ export const products: Product[] = [
   {
     slug: "melissa-doug-puzzle-madera-animales-zoo-9-piezas",
     name: "Melissa & Doug Puzle de Madera Animales del Zoo 9 Piezas — 2+ años",
-    asin: "B00000DMF3",
+    asin: "B004KPKW3Q",
     categorySlug: "juguetes-montessori",
     categoryName: "Juguetes Montessori",
     price: "€14,99",
@@ -415,7 +415,7 @@ export const products: Product[] = [
   {
     slug: "goula-domino-colores-madera-28-piezas",
     name: "Goula Dominó de Colores en Madera 28 Piezas — 3+ años",
-    asin: "B000URLM80",
+    asin: "B0CV7XR44L",
     categorySlug: "juguetes-montessori",
     categoryName: "Juguetes Montessori",
     price: "€13,99",
@@ -452,7 +452,7 @@ export const products: Product[] = [
   {
     slug: "janod-sweet-cocoon-clasificacion-formas-colores",
     name: "Janod Sweet Cocoon Caja de Clasificación de Formas y Colores — 12m+",
-    asin: "B07FQCJPRS",
+    asin: "B085HZZN58",
     categorySlug: "juguetes-montessori",
     categoryName: "Juguetes Montessori",
     price: "€22,99",
@@ -491,7 +491,7 @@ export const products: Product[] = [
   {
     slug: "lego-boost-creative-toolbox-17101-robotica",
     name: "LEGO Boost Creative Toolbox 17101 — Robot y Codificación 7-12 años",
-    asin: "B01MY7GQIE",
+    asin: "B06X6GN2VQ",
     categorySlug: "juguetes-stem",
     categoryName: "Juguetes STEM y Ciencia",
     price: "€129,99",
@@ -529,7 +529,7 @@ export const products: Product[] = [
   {
     slug: "snap-circuits-jr-sc-100-electronica-ninos",
     name: "Snap Circuits Jr. SC-100 Kit Electrónica 100 Proyectos — 8+ años",
-    asin: "B00CMFJJ1G",
+    asin: "B00DO9XIF8",
     categorySlug: "juguetes-stem",
     categoryName: "Juguetes STEM y Ciencia",
     price: "€44,99",
@@ -566,7 +566,7 @@ export const products: Product[] = [
   {
     slug: "national-geographic-telescopio-refractor-50mm-ninos",
     name: "National Geographic Telescopio Refractor 50mm Trípode Aluminio — 8+ años",
-    asin: "B01CYUMYEI",
+    asin: "B09KNYST9B",
     categorySlug: "juguetes-stem",
     categoryName: "Juguetes STEM y Ciencia",
     price: "€49,99",
@@ -603,7 +603,7 @@ export const products: Product[] = [
   {
     slug: "osmo-genius-starter-kit-ipad-educativo",
     name: "Osmo Genius Starter Kit para iPad — 5 Juegos Educativos 6-10 años",
-    asin: "B077YT5SZ3",
+    asin: "B07SBTXGQR",
     categorySlug: "juguetes-stem",
     categoryName: "Juguetes STEM y Ciencia",
     price: "€74,99",
@@ -643,7 +643,7 @@ export const products: Product[] = [
   {
     slug: "scrabble-junior-mattel-letras-espanol",
     name: "Scrabble Junior Mattel — Juego de Letras y Palabras en Español 5+ años",
-    asin: "B00ENAYQR8",
+    asin: "B00E5WMF6Q",
     categorySlug: "juegos-mesa-educativos",
     categoryName: "Juegos de mesa educativos",
     price: "€18,99",
@@ -680,7 +680,7 @@ export const products: Product[] = [
   {
     slug: "dobble-juego-cartas-asmodee-velocidad-atencion",
     name: "Dobble Juego de Cartas Asmodee — Velocidad y Atención 6+ años 2-8 Jugadores",
-    asin: "B00JHBDQ6Y",
+    asin: "B008EK6XEK",
     categorySlug: "juegos-mesa-educativos",
     categoryName: "Juegos de mesa educativos",
     price: "€11,99",
@@ -718,7 +718,7 @@ export const products: Product[] = [
   {
     slug: "ubongo-junior-asmodee-puzzle-rapido",
     name: "Ubongo Junior Asmodee — Puzle Rápido de Formas Geométricas 4-7 años",
-    asin: "B07GPWSQBN",
+    asin: "B089WJV1NT",
     categorySlug: "juegos-mesa-educativos",
     categoryName: "Juegos de mesa educativos",
     price: "€24,99",
@@ -755,7 +755,7 @@ export const products: Product[] = [
   {
     slug: "conecta-4-hasbro-juego-estrategia-logica",
     name: "Conecta 4 Hasbro — Juego de Estrategia y Lógica 2 Jugadores 6+ años",
-    asin: "B00000DMFH",
+    asin: "B08483YST4",
     categorySlug: "juegos-mesa-educativos",
     categoryName: "Juegos de mesa educativos",
     price: "€15,99",
@@ -794,7 +794,7 @@ export const products: Product[] = [
   {
     slug: "lego-city-comisaria-policia-60316",
     name: "LEGO City Comisaría de Policía 60316 — 7+ años 668 piezas",
-    asin: "B09C6ZD2GS",
+    asin: "B09BNWHBTY",
     categorySlug: "construccion-lego",
     categoryName: "Construcción y LEGO",
     price: "€64,99",
@@ -831,7 +831,7 @@ export const products: Product[] = [
   {
     slug: "lego-technic-monster-jam-grave-digger-42118",
     name: "LEGO Technic Monster Jam Grave Digger 42118 — 10+ años 212 piezas",
-    asin: "B08HGLTS29",
+    asin: "B08G4K8Y1F",
     categorySlug: "construccion-lego",
     categoryName: "Construcción y LEGO",
     price: "€34,99",
@@ -868,7 +868,7 @@ export const products: Product[] = [
   {
     slug: "lego-creator-3in1-casa-arbol-31150",
     name: "LEGO Creator 3 en 1 Casa en el Árbol 31150 — 8+ años 1426 piezas",
-    asin: "B0CDMFY29G",
+    asin: "B0CFW1BMCX",
     categorySlug: "construccion-lego",
     categoryName: "Construcción y LEGO",
     price: "€94,99",
@@ -906,7 +906,7 @@ export const products: Product[] = [
   {
     slug: "lego-duplo-tren-vapor-10874-control-app",
     name: "LEGO Duplo Tren de Vapor 10874 — 2-5 años Control por App Bluetooth",
-    asin: "B075BQLP5N",
+    asin: "B07658Q3J6",
     categorySlug: "construccion-lego",
     categoryName: "Construcción y LEGO",
     price: "€54,99",
@@ -945,7 +945,7 @@ export const products: Product[] = [
   {
     slug: "national-geographic-kids-enciclopedia-espacio",
     name: "National Geographic Kids Gran Enciclopedia del Espacio — 8-12 años",
-    asin: "B09RQT3FDB",
+    asin: "8482988301",
     categorySlug: "libros-educativos",
     categoryName: "Kits y recursos educativos",
     price: "€16,99",
@@ -982,7 +982,7 @@ export const products: Product[] = [
   {
     slug: "science4you-dino-kit-excavacion-fosiles",
     name: "Science4you Dino Kit Excavación de Fósiles — 6+ años Paleontología",
-    asin: "B07B4J3CXD",
+    asin: "B0CBD9RK76",
     categorySlug: "libros-educativos",
     categoryName: "Kits y recursos educativos",
     price: "€19,99",
@@ -1019,7 +1019,7 @@ export const products: Product[] = [
   {
     slug: "usborne-gran-libro-experimentos-ciencia",
     name: "Usborne Gran Libro de Experimentos de Ciencia — 7-12 años 64 experimentos",
-    asin: "B08Q7QJPZX",
+    asin: "1409573672",
     categorySlug: "libros-educativos",
     categoryName: "Kits y recursos educativos",
     price: "€13,99",
@@ -1056,7 +1056,7 @@ export const products: Product[] = [
   {
     slug: "thames-kosmos-physics-workshop-200-experimentos",
     name: "Thames & Kosmos Physics Workshop 200 Experimentos de Física — 8+ años",
-    asin: "B00CMFJJ2D",
+    asin: "B00MJ8MI2O",
     categorySlug: "libros-educativos",
     categoryName: "Kits y recursos educativos",
     price: "€49,99",
