@@ -67,6 +67,11 @@ const orgSchema = {
   logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
   taxID: "B87679304",
   contactPoint: { "@type": "ContactPoint", email: "info@mktweb360.com", contactType: "customer service" },
+  description: "Portal especializado en juguetes educativos STEM y materiales Montessori para niños. Comparativas y análisis con criterio pedagógico profesional.",
+  foundingDate: "2024",
+  areaServed: { "@type": "Country", name: "España" },
+  knowsAbout: ["juguetes educativos", "metodología Montessori", "juguetes STEM", "robótica infantil", "juegos de construcción", "libros educativos"],
+  sameAs: ["https://www.instagram.com/juguetestem.es", "https://www.facebook.com/juguetestem.es"],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

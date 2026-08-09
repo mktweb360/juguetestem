@@ -734,13 +734,25 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const relatedProducts = post.relatedProducts.map((s) => getProductBySlug(s)).filter(Boolean);
   const relatedPosts = (post.relatedPosts ?? []).map((s) => getPostBySlug(s)).filter(Boolean);
 
+const AUTHOR = {
+  "@type": "Person",
+  name: "Ana Romero",
+  jobTitle: "Maestra de Primaria especializada en STEM",
+  url: "https://www.juguetestem.es/sobre-nosotros",
+  description: "Maestra de Primaria con 9 años de experiencia en educación STEM y metodología Montessori en aulas de infantil y primaria.",
+  knowsAbout: ["juguetes educativos", "metodología Montessori", "educación STEM", "robótica infantil", "juguetes de construcción", "desarrollo cognitivo infantil"],
+};
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: post.title,
     description: post.excerpt,
     datePublished: post.date,
-    author: { "@type": "Organization", name: "JugueteSTEM.es" },
+    author: AUTHOR,
+    speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
+    keywords: post.category,
+    about: { "@type": "Thing", name: post.category },
     publisher: { "@type": "Organization", name: "JugueteSTEM.es", url: "https://www.juguetestem.es" },
     image: { "@type": "ImageObject", url: `https://www.juguetestem.es/blog/${post.slug}/opengraph-image`, width: 1200, height: 630 },
   };
@@ -783,11 +795,20 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
         <span className="text-xs font-bold text-purple-600 uppercase tracking-wide">{post.category}</span>
         <h1 className="text-3xl font-extrabold text-gray-900 mt-2 mb-3 leading-tight">{post.title}</h1>
-        <p className="text-gray-500 text-lg mb-4">{post.excerpt}</p>
+        <div id="respuesta-directa" className="bg-purple-50 border-l-4 border-purple-500 rounded-r-xl px-5 py-4 mb-6">
+          <p className="text-xs font-bold text-purple-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
+          <p className="text-gray-800 font-medium leading-relaxed">{post.excerpt}</p>
+        </div>
 
         <div className="flex items-center gap-4 text-sm text-gray-400 mb-8 pb-6 border-b border-gray-100">
           <span>📅 {new Date(post.date).toLocaleDateString("es-ES", { year: "numeric", month: "long", day: "numeric" })}</span>
           <span>⏱ {post.readTime} min de lectura</span>
+          <span>·</span>
+          <span className="flex items-center gap-1 text-gray-500">
+            <span>✍️</span>
+            <Link href="/sobre-nosotros" className="font-medium text-purple-700 hover:underline">Ana Romero</Link>
+            <span className="text-gray-400">— Maestra STEM</span>
+          </span>
         </div>
 
         {post.image && (
