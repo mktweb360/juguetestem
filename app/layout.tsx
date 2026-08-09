@@ -5,13 +5,15 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CookieBanner from "@/components/CookieBanner";
 
+const SITE_URL = "https://www.juguetestem.es";
+
 export const metadata: Metadata = {
   title: {
     default: "JugueteSTEM.es — Juguetes educativos y STEM para niños",
     template: "%s | JugueteSTEM.es",
   },
   description: "Las mejores reseñas y guías de juguetes educativos y STEM para niños. Montessori, ciencia, robótica, juegos de mesa y más.",
-  metadataBase: new URL("https://www.juguetestem.es"),
+  metadataBase: new URL(SITE_URL),
   verification: {
     google: "gTV4UlsEexaJvqIeMXuD1MOd4QV4WXWhnk_tfThO4Wc",
   },
@@ -26,17 +28,24 @@ const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "JugueteSTEM.es",
-  url: "https://www.juguetestem.es",
+  url: SITE_URL,
   description: "Reseñas y guías de juguetes educativos y STEM para niños en español",
-  potentialAction: { "@type": "SearchAction", target: "https://www.juguetestem.es/tienda", query: "juguetes educativos" },
+  inLanguage: "es",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: `${SITE_URL}/blog?q={search_term_string}`,
+    "query-input": "required name=search_term_string",
+  },
 };
 
 const orgSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "JugueteSTEM.es — Mkt Web 360 SLU",
-  url: "https://www.juguetestem.es",
-  logo: "https://www.juguetestem.es/logo.png",
+  name: "JugueteSTEM.es",
+  legalName: "Mkt Web 360 SLU",
+  url: SITE_URL,
+  logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
+  taxID: "B87679304",
   contactPoint: { "@type": "ContactPoint", email: "info@mktweb360.com", contactType: "customer service" },
 };
 
@@ -61,7 +70,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             `,
           }}
         />
-        <meta name="google-adsense-account" content="ca-pub-6063067965030118" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
       </head>
