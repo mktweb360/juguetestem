@@ -14,10 +14,11 @@ const CATEGORY_IMAGES: Record<string, string> = {
   "libros-educativos": "/images/products/libros-educativos.jpg",
   "educacion-temprana": "/images/products/educacion-temprana.jpg",
   "tablets-educativas": "/images/products/tablets-educativas.jpg",
+  "telescopios-microscopios": "/images/products/telescopios-microscopios.jpg",
 };
 
 export default function ProductCard({ product }: Props) {
-  const imgSrc = CATEGORY_IMAGES[product.categorySlug] ?? "/images/products/juguetes-montessori.jpg";
+  const imgSrc = product.image ?? CATEGORY_IMAGES[product.categorySlug] ?? "/images/products/juguetes-montessori.jpg";
   return (
     <div className="bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col">
       <Link href={`/tienda/${product.categorySlug}/${product.slug}`} className="block overflow-hidden bg-gray-50">
