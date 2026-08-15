@@ -7,13 +7,10 @@ interface Props {
 
 const CATEGORY_IMAGES: Record<string, string> = {
   "juguetes-montessori": "/images/products/juguetes-montessori.jpg",
-  "kits-ciencia": "/images/products/kits-ciencia.jpg",
-  "robotica": "/images/products/robotica.jpg",
-  "construcciones": "/images/products/construcciones.jpg",
-  "juegos-mesa": "/images/products/juegos-mesa.jpg",
+  "juguetes-stem": "/images/products/kits-ciencia.jpg",
+  "construccion-lego": "/images/products/construcciones.jpg",
+  "juegos-mesa-educativos": "/images/products/juegos-mesa.jpg",
   "libros-educativos": "/images/products/libros-educativos.jpg",
-  "educacion-temprana": "/images/products/educacion-temprana.jpg",
-  "tablets-educativas": "/images/products/tablets-educativas.jpg",
   "telescopios-microscopios": "/images/products/telescopios-microscopios.jpg",
 };
 
