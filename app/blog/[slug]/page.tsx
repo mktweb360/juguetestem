@@ -33,6 +33,21 @@ interface ArticleSection {
   faqs?: { q: string; a: string }[];
 }
 
+const articleSources: Record<string, { label: string; url: string }[]> = {
+  "mejores-kits-ciencia-ninos": [
+    { label: "UNICEF — El juego como derecho y herramienta de desarrollo", url: "https://www.unicef.es/noticia/el-juego-es-un-derecho-de-la-infancia" },
+    { label: "AIJU — Centro Tecnológico del Juguete, seguridad y calidad", url: "https://www.aiju.info" },
+  ],
+  "mejores-juegos-mesa-familia": [
+    { label: "UNICEF — Importancia del juego en el desarrollo infantil", url: "https://www.unicef.es/noticia/el-juego-es-un-derecho-de-la-infancia" },
+    { label: "AIJU — Juguetes educativos y evaluación de calidad", url: "https://www.aiju.info" },
+  ],
+  "introduccion-programacion-ninos": [
+    { label: "Ministerio de Educación — Competencia digital en el currículo", url: "https://www.educacion.gob.es/portada.html" },
+    { label: "UNICEF — Tecnología y educación infantil", url: "https://www.unicef.es/noticia/el-juego-es-un-derecho-de-la-infancia" },
+  ],
+};
+
 const articleContent: Record<string, ArticleSection[]> = {
   "mejores-juguetes-stem-ninos-5-anos": [
     { text: "A los 5 años los niños son auténticas máquinas de preguntas: quieren saber por qué llueve, cómo funcionan las cosas y qué hay dentro de una piedra. Es la edad perfecta para introducir los primeros juguetes STEM (ciencia, tecnología, ingeniería y matemáticas), siempre que estén adaptados a sus manos y a su capacidad de atención. En esta guía analizamos tres juguetes STEM ideales para niños de 5 años, todos disponibles en Amazon España: un kit de ciencia con experimentos seguros, un set de excavación de gemas reales y un juego de construcción magnética. Te contamos sus pros, sus contras y para qué perfil de niño encaja cada uno." },
@@ -956,6 +971,17 @@ const AUTHOR = {
             </div>
           </div>
         )}
+
+      {articleSources[slug] && (
+        <div className="mt-2 mb-6 pt-3 border-t border-gray-100">
+          <p className="text-xs text-gray-400 font-medium mb-1">Referencias</p>
+          <ul className="space-y-0.5">
+            {articleSources[slug].map((src, i) => (
+              <li key={i}><a href={src.url} target="_blank" rel="noopener" className="text-xs text-gray-400 hover:text-gray-500 underline transition-colors">{src.label}</a></li>
+            ))}
+          </ul>
+        </div>
+      )}
       </article>
         <BlogSidebar ctaHref="/tienda" ctaText="Ver el catálogo de juguetes" />
       </div>
