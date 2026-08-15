@@ -5,6 +5,7 @@ import { posts, getPostBySlug } from "@/data/posts";
 import { getProductBySlug, amazonLink } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
+import BlogSidebar from "@/components/BlogSidebar";
 
 export async function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
@@ -784,7 +785,9 @@ const AUTHOR = {
       {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
-      <article className="max-w-3xl mx-auto px-4 sm:px-6 py-10">
+      <div className="max-w-6xl mx-auto px-4 py-10">
+      <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-10 lg:items-start">
+      <article className="min-w-0">
         <nav className="text-gray-400 text-sm mb-6">
           <Link href="/" className="hover:text-purple-700">Inicio</Link>
           <span className="mx-2">›</span>
@@ -954,6 +957,9 @@ const AUTHOR = {
           </div>
         )}
       </article>
+        <BlogSidebar ctaHref="/tienda" ctaText="Ver el catálogo de juguetes" />
+      </div>
+      </div>
     </>
   );
 }
