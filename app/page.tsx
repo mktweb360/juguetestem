@@ -3,6 +3,7 @@ import Link from "next/link";
 import { categories, getFeaturedProducts } from "@/data/products";
 import { getLatestPosts } from "@/data/posts";
 import ProductCard from "@/components/ProductCard";
+import HeroBackground from "@/components/HeroBackground";
 
 export const metadata: Metadata = {
   title: "JugueteSTEM.es — Juguetes educativos y STEM para niños",
@@ -17,8 +18,9 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-purple-700 via-purple-600 to-purple-800 text-white py-16 px-4">
-        <div className="max-w-4xl mx-auto text-center">
+      <section className="relative overflow-hidden text-white py-20 px-4" style={{minHeight: "520px"}}>
+        <HeroBackground overlay="from-purple-900/90 via-purple-800/80 to-purple-900/85" />
+        <div className="relative z-10 max-w-4xl mx-auto text-center">
           <div className="text-5xl mb-4">🧩🔬🎲</div>
           <h1 className="text-3xl sm:text-5xl font-extrabold mb-4 leading-tight">
             Juguetes educativos y STEM<br className="hidden sm:block" /> para niños curiosos
