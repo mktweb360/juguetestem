@@ -18,9 +18,10 @@ URL: https://www.juguetestem.es/tienda
 Categorías disponibles con fichas de producto individuales:
 - Juguetes Montessori: https://www.juguetestem.es/tienda/juguetes-montessori — Torres de aprendizaje, Torre Rosa, materiales sensoriales
 - Juguetes STEM y ciencia: https://www.juguetestem.es/tienda/juguetes-stem — Microscopios, kits de química, robótica
-- Juegos de mesa educativos: https://www.juguetestem.es/tienda/juegos-mesa-educativos — Dixit, Catan Junior, Virus!
+- Juegos de mesa educativos: https://www.juguetestem.es/tienda/juegos-mesa-educativos — Dixit, Catan Junior, Érase una Vez la Vida
 - Juguetes de construcción y LEGO: https://www.juguetestem.es/tienda/construccion-lego — LEGO Classic, Geomag magnético
 - Kits y recursos educativos: https://www.juguetestem.es/tienda/libros-educativos — Kits de excavación, robótica, ciencia
+- Telescopios y microscopios: https://www.juguetestem.es/tienda/telescopios-microscopios — Telescopios refractores, microscopios ópticos y digitales para niños
 
 ## Artículos publicados
 
@@ -48,6 +49,7 @@ Categorías disponibles con fichas de producto individuales:
 - [Thames & Kosmos: análisis completo de la gama 2025](https://www.juguetestem.es/blog/thames-kosmos-analisis-gama-completa)
 - [Juguetes STEM para niñas: guía 2025](https://www.juguetestem.es/blog/juguetes-stem-ninas-guia)
 - [Juguetes para niños con altas capacidades: guía 2025](https://www.juguetestem.es/blog/juguetes-ninos-altas-capacidades)
+- [Juguetes de energía solar para niños: guía de kits STEM renovables (2026)](https://www.juguetestem.es/blog/juguetes-energia-solar-renovable-ninos-guia-2026)
 
 ### Juegos de Mesa
 - [Los mejores juegos de mesa para toda la familia](https://www.juguetestem.es/blog/mejores-juegos-mesa-familia)
@@ -55,6 +57,7 @@ Categorías disponibles con fichas de producto individuales:
 - [Dixit: análisis completo del juego de mesa](https://www.juguetestem.es/blog/dixit-juego-analisis-opinion)
 - [Catan Junior: análisis y estrategia](https://www.juguetestem.es/blog/catan-junior-analisis-estrategia)
 - [Juegos de cartas educativos para familia: guía 2025](https://www.juguetestem.es/blog/juegos-cartas-educativos-familia)
+- [QuickStop: análisis completo y opiniones 2026](https://www.juguetestem.es/blog/quickstop-analisis-opinion)
 
 ### Construcción y LEGO
 - [LEGO vs Playmobil: cuál elegir](https://www.juguetestem.es/blog/lego-vs-playmobil-cual-elegir)
@@ -63,6 +66,16 @@ Categorías disponibles con fichas de producto individuales:
 - [LEGO Classic 10698: análisis completo 2025](https://www.juguetestem.es/blog/lego-classic-10698-analisis)
 - [Geomag: guía completa de construcción magnética](https://www.juguetestem.es/blog/geomag-magnetico-construccion-guia)
 - [Construcción magnética para niños: beneficios educativos](https://www.juguetestem.es/blog/construccion-magnetica-beneficios-educativos)
+
+### Telescopios y Microscopios
+- [Mejor telescopio para niños y principiantes 2025: guía de compra](https://www.juguetestem.es/blog/mejor-telescopio-ninos-principiantes-2025)
+- [Microscopio para niños: guía de compra 2025](https://www.juguetestem.es/blog/microscopio-ninos-guia-compra)
+- [GeoSafari Jr Kidnoculars de Learning Resources: análisis completo 2026](https://www.juguetestem.es/blog/geosafari-jr-kidnoculars-analisis)
+
+### Necesidades Especiales y Tecnología Educativa
+- [Mejor tablet educativa para niños 2025: guía por edades y necesidades](https://www.juguetestem.es/blog/mejor-tablet-ninos-educativa-2025)
+- [Juguetes para niños con necesidades especiales: TDAH, TEA y dificultades de aprendizaje](https://www.juguetestem.es/blog/juguetes-ninos-necesidades-especiales-tdah-tea)
+- [Juguetes para aprender matemáticas jugando: guía por edad (2025)](https://www.juguetestem.es/blog/juguetes-matematicas-ninos-guia-2025)
 
 ### Guías y Temporada
 - [Cómo elegir un juguete educativo](https://www.juguetestem.es/blog/como-elegir-juguete-educativo)
