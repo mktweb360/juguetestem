@@ -62,13 +62,13 @@ const articleContent: Record<string, ArticleSection[]> = {
 
   "mejores-juguetes-montessori-2025": [
     { text: "La filosofía Montessori sigue siendo, en 2025, una de las más valoradas por las familias que buscan juguetes que respeten el ritmo natural de aprendizaje de sus hijos. Frente a los juguetes con luces y sonidos, los materiales Montessori apuestan por la madera, la autonomía y el aprendizaje por descubrimiento. En esta guía hemos seleccionado tres de los mejores juguetes Montessori disponibles en Amazon España para niños de 1 a 6 años: dos torres de aprendizaje que fomentan la participación en las tareas del hogar y una Torre Rosa artesanal, material clásico del método. Analizamos cuál encaja mejor según la edad y el presupuesto." },
-    { heading: "Tabla comparativa", table: { headers: ["Producto", "Edad", "Precio", "Material", "Valoración"], rows: [["COSYLAND Torre Antivuelco", "18m+", "€54,99", "Bambú", "4,6 ★"], ["Beeloom Panda Tower", "18m+", "Consultar precio", "Madera", "4,3 ★"], ["Edu Fun Torre Rosa Montessori 10 cubos", "3+", "€57,00", "Madera", "4,4 ★"]] } },
+    { heading: "Tabla comparativa", table: { headers: ["Producto", "Edad", "Precio", "Material", "Valoración"], rows: [["COSYLAND Torre Antivuelco", "18m+", "€79,99", "Bambú", "4,6 ★"], ["Beeloom Panda Tower", "18m+", "€89,99", "Madera", "4,5 ★"], ["Torre Rosa Montessori 10 cubos", "3+", "€34,99", "Madera natural", "4,7 ★"]] } },
     { heading: "Análisis de los 3 mejores juguetes Montessori" },
-    { heading: "1. COSYLAND Torre de Aprendizaje Antivuelco — La más segura", text: "La torre de aprendizaje COSYLAND destaca por su estructura en forma de 'A' con función antivuelco. Permite que los niños desde 18 meses participen en la cocina o el baño de forma segura, a la altura de la encimera. Fabricada en bambú natural con acabado resistente al agua y a las manchas.", pros: ["Estructura en forma de A antivuelco", "Apta desde los 18 meses", "Bambú natural resistente al agua", "Más de 300 valoraciones positivas"], cons: ["El montaje requiere herramientas básicas", "Solo disponible en el acabado Natural Oscuro"], cta: { asin: "B0H2LDYFQL", label: "Ver la torre COSYLAND en Amazon →" } },
-    { heading: "2. Beeloom Panda Tower — Altura regulable en 3 niveles", text: "La Beeloom Panda Tower destaca por sus 3 niveles de altura regulable, lo que le da una vida útil más larga a medida que el niño crece. Incorpora barandillas de protección y pies antideslizantes, y está fabricada en madera con acabado no tóxico. Una opción muy completa para cocina y baño (nota: a fecha de esta revisión el listado aparece temporalmente sin stock en Amazon.es).", pros: ["3 niveles de altura regulable", "Barandillas de protección seguras", "Pies antideslizantes", "Madera con acabado no tóxico"], cons: ["Requiere siempre vigilancia de un adulto", "Actualmente sin stock en Amazon.es"], cta: { asin: "B093H92GR2", label: "Ver la Beeloom Panda Tower en Amazon →" } },
-    { heading: "3. Edu Fun Torre Rosa Montessori 10 cubos — El material clásico", text: "La Torre Rosa es uno de los materiales pedagógicos más icónicos del método Montessori. Estos 10 cubos de madera, de altura y diámetro decrecientes, trabajan la discriminación visual, la coordinación mano-ojo y la concentración. Fabricante especializado en material educativo, certificado según normativa EN71.", pros: ["Material Montessori auténtico y pedagógico", "10 cubos de tamaño y peso decrecientes", "Certificado EN71", "Fabricante especializado en material educativo"], cons: ["Precio superior a alternativas genéricas", "Todavía pocas valoraciones en Amazon.es"], cta: { asin: "B07D6CGC9H", label: "Ver la Torre Rosa Montessori en Amazon →" } },
+    { heading: "1. COSYLAND Torre de Aprendizaje Antivuelco — La más segura", text: "La torre de aprendizaje más vendida de Amazon España gracias a su certificación CPC y su estructura antivuelco. Permite que los niños desde 18 meses participen en la cocina o el baño de forma segura, a la altura de la encimera. Fabricada en bambú natural con un acabado elegante y sostenible.", pros: ["Certificación de seguridad CPC", "Estructura antivuelco muy estable", "Apta desde los 18 meses", "Bambú natural y sostenible"], cons: ["El montaje requiere herramientas básicas", "Precio algo superior a competidores"], cta: { asin: "B0CZ9837NN", label: "Ver la torre COSYLAND en Amazon →" } },
+    { heading: "2. Beeloom Panda Tower — Altura regulable en 3 niveles", text: "La Beeloom Panda Tower destaca por sus 3 niveles de altura regulable, lo que le da una vida útil más larga a medida que el niño crece. Incorpora barandillas de protección y pies antideslizantes, y está fabricada en madera con acabado no tóxico. Una opción muy completa para cocina y baño.", pros: ["3 niveles de altura regulable", "Barandillas de protección seguras", "Pies antideslizantes", "Madera con acabado no tóxico"], cons: ["Requiere siempre vigilancia de un adulto", "Peso máximo limitado"], cta: { asin: "B093H92GR2", label: "Ver la Beeloom Panda Tower en Amazon →" } },
+    { heading: "3. Torre Rosa Montessori 10 cubos — El material clásico", text: "La Torre Rosa es uno de los materiales pedagógicos más icónicos del método Montessori. Estos 10 cubos de madera natural con tintes naturales, de tamaño y peso crecientes, trabajan el pensamiento matemático, la motricidad fina y la concentración. Fabricada artesanalmente en Galicia, con opción de personalizar el nombre sin coste.", pros: ["Material Montessori auténtico y pedagógico", "Fabricación artesanal española (Galicia)", "Madera y tintes 100% naturales", "Personalización del nombre gratuita"], cons: ["Entrega algo más lenta que las grandes marcas", "Disponible solo en madera natural"], cta: { asin: "B0B4BL9M15", label: "Ver la Torre Rosa Montessori en Amazon →" } },
     { heading: "Cómo elegir un juguete Montessori en 2025", list: ["Materiales naturales: prioriza madera, bambú o tela frente al plástico con luces y sonidos.", "Adecuación a la edad: las torres de aprendizaje son ideales desde los 18 meses; los materiales sensoriales con piezas pequeñas, a partir de los 3 años.", "Control del error: un buen material Montessori permite que el niño se dé cuenta solo de si lo hace bien, sin necesidad de corrección adulta."] },
-    { faqs: [{ q: "¿Qué es una torre de aprendizaje Montessori?", a: "Es una plataforma segura con barandillas que eleva al niño hasta la altura de la encimera para que participe en tareas de cocina o higiene. Fomenta la autonomía y la autoestima siguiendo la filosofía Montessori." }, { q: "¿Desde qué edad se puede usar una torre de aprendizaje?", a: "La mayoría de torres, como la COSYLAND o la Beeloom, están recomendadas a partir de los 18 meses, cuando el niño ya camina y se mantiene de pie con estabilidad. Siempre bajo supervisión." }, { q: "¿Son mejores los juguetes Montessori que los convencionales?", a: "Los juguetes Montessori fomentan la concentración, la autonomía y la creatividad de forma más profunda que los juguetes electrónicos pasivos. No son mágicos, pero cuentan con un sólido respaldo pedagógico." }, { q: "¿Merece la pena la Torre Rosa Montessori?", a: "Si buscas material Montessori auténtico, la Torre Rosa es una inversión excelente: es duradera, de madera y trabaja conceptos matemáticos y sensoriales clave. La versión Edu Fun cumple la normativa EN71 y sigue las medidas originales del material." }] },
+    { faqs: [{ q: "¿Qué es una torre de aprendizaje Montessori?", a: "Es una plataforma segura con barandillas que eleva al niño hasta la altura de la encimera para que participe en tareas de cocina o higiene. Fomenta la autonomía y la autoestima siguiendo la filosofía Montessori." }, { q: "¿Desde qué edad se puede usar una torre de aprendizaje?", a: "La mayoría de torres, como la COSYLAND o la Beeloom, están recomendadas a partir de los 18 meses, cuando el niño ya camina y se mantiene de pie con estabilidad. Siempre bajo supervisión." }, { q: "¿Son mejores los juguetes Montessori que los convencionales?", a: "Los juguetes Montessori fomentan la concentración, la autonomía y la creatividad de forma más profunda que los juguetes electrónicos pasivos. No son mágicos, pero cuentan con un sólido respaldo pedagógico." }, { q: "¿Merece la pena la Torre Rosa Montessori?", a: "Si buscas material Montessori auténtico, la Torre Rosa es una inversión excelente: es duradera, de madera natural y trabaja conceptos matemáticos y sensoriales clave. Además, esta versión se fabrica artesanalmente en España." }] },
   ],
 
   "juguetes-reyes-magos-2026": [
@@ -96,11 +96,11 @@ const articleContent: Record<string, ArticleSection[]> = {
 
   "juguetes-educativos-3-anos": [
     { text: "A los 3 años los niños viven una auténtica explosión del lenguaje, la motricidad y la imaginación. Es una edad clave en la que el juego se convierte en su principal herramienta de aprendizaje. Elegir juguetes educativos adecuados a esta etapa marca la diferencia entre estimular su desarrollo o simplemente entretenerlo. En esta guía hemos seleccionado tres juguetes educativos ideales para niños de 3 años, disponibles en Amazon España: un material Montessori clásico, un set de construcción magnética y una torre de aprendizaje. Analizamos qué aporta cada uno al desarrollo y cuál encaja mejor con tu peque." },
-    { heading: "Tabla comparativa", table: { headers: ["Juguete", "Edad", "Precio", "Desarrolla", "Valoración"], rows: [["Edu Fun Torre Rosa Montessori", "3+", "€57,00", "Matemáticas y motricidad", "4,4 ★"], ["Geomag Classic 91 piezas", "3+", "€44,99", "Pensamiento espacial", "4,5 ★"], ["COSYLAND Torre Aprendizaje", "18m+", "€54,99", "Autonomía", "4,6 ★"]] } },
+    { heading: "Tabla comparativa", table: { headers: ["Juguete", "Edad", "Precio", "Desarrolla", "Valoración"], rows: [["Torre Rosa Montessori", "3+", "€34,99", "Matemáticas y motricidad", "4,7 ★"], ["Geomag Classic 91 piezas", "3+", "€44,99", "Pensamiento espacial", "4,5 ★"], ["COSYLAND Torre Aprendizaje", "18m+", "€79,99", "Autonomía", "4,6 ★"]] } },
     { heading: "Análisis de los 3 mejores juguetes para 3 años" },
-    { heading: "1. Edu Fun Torre Rosa Montessori 10 cubos — Matemáticas con las manos", text: "Este material Montessori clásico consiste en 10 cubos de madera de tamaño y peso decrecientes. A los 3 años ayuda a interiorizar conceptos de tamaño, orden y secuencia, además de trabajar la motricidad fina y la concentración. Fabricante especializado en material educativo, certificado según normativa EN71.", pros: ["Material Montessori auténtico", "Trabaja tamaño, orden y motricidad fina", "Certificado EN71", "Fabricante especializado en material educativo"], cons: ["Precio superior a alternativas genéricas", "Todavía pocas valoraciones en Amazon.es"], cta: { asin: "B07D6CGC9H", label: "Ver la Torre Rosa en Amazon →" } },
+    { heading: "1. Torre Rosa Montessori 10 cubos — Matemáticas con las manos", text: "Este material Montessori clásico consiste en 10 cubos de madera natural de tamaño y peso crecientes. A los 3 años ayuda a interiorizar conceptos de tamaño, orden y secuencia, además de trabajar la motricidad fina y la concentración. Fabricada artesanalmente en Galicia, con tintes naturales.", pros: ["Material Montessori auténtico", "Trabaja tamaño, orden y motricidad fina", "Madera y tintes 100% naturales", "Fabricación artesanal española"], cons: ["Entrega algo más lenta", "Solo disponible en madera natural"], cta: { asin: "B0B4BL9M15", label: "Ver la Torre Rosa en Amazon →" } },
     { heading: "2. Geomag Classic Color 91 piezas — Construcción magnética", text: "Las barras magnéticas de colores y las bolas de acero permiten a los niños de 3 años construir figuras 2D y 3D de forma libre e intuitiva. Es un juguete que crece con ellos y desarrolla el pensamiento espacial y la creatividad. Fabricado en Suiza y libre de BPA.", pros: ["Construcción libre e intuitiva", "Desarrolla el pensamiento espacial", "Fabricación suiza sin BPA", "Compatible con otros sets Geomag"], cons: ["Las piezas magnéticas requieren vigilancia", "Precio algo elevado"], cta: { asin: "B01MZ4FJ0N", label: "Ver el set Geomag en Amazon →" } },
-    { heading: "3. COSYLAND Torre de Aprendizaje — Autonomía en casa", text: "A los 3 años los niños quieren hacer las cosas por sí mismos. La torre de aprendizaje COSYLAND, con estructura antivuelco en forma de 'A', les permite llegar a la encimera de forma segura y participar en la cocina. Fomenta la autonomía y la autoestima siguiendo la filosofía Montessori.", pros: ["Estructura en forma de A antivuelco", "Fomenta la autonomía del niño", "Bambú natural resistente al agua", "Más de 300 valoraciones positivas"], cons: ["Ocupa espacio en la cocina", "El montaje requiere herramientas básicas"], cta: { asin: "B0H2LDYFQL", label: "Ver la torre COSYLAND en Amazon →" } },
+    { heading: "3. COSYLAND Torre de Aprendizaje — Autonomía en casa", text: "A los 3 años los niños quieren hacer las cosas por sí mismos. La torre de aprendizaje COSYLAND, con certificación CPC y estructura antivuelco, les permite llegar a la encimera de forma segura y participar en la cocina. Fomenta la autonomía y la autoestima siguiendo la filosofía Montessori.", pros: ["Certificación de seguridad CPC", "Estructura antivuelco estable", "Fomenta la autonomía del niño", "Bambú natural y sostenible"], cons: ["Ocupa espacio en la cocina", "El montaje requiere herramientas básicas"], cta: { asin: "B0CZ9837NN", label: "Ver la torre COSYLAND en Amazon →" } },
     { heading: "Qué tener en cuenta al elegir juguetes para 3 años", list: ["Sin piezas peligrosas: a los 3 años ya se pueden usar piezas medianas, pero mantén la vigilancia con imanes y elementos pequeños.", "Juguetes abiertos: prioriza materiales sin una única función (construcción, materiales Montessori) que crezcan con el niño.", "Autonomía y motricidad: a esta edad, los juguetes que trabajan la motricidad fina y la independencia tienen un impacto especialmente positivo."] },
     { faqs: [{ q: "¿Qué juguetes son más educativos para un niño de 3 años?", a: "A los 3 años destacan los materiales Montessori (como la Torre Rosa), la construcción magnética y las torres de aprendizaje, porque desarrollan motricidad, pensamiento lógico y autonomía." }, { q: "¿Es seguro el Geomag para niños de 3 años?", a: "El Geomag Classic está recomendado a partir de los 3 años, pero como incluye piezas magnéticas conviene supervisar el juego para evitar que el niño se lleve piezas a la boca." }, { q: "¿Cuántos juguetes debería tener un niño de 3 años?", a: "Menos es más. La filosofía Montessori recomienda ofrecer pocos juguetes a la vez y rotarlos cada pocas semanas para favorecer la concentración y evitar la sobreestimulación." }, { q: "¿A los 3 años ya se puede usar una torre de aprendizaje?", a: "Sí. Las torres de aprendizaje se recomiendan desde los 18 meses, así que a los 3 años son perfectamente adecuadas y muy útiles para fomentar la autonomía en casa." }] },
   ],
@@ -148,19 +148,19 @@ const articleContent: Record<string, ArticleSection[]> = {
     { heading: "Kit de Química Thames & Kosmos — 50 experimentos seguros", text: "Este kit es el más completo del mercado para introducir la química de forma segura. 50 experimentos con manual en español, reactivos seguros y resultados espectaculares. Ideal para niños de 8 a 12 años con supervisión adulta." },
     { heading: "LEGO Boost — Programación y robótica con LEGO", text: "LEGO Boost combina la construcción clásica con la programación visual por bloques. Los niños construyen 5 modelos diferentes y los programan desde una app gratuita. La mejor introducción a la robótica para niños de 7 a 12 años." },
     { heading: "Microscopio National Geographic — Ciencia real", text: "Un microscopio real con aumento de hasta 900x. Incluye 52 accesorios y 10 muestras preparadas. El sello National Geographic garantiza la calidad pedagógica. No es un juguete, es un instrumento científico real." },
-    { table: { headers: ["Kit", "Edad", "Precio", "Área STEM", "Nivel"], rows: [["Thames Kosmos Química", "8-12", "€39,99", "Ciencia", "Intermedio"], ["LEGO Boost", "7-12", "Consultar precio (descatalogado)", "Tecnología", "Básico-Inter."], ["National Geographic Microscopio", "+8", "€49,99", "Ciencia", "Intermedio"]] } },
+    { table: { headers: ["Kit", "Edad", "Precio", "Área STEM", "Nivel"], rows: [["Thames Kosmos Química", "8-12", "€39,99", "Ciencia", "Intermedio"], ["LEGO Boost", "7-12", "€89,99", "Tecnología", "Básico-Inter."], ["National Geographic Microscopio", "+8", "€49,99", "Ciencia", "Intermedio"]] } },
     { faqs: [{ q: "¿Qué es mejor: un kit de química o un microscopio para niños de 8 años?", a: "Depende de los intereses del niño. Si le gusta mezclar y ver reacciones, el kit de química. Si le interesa observar y descubrir lo invisible, el microscopio. Para niños muy curiosos, el kit de química suele generar más entusiasmo inicial." }, { q: "¿Son seguros los kits de química para niños?", a: "Los kits de química para niños están formulados con reactivos seguros que no generan gases tóxicos ni reacciones peligrosas. Sin embargo, siempre se recomienda supervisión adulta y seguir las instrucciones del manual." }, { q: "¿LEGO Boost es complicado de usar?", a: "LEGO Boost está diseñado para ser intuitivo. La app guía paso a paso tanto en la construcción como en la programación. Un niño de 7 años puede empezar solo, aunque los padres suelen disfrutar junto a ellos." }, { q: "¿A qué edad es recomendable empezar con robótica?", a: "La mayoría de los expertos recomiendan empezar con programación visual (como Scratch o la app de LEGO) a partir de los 6-7 años, y con robótica física a partir de los 8 años." }, { q: "¿Los kits STEM sirven para niñas también?", a: "Absolutamente. Los estudios muestran que las niñas tienen tanto interés y aptitud para las STEM como los niños cuando se les dan las mismas oportunidades. Evita mensajes de marketing que impliquen lo contrario." }] },
   ],
 
   "mejores-juegos-mesa-familia": [
     { text: "Apagar las pantallas y reunirse alrededor de un tablero sigue siendo uno de los mejores planes en familia. Los juegos de mesa desarrollan la estrategia, la comunicación, la paciencia y la capacidad de ganar y perder con deportividad, además de crear recuerdos que duran años. En esta guía hemos elegido tres de los mejores juegos de mesa para familias en 2025, disponibles en Amazon España y ordenados por perfil: el más creativo, el más rápido y adictivo, y el mejor para iniciarse en la estrategia. Te ayudamos a elegir según la edad de los niños y el número de jugadores." },
-    { heading: "Tabla comparativa", table: { headers: ["Juego", "Edad", "Jugadores", "Duración", "Precio", "Valoración"], rows: [["Dixit", "8+", "3-8", "30 min", "€32,97", "4,8 ★"], ["Érase una Vez la Vida", "6+", "2+", "20-30 min", "€17,48", "4,5 ★"], ["Devir Catán Junior", "6+", "2-4", "30 min", "€23,69", "4,7 ★"]] } },
+    { heading: "Tabla comparativa", table: { headers: ["Juego", "Edad", "Jugadores", "Duración", "Precio", "Valoración"], rows: [["Dixit", "8+", "3-8", "30 min", "€28,99", "4,8 ★"], ["Virus!", "8+", "2-6", "20 min", "€9,99", "4,6 ★"], ["Devir Catán Junior", "6+", "2-4", "30 min", "€24,99", "4,5 ★"]] } },
     { heading: "Análisis de los 3 mejores juegos de mesa familiares" },
     { heading: "1. Dixit — El más creativo (★ 4,8)", text: "Ganador del prestigioso premio Spiel des Jahres, Dixit es probablemente el juego de mesa más creativo que existe. Los jugadores describen ilustraciones oníricas con una palabra o frase mientras los demás intentan adivinar la carta del narrador. Para 3 a 8 jugadores y partidas de 30 minutos. El juego que más conversaciones y risas genera alrededor de la mesa.", pros: ["Ganador del premio Spiel des Jahres", "Estimula la creatividad y la imaginación", "De 3 a 8 jugadores, muy versátil", "Ilustraciones únicas y evocadoras"], cons: ["Requiere cierta creatividad verbal", "Las cartas se repiten con mucho uso"], cta: { asin: "B001OH9EDW", label: "Ver Dixit en Amazon →" } },
-    { heading: "2. Érase una Vez la Vida — El más educativo sobre biología (★ 4,5)", text: "Un juego de preguntas y respuestas de Educa con más de 500 preguntas sobre el cuerpo humano y biología. El objetivo es sencillo: acertar el mayor número de preguntas y aprender sobre la marcha. Reglas que se aprenden en 5 minutos y funciona bien en formato familiar desde los 6 años.", pros: ["Más de 500 preguntas sobre el cuerpo humano", "Reglas que se aprenden en 5 minutos", "Formato familiar apto desde 6 años", "Marca Educa, referencia en juegos educativos en España"], cons: ["Requiere saber leer con fluidez", "Menos rejugable que un juego de cartas puro una vez agotadas las preguntas"], cta: { asin: "B08BBTPTLS", label: "Ver Érase una Vez la Vida en Amazon →" } },
+    { heading: "2. Virus! — El más rápido y adictivo (★ 4,6)", text: "El juego de cartas más vendido de España. El objetivo es sencillo: ser el primero en reunir cuatro órganos sanos mientras infectas los de tus rivales. Reglas que se aprenden en 5 minutos, partidas de 20 minutos y muchísima interacción. Funciona igual de bien con 2 que con 6 jugadores, y su precio es imbatible.", pros: ["Superventas en España", "Reglas que se aprenden en 5 minutos", "Partidas cortas de 20 minutos", "Mucha interacción y rejugabilidad"], cons: ["Puede generar piques entre jugadores", "Limitado a 2-6 jugadores"], cta: { asin: "8460659666", label: "Ver Virus! en Amazon →" } },
     { heading: "3. Devir Catán Junior — El mejor para iniciarse en la estrategia (★ 4,5)", text: "La puerta de entrada perfecta a los juegos de estrategia modernos. Catán Junior adapta el universo Catán para niños desde 6 años, con comercio, construcción y planificación en una versión colorida y accesible. Para 2 a 4 jugadores y partidas de unos 30 minutos, en español.", pros: ["Introduce la estrategia desde los 6 años", "Edición en español", "Partidas de 30 minutos", "Ideal como primer juego de estrategia"], cons: ["Fichas de plástico en lugar de madera", "Solo de 2 a 4 jugadores"], cta: { asin: "B07WC54XF8", label: "Ver Catán Junior en Amazon →" } },
-    { heading: "Cómo elegir el juego de mesa perfecto para tu familia", list: ["Edad mínima: revisa que todos los miembros puedan participar de verdad; para niños pequeños, mejor juegos desde 6 años como Catán Junior.", "Duración y número de jugadores: para peques prioriza partidas de menos de 30 minutos y comprueba que el juego funcione bien con el número de personas de tu familia.", "Tipo de juego: elige entre creatividad (Dixit), conocimiento y preguntas (Érase una Vez la Vida) o estrategia (Catán Junior) según lo que más disfrute tu familia."] },
-    { faqs: [{ q: "¿Qué juego de mesa es mejor para toda la familia?", a: "Depende del gusto: Dixit es ideal si buscáis creatividad y conversación, Érase una Vez la Vida si preferís partidas de preguntas y contenido educativo, y Catán Junior si queréis iniciaros en la estrategia con niños desde 6 años." }, { q: "¿Cuál es el mejor juego de mesa para niños pequeños?", a: "Para los más pequeños, Catán Junior (desde 6 años) es una apuesta segura por sus reglas accesibles. Érase una Vez la Vida también funciona bien desde los 6 años por su formato de preguntas sencillas." }, { q: "¿Cuánto cuesta un buen juego de mesa familiar?", a: "Los mejores juegos de mesa familiares están entre 15€ y 35€. Érase una Vez la Vida (unos 17€), Catán Junior (unos 24€) y Dixit (unos 33€) son tres opciones excelentes sin necesidad de gastar más." }, { q: "¿Son los juegos de mesa realmente educativos?", a: "Sí. Los juegos de mesa desarrollan matemáticas, lenguaje, pensamiento estratégico y gestión emocional. Un buen juego puede ser tan formativo como estimulante, y además fortalece los vínculos familiares." }] },
+    { heading: "Cómo elegir el juego de mesa perfecto para tu familia", list: ["Edad mínima: revisa que todos los miembros puedan participar de verdad; para niños pequeños, mejor juegos desde 6 años como Catán Junior.", "Duración y número de jugadores: para peques prioriza partidas de menos de 30 minutos y comprueba que el juego funcione bien con el número de personas de tu familia.", "Tipo de juego: elige entre creatividad (Dixit), ritmo y risas (Virus!) o estrategia (Catán Junior) según lo que más disfrute tu familia."] },
+    { faqs: [{ q: "¿Qué juego de mesa es mejor para toda la familia?", a: "Depende del gusto: Dixit es ideal si buscáis creatividad y conversación, Virus! si preferís partidas rápidas y divertidas, y Catán Junior si queréis iniciaros en la estrategia con niños desde 6 años." }, { q: "¿Cuál es el mejor juego de mesa para niños pequeños?", a: "Para los más pequeños, Catán Junior (desde 6 años) es una apuesta segura por sus reglas accesibles. Virus! también funciona muy bien a partir de los 8 años por su sencillez." }, { q: "¿Cuánto cuesta un buen juego de mesa familiar?", a: "Los mejores juegos de mesa familiares están entre 10€ y 30€. Virus! (unos 10€), Catán Junior (unos 25€) y Dixit (unos 29€) son tres opciones excelentes sin necesidad de gastar más." }, { q: "¿Son los juegos de mesa realmente educativos?", a: "Sí. Los juegos de mesa desarrollan matemáticas, lenguaje, pensamiento estratégico y gestión emocional. Un buen juego puede ser tan formativo como estimulante, y además fortalece los vínculos familiares." }] },
   ],
 
   "lego-vs-playmobil-cual-elegir": [
@@ -193,7 +193,7 @@ const articleContent: Record<string, ArticleSection[]> = {
     { list: ["LEGO Classic Caja Grande — Construcción libre desde 4 años", "Playmobil Ciudad Comisaría — Juego de rol completo", "Geomag Classic 88 piezas — Construcción magnética 3D", "Juegos de mesa sencillos: Dobble, Cucurucho"] },
     { heading: "Regalos para 7-12 años: STEM, estrategia y programación", text: "A partir de los 7 años el pensamiento lógico se dispara. Es el momento perfecto para los kits de ciencia, la robótica, los juegos de estrategia y la programación." },
     { list: ["LEGO Boost Programación — La mejor intro a la robótica", "Dixit — Creatividad e imaginación para toda la familia", "Kit de Química Thames & Kosmos — 50 experimentos", "Geomag Classic — Pensamiento espacial avanzado", "National Geographic Microscopio — Ciencia real"] },
-    { table: { headers: ["Edad", "Producto recomendado", "Precio", "Categoría"], rows: [["0-2 años", "Hape Torre Colores", "€24,99", "Montessori"], ["3-4 años", "Playmobil Ciudad", "€59,99", "Rol"], ["4-6 años", "LEGO Classic", "€49,99", "Construcción"], ["6-9 años", "Dixit", "€29,99", "Mesa"], ["7-12 años", "LEGO Boost", "Consultar precio (descatalogado)", "Robótica"]] } },
+    { table: { headers: ["Edad", "Producto recomendado", "Precio", "Categoría"], rows: [["0-2 años", "Hape Torre Colores", "€24,99", "Montessori"], ["3-4 años", "Playmobil Ciudad", "€59,99", "Rol"], ["4-6 años", "LEGO Classic", "€49,99", "Construcción"], ["6-9 años", "Dixit", "€29,99", "Mesa"], ["7-12 años", "LEGO Boost", "€89,99", "Robótica"]] } },
     { faqs: [{ q: "¿Cuánto debería gastar en un regalo de Navidad para un niño?", a: "No hay una cifra mágica, pero entre 25€ y 60€ puedes encontrar juguetes de altísima calidad. No gastes más de €100 en un juguete para menores de 5 años: su capacidad de atención es limitada y hay opciones excelentes a menor precio." }, { q: "¿Qué juguete es el más vendido en Navidad en España?", a: "Los juguetes más vendidos en Navidad en España son consistentemente LEGO, Playmobil y los juegos de cartas como Virus!. En la categoría educativa, Dixit y los kits de Thames & Kosmos son referencias." }, { q: "¿Es mejor regalar un juguete grande o varios pequeños?", a: "Depende de la edad. Para menores de 6 años, varios juguetes pequeños de calidad son mejor que uno grande que puede intimidar. Para mayores, un juguete grande y completo como LEGO Boost genera más entusiasmo." }, { q: "¿Cómo sé si un juguete es seguro?", a: "Busca el sello CE en el packaging, que es obligatorio en la UE. Para menores de 3 años, asegúrate de que no hay piezas pequeñas (menores de 3 cm). Las marcas Hape, PlanToys, LEGO y Playmobil tienen estándares de seguridad muy altos." }, { q: "¿Dónde comprar los mejores juguetes al mejor precio?", a: "Amazon.es tiene la mayor variedad y generalmente los mejores precios del mercado español. Además, la política de devoluciones es muy sencilla si el juguete no cumple expectativas. Revisa siempre las reseñas verificadas antes de comprar." }] },
   ],
 
@@ -204,7 +204,7 @@ const articleContent: Record<string, ArticleSection[]> = {
     { heading: "El método correcto: primero sin pantalla", text: "Los mejores programas de introducción a la programación para menores de 6 años empiezan sin pantalla. Juegos como 'Robot Turtles' o actividades de algoritmos con juguetes físicos crean la base conceptual antes de tocar un ordenador." },
     { heading: "LEGO Boost: la mejor introducción física", text: "LEGO Boost es, sin duda, el mejor juguete para introducir la programación y la robótica entre los 7 y 12 años. Los niños construyen robots y los programan con una app visual por bloques. El aprendizaje es gradual, divertido y muy efectivo." },
     { heading: "Scratch: la herramienta gratuita más potente", text: "Scratch, desarrollado por el MIT, es la herramienta de programación más usada en escuelas de todo el mundo. Es gratuita, visual y permite crear juegos, animaciones e historias interactivas. El libro 'Aprende Programación con Scratch' es la guía perfecta para empezar." },
-    { table: { headers: ["Herramienta", "Edad", "Tipo", "Precio", "Ventaja principal"], rows: [["LEGO Boost", "7-12", "Físico + App", "Consultar precio (descatalogado)", "Robótica tangible"], ["Scratch (libro)", "8-12", "Ordenador", "€19,99", "Gratuito y potente"], ["Hour of Code", "6+", "Web", "Gratis", "Sin instalación"]] } },
+    { table: { headers: ["Herramienta", "Edad", "Tipo", "Precio", "Ventaja principal"], rows: [["LEGO Boost", "7-12", "Físico + App", "€89,99", "Robótica tangible"], ["Scratch (libro)", "8-12", "Ordenador", "€19,99", "Gratuito y potente"], ["Hour of Code", "6+", "Web", "Gratis", "Sin instalación"]] } },
     { heading: "Errores comunes al enseñar programación a niños", list: ["Empezar demasiado pronto con código real (texto)", "Forzar el aprendizaje cuando no hay interés genuino", "No celebrar los errores como parte del proceso", "Usar herramientas demasiado complejas sin escalado progresivo", "No conectarlo con algo que le guste al niño (juegos, música, arte)"] },
     { faqs: [{ q: "¿Scratch es seguro para niños?", a: "Sí, Scratch tiene una versión offline y una comunidad moderada. Para menores de 13 años se recomienda la versión sin cuenta o con supervisión parental en la comunidad online." }, { q: "¿LEGO Boost es complicado de montar?", a: "LEGO Boost está diseñado para ser montado por niños de 7 años con la app como guía. La mayoría de niños pueden montar el primer modelo en 2-3 horas. La app guía paso a paso con instrucciones animadas." }, { q: "¿Hay diferencia entre programación para niños y para adultos?", a: "Los conceptos fundamentales son los mismos (secuencias, bucles, condicionales, variables), pero las herramientas están adaptadas. Scratch usa bloques visuales en lugar de código de texto, lo que elimina la barrera de la sintaxis." }, { q: "¿Debo comprar un ordenador específico para que mi hijo aprenda a programar?", a: "No. Scratch funciona en cualquier ordenador, tablet o Chromebook. LEGO Boost requiere un iPad o tablet Android. No necesitas invertir en hardware específico para empezar." }, { q: "¿Mi hijo necesita ser bueno en matemáticas para programar?", a: "No necesariamente. Muchos aspectos de la programación (narrativa, diseño visual, juegos) no requieren matemáticas avanzadas. La lógica y la resolución de problemas son más importantes que las matemáticas puras." }] },
   ],
@@ -235,7 +235,7 @@ const articleContent: Record<string, ArticleSection[]> = {
     { text: "La Torre Rosa es uno de los materiales más reconocibles del método Montessori y uno de los más malentendidos. No es solo una torre de cubos de colores — es un material de precisión diseñado para desarrollar la discriminación visual del tamaño, la coordinación motriz y la concentración. Esta guía explica qué hace exactamente y cómo usarla bien." },
     { heading: "Qué desarrolla la Torre Rosa: la pedagogía detrás del juguete", text: "Maria Montessori diseñó la Torre Rosa en el siglo XX como material sensorial para el período sensitivo del orden (18 meses - 4 años). Los 10 cubos de madera van de 1 cm³ a 10 cm³ en incrementos precisos de 1 cm. Al construirla, el niño trabaja la discriminación visual de tamaños, la coordinación ojo-mano al colocar cada cubo con precisión, la concentración sostenida y el concepto matemático implícito de seriación sin necesidad de números." },
     { heading: "Cómo presentar la Torre Rosa al niño: la técnica Montessori", list: ["Extiende una alfombra pequeña en el suelo — delimita el espacio de trabajo", "Saca los cubos de la estantería uno a uno y colócalos en desorden sobre la alfombra", "Sin hablar, construye la torre de mayor a menor con movimientos lentos y deliberados", "Desármala y deja al niño intentarlo", "No corrijas verbalmente: si se equivoca, el propio material le da feedback (la torre se cae o queda torcida)"] },
-    { heading: "Torre Rosa Montessori 10 cubos — análisis del producto", text: "La versión Edu Fun del catálogo tiene los 10 cubos en madera con acabado rosa, tamaños y diámetros decrecientes siguiendo la escala original de Montessori. La madera da el peso correcto a cada cubo para que el control motor sea real. Certificada según normativa EN71 y recomendada a partir de los 3 años." },
+    { heading: "Torre Rosa Montessori 10 cubos — análisis del producto", text: "La versión del catálogo tiene los 10 cubos en madera natural con acabado liso, tamaños precisos en la escala original de Montessori (1 a 10 cm). La madera maciza da el peso correcto a cada cubo para que el control motor sea real. Apta desde 18 meses." },
     { heading: "Actividades adicionales con la Torre Rosa más allá de apilar", text: "La Torre Rosa tiene extensiones que amplían su uso hasta los 5-6 años: construcción horizontal en lugar de vertical, combinación con las Barras Rojas Montessori, uso como puente para coches pequeños, y clasificación por tamaño de otros objetos usando los cubos como referencia. Un material bien aprovechado dura años de uso activo." },
     { heading: "Tabla de progresión por edad", table: { headers: ["Edad", "Actividad recomendada", "Habilidad desarrollada"], rows: [["18m - 2 años", "Apilar de mayor a menor con ayuda", "Discriminación visual básica"], ["2 - 3 años", "Construir la torre de forma independiente", "Concentración y coordinación"], ["3 - 4 años", "Construir sin modelo visual", "Memoria y abstracción"], ["4 - 6 años", "Extensiones horizontales y combinadas", "Pensamiento matemático"]] } },
     { heading: "Conclusión", text: "La Torre Rosa es uno de los materiales Montessori con mejor retorno de inversión: barata, duradera, y con una curva de uso que se extiende durante años con diferentes actividades. Su simplicidad es engañosa — detrás hay décadas de pedagogía validada." },
@@ -359,8 +359,8 @@ const articleContent: Record<string, ArticleSection[]> = {
     { heading: "Qué hace que un juego de mesa sea realmente educativo", list: ["Pensamiento estratégico: anticipar consecuencias de las decisiones", "Gestión de recursos y decisiones bajo incertidumbre", "Habilidades sociales: negociación, empatía, gestión de la derrota", "Pensamiento creativo y narrativo", "Contenido académico integrado de forma no forzada"] },
     { heading: "Dixit — creatividad y vocabulario emocional", text: "Dixit desarrolla la capacidad de descripción metafórica, el vocabulario emocional y la perspectiva de los otros: qué imagen elegirán mis compañeros para mi pista. Es uno de los juegos con mayor valor educativo para el desarrollo del lenguaje y la inteligencia emocional. Adecuado desde los 6 años." },
     { heading: "Catan Junior — iniciación al pensamiento estratégico", text: "Catan Junior introduce los conceptos de gestión de recursos, comercio e intercambio, y planificación a largo plazo en un formato accesible desde los 6 años. Es el puente perfecto entre los juegos de reglas simples y el Catan adulto, que puede introducirse a los 10-12 años." },
-    { heading: "Érase una Vez la Vida — biología en familia", text: "Érase una Vez la Vida (Educa) trabaja vocabulario y conceptos de biología básica (cuerpo humano, órganos, funciones vitales) a través de más de 500 preguntas y respuestas. Es un formato familiar, apto desde los 6 años, que convierte el repaso de ciencias en un juego de mesa sin que nadie lo sienta como estudiar." },
-    { heading: "Tabla comparativa", table: { headers: ["Juego", "Habilidad principal", "Edad", "Duración"], rows: [["Dixit", "Creatividad y lenguaje", "6+ años", "30 min"], ["Catan Junior", "Estrategia y recursos", "6+ años", "45-60 min"], ["Érase una Vez la Vida", "Biología del cuerpo humano", "6+ años", "20-30 min"]] } },
+    { heading: "Virus! — biología de salón", text: "Virus! introduce vocabulario y conceptos de biología básica (órganos del cuerpo humano, enfermedades, sistema inmune) de forma implícita a través del juego de cartas. Es rápido, altamente rejugable y funciona desde los 8 años. La mecánica de ataque y defensa hace la biología divertida sin que nadie sienta que está estudiando." },
+    { heading: "Tabla comparativa", table: { headers: ["Juego", "Habilidad principal", "Edad", "Duración"], rows: [["Dixit", "Creatividad y lenguaje", "6+ años", "30 min"], ["Catan Junior", "Estrategia y recursos", "6+ años", "45-60 min"], ["Virus!", "Biología implícita", "8+ años", "20-30 min"]] } },
     { heading: "Conclusión", text: "Los tres juegos desarrollan habilidades cognitivas diferentes y son complementarios. Para una familia que quiere cubrir creatividad, estrategia y conocimiento científico, los tres juntos forman una colección educativa completa y entretenida." },
     { faqs: [{ q: "¿Los juegos de mesa ayudan con las matemáticas en la escuela?", a: "Los juegos de gestión de recursos como Catan Junior desarrollan el sentido numérico y el razonamiento matemático de forma práctica. No sustituyen el trabajo escolar, pero complementan y refuerzan conceptos de forma motivadora." }, { q: "¿A qué edad pueden los niños aprender a perder en un juego de mesa?", a: "La frustración ante la derrota es normal hasta los 7-8 años. A partir de esa edad, con los modelos correctos del adulto, los niños aprenden a gestionar la derrota como parte del juego. Los juegos cooperativos son una buena transición para niños más sensibles." }, { q: "¿Cuánto tiempo al día es adecuado para juegos de mesa?", a: "No hay un límite fijo. Los juegos de mesa son una actividad de calidad sin pantalla que desarrolla habilidades cognitivas y sociales. 30-60 minutos de juego familiar varias veces por semana tiene efectos positivos demostrados en el desarrollo lingüístico y social." }, { q: "¿Los juegos de mesa digitales (apps) son igual de educativos?", a: "Para las habilidades sociales (negociación, gestión de la derrota, interacción cara a cara) no. Para el contenido cognitivo puro (estrategia, lógica), las versiones digitales son comparables pero eliminan la dimensión social que es parte del valor educativo del juego de mesa físico." }] },
   ],
@@ -390,12 +390,12 @@ const articleContent: Record<string, ArticleSection[]> = {
   "juegos-cartas-educativos-familia": [
     { text: "Los juegos de cartas tienen ventajas específicas sobre los de tablero: son más portátiles, más rápidos, más fáciles de guardar y tienen reglas generalmente más simples de aprender. Esta guía analiza los mejores para familia con valor educativo real." },
     { heading: "Por qué los juegos de cartas son perfectos para familia", text: "Portabilidad: caben en cualquier bolso o mochila, y son el juego de viaje, de restaurante y de visita a los abuelos. Tiempo de partida: 15-30 minutos, se puede jugar una partida antes de cenar. Curva de aprendizaje: las reglas suelen explicarse en 5 minutos, así que el niño puede empezar a jugar casi de inmediato. Precio: generalmente más económicos que los juegos de tablero." },
-    { heading: "Érase una Vez la Vida — biología en 20 minutos", text: "Érase una Vez la Vida, de Educa, es una opción sólida de juego educativo español centrado en biología. Con más de 500 preguntas sobre el cuerpo humano y otros temas, convierte el repaso de vocabulario científico en un juego de mesa familiar y ágil." },
-    { heading: "Cómo usar Érase una Vez la Vida para reforzar el vocabulario de ciencias", text: "Después de varias partidas, el niño conoce de forma natural los nombres de los órganos principales (cerebro, corazón, hueso, estómago) y conceptos básicos de anatomía. Repetir las preguntas que fallaron en partidas anteriores refuerza ese vocabulario sin que el niño lo perciba como estudio." },
+    { heading: "Virus! — biología de salón en 20 minutos", text: "Virus! de Tranjis Games es el juego de cartas educativo español más exitoso de los últimos años. Introduce vocabulario de biología (órganos del cuerpo, enfermedades, tratamientos) de forma implícita mientras los jugadores atacan y defienden cuerpos. El humor y el ritmo rápido lo hacen muy rejugable." },
+    { heading: "Cómo usar Virus! para reforzar el vocabulario de ciencias", text: "Después de varias partidas, el niño conoce de forma natural los nombres de los órganos principales (cerebro, corazón, hueso, estómago) y los conceptos de enfermedad y tratamiento. Un juego de preguntas sobre las cartas después de la partida puede reforzar ese vocabulario sin que el niño lo perciba como estudio." },
     { heading: "Otros juegos de cartas con valor educativo", text: "Más allá del catálogo: Dobble desarrolla la velocidad de reacción y el reconocimiento visual desde los 4 años; Codenames trabaja vocabulario y asociación de conceptos desde los 10 años; Timeline enseña historia y cronología desde los 8 años. Cada uno desarrolla habilidades cognitivas distintas y se complementan entre sí." },
-    { heading: "Tabla comparativa", table: { headers: ["Juego de cartas", "Habilidad", "Edad", "Duración"], rows: [["Érase una Vez la Vida", "Biología y vocabulario", "6+ años", "20-30 min"], ["Dobble", "Velocidad y percepción visual", "4+ años", "10-15 min"], ["Timeline", "Historia y cronología", "8+ años", "15-20 min"], ["Codenames", "Vocabulario y asociación", "10+ años", "15-20 min"]] } },
-    { heading: "Conclusión", text: "Los juegos de mesa y de cartas son el formato más accesible y portable de juego educativo familiar. Érase una Vez la Vida destaca por su combinación de contenido científico real y formato ágil. Un juego que los niños piden repetir es el mejor indicador de que funciona." },
-    { faqs: [{ q: "¿Cuándo es demasiado joven para jugar juegos de cartas?", a: "La mayoría de juegos de cartas educativos tienen edad mínima de 6-8 años por la complejidad de las reglas. Por debajo de esa edad, los juegos de memoria con cartas ilustradas, sin reglas complejas, son más adecuados." }, { q: "¿Los juegos de cartas educativos son adecuados para clase?", a: "Sí, muchos profesores usan juegos de preguntas sobre biología como actividad de refuerzo en clases de ciencias naturales. La mecánica de juego hace que los alumnos recuerden mejor el vocabulario que con métodos de estudio tradicionales." }, { q: "¿Se puede jugar Érase una Vez la Vida con 2 personas?", a: "El mínimo recomendado son 2 jugadores. Con más jugadores la dinámica de preguntas y respuestas resulta más animada." }, { q: "¿Hay otras ediciones de Érase una Vez la Vida?", a: "Sí. Educa ha publicado varias ediciones y volúmenes de la colección 'Érase una Vez', cada una con preguntas y temas distintos, compatibles como ampliación del juego base." }] },
+    { heading: "Tabla comparativa", table: { headers: ["Juego de cartas", "Habilidad", "Edad", "Duración"], rows: [["Virus!", "Biología y vocabulario", "8+ años", "15-20 min"], ["Dobble", "Velocidad y percepción visual", "4+ años", "10-15 min"], ["Timeline", "Historia y cronología", "8+ años", "15-20 min"], ["Codenames", "Vocabulario y asociación", "10+ años", "15-20 min"]] } },
+    { heading: "Conclusión", text: "Los juegos de cartas son el formato más accesible y portable de juego educativo familiar. Virus! en particular destaca por su combinación de contenido científico real, humor y rejugabilidad. Un juego que los niños piden repetir es el mejor indicador de que funciona." },
+    { faqs: [{ q: "¿Cuándo es demasiado joven para jugar juegos de cartas?", a: "La mayoría de juegos de cartas educativos tienen edad mínima de 6-8 años por la complejidad de las reglas. Por debajo de esa edad, los juegos de memoria con cartas ilustradas, sin reglas complejas, son más adecuados." }, { q: "¿Los juegos de cartas educativos son adecuados para clase?", a: "Sí, muchos profesores usan Virus! y similares como actividad de refuerzo en clases de ciencias naturales. La mecánica de juego hace que los alumnos recuerden mejor el vocabulario que con métodos de estudio tradicionales." }, { q: "¿Se puede jugar Virus! con 2 personas?", a: "El mínimo recomendado son 2 jugadores, aunque con 3-4 jugadores la dinámica de ataque y defensa es más rica. Con 2 jugadores la partida es más directa y rápida." }, { q: "¿Virus! tiene expansiones?", a: "Sí. Tranjis Games ha publicado expansiones que añaden nuevas mecánicas y cartas. Las expansiones son compatibles con el juego base y amplían la rejugabilidad." }] },
   ],
 
   "lego-vs-otras-marcas-construccion": [
@@ -739,222 +739,6 @@ const articleContent: Record<string, ArticleSection[]> = {
     ],
   },
 ],
-
-  "juguetes-matematicas-ninos-guia-2025": [
-    {
-      text: "Las matemáticas tienen fama de ser la asignatura que más ansiedad genera en primaria, y sin embargo son, de todas, la que más se presta a aprenderse jugando: contar, comparar tamaños, repartir recursos o encajar formas son operaciones matemáticas antes de convertirse en números en una libreta. Esta guía no es una lista de juguetes 'con matemáticas' en la caja, sino una selección por edad de materiales que trabajan de verdad el pensamiento numérico y espacial: uno sensorial para preescolar, uno de geometría rápida para primaria y uno de estrategia con cálculo de recursos para niños de 6 años en adelante. Todos disponibles en Amazon España.",
-    },
-    {
-      heading: "Por qué se aprenden mejor las matemáticas manipulando que memorizando",
-      text: "Antes de que un niño entienda que '3 + 2 = 5' como concepto abstracto, necesita haberlo vivido con las manos: haber juntado tres bloques con dos bloques y haber contado cinco. Es el principio detrás de materiales como la Torre Rosa Montessori, pensados hace más de un siglo pero vigentes porque respetan cómo funciona realmente el desarrollo del pensamiento lógico-matemático en la infancia. Los juegos de mesa que exigen contar recursos, planificar turnos o encajar piezas geométricas cumplen la misma función de forma menos evidente pero igual de sólida: convierten operaciones abstractas en decisiones concretas dentro de una partida.",
-    },
-    {
-      heading: "Comparativa por edad",
-      table: {
-        headers: ["Juguete", "Edad", "Precio", "Qué trabaja"],
-        rows: [
-          ["Torre Rosa Montessori 10 cubos", "3-6 años", "€34,99", "Seriación, tamaño, cantidad"],
-          ["Geomag Classic Color 91 piezas", "3+ años", "€44,99", "Geometría y pensamiento espacial"],
-          ["Ubongo Junior Asmodee", "4-7 años", "€24,99", "Geometría rápida, encaje de formas"],
-          ["Devir Catán Junior", "6+ años", "€24,99", "Cálculo de recursos, planificación"],
-        ],
-      },
-    },
-    { heading: "Análisis de 3 materiales matemáticos por etapa" },
-    {
-      heading: "1. Torre Rosa Montessori — de 3 a 6 años, la base sensorial",
-      text: "Antes de contar con números, el niño necesita entender qué es 'más grande' y 'más pequeño', y en qué orden va una serie. Eso es exactamente lo que trabaja la Torre Rosa: 10 cubos de madera de tamaño y peso crecientes que el niño debe apilar u ordenar sin ayuda de números ni de un adulto que le diga si lo ha hecho bien — el propio material le muestra el error. Es el material clásico de referencia del método Montessori para preescolar, y en esta versión concreta está fabricada de forma artesanal en Galicia, con tintes naturales.",
-      pros: [
-        "Trabaja seriación y cantidad sin necesidad de números",
-        "El niño se autocorrige: no depende de la validación de un adulto",
-        "Madera natural, fabricación artesanal española",
-        "Personalización de nombre gratuita",
-      ],
-      cons: ["No sustituye al conteo numérico explícito a partir de los 5-6 años", "Entrega algo más lenta que un fabricante industrial"],
-      cta: { asin: "B0B4BL9M15", label: "Ver la Torre Rosa Montessori en Amazon →" },
-    },
-    {
-      heading: "2. Ubongo Junior — de 4 a 7 años, geometría contrarreloj",
-      text: "Ubongo Junior traslada la lógica de los puzles de encaje a un juego de mesa con presión de tiempo: cada jugador debe completar su propio tablero con piezas geométricas antes de que se acabe el turno. A diferencia de un puzle estático, aquí la velocidad obliga a reconocer formas y rotaciones de un vistazo, una habilidad directamente relacionada con la geometría y el razonamiento espacial que más adelante se traduce en comprensión de fracciones y proporciones. Tiene modo cooperativo, que es la opción recomendable para niños que se frustran fácilmente con la competición directa.",
-      pros: [
-        "Entrena reconocimiento de formas y rotaciones bajo presión de tiempo",
-        "Modo cooperativo disponible para perfiles menos competitivos",
-        "Piezas grandes y seguras desde los 4 años",
-        "Partidas cortas (20-30 min), fáciles de encajar en el día a día",
-      ],
-      cons: ["Puede resultar frustrante si el niño no tolera bien el límite de tiempo (usar el modo cooperativo en ese caso)", "Piezas pequeñas de colores que se pueden perder"],
-      cta: { asin: "B089WJV1NT", label: "Ver Ubongo Junior en Amazon →" },
-    },
-    {
-      heading: "3. Devir Catán Junior — desde los 6 años, cálculo de recursos y planificación",
-      text: "Catán Junior no se presenta como un juego 'de matemáticas', pero cada turno exige justo eso: contar los recursos que se tienen, calcular cuántos hacen falta para construir un escondrijo, y decidir qué conviene intercambiar y con quién. Es aritmética aplicada a una decisión real, con consecuencias dentro del juego, que es precisamente lo que hace que el cálculo se interiorice mejor que en una ficha de sumas. Para 2 a 4 jugadores, en español, con partidas de unos 30 minutos.",
-      pros: [
-        "Aritmética aplicada a decisiones reales dentro de la partida",
-        "Introduce planificación y anticipación, no solo cálculo",
-        "Edición en español, mecánicas simplificadas del Catán original",
-        "Partidas de 30 minutos, encaja bien entre semana",
-      ],
-      cons: ["Solo 2-4 jugadores", "Fichas de plástico, no de madera como la versión adulta"],
-      cta: { asin: "B07WC54XF8", label: "Ver Catán Junior en Amazon →" },
-    },
-    {
-      heading: "Qué mirar antes de comprar un juguete 'matemático'",
-      list: [
-        "Desconfía del envase: que un juguete diga 'STEM' o 'educativo' no garantiza que trabaje matemáticas de verdad; fíjate en si exige contar, medir, comparar o encajar formas, no solo en la etiqueta.",
-        "Progresión con la edad: los materiales sensoriales (Torre Rosa, Geomag) tienen más recorrido en preescolar; los juegos con reglas (Ubongo, Catán Junior) ganan valor a partir de los 5-6 años, cuando el niño ya entiende turnos y objetivos.",
-        "Autocorrección antes que corrección adulta: los mejores materiales matemáticos permiten que el niño vea solo si algo no encaja, en vez de depender de que un adulto le diga que se ha equivocado.",
-        "Nivel de frustración tolerable: si el niño se frustra con la competición directa, prioriza materiales de exploración libre o juegos con modo cooperativo, como Ubongo Junior.",
-      ],
-    },
-    {
-      heading: "Nuestra valoración",
-      text: "De los tres analizados, la Torre Rosa es la inversión más sólida para preescolar por su vigencia pedagógica y su fabricación artesanal, aunque su recorrido es limitado a partir de los 6 años. Ubongo Junior es, en nuestra opinión, el mejor equilibrio entre aprendizaje matemático real y diversión inmediata para primaria, gracias al modo cooperativo que evita la frustración de la competición pura. Catán Junior recomendamos reservarlo para cuando el niño ya domine el conteo básico, porque su valor está en la planificación, no en la aritmética elemental. No mostramos aquí puntuación por estrellas de Amazon: la valoración anterior es un criterio editorial propio basado en el análisis de cada material, no una nota extraída de reseñas de terceros.",
-    },
-    {
-      faqs: [
-        {
-          q: "¿A qué edad empieza a tener sentido un juguete matemático?",
-          a: "Desde los 18-24 meses ya se puede trabajar seriación y cantidad con materiales sensoriales como la Torre Rosa. Los juegos de mesa con cálculo de recursos, como Catán Junior, funcionan mejor a partir de los 6 años, cuando el niño ya entiende turnos y objetivos.",
-        },
-        {
-          q: "¿Es mejor un material Montessori o un juego de mesa para enseñar matemáticas?",
-          a: "No son excluyentes: los materiales Montessori construyen la base sensorial (cantidad, tamaño, orden) en preescolar, y los juegos de mesa con reglas aplican esa base a decisiones con consecuencias a partir de primaria. Lo ideal es progresar de uno a otro con la edad.",
-        },
-        {
-          q: "¿Sirven estos juguetes para niños que van mal en matemáticas en el colegio?",
-          a: "Pueden ayudar mucho porque desligan el concepto matemático de la presión del examen, pero no sustituyen un posible apoyo específico si hay una dificultad de aprendizaje real, como la discalculia. En ese caso conviene combinarlos con la orientación del centro escolar.",
-        },
-        {
-          q: "¿Por qué no mostráis la puntuación de Amazon en estos productos?",
-          a: "Desde julio de 2026 hemos retirado el precio y la valoración estática de Amazon de nuestras fichas para evitar mostrar datos que pueden quedar desactualizados frente a la ficha real del producto. La valoración editorial que incluimos es un criterio propio, no una nota de terceros.",
-        },
-      ],
-    },
-  ],
-
-  "juguetes-energia-solar-renovable-ninos-guia-2026": [
-    {
-      text: "Las energías renovables ya forman parte del currículo escolar de Primaria y Secundaria, pero pocos juguetes STEM las trabajan de forma tangible: la mayoría de kits de robótica y electrónica siguen funcionando con pilas. Los kits de robot solar cambian esa ecuación: el niño monta un modelo real y comprueba con sus propios ojos cómo la luz del sol, a través de un panel fotovoltaico, mueve un motor sin ningún cable a la red ni ninguna pila. En esta guía analizamos un kit de robot solar 12 en 1 y lo comparamos con dos referencias ya consolidadas de la robótica STEM infantil — Snap Circuits Jr. y LEGO Boost — para que sepas cuál encaja mejor con la edad y los intereses de tu hijo o hija.",
-    },
-    {
-      heading: "Comparativa: robot solar vs. electrónica clásica vs. robótica programable",
-      table: {
-        headers: ["Kit", "Edad", "Energía", "Qué enseña", "Programación"],
-        rows: [
-          ["ACELIFE Robot Solar 12 en 1", "8-12+", "Panel solar (sin pilas)", "Energías renovables + mecánica", "No"],
-          ["Kit de circuitos snap (electrónica sin soldar)", "8+", "Pilas", "Electrónica real por piezas snap", "No"],
-          ["LEGO Boost Creative Toolbox", "7-12", "Batería recargable + app", "Robótica y programación por bloques", "Sí"],
-        ],
-      },
-    },
-    { heading: "Análisis de los 3 kits" },
-    {
-      heading: "1. ACELIFE Robot Solar 12 en 1 — El único de la tienda centrado en energías renovables",
-      text: "Con un único panel solar y un motor, el kit permite montar hasta 12 configuraciones de robot distintas. Funciona con luz solar directa, sin pilas en su uso normal, lo que convierte cada montaje en una demostración física de cómo se transforma la energía solar en movimiento. Es el kit más adecuado si el objetivo es que el niño entienda un concepto concreto de sostenibilidad y no solo 'programar' o 'hacer electrónica' en abstracto.",
-      pros: [
-        "Único kit del catálogo centrado en energía solar y sostenibilidad",
-        "12 configuraciones de robot con la misma base",
-        "No depende de pilas en condiciones de luz solar adecuada",
-        "Conecta directamente con contenidos de Ciencias Naturales de Primaria",
-      ],
-      cons: [
-        "Necesita luz solar directa o muy intensa: en interior o días nublados el rendimiento baja mucho",
-        "Sin programación: el aprendizaje es mecánico y energético, no de código",
-      ],
-      cta: { asin: "B09NVGF55F", label: "Ver el kit de robot solar en Amazon →" },
-    },
-    {
-      heading: "2. Kit de circuitos snap — Electrónica real sin soldar",
-      text: "Los kits de circuitos tipo snap siguen siendo la referencia para introducir la electrónica de verdad —resistencias, interruptores, altavoces— sin necesidad de soldar, mediante piezas que encajan a presión sobre una base cuadriculada. No dependen de las condiciones de luz como el kit solar, así que se puede jugar en cualquier momento del día.",
-      pros: [
-        "Electrónica real por piezas snap, sin soldar",
-        "No depende de la luz solar: funciona en cualquier momento",
-        "Componentes reales (no simulados) sin riesgo de soldadura",
-      ],
-      cons: [
-        "Requiere pilas de forma constante",
-        "No trabaja el concepto de energía renovable",
-      ],
-      cta: { asin: "B0CGDDLN2X", label: "Ver el kit de circuitos snap en Amazon →" },
-    },
-    {
-      heading: "3. LEGO Boost Creative Toolbox — Cuando el objetivo es programar",
-      text: "Si la prioridad no es la energía sino la programación, LEGO Boost es la opción más completa de las tres: combina construcción LEGO con sensores y programación visual por bloques en una app gratuita. Es el más caro de los tres y el único que exige tablet o smartphone para funcionar.",
-      pros: [
-        "Introduce programación real por bloques, no solo mecánica",
-        "5 modelos distintos con la misma caja",
-        "Compatible con el resto de piezas LEGO ya existentes en casa",
-      ],
-      cons: [
-        "Precio significativamente más alto que los otros dos kits",
-        "Requiere tablet o smartphone: no funciona de forma autónoma",
-      ],
-      cta: { asin: "B06X6GN2VQ", label: "Ver LEGO Boost en Amazon →" },
-    },
-    {
-      heading: "Cómo elegir entre los tres",
-      list: [
-        "Si el objetivo es hablar de sostenibilidad y energías renovables de forma práctica, el kit solar es la única opción de las tres que lo trabaja de verdad.",
-        "Si buscas el kit con más horas de juego por euro invertido y sin depender del clima, el kit de circuitos snap es la apuesta más segura.",
-        "Si lo que quieres es una primera toma de contacto con la programación por bloques, LEGO Boost es superior a los otros dos, pero exige presupuesto y una tablet disponible en casa.",
-        "Para climas con pocas horas de sol directo en invierno, ten en cuenta que el kit solar rendirá peor esos meses: no lo compres esperando que funcione igual todo el año.",
-      ],
-    },
-    {
-      heading: "Nuestra valoración",
-      text: "De los tres, el kit solar de ACELIFE es el que más nos interesa incorporar al catálogo precisamente porque no compite con lo que ya teníamos: el kit de circuitos snap y LEGO Boost enseñan electrónica y programación, pero ninguno de los dos aterriza el concepto de energía renovable en un objeto que el niño pueda tocar y ver funcionar al sol. Dicho esto, es un complemento a la robótica clásica, no un sustituto: si solo se va a comprar un kit STEM este año y el niño tiene interés claro por programar, el kit de circuitos snap o LEGO Boost siguen siendo la apuesta más segura por su independencia de las condiciones de luz — aunque conviene saber que LEGO Boost está descatalogado y hoy solo se encuentra de reventa a un precio muy superior al original. No mostramos aquí puntuación por estrellas de Amazon: la valoración anterior es un criterio editorial propio basado en el análisis de cada kit, no una nota extraída de reseñas de terceros.",
-    },
-    {
-      faqs: [
-        {
-          q: "¿Funciona un robot solar en un día nublado?",
-          a: "Con luz solar indirecta el rendimiento baja notablemente y en muchos modelos el motor apenas se mueve. Para una demostración fiable, estos kits necesitan luz solar directa o una fuente de luz muy intensa cerca del panel.",
-        },
-        {
-          q: "¿A partir de qué edad tiene sentido un kit de robot solar?",
-          a: "La mayoría de fabricantes los recomiendan desde los 8 años por el tamaño de las piezas y la necesidad de seguir instrucciones de montaje con precisión. Antes de esa edad, un adulto debería acompañar el montaje.",
-        },
-        {
-          q: "¿Un kit de energía solar sustituye a un kit de programación como LEGO Boost?",
-          a: "No, trabajan cosas distintas: el kit solar enseña conversión de energía y mecánica, mientras que LEGO Boost enseña programación por bloques. Son complementarios, no alternativas entre sí.",
-        },
-        {
-          q: "¿Por qué no mostráis la puntuación de Amazon en estos productos?",
-          a: "Desde julio de 2026 hemos retirado el precio y la valoración estática de Amazon de nuestras fichas para evitar mostrar datos que pueden quedar desactualizados frente a la ficha real del producto. La valoración editorial que incluimos es un criterio propio, no una nota de terceros.",
-        },
-      ],
-    },
-  ],
-
-  "quickstop-analisis-opinion": [
-    { text: "QuickStop se ha convertido en uno de los juegos de mesa familiares más comentados de los últimos dos años en España, respaldado por el Gran Premio del Juguete 2024 y más de 6.300 valoraciones en Amazon.es. Analizamos qué hay detrás de ese éxito y para qué tipo de familia tiene más sentido." },
-    { heading: "La mecánica: rapidez y atención, no estrategia profunda", text: "QuickStop es un juego de reacción: los jugadores deben identificar y actuar sobre elementos concretos más rápido que el resto. No hay curva de aprendizaje compleja ni fases de planificación larga como en Catan Junior o Dixit — la partida se explica en dos minutos y empieza a jugarse de inmediato. Esto lo hace especialmente adecuado para grupos con edades e intereses mezclados." },
-    { heading: "De 2 a 7 jugadores: el punto fuerte real", table: { headers: ["Juego", "Jugadores", "Tipo de mecánica", "Duración"], rows: [["QuickStop", "2 — 7", "Reflejos y atención", "Partidas cortas"], ["Dobble", "2 — 8", "Reflejos y atención", "Partidas cortas"], ["Dixit", "3 — 6", "Narrativa y deducción", "30-45 min"], ["Catan Junior", "2 — 4", "Estrategia y recursos", "45-60 min"]] } },
-    { heading: "Por qué ganó el Gran Premio del Juguete 2024", text: "El jurado del Gran Premio del Juguete valora especialmente la capacidad de un juego para funcionar con grupos heterogéneos (distintas edades, distinto nivel de experiencia con juegos de mesa) sin perder ritmo. QuickStop cumple ese criterio mejor que la mayoría de la competencia por su regla simple y su escalabilidad hasta 7 jugadores simultáneos." },
-    { heading: "Para quién es y para quién no", text: "QuickStop es la elección correcta para reuniones familiares numerosas, cumpleaños con niños de edades distintas, o como juego de viaje por su formato compacto. No es la elección correcta si se busca un juego con más profundidad estratégica o de construcción de historia — para eso, Catan Junior o Dixit siguen siendo mejores opciones dentro del catálogo." },
-    {
-      faqs: [
-        { q: "¿A partir de qué edad se puede jugar a QuickStop?", a: "El fabricante lo recomienda desde los 6 años, aunque niños algo más pequeños pueden participar con ayuda de un adulto dado lo simple de la mecánica." },
-        { q: "¿QuickStop es mejor que Dobble para grupos grandes?", a: "Ambos comparten mecánica de reflejos y atención. QuickStop admite hasta 7 jugadores frente a los 8 de Dobble, pero QuickStop tiene formato ligeramente más dinámico para grupos con niños de edades muy distintas." },
-        { q: "¿Es un buen primer juego de mesa para un niño de 6 años?", a: "Sí: la regla se explica en menos de dos minutos y no requiere lectura ni cálculo, lo que lo hace muy accesible como primera experiencia de juego de mesa en grupo." },
-      ],
-    },
-  ],
-
-  "geosafari-jr-kidnoculars-analisis": [
-    { text: "Con casi 24.000 valoraciones en Amazon.es, los GeoSafari Jr Kidnoculars de Learning Resources son, con diferencia, el producto con más reseñas de todo nuestro catálogo de telescopios y microscopios. Analizamos por qué unos prismáticos tan sencillos generan esa fidelidad." },
-    { heading: "El diseño: sin enfoque, para manos de 3 años", text: "A diferencia de unos prismáticos de adulto, los Kidnoculars no requieren ajuste de enfoque manual — vienen preconfigurados para funcionar bien a la distancia habitual de observación de un niño pequeño (aves, insectos, paisaje cercano). El aumento es modesto (2X) mucho más bajo que un telescopio o un microscopio del catálogo, pero es precisamente esa sencillez la que permite usarlos sin frustración desde los 3 años." },
-    { heading: "Por qué no sustituyen a un telescopio o microscopio", text: "Con solo 2X de aumento, los Kidnoculars no compiten con el resto de instrumentos ópticos del catálogo en capacidad real de observación — ni de lejos alcanzan lo que ofrece un telescopio de 50-80mm o un microscopio de 300-1200X. Su función es distinta: son la puerta de entrada, el primer instrumento óptico que un niño de 3-5 años puede manejar de forma autónoma antes de dar el salto, ya con más edad, a un telescopio o microscopio de verdad." },
-    { heading: "Tabla comparativa de instrumentos de entrada", table: { headers: ["Producto", "Edad recomendada", "Función", "Aumento"], rows: [["GeoSafari Jr Kidnoculars", "3+ años", "Primer instrumento óptico", "2X sin enfoque"], ["Kit Explorador Kizplays", "3+ años", "Exploración multi-herramienta", "Lupa + prismáticos básicos"], ["Telescopio Luzsco 50mm", "8-12 años", "Observación astronómica real", "Variable con oculares"], ["Microscopio 300-1200X", "8+ años", "Observación microscópica real", "300× — 1200×"]] } },
-    { heading: "Conclusión", text: "Los GeoSafari Jr Kidnoculars no son el instrumento más potente del catálogo, pero son probablemente el más recomendable como primera compra para familias con niños de 3 a 6 años que aún no están listos para un telescopio o microscopio real. Su trayectoria de casi 24.000 valoraciones respalda esa recomendación con datos, no solo con criterio editorial." },
-    {
-      faqs: [
-        { q: "¿A partir de qué edad se pueden usar los GeoSafari Jr Kidnoculars?", a: "El fabricante los recomienda desde los 3 años, precisamente por no requerir ajuste de enfoque manual, algo que a esa edad resulta muy difícil de coordinar." },
-        { q: "¿Sirven para observar aves y naturaleza en general?", a: "Sí, es su uso principal: observación de aves, insectos y paisaje cercano al aire libre, no observación astronómica ni microscópica." },
-        { q: "¿Cuándo pasar de estos prismáticos a un telescopio o microscopio real?", a: "La mayoría de familias hacen el salto entre los 7 y los 9 años, cuando el niño ya tiene paciencia y motricidad fina suficiente para el enfoque manual y el montaje de un telescopio o microscopio real." },
-      ],
-    },
-  ],
 };
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -967,11 +751,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const relatedPosts = (post.relatedPosts ?? []).map((s) => getPostBySlug(s)).filter(Boolean);
 
 const AUTHOR = {
-  "@type": "Person",
-  name: "Ana Romero",
-  jobTitle: "Maestra de Primaria especializada en STEM",
+  "@type": "Organization",
+  name: "Equipo Editorial de JugueteSTEM.es",
   url: "https://www.juguetestem.es/sobre-nosotros",
-  description: "Maestra de Primaria con 9 años de experiencia en educación STEM y metodología Montessori en aulas de infantil y primaria.",
+  description: "Equipo editorial de JugueteSTEM.es (Mkt Web 360 SLU). No somos docentes titulados: comparamos edad recomendada, certificaciones de seguridad y opiniones verificadas, con apoyo de IA bajo revisión editorial.",
   knowsAbout: ["juguetes educativos", "metodología Montessori", "educación STEM", "robótica infantil", "juguetes de construcción", "desarrollo cognitivo infantil"],
 };
 

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Sobre nosotros — JugueteSTEM.es",
-  description: "Ana Romero, Maestra de Primaria con 9 años de experiencia en educación STEM y Montessori, es la voz experta detrás de JugueteSTEM.es.",
+  description: "Somos el equipo editorial de JugueteSTEM.es. Conoce cómo seleccionamos juguetes educativos STEM y Montessori, y nuestro aviso de seguridad para familias.",
   alternates: { canonical: "/sobre-nosotros" },
 };
 
@@ -11,11 +11,10 @@ const SITE_URL = "https://www.juguetestem.es";
 
 const personSchema = {
   "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Ana Romero",
-  jobTitle: "Maestra de Primaria especializada en STEM",
+  "@type": "Organization",
+  name: "Equipo Editorial de JugueteSTEM.es",
   url: `${SITE_URL}/sobre-nosotros`,
-  description: "Maestra de Primaria con 9 años de experiencia en educación STEM y metodología Montessori en aulas de infantil y primaria.",
+  description: "Equipo editorial de JugueteSTEM.es (Mkt Web 360 SLU). No somos docentes ni pedagogos titulados: comparamos edad recomendada, certificaciones de seguridad, materiales y opiniones verificadas de familias antes de recomendar cualquier juguete, con apoyo de IA en investigación y redacción bajo revisión editorial. Respeta siempre la edad mínima indicada por el fabricante.",
   knowsAbout: [
     "juguetes educativos",
     "metodología Montessori",
@@ -24,7 +23,7 @@ const personSchema = {
     "juguetes de construcción",
     "desarrollo cognitivo infantil",
   ],
-  worksFor: {
+  parentOrganization: {
     "@type": "Organization",
     name: "JugueteSTEM.es",
     url: SITE_URL,
@@ -61,11 +60,6 @@ const orgSchema = {
     "https://www.instagram.com/juguetestem.es",
     "https://www.facebook.com/juguetestem.es",
   ],
-  employee: {
-    "@type": "Person",
-    name: "Ana Romero",
-    jobTitle: "Maestra de Primaria especializada en STEM",
-  },
 };
 
 export default function SobreNosotrosPage() {
@@ -96,23 +90,21 @@ export default function SobreNosotrosPage() {
         {/* Author profile card */}
         <div className="bg-white border border-gray-200 rounded-2xl p-6 mb-10 flex gap-5 items-start shadow-sm">
           <div className="shrink-0 w-16 h-16 rounded-full bg-purple-600 flex items-center justify-center text-white text-xl font-extrabold select-none">
-            AR
+            JS
           </div>
           <div>
             <p className="text-lg font-extrabold text-gray-900 leading-tight">
-              Ana Romero
+              Equipo Editorial de JugueteSTEM.es
             </p>
             <p className="text-sm text-purple-700 font-semibold mb-2">
-              Maestra de Primaria especializada en STEM y Montessori
+              Mkt Web 360 SLU
             </p>
             <p className="text-gray-600 text-sm leading-relaxed mb-3">
-              Con 9 años de experiencia en aulas de infantil y primaria,
-              Ana Romero combina la teoría pedagógica con la práctica real
-              del aula para evaluar qué juguetes educativos aportan valor
-              genuino al desarrollo de los niños. Especializada en
-              metodología Montessori y educación STEM, analiza cada producto
-              con los mismos criterios que aplicaría en su clase: seguridad,
-              adecuación a la edad, potencial de aprendizaje y durabilidad.
+              No somos docentes ni pedagogos titulados. Comparamos edad recomendada,
+              certificaciones de seguridad (CE), materiales y opiniones verificadas de
+              otras familias antes de recomendar cualquier juguete, con apoyo de IA en
+              la investigación y redacción, siempre con revisión editorial. Respeta
+              siempre la edad mínima indicada por el fabricante en el packaging.
             </p>
             <div className="flex flex-wrap gap-2">
               {[
@@ -148,10 +140,10 @@ export default function SobreNosotrosPage() {
               aporten valor pedagógico real, no solo entretenimiento.
             </p>
             <p className="mt-3">
-              Todas las recomendaciones pasan por el criterio de Ana Romero,
-              maestra en activo con experiencia directa en el aula. No
+              Todas las recomendaciones pasan por nuestro proceso de comparación
+              de fabricante, certificaciones y opiniones verificadas. No
               publicamos reseñas de productos que no cumplan nuestros
-              estándares pedagógicos, aunque sean los más vendidos del mercado.
+              estándares, aunque sean los más vendidos del mercado.
             </p>
           </section>
 
@@ -275,8 +267,8 @@ export default function SobreNosotrosPage() {
               </a>
             </p>
             <p className="mt-2 text-gray-500">
-              Portal activo desde 2024 · Contenido revisado con criterio
-              pedagógico profesional
+              Portal activo desde 2024 · Contenido revisado editorialmente,
+              con apoyo de IA en investigación y redacción
             </p>
           </div>
         </div>

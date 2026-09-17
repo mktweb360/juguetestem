@@ -223,7 +223,7 @@ export default async function ProductoPage({
               rel="noopener noreferrer sponsored"
               className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-center py-4 px-6 rounded-xl text-base transition-colors mb-2"
             >
-              🛒 Ver oferta actualizada →
+              🛒 Ver precio en Amazon →
             </a>
 
             {/* Botón secundario */}
@@ -421,7 +421,7 @@ export default async function ProductoPage({
             rel="noopener noreferrer sponsored"
             className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl text-lg transition-colors shadow-lg"
           >
-            🛒 Ver oferta actualizada →
+            🛒 Ver precio en Amazon →
           </a>
           <p className="text-purple-300 text-xs mt-3">
             Amazon.es · Enlace de afiliado · Precio actualizado en destino
