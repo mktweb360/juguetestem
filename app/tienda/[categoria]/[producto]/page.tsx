@@ -110,7 +110,7 @@ export default async function ProductoPage({
         name: `¿Dónde comprar ${product.name}?`,
         acceptedAnswer: {
           "@type": "Answer",
-          text: `Puedes ver el precio actualizado y comprar ${product.name} en Amazon.es. El precio varía según disponibilidad y ofertas.`,
+          text: `Puedes ver el precio actualizado y comprar ${product.name} a través de nuestro enlace. El precio varía según disponibilidad y ofertas.`,
         },
       },
       {
@@ -159,7 +159,7 @@ export default async function ProductoPage({
           {/* Columna imagen */}
           <div className="rounded-2xl overflow-hidden bg-gray-100 flex items-center justify-center">
             <img
-              src={`/images/products/${product.categorySlug}.jpg`}
+              src={product.image ?? `/images/products/${product.categorySlug}.jpg`}
               alt={product.name}
               className="w-full h-72 object-cover"
               loading="eager"
@@ -216,14 +216,14 @@ export default async function ProductoPage({
             {/* Descripción corta */}
             <p className="text-gray-600 text-sm mb-5">{product.shortDescription}</p>
 
-            {/* Botón Amazon */}
+            {/* Botón de compra */}
             <a
               href={amazonLink(product.asin)}
               target="_blank"
               rel="noopener noreferrer sponsored"
               className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-center py-4 px-6 rounded-xl text-base transition-colors mb-2"
             >
-              🛒 Ver precio en Amazon →
+              🛒 Ver precio actualizado →
             </a>
 
             {/* Botón secundario */}
@@ -235,7 +235,7 @@ export default async function ProductoPage({
             </a>
 
             <p className="text-xs text-gray-400 text-center">
-              Amazon.es · Enlace de afiliado · Precio actualizado en destino
+              Enlace de afiliado · Precio actualizado en destino
             </p>
 
             {/* Trust bar */}
@@ -321,7 +321,7 @@ export default async function ProductoPage({
               },
               {
                 q: `¿Dónde comprar ${product.name} al mejor precio?`,
-                a: `Puedes ver el precio actualizado y comprar ${product.name} directamente en Amazon.es a través de nuestro enlace. El precio puede variar según stock y ofertas del momento.`,
+                a: `Puedes ver el precio actualizado y comprar ${product.name} directamente a través de nuestro enlace. El precio puede variar según stock y ofertas del momento.`,
               },
               {
                 q: `¿Es seguro ${product.name}?`,
@@ -331,7 +331,7 @@ export default async function ProductoPage({
                 q: `¿Necesita pilas o baterías ${product.name}?`,
                 a: product.specs["Pilas"] ?? product.specs["Batería"]
                   ? `Revisa el apartado de especificaciones donde encontrarás el tipo de alimentación exacto. Algunos modelos incluyen pilas para probar, otros requieren pilas adicionales.`
-                  : `Para saber si necesita pilas o viene con batería incluida, consulta la ficha completa del producto en Amazon.es antes de comprarlo.`,
+                  : `Para saber si necesita pilas o viene con batería incluida, consulta la ficha completa del producto antes de comprarlo.`,
               },
             ].map((faq, i) => (
               <details
@@ -411,9 +411,9 @@ export default async function ProductoPage({
 
         {/* CTA final */}
         <div className="rounded-2xl bg-gradient-to-r from-purple-700 to-purple-800 text-white p-8 text-center">
-          <h2 className="text-2xl font-extrabold mb-2">¿Convencido? Cómpralo en Amazon</h2>
+          <h2 className="text-2xl font-extrabold mb-2">¿Convencido? Cómpralo ahora</h2>
           <p className="text-purple-200 text-sm mb-6 max-w-lg mx-auto">
-            {product.shortDescription} Disponible en Amazon.es con envío rápido Prime y devolución garantizada.
+            {product.shortDescription} Disponible con envío rápido y devolución garantizada.
           </p>
           <a
             href={amazonLink(product.asin)}
@@ -421,10 +421,10 @@ export default async function ProductoPage({
             rel="noopener noreferrer sponsored"
             className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl text-lg transition-colors shadow-lg"
           >
-            🛒 Ver precio en Amazon →
+            🛒 Ver precio actualizado →
           </a>
           <p className="text-purple-300 text-xs mt-3">
-            Amazon.es · Enlace de afiliado · Precio actualizado en destino
+            Enlace de afiliado · Precio actualizado en destino
           </p>
         </div>
 

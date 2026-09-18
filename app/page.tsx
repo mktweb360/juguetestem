@@ -79,7 +79,7 @@ export default function HomePage() {
             {[
               { icon: "🔍", title: "Análisis honestos", desc: "Evaluamos cada juguete con criterios pedagógicos reales, sin dejarnos llevar por el marketing." },
               { icon: "👶", title: "Por edades y etapas", desc: "Cada recomendación incluye la franja de edad ideal y el tipo de habilidades que desarrolla." },
-              { icon: "💰", title: "Mejor precio garantizado", desc: "Comparamos precios en Amazon para que encuentres siempre la mejor oferta disponible." },
+              { icon: "💰", title: "Mejor precio garantizado", desc: "Comparamos precios entre proveedores para que encuentres siempre la mejor oferta disponible." },
             ].map((item) => (
               <div key={item.title} className="bg-white rounded-2xl p-6 shadow-sm">
                 <div className="text-3xl mb-3">{item.icon}</div>

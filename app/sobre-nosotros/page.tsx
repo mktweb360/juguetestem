@@ -225,10 +225,10 @@ export default function SobreNosotrosPage() {
               </p>
               <ul className="space-y-2 text-sm text-amber-800">
                 <li>
-                  <strong>Amazon Associates (cclaserdepi01-21):</strong> Somos
-                  afiliados del programa de Amazon España. Cuando compras a
-                  través de nuestros enlaces de Amazon, recibimos una comisión
-                  sin coste adicional para ti.
+                  <strong>Programa de afiliación:</strong> Somos
+                  afiliados de distintos programas de partners comerciales. Cuando compras a
+                  través de nuestros enlaces, recibimos una comisión
+                  sin coste adicional para ti. Más detalle en nuestra política de privacidad.
                 </li>
                 <li>
                   <strong>
