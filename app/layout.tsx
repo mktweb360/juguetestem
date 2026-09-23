@@ -36,6 +36,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   verification: {
     google: "gTV4UlsEexaJvqIeMXuD1MOd4QV4WXWhnk_tfThO4Wc",
+    other: {
+      "p:domain_verify": "112ee3bee8fce54ab671a6e79b0950ad",
+    },
   },
   openGraph: {
     type: "website",
