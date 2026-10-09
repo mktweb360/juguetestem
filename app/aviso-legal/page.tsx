@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Aviso legal — JugueteSTEM.es",
+  title: "Aviso legal",
   description: "Aviso legal de JugueteSTEM.es — Mkt Web 360 SLU, CIF B87679304.",
   alternates: { canonical: "/aviso-legal" },
 };

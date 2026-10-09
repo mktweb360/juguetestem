@@ -15,7 +15,7 @@ export const posts: Post[] = [
   {
     slug: "mejores-juguetes-montessori-3-anos",
     image: "/images/blog/mejores-juguetes-montessori-3-anos.jpg",
-    title: "Los mejores juguetes Montessori para niños de 3 años en 2025",
+    title: "Los mejores juguetes Montessori para niños de 3 años",
     excerpt: "Guía completa para elegir juguetes Montessori para niños de 2 a 4 años: materiales, tipos y nuestras recomendaciones más vendidas.",
     category: "Montessori",
     date: "2025-01-10",
@@ -37,8 +37,8 @@ export const posts: Post[] = [
   {
     slug: "mejores-juegos-mesa-familia",
     image: "/images/blog/mejores-juegos-mesa-familia.jpg",
-    title: "Los mejores juegos de mesa para toda la familia en 2025",
-    excerpt: "Los 3 mejores juegos de mesa para familias en 2025: guía por edad y número de jugadores para elegir el juego perfecto.",
+    title: "Los mejores juegos de mesa para toda la familia",
+    excerpt: "Los 3 mejores juegos de mesa para familias: guía por edad y número de jugadores para elegir el juego perfecto.",
     category: "Juegos de Mesa",
     date: "2025-07-10",
     readTime: 8,
@@ -70,8 +70,8 @@ export const posts: Post[] = [
   {
     slug: "juguetes-regalo-navidad-ninos",
     image: "/images/blog/juguetes-regalo-navidad-ninos.jpg",
-    title: "Los mejores juguetes para regalar en Navidad 2025 — Guía por edades",
-    excerpt: "La guía definitiva de juguetes para Navidad 2025 organizada por edades: de 0 a 2, de 3 a 6, de 7 a 12 años. Recomendaciones reales.",
+    title: "Los mejores juguetes para regalar en Navidad — Guía por edades",
+    excerpt: "La guía definitiva de juguetes para Navidad organizada por edades: de 0 a 2, de 3 a 6, de 7 a 12 años. Recomendaciones reales.",
     category: "Guías",
     date: "2025-03-15",
     readTime: 12,
@@ -103,7 +103,7 @@ export const posts: Post[] = [
   {
     slug: "mejores-juguetes-stem-ninos-5-anos",
     image: "/images/blog/mejores-juguetes-stem-ninos-5-anos.jpg",
-    title: "Los mejores juguetes STEM para niños de 5 años en 2025",
+    title: "Los mejores juguetes STEM para niños de 5 años",
     excerpt: "Guía de los mejores juguetes STEM para niños de 5 años: kits de ciencia, construcción y experimentos que estimulan el aprendizaje.",
     category: "STEM",
     date: "2025-07-01",
@@ -114,8 +114,8 @@ export const posts: Post[] = [
   {
     slug: "mejores-juguetes-montessori-2025",
     image: "/images/blog/mejores-juguetes-montessori-2025.jpg",
-    title: "Los mejores juguetes Montessori en 2025 — Guía para padres",
-    excerpt: "Los mejores juguetes Montessori de 2025 para niños de 1 a 6 años: torres de aprendizaje, materiales sensoriales y juegos de madera.",
+    title: "Los mejores juguetes Montessori — Guía para padres",
+    excerpt: "Los mejores juguetes Montessori para niños de 1 a 6 años: torres de aprendizaje, materiales sensoriales y juegos de madera.",
     category: "Montessori",
     date: "2025-07-03",
     readTime: 8,
@@ -136,7 +136,7 @@ export const posts: Post[] = [
   {
     slug: "mejores-kits-ciencia-ninos",
     image: "/images/blog/mejores-kits-ciencia-ninos.jpg",
-    title: "Los mejores kits de ciencia para niños en 2025",
+    title: "Los mejores kits de ciencia para niños",
     excerpt: "Análisis de los mejores kits de ciencia para niños: experimentos de química, microscopios y kits STEM que hacen que aprender sea divertido.",
     category: "STEM",
     date: "2025-07-08",
@@ -147,7 +147,7 @@ export const posts: Post[] = [
   {
     slug: "juguetes-educativos-3-anos",
     image: "/images/blog/juguetes-educativos-3-anos.jpg",
-    title: "Los mejores juguetes educativos para niños de 3 años en 2025",
+    title: "Los mejores juguetes educativos para niños de 3 años",
     excerpt: "Guía de juguetes educativos para niños de 3 años: Montessori, construcción magnética y primeros kits de ciencia que estimulan el desarrollo.",
     category: "Guías",
     date: "2025-07-12",
@@ -158,8 +158,8 @@ export const posts: Post[] = [
   {
     slug: "mejores-lego-educativos",
     image: "/images/blog/mejores-lego-educativos.jpg",
-    title: "Los mejores sets de LEGO educativos para niños en 2025",
-    excerpt: "Análisis de los mejores sets LEGO educativos en 2025: Creative Box, Classic y sets para desarrollar creatividad y pensamiento espacial.",
+    title: "Los mejores sets de LEGO educativos para niños",
+    excerpt: "Análisis de los mejores sets LEGO educativos: Creative Box, Classic y sets para desarrollar creatividad y pensamiento espacial.",
     category: "Construcción y LEGO",
     date: "2025-07-14",
     readTime: 7,
@@ -169,8 +169,8 @@ export const posts: Post[] = [
   {
     slug: "regalos-navidad-ninos-inteligentes",
     image: "/images/blog/regalos-navidad-ninos-inteligentes.jpg",
-    title: "Los mejores regalos de Navidad para niños inteligentes 2025",
-    excerpt: "Guía de regalos de Navidad para niños 2025: juguetes educativos, STEM, Montessori y juegos de mesa que son divertidos y estimulantes.",
+    title: "Los mejores regalos de Navidad para niños inteligentes",
+    excerpt: "Guía de regalos de Navidad para niños: juguetes educativos, STEM, Montessori y juegos de mesa que son divertidos y estimulantes.",
     category: "Guías",
     date: "2025-07-16",
     readTime: 9,
@@ -180,7 +180,7 @@ export const posts: Post[] = [
   {
     slug: "torre-aprendizaje-bebe-guia",
     image: "/images/blog/torre-aprendizaje-bebe-guia.jpg",
-    title: "Torre de aprendizaje para bebés: guía de compra 2025",
+    title: "Torre de aprendizaje para bebés: guía de compra",
     excerpt: "Cómo elegir la mejor torre de aprendizaje para bebés y niños pequeños: altura, seguridad, materiales y las mejores opciones del mercado.",
     category: "Montessori",
     date: "2025-08-01",
@@ -204,7 +204,7 @@ export const posts: Post[] = [
   {
     slug: "juguetes-montessori-casa-ambiente-preparado",
     image: "/images/blog/juguetes-montessori-casa-ambiente-preparado.jpg",
-    title: "Cómo crear un ambiente Montessori en casa: guía práctica 2025",
+    title: "Cómo crear un ambiente Montessori en casa: guía práctica",
     excerpt: "Guía práctica para crear un ambiente Montessori en casa sin gastar de más: principios clave, organización del espacio y los materiales esenciales por edad.",
     category: "Montessori",
     date: "2025-08-03",
@@ -228,7 +228,7 @@ export const posts: Post[] = [
   {
     slug: "beeloom-panda-tower-analisis",
     image: "/images/blog/beeloom-panda-tower-analisis.jpg",
-    title: "Beeloom Panda Tower: análisis completo y opiniones 2025",
+    title: "Beeloom Panda Tower: análisis completo y opiniones",
     excerpt: "Análisis detallado de la Beeloom Panda Tower: seguridad, materiales, altura ajustable y para quién es la mejor torre de aprendizaje Montessori.",
     category: "Montessori",
     date: "2025-08-05",
@@ -240,7 +240,7 @@ export const posts: Post[] = [
   {
     slug: "juguetes-0-2-anos-desarrollo",
     image: "/images/blog/juguetes-0-2-anos-desarrollo.jpg",
-    title: "Juguetes para bebés de 0 a 2 años: guía de desarrollo 2025",
+    title: "Juguetes para bebés de 0 a 2 años: guía de desarrollo",
     excerpt: "Qué juguetes necesita un bebé de 0 a 2 años según su etapa de desarrollo: hitos motores, cognitivos y sensoriales y los mejores materiales para cada fase.",
     category: "Montessori",
     date: "2025-08-06",
@@ -252,7 +252,7 @@ export const posts: Post[] = [
   {
     slug: "microscopio-ninos-guia-compra",
     image: "/images/blog/microscopio-ninos-guia-compra.jpg",
-    title: "Microscopio para niños: guía de compra 2025 — cuál elegir y desde qué edad",
+    title: "Microscopio para niños: guía de compra — cuál elegir y desde qué edad",
     excerpt: "Cómo elegir el mejor microscopio para niños: aumentos reales vs publicidad, calidad óptica, edad mínima y comparativa de los mejores modelos del mercado.",
     category: "STEM",
     date: "2025-08-07",
@@ -264,7 +264,7 @@ export const posts: Post[] = [
   {
     slug: "kits-quimica-ninos-seguros-guia",
     image: "/images/blog/kits-quimica-ninos-seguros-guia.jpg",
-    title: "Kits de química para niños: guía de seguridad y los mejores de 2025",
+    title: "Kits de química para niños: guía de seguridad y los mejores",
     excerpt: "Cómo elegir un kit de química seguro para niños: certificaciones, edad mínima, experimentos reales y comparativa de los mejores kits del mercado español.",
     category: "STEM",
     date: "2025-08-08",
@@ -276,7 +276,7 @@ export const posts: Post[] = [
   {
     slug: "robotica-ninos-primeros-pasos",
     image: "/images/blog/robotica-ninos-primeros-pasos.jpg",
-    title: "Robótica para niños: cómo empezar y los mejores kits de 2025",
+    title: "Robótica para niños: cómo empezar y los mejores kits",
     excerpt: "Guía completa para empezar con robótica educativa para niños: edad mínima, tipos de robots, progresión de aprendizaje y análisis del Science4you Robotics Alfabot.",
     category: "STEM",
     date: "2025-08-09",
@@ -288,7 +288,7 @@ export const posts: Post[] = [
   {
     slug: "national-geographic-juguetes-educativos-analisis",
     image: "/images/blog/national-geographic-juguetes-educativos-analisis.jpg",
-    title: "National Geographic juguetes educativos: análisis de la gama 2025",
+    title: "National Geographic juguetes educativos: análisis de la gama",
     excerpt: "Análisis completo de la gama de juguetes educativos National Geographic: microscopios, kits de excavación y ciencia. Calidad real vs precio y para quién son.",
     category: "STEM",
     date: "2025-08-10",
@@ -300,7 +300,7 @@ export const posts: Post[] = [
   {
     slug: "thames-kosmos-analisis-gama-completa",
     image: "/images/blog/thames-kosmos-analisis-gama-completa.jpg",
-    title: "Thames & Kosmos: análisis completo de la gama educativa 2025",
+    title: "Thames & Kosmos: análisis completo de la gama educativa",
     excerpt: "Guía completa de la gama Thames & Kosmos en España: kits de química, ciencia y electrónica. Cuáles comprar según la edad y el nivel del niño.",
     category: "STEM",
     date: "2025-08-11",
@@ -312,7 +312,7 @@ export const posts: Post[] = [
   {
     slug: "juguetes-stem-ninas-guia",
     image: "/images/blog/juguetes-stem-ninas-guia.jpg",
-    title: "Juguetes STEM para niñas: por qué importa y los mejores de 2025",
+    title: "Juguetes STEM para niñas: por qué importa y los mejores",
     excerpt: "Por qué los juguetes STEM para niñas son importantes, cómo romper los sesgos de género en la ciencia desde casa y los mejores kits para estimular el interés científico en niñas.",
     category: "STEM",
     date: "2025-08-12",
@@ -324,7 +324,7 @@ export const posts: Post[] = [
   {
     slug: "juegos-mesa-educativos-primaria",
     image: "/images/blog/juegos-mesa-educativos-primaria.jpg",
-    title: "Los mejores juegos de mesa educativos para primaria 2025",
+    title: "Los mejores juegos de mesa educativos para primaria",
     excerpt: "Juegos de mesa educativos para niños de primaria (6-12 años): matemáticas, lógica, vocabulario y ciencias. Los que realmente enseñan mientras juegan.",
     category: "Juegos de Mesa",
     date: "2025-08-13",
@@ -360,7 +360,7 @@ export const posts: Post[] = [
   {
     slug: "juegos-cartas-educativos-familia",
     image: "/images/blog/juegos-cartas-educativos-familia.jpg",
-    title: "Juegos de cartas educativos para toda la familia: guía 2025",
+    title: "Juegos de cartas educativos para toda la familia: guía",
     excerpt: "Los mejores juegos de cartas educativos para familia: rápidos, portátiles y con valor educativo real. Análisis de Virus! y alternativas para diferentes edades.",
     category: "Juegos de Mesa",
     date: "2025-08-16",
@@ -372,7 +372,7 @@ export const posts: Post[] = [
   {
     slug: "lego-vs-otras-marcas-construccion",
     image: "/images/blog/lego-vs-otras-marcas-construccion.jpg",
-    title: "LEGO vs otras marcas de construcción: diferencias reales 2025",
+    title: "LEGO vs otras marcas de construcción: diferencias reales",
     excerpt: "Comparativa honesta entre LEGO y otras marcas de construcción: calidad, compatibilidad, precio y para qué sirve cada una. Con Geomag incluido en el análisis.",
     category: "Construcción y LEGO",
     date: "2025-08-17",
@@ -384,7 +384,7 @@ export const posts: Post[] = [
   {
     slug: "lego-classic-10698-analisis",
     image: "/images/blog/lego-classic-10698-analisis.jpg",
-    title: "LEGO Classic 10698 caja grande: análisis completo y para quién es 2025",
+    title: "LEGO Classic 10698 caja grande: análisis completo y para quién es",
     excerpt: "Análisis detallado de la LEGO Classic 10698 caja grande: qué incluye, para qué edades, comparativa con la XL y si es la mejor opción para empezar con LEGO.",
     category: "Construcción y LEGO",
     date: "2025-08-18",
@@ -396,7 +396,7 @@ export const posts: Post[] = [
   {
     slug: "geomag-magnetico-construccion-guia",
     image: "/images/blog/geomag-magnetico-construccion-guia.jpg",
-    title: "Geomag: guía completa de construcción magnética para niños 2025",
+    title: "Geomag: guía completa de construcción magnética para niños",
     excerpt: "Todo sobre los Geomag: cómo funcionan, qué desarrollan, las diferencias entre series y por qué la construcción magnética es única respecto a los ladrillos convencionales.",
     category: "Construcción y LEGO",
     date: "2025-08-19",
@@ -420,7 +420,7 @@ export const posts: Post[] = [
   {
     slug: "regalos-educativos-cumpleanos-guia",
     image: "/images/blog/regalos-educativos-cumpleanos-guia.jpg",
-    title: "Regalos educativos para cumpleaños: guía por edad y presupuesto 2025",
+    title: "Regalos educativos para cumpleaños: guía por edad y presupuesto",
     excerpt: "Los mejores regalos educativos para cumpleaños infantiles según la edad: de 3 a 12 años. Guía por intereses, presupuesto y tipo de aprendizaje.",
     category: "Kits Educativos",
     date: "2025-08-21",
@@ -432,7 +432,7 @@ export const posts: Post[] = [
   {
     slug: "juguetes-educativos-6-anos",
     image: "/images/blog/juguetes-educativos-6-anos.jpg",
-    title: "Los mejores juguetes educativos para niños de 6 años en 2025",
+    title: "Los mejores juguetes educativos para niños de 6 años",
     excerpt: "Guía de los mejores juguetes educativos para niños de 6 años: qué desarrollan, por qué son adecuados para esta edad y los más recomendados del mercado.",
     category: "Kits Educativos",
     date: "2025-08-22",
@@ -444,7 +444,7 @@ export const posts: Post[] = [
   {
     slug: "juguetes-educativos-10-anos",
     image: "/images/blog/juguetes-educativos-10-anos.jpg",
-    title: "Los mejores juguetes educativos para niños de 10 años en 2025",
+    title: "Los mejores juguetes educativos para niños de 10 años",
     excerpt: "Guía de los mejores juguetes y kits educativos para niños de 10 años: robótica, microscopios, química avanzada y juegos de estrategia.",
     category: "Kits Educativos",
     date: "2025-08-23",
@@ -456,7 +456,7 @@ export const posts: Post[] = [
   {
     slug: "excavacion-gemas-minerales-ninos",
     image: "/images/blog/excavacion-gemas-minerales-ninos.jpg",
-    title: "Kits de excavación de gemas para niños: guía completa y análisis 2025",
+    title: "Kits de excavación de gemas para niños: guía completa y análisis",
     excerpt: "Todo sobre los kits de excavación de gemas y minerales para niños: qué incluyen, cuánto duran, si las gemas son reales y los mejores del mercado español.",
     category: "Kits Educativos",
     date: "2025-08-24",
@@ -480,7 +480,7 @@ export const posts: Post[] = [
   {
     slug: "aprendizaje-basado-proyectos-casa",
     image: "/images/blog/aprendizaje-basado-proyectos-casa.jpg",
-    title: "Aprendizaje basado en proyectos en casa: guía práctica para padres 2025",
+    title: "Aprendizaje basado en proyectos en casa: guía práctica para padres",
     excerpt: "Cómo implementar el aprendizaje basado en proyectos en casa: qué es, qué materiales necesitas y cómo combinar kits educativos con proyectos reales que motiven a los niños.",
     category: "Kits Educativos",
     date: "2025-08-26",
@@ -492,8 +492,8 @@ export const posts: Post[] = [
   {
     slug: "juguetes-educativos-navidad-2025",
     image: "/images/blog/juguetes-educativos-navidad-2025.jpg",
-    title: "Juguetes educativos para Navidad 2025 — guía de regalos",
-    excerpt: "Guía de regalos educativos para Navidad 2025: cómo acertar por edad, qué presupuesto es razonable y los kits con mayor valor educativo real por euro invertido.",
+    title: "Juguetes educativos para Navidad — guía de regalos",
+    excerpt: "Guía de regalos educativos para Navidad: cómo acertar por edad, qué presupuesto es razonable y los kits con mayor valor educativo real por euro invertido.",
     category: "Kits Educativos",
     date: "2025-08-27",
     readTime: 8,
@@ -504,7 +504,7 @@ export const posts: Post[] = [
   {
     slug: "mejores-juguetes-4-anos",
     image: "/images/blog/mejores-juguetes-4-anos.jpg",
-    title: "Los mejores juguetes para niños de 4 años en 2025",
+    title: "Los mejores juguetes para niños de 4 años",
     excerpt: "Qué juguetes son adecuados para un niño de 4 años según su desarrollo cognitivo y motor: construcción, materiales sensoriales y autonomía en casa.",
     category: "Montessori",
     date: "2025-08-28",
@@ -528,7 +528,7 @@ export const posts: Post[] = [
   {
     slug: "juguetes-ninos-altas-capacidades",
     image: "/images/blog/juguetes-ninos-altas-capacidades.jpg",
-    title: "Juguetes para niños con altas capacidades: guía 2025",
+    title: "Juguetes para niños con altas capacidades: guía",
     excerpt: "Cómo elegir juguetes y kits para niños con altas capacidades: profundidad en lugar de adelanto de curso, materiales abiertos y los kits STEM que mejor funcionan.",
     category: "STEM",
     date: "2025-08-30",
@@ -541,7 +541,7 @@ export const posts: Post[] = [
   {
     slug: "mejor-tablet-ninos-educativa-2025",
     image: "/images/blog/mejor-tablet-ninos-educativa-2025.jpg",
-    title: "Mejor tablet educativa para niños 2025: guía por edades y necesidades",
+    title: "Mejor tablet educativa para niños: guía por edades y necesidades",
     excerpt:
       "Comparativa de las mejores tablets educativas para niños: Fire HD Kids, iPad, Lenovo. Cuál elegir según edad y uso.",
     category: "Guías",
@@ -562,7 +562,7 @@ export const posts: Post[] = [
   {
     slug: "mejor-telescopio-ninos-principiantes-2025",
     image: "/images/blog/mejor-telescopio-ninos-principiantes-2025.jpg",
-    title: "Mejor telescopio para niños y principiantes 2025: guía de compra",
+    title: "Mejor telescopio para niños y principiantes: guía de compra",
     excerpt:
       "Los mejores telescopios para niños desde 8 años: qué apertura necesitan, qué montura elegir y qué objetos podrán ver.",
     category: "STEM",

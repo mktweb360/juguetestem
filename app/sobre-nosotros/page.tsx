@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sobre nosotros — JugueteSTEM.es",
+  title: "Sobre nosotros",
   description: "Somos el equipo editorial de JugueteSTEM.es. Conoce cómo seleccionamos juguetes educativos STEM y Montessori, y nuestro aviso de seguridad para familias.",
   alternates: { canonical: "/sobre-nosotros" },
 };

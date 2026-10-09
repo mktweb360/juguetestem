@@ -7,7 +7,7 @@ import HeroBackground from "@/components/HeroBackground";
 import EmailCaptureSection from "@/components/EmailCaptureSection";
 
 export const metadata: Metadata = {
-  title: "JugueteSTEM.es — Juguetes educativos y STEM para niños",
+  title: { absolute: "JugueteSTEM.es — Juguetes educativos y STEM para niños" },
   description: "Las mejores reseñas y guías de juguetes educativos y STEM para niños. Montessori, ciencia, robótica, juegos de mesa y más.",
   alternates: { canonical: "https://www.juguetestem.es" },
 };

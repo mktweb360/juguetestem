@@ -153,10 +153,6 @@ export default async function CategoriaPage({ params }: { params: Promise<{ cate
                 })}
               </nav>
 
-              <div className="mt-5 bg-purple-50 border border-purple-100 rounded-xl p-4">
-                <p className="text-xs font-semibold text-purple-800 mb-1">Rango de precios</p>
-                <p className="text-sm font-bold text-gray-800">{cat.priceRange}</p>
-              </div>
             </div>
           </aside>
 
@@ -175,8 +171,7 @@ export default async function CategoriaPage({ params }: { params: Promise<{ cate
             <div className="flex items-center justify-between bg-gray-50 border border-gray-200 rounded-lg px-4 py-2.5 mb-5">
               <span className="text-sm text-gray-600">
                 <span className="font-semibold text-gray-900">{catProducts.length} productos</span> en esta categoría
-              </span>
-              <span className="text-xs text-gray-400">{cat.priceRange}</span>
+              </span>
             </div>
 
             <AffiliateDisclosure />

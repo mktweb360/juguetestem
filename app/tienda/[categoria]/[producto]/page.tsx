@@ -5,30 +5,6 @@ import { categories, products, getProductBySlug, getProductsByCategory, amazonLi
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import { getPostBySlug } from "@/data/posts";
 
-/* ─── Rating estable por slug ─────────────────────────────────────────────── */
-function stableRating(slug: string) {
-  let hash = 0;
-  for (const ch of slug) hash = (hash * 31 + ch.charCodeAt(0)) & 0xffff;
-  const score = +(4.1 + (hash % 9) * 0.1).toFixed(1);
-  const count = 120 + (hash % 801);
-  return { score, count };
-}
-
-function Stars({ score }: { score: number }) {
-  const full = Math.floor(score);
-  return (
-    <span className="inline-flex gap-0.5 text-lg leading-none">
-      {Array.from({ length: 5 }).map((_, i) =>
-        i < full
-          ? <span key={i} className="text-yellow-400">★</span>
-          : i === full && score - full >= 0.5
-            ? <span key={i} className="text-yellow-300">★</span>
-            : <span key={i} className="text-gray-300">★</span>
-      )}
-    </span>
-  );
-}
-
 /* ─── Metadata ────────────────────────────────────────────────────────────── */
 export async function generateStaticParams() {
   return products.map((p) => ({ categoria: p.categorySlug, producto: p.slug }));
@@ -43,7 +19,7 @@ export async function generateMetadata({
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
-    title: `${product.name} — Análisis y opinión`,
+    title: { absolute: `${product.name}: análisis y opinión` },
     description: product.shortDescription,
     alternates: {
       canonical: `https://www.juguetestem.es/tienda/${categoria}/${producto}`,
@@ -62,7 +38,6 @@ export default async function ProductoPage({
   const cat = categories.find((c) => c.slug === categoria);
   if (!product || !cat) notFound();
 
-  const { score, count } = stableRating(product.slug);
   const topSpecs = Object.entries(product.specs).slice(0, 4);
   const related = getProductsByCategory(categoria)
     .filter((p) => p.slug !== producto)
@@ -70,15 +45,6 @@ export default async function ProductoPage({
   const relatedGuides = (product.relatedPosts ?? [])
     .map((s) => getPostBySlug(s))
     .filter(Boolean);
-
-  /* Schema JSON-LD */
-  const productSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: product.name,
-    description: product.shortDescription,
-    sku: product.asin,
-  };
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -136,7 +102,6 @@ export default async function ProductoPage({
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
@@ -171,14 +136,8 @@ export default async function ProductoPage({
 
             {/* Badges */}
             <div className="flex flex-wrap gap-2 mb-3">
-              <span className="inline-flex items-center gap-1 bg-purple-100 text-purple-700 text-xs font-bold px-3 py-1 rounded-full">
-                <span>✓</span> Análisis verificado
-              </span>
               <span className="inline-flex items-center bg-gray-100 text-gray-600 text-xs font-semibold px-3 py-1 rounded-full">
                 {cat.name}
-              </span>
-              <span className="inline-flex items-center gap-1 bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full">
-                <span>●</span> En stock
               </span>
               {product.badge && (
                 <span className="inline-flex items-center bg-orange-100 text-orange-600 text-xs font-bold px-3 py-1 rounded-full">
@@ -191,13 +150,6 @@ export default async function ProductoPage({
             <h1 className="text-2xl font-extrabold text-gray-900 mb-2 leading-tight">
               {product.name}
             </h1>
-
-            {/* Rating estrellas */}
-            <div className="flex items-center gap-2 mb-4">
-              <Stars score={score} />
-              <span className="text-sm font-bold text-gray-700">{score}</span>
-              <span className="text-xs text-gray-400">({count} valoraciones)</span>
-            </div>
 
             {/* Pills specs */}
             {topSpecs.length > 0 && (
@@ -237,22 +189,6 @@ export default async function ProductoPage({
             <p className="text-xs text-gray-400 text-center">
               Enlace de afiliado · Precio actualizado en destino
             </p>
-
-            {/* Trust bar */}
-            <div className="flex justify-around mt-4 pt-4 border-t border-gray-100 text-center">
-              <div className="flex flex-col items-center gap-1">
-                <span className="text-xl">🔒</span>
-                <span className="text-xs text-gray-500 font-medium">Pago seguro</span>
-              </div>
-              <div className="flex flex-col items-center gap-1">
-                <span className="text-xl">🚚</span>
-                <span className="text-xs text-gray-500 font-medium">Envío Prime</span>
-              </div>
-              <div className="flex flex-col items-center gap-1">
-                <span className="text-xl">↩️</span>
-                <span className="text-xs text-gray-500 font-medium">Devolución fácil</span>
-              </div>
-            </div>
 
           </div>
         </div>
