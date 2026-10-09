@@ -601,6 +601,23 @@ export const posts: Post[] = [
     ],
     categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes sensoriales →" },
   },
+  {
+    slug: "juegos-aprender-matematicas-ninos-por-edad",
+    image: "/images/blog/juegos-aprender-matematicas-ninos-por-edad.jpg",
+    title: "Juegos para aprender matemáticas en casa: guía por edades de 3 a 10 años",
+    excerpt: "Los juegos de tablero con casillas numeradas, los materiales manipulativos como las regletas y los juegos de construcción son las tres familias de juego con más respaldo para reforzar las matemáticas. Conviene elegir según la edad: contar y comparar cantidades (3-5 años), descomponer números y medir (5-7) y calcular con estrategia (7-10).",
+    category: "STEM",
+    date: "2026-10-01",
+    readTime: 9,
+    relatedProducts: ["goula-regletas-10x10-300-piezas-madera", "fournier-parchis-oca-tablero-33x33", "learning-resources-cubos-mathlink-actividades", "rummikub-original-goliath-6-jugadores"],
+    relatedPosts: [
+      "juegos-mesa-educativos-primaria",
+      "pensamiento-critico-ninos-juegos",
+      "construccion-magnetica-beneficios-educativos",
+      "juguetes-educativos-6-anos",
+    ],
+    categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de mesa educativos →" },
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {

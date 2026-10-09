@@ -74,7 +74,7 @@ const orgSchema = {
   foundingDate: "2024",
   areaServed: { "@type": "Country", name: "España" },
   knowsAbout: ["juguetes educativos", "metodología Montessori", "juguetes STEM", "robótica infantil", "juegos de construcción", "libros educativos"],
-  sameAs: ["https://www.instagram.com/juguetestem.es", "https://www.facebook.com/juguetestem.es"],
+  sameAs: ["https://www.instagram.com/juguetesmkt", "https://www.facebook.com/juguetestem.es"],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

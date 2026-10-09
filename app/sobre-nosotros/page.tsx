@@ -57,7 +57,7 @@ const orgSchema = {
     contactType: "customer service",
   },
   sameAs: [
-    "https://www.instagram.com/juguetestem.es",
+    "https://www.instagram.com/juguetesmkt",
     "https://www.facebook.com/juguetestem.es",
   ],
 };

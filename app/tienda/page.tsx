@@ -132,13 +132,7 @@ export default function TiendaPage() {
                             )}
                           </div>
                           <p className="text-xs text-gray-500 mb-3 line-clamp-2">{product.shortDescription}</p>
-                          <div className="flex items-center justify-between">
-                            <span className="text-purple-700 font-bold text-sm">{product.price}</span>
-                            <span className="text-xs text-gray-400 flex items-center gap-1">
-                              <span className="text-yellow-400">★</span>
-                              {product.rating} ({product.reviewCount})
-                            </span>
-                          </div>
+                          <span className="text-purple-700 font-semibold text-sm">Ver análisis →</span>
                         </Link>
                       ))}
                     </div>

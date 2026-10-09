@@ -34,6 +34,11 @@ interface ArticleSection {
 }
 
 const articleSources: Record<string, { label: string; url: string }[]> = {
+  "juegos-aprender-matematicas-ninos-por-edad": [
+    { label: "Siegler y Ramani (2008) — Playing linear numerical board games promotes low-income children's numerical development, Developmental Science", url: "https://onlinelibrary.wiley.com/doi/10.1111/j.1467-7687.2008.00714.x" },
+    { label: "Verdine et al. (2014) — Deconstructing Building Blocks: Preschoolers' Spatial Assembly Performance Relates to Early Mathematical Skills, Child Development (ERIC)", url: "https://eric.ed.gov/?id=EJ1027544" },
+    { label: "BOE — Real Decreto 157/2022, ordenación y enseñanzas mínimas de la Educación Primaria", url: "https://www.boe.es/buscar/act.php?id=BOE-A-2022-3296" },
+  ],
   "mejores-kits-ciencia-ninos": [
     { label: "UNICEF — El juego como derecho y herramienta de desarrollo", url: "https://www.unicef.es/noticia/el-juego-es-un-derecho-de-la-infancia" },
     { label: "AIJU — Centro Tecnológico del Juguete, seguridad y calidad", url: "https://www.aiju.info" },
@@ -735,6 +740,143 @@ const articleContent: Record<string, ArticleSection[]> = {
       {
         q: "¿Puedo pedir una recomendación personalizada?",
         a: "Sí, y es lo más recomendable. El terapeuta ocupacional o el logopeda del niño son la mejor fuente de recomendación individualizada: conocen el perfil sensorial, los objetivos terapéuticos del momento y qué tipo de estimulación conviene potenciar o evitar. Esta guía ofrece criterios generales; ellos pueden concretar.",
+      },
+    ],
+  },
+],
+  "juegos-aprender-matematicas-ninos-por-edad": [
+  {
+    text: "Las matemáticas que un niño necesita al empezar Primaria no son fórmulas: son contar con soltura, saber qué número es mayor, descomponer cantidades y orientarse en el espacio. Todo eso se puede practicar jugando en casa, sin fichas de ejercicios y sin gastar mucho. En esta guía explicamos qué tipo de juego trabaja cada habilidad, qué dice la investigación sobre los que mejor funcionan y qué elegir según la edad, de 3 a 10 años. Al final tienes una tabla resumen y respuestas a las dudas más habituales de las familias.",
+  },
+  {
+    heading: "Qué habilidades matemáticas se pueden trabajar jugando",
+    text: "El currículo de Educación Primaria en España (Real Decreto 157/2022) organiza las matemáticas en seis «sentidos»: numérico, de la medida, espacial, algebraico, estocástico y socioafectivo. Es un mapa muy útil para elegir juegos, porque cada familia de juguetes encaja con uno o dos de ellos:",
+    list: [
+      "Sentido numérico: contar, comparar cantidades, descomponer números y calcular. Lo trabajan los tableros con casillas numeradas, las regletas y los juegos de fichas o cartas con números.",
+      "Sentido de la medida: comparar pesos, volúmenes y longitudes. Lo trabajan las balanzas, los recipientes graduados y las regletas usadas como regla.",
+      "Sentido espacial: reconocer formas, girarlas y reproducir modelos. Lo trabajan los juegos de construcción y los puzles de formas.",
+      "Sentido algebraico: detectar patrones y regularidades, como las series de colores o de números.",
+      "Sentido estocástico: intuir el azar y la probabilidad, algo que aparece de forma natural cada vez que se tira un dado.",
+      "Sentido socioafectivo: perder el miedo a equivocarse y tolerar la frustración. El juego es probablemente el mejor contexto para entrenarlo.",
+    ],
+  },
+  {
+    heading: "Qué dice la investigación: tres ideas útiles para elegir",
+    text: "No todos los juguetes etiquetados como «educativos» tienen el mismo respaldo, pero hay tres ideas con base sólida que ayudan a decidir:",
+    list: [
+      "Los tableros con casillas numeradas en línea funcionan. En un estudio de Siegler y Ramani publicado en Developmental Science (2008) con niños de preescolar de familias con pocos recursos, jugar a un juego de tablero sencillo con casillas numeradas durante cuatro sesiones de 15 minutos eliminó la diferencia en estimación numérica con sus compañeros; el mismo juego con colores en lugar de números no tuvo ese efecto. Con alrededor de una hora de juego mejoraron además el conteo, la comparación de cantidades y el reconocimiento de cifras, y las mejoras se mantenían nueve semanas después.",
+      "La construcción entrena el pensamiento espacial, y este se relaciona con las matemáticas. Verdine y colaboradores (Child Development, 2014) observaron que la habilidad de niños de 3 años para copiar modelos hechos con bloques de construcción se relacionaba con sus habilidades matemáticas tempranas.",
+      "Manipular antes de abstraer. Los materiales que se pueden tocar, como regletas, cubos encajables o balanzas, permiten ver una suma o una fracción antes de escribirla. Es la lógica de los materiales manipulativos que se usan en muchas aulas de Infantil y del primer ciclo de Primaria.",
+    ],
+  },
+  {
+    text: "Un matiz importante: estos estudios muestran que ciertos tipos de juego ayudan, no que un juguete concreto enseñe matemáticas por sí solo. Lo que marca la diferencia es jugar con frecuencia y que un adulto acompañe: contar en voz alta, hacer preguntas y dejar que el niño se equivoque.",
+  },
+  {
+    heading: "De 3 a 5 años: contar, comparar y clasificar",
+    text: "En Educación Infantil el objetivo es que los números dejen de ser palabras sueltas y pasen a representar cantidades. Funcionan los juegos cortos, con piezas manejables y un resultado que se ve:",
+    list: [
+      "Juegos de recorrido numerado, con la Oca como ejemplo clásico en España: cada tirada obliga a contar casillas y a ver que el 12 está más lejos que el 8. Con los más pequeños se puede usar un solo dado y nombrar cada casilla al avanzar.",
+      "Regletas de colores: cada longitud representa un número del 1 al 10, así que comparar dos regletas es comparar dos cantidades. A esta edad basta con ordenarlas en escalera y buscar qué dos regletas juntas miden lo mismo que otra.",
+      "Balanzas sencillas: decidir qué pesa más con objetos de casa introduce la medida antes de los números.",
+      "Clasificadores de formas y colores: base del sentido espacial y de la idea de conjunto.",
+    ],
+  },
+  {
+    heading: "Recomendado de 4 a 6 años: tablero de Parchís y Oca de Fournier",
+    text: "Es la forma más asequible de llevar a casa lo que describe la investigación: un recorrido numerado y lineal (la Oca tradicional tiene 63 casillas) en el que hay que contar en cada turno. El mismo producto incluye el Parchís, que añade la decisión de qué ficha mover. Trae 20 fichas, 4 cubiletes y 4 dados para cuatro jugadores, y el fabricante lo recomienda desde los 4 años.",
+    pros: ["Recorrido numerado: conteo y comparación de cantidades en cada turno", "Dos juegos clásicos en un solo tablero", "Incluye fichas, cubiletes y dados", "Abuelos, padres e hijos juegan con las mismas reglas"],
+    cons: ["Tablero de 33 × 33 cm, mejor para mesa que para suelo", "La Oca es de azar: el aprendizaje depende de contar en voz alta"],
+    cta: { asin: "B000M8GZTA", label: "Ver el tablero de Parchís y Oca →" },
+  },
+  {
+    heading: "Recomendado de 3 a 7 años: Regletas 10x10 de Goula",
+    text: "Goula, marca del grupo Diset, vende una caja de madera con 300 regletas de colores y una guía pedagógica para el adulto. Con tantas piezas se pueden formar todas las descomposiciones de los números hasta el 10 (7 es 5 + 2, pero también 4 + 3), construir el 100 con diez regletas de 10 o representar una multiplicación como un rectángulo. Es un material que acompaña desde Infantil hasta el primer ciclo de Primaria.",
+    pros: ["300 regletas: suficientes para descomponer números y multiplicar", "Caja de madera para guardarlas ordenadas", "Guía pedagógica incluida", "Se aprovecha durante varios cursos"],
+    cons: ["Piezas pequeñas: vigilar si hay hermanos menores de 3 años", "Sin retos propuestos por un adulto puede quedarse en simple construcción"],
+    cta: { asin: "B0042VNNS4", label: "Ver las regletas Goula 10x10 →" },
+  },
+  {
+    heading: "De 5 a 7 años: descomponer números y medir",
+    text: "Con la entrada en Primaria llegan la suma y la resta, las decenas y las primeras medidas. Los mejores juegos a esta edad permiten ver la operación antes de escribirla:",
+    list: [
+      "Cubos encajables: diez cubos unidos forman una decena; partir la barra y repartirla es restar o dividir.",
+      "Balanza con recipientes: llenarlos de agua, arena o arroz y compararlos introduce el volumen y el peso.",
+      "Juegos de dados con suma: tirar dos dados y avanzar lo que suman es cálculo mental disfrazado de juego.",
+      "Puzles de formas como Ubongo Junior (4-7 años): encajar piezas para completar una figura refuerza el sentido espacial.",
+    ],
+  },
+  {
+    heading: "Recomendado de 6 a 8 años: Cubos MathLink de Learning Resources",
+    text: "Los cubos MathLink encajan por todas sus caras, así que sirven tanto para contar y agrupar en decenas como para construir figuras. Este set incluye 15 tarjetas de actividades de doble cara y una guía multilingüe con retos que van del valor posicional a la multiplicación, la división, las fracciones y la medida. El fabricante lo recomienda desde los 6 años y es un buen paso siguiente a las regletas.",
+    pros: ["Cubos encajables por todas las caras", "15 tarjetas de actividades de doble cara", "Cubre valor posicional, operaciones, fracciones y medida", "Guía multilingüe para el adulto"],
+    cons: ["Al principio necesita acompañamiento para seguir las tarjetas", "Para 3-5 años encajan mejor las regletas o la balanza"],
+    cta: { asin: "B07M7XDYG7", label: "Ver los cubos MathLink →" },
+  },
+  {
+    heading: "Para medir desde los 3 años: Balanza de cubos de Learning Resources",
+    text: "Una balanza de platillos con dos cubos transparentes de 400 ml con indicadores de nivel, tapas y un cajón en la base para guardarlos. Permite comparar pesos de objetos sólidos y volúmenes de líquidos, que es el núcleo del sentido de la medida. En Infantil sirve para el «pesa más, pesa menos» y en Primaria para empezar con mililitros y equivalencias.",
+    pros: ["Dos cubos de 400 ml con indicadores de nivel", "Peso y volumen con sólidos y líquidos", "Cajón de almacenaje en la base", "Útil desde Infantil hasta los primeros cursos de Primaria"],
+    cons: ["Con líquidos, mejor en la cocina o al aire libre", "Es una balanza de comparación: no da el peso en gramos"],
+    cta: { asin: "B000296LRK", label: "Ver la balanza de cubos →" },
+  },
+  {
+    heading: "De 7 a 10 años: cálculo con estrategia",
+    text: "A partir del segundo ciclo de Primaria el reto ya no es contar, sino calcular con agilidad y tomar decisiones. Los juegos de mesa con números y elecciones reales son especialmente útiles porque obligan a hacer muchos cálculos seguidos sin que parezca un ejercicio:",
+    list: [
+      "Juegos de series y combinaciones numéricas, como Rummikub: trabajan el orden, los patrones y la suma mental.",
+      "Juegos de estrategia con recursos, como Catan Junior: contar, intercambiar y planificar varios turnos por delante.",
+      "Juegos de cartas con operaciones: muchos juegos clásicos de baraja se pueden adaptar para que gane quien sume o reste antes.",
+    ],
+  },
+  {
+    heading: "Recomendado desde 7 años: Rummikub Original, edición para 6 jugadores",
+    text: "Rummikub se juega con fichas numeradas del 1 al 13 en cuatro colores. Hay que formar escaleras del mismo color o grupos del mismo número y se pueden reorganizar las combinaciones que ya están en la mesa, lo que obliga a ordenar, buscar patrones y sumar mentalmente en cada turno. Esta edición de Goliath añade fichas, comodines y soportes para jugar hasta 6 personas. El fabricante lo indica desde los 6 años; con niños de 6-7 años conviene empezar sin reorganizar la mesa.",
+    pros: ["Orden numérico, series y cálculo mental sin parecer un ejercicio", "Hasta 6 jugadores", "Reglas que se pueden simplificar para los más pequeños", "Engancha también a los adultos"],
+    cons: ["A los 6 años suele necesitar ayuda", "Si jugáis 4 o menos, la edición estándar ocupa menos"],
+    cta: { asin: "B07TLD2M71", label: "Ver Rummikub Original →" },
+  },
+  {
+    heading: "Tabla resumen: qué juego elegir según la edad y la habilidad",
+    table: {
+      headers: ["Juego", "Edad orientativa", "Habilidad principal", "Sentido matemático"],
+      rows: [
+        ["Parchís y Oca (Fournier)", "4+", "Contar y comparar cantidades", "Numérico y estocástico"],
+        ["Regletas 10x10 (Goula)", "3+", "Descomponer números", "Numérico y algebraico"],
+        ["Balanza de cubos (Learning Resources)", "3+", "Comparar pesos y volúmenes", "Medida"],
+        ["Ubongo Junior", "4-7", "Encajar formas", "Espacial"],
+        ["Cubos MathLink (Learning Resources)", "6+", "Decenas, operaciones y fracciones", "Numérico y medida"],
+        ["Rummikub Original", "6+ (mejor desde 7)", "Series y cálculo mental", "Numérico y algebraico"],
+      ],
+    },
+  },
+  {
+    heading: "Cómo sacarles partido en casa",
+    list: [
+      "Contad en voz alta casilla a casilla: nombrar el número de cada casilla es lo que convierte un tablero en práctica numérica.",
+      "Pregunta en lugar de corregir: «¿cuántas casillas te faltan para llegar a la oca?» enseña más que decir la respuesta.",
+      "Sesiones cortas y frecuentes: mejor 10-15 minutos varios días a la semana que una tarde entera de domingo.",
+      "Deja que pierda y que gane: el sentido socioafectivo se entrena viviendo las dos cosas.",
+      "Sube la dificultad poco a poco: dos dados en lugar de uno, regletas hasta el 20, Rummikub sin comodines al principio.",
+    ],
+  },
+  {
+    faqs: [
+      {
+        q: "¿A qué edad se puede empezar a jugar con las matemáticas?",
+        a: "Desde los 3 años, con juegos de contar, clasificar y comparar. No se trata de adelantar contenidos, sino de que los números se asocien a cantidades reales. Las regletas, las balanzas y los tableros con casillas numeradas son adecuados para esa edad con un adulto al lado.",
+      },
+      {
+        q: "¿Son mejores las apps de matemáticas que los juegos físicos?",
+        a: "No necesariamente. Las apps pueden servir para practicar cálculo, pero los materiales manipulativos y los juegos de mesa aportan algo que la pantalla no da: tocar las cantidades y jugar con otras personas, que también entrena la tolerancia a la frustración. Lo razonable es combinarlos y limitar el tiempo de pantalla.",
+      },
+      {
+        q: "¿Qué juego de matemáticas regalar a un niño de 6 años?",
+        a: "Depende de su punto de partida. Si aún le cuesta descomponer números, las regletas; si ya suma con soltura, los cubos MathLink con tarjetas de actividades; si buscas un juego para toda la familia, un tablero de Oca o Rummikub con las reglas simplificadas.",
+      },
+      {
+        q: "Si mi hijo tiene dificultades con las matemáticas, ¿le ayudarán estos juegos?",
+        a: "Pueden reforzar la base de forma motivadora, pero no sustituyen la valoración de su tutor o de un especialista si las dificultades persisten. Si sospechas de discalculia, coméntalo con el centro educativo. En nuestra guía de juguetes para niños con necesidades especiales hablamos de materiales manipulativos útiles en estos casos.",
       },
     ],
   },
