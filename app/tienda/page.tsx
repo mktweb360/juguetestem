@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { categories, getProductsByCategory } from "@/data/products";
 
 export const metadata: Metadata = {
-  title: "Tienda — Juguetes educativos y STEM",
+  title: "Tienda STEM — Juguetes educativos y STEM para niños",
   description: "Explora todas las categorías de juguetes educativos y STEM: Montessori, ciencia, juegos de mesa, construcción y libros.",
   alternates: { canonical: "https://www.juguetestem.es/tienda" },
 };
@@ -94,7 +94,7 @@ export default function TiendaPage() {
           <main className="flex-1 min-w-0">
             <div className="flex items-baseline justify-between mb-6">
               <div>
-                <h1 className="text-2xl font-extrabold text-gray-900">Todos los productos</h1>
+                <h1 className="text-2xl font-extrabold text-gray-900">Tienda STEM: juguetes educativos para niños</h1>
                 <p className="text-sm text-gray-500 mt-0.5">{totalProducts} productos en {categories.length} categorías</p>
               </div>
             </div>
