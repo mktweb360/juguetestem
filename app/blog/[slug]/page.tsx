@@ -41,11 +41,11 @@ const articleSources: Record<string, { label: string; url: string }[]> = {
   ],
   "mejores-kits-ciencia-ninos": [
     { label: "UNICEF — El juego como derecho y herramienta de desarrollo", url: "https://www.unicef.es/noticia/el-juego-es-un-derecho-de-la-infancia" },
-    { label: "AIJU — Centro Tecnológico del Juguete, seguridad y calidad", url: "https://www.aiju.info" },
+    { label: "AIJU — Centro Tecnológico del Juguete, seguridad y calidad", url: "https://www.aiju.es/" },
   ],
   "mejores-juegos-mesa-familia": [
     { label: "UNICEF — Importancia del juego en el desarrollo infantil", url: "https://www.unicef.es/noticia/el-juego-es-un-derecho-de-la-infancia" },
-    { label: "AIJU — Juguetes educativos y evaluación de calidad", url: "https://www.aiju.info" },
+    { label: "AIJU — Juguetes educativos y evaluación de calidad", url: "https://www.aiju.es/" },
   ],
   "introduccion-programacion-ninos": [
     { label: "Ministerio de Educación — Competencia digital en el currículo", url: "https://www.educacion.gob.es/portada.html" },
