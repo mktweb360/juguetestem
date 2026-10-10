@@ -6,6 +6,7 @@ import { getProductBySlug, amazonLink } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import BlogSidebar from "@/components/BlogSidebar";
+import AdSenseAd from "@/components/AdSenseAd";
 
 export async function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
@@ -946,7 +947,7 @@ const AUTHOR = {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="max-w-6xl mx-auto px-4 py-10">
-      <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-10 lg:items-start">
+      <div className="lg:grid lg:grid-cols-[1fr_300px] lg:gap-10 lg:items-start">
       <article className="min-w-0">
         <nav className="text-gray-400 text-sm mb-6">
           <Link href="/" className="hover:text-purple-700">Inicio</Link>
@@ -1071,6 +1072,7 @@ const AUTHOR = {
           ))}
         </div>
 
+        <AdSenseAd placement="contenido" />
         {relatedProducts.length > 0 && (
           <div className="mt-12 pt-8 border-t border-gray-100">
             <h2 className="text-xl font-extrabold text-gray-900 mb-5">Productos recomendados en este artículo</h2>
