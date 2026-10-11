@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { categories, products, getProductBySlug, getProductsByCategory, amazonLink } from "@/data/products";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import { getPostBySlug } from "@/data/posts";
+import { productTitle, relatedInCategory } from "@/lib/seo";
 
 /* ─── Metadata ────────────────────────────────────────────────────────────── */
 export async function generateStaticParams() {
@@ -19,7 +20,7 @@ export async function generateMetadata({
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
-    title: { absolute: `${product.name}: análisis y opinión` },
+    title: { absolute: productTitle(product.name, "análisis y opinión") },
     description: product.shortDescription,
     alternates: {
       canonical: `https://www.juguetestem.es/tienda/${categoria}/${producto}`,
@@ -39,9 +40,7 @@ export default async function ProductoPage({
   if (!product || !cat) notFound();
 
   const topSpecs = Object.entries(product.specs).slice(0, 4);
-  const related = getProductsByCategory(categoria)
-    .filter((p) => p.slug !== producto)
-    .slice(0, 3);
+  const related = relatedInCategory(getProductsByCategory(categoria), producto, 3);
   const relatedGuides = (product.relatedPosts ?? [])
     .map((s) => getPostBySlug(s))
     .filter(Boolean);

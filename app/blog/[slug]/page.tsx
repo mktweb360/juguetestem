@@ -41,16 +41,15 @@ const articleSources: Record<string, { label: string; url: string }[]> = {
     { label: "BOE — Real Decreto 157/2022, ordenación y enseñanzas mínimas de la Educación Primaria", url: "https://www.boe.es/buscar/act.php?id=BOE-A-2022-3296" },
   ],
   "mejores-kits-ciencia-ninos": [
-    { label: "UNICEF — El juego como derecho y herramienta de desarrollo", url: "https://www.unicef.es/noticia/el-juego-es-un-derecho-de-la-infancia" },
+    { label: "UNICEF y LEGO Foundation (2018) — Learning through Play: el aprendizaje a través del juego en la educación infantil", url: "https://www.unicef.org/sites/default/files/2018-12/UNICEF-Lego-Foundation-Learning-through-Play.pdf" },
     { label: "AIJU — Centro Tecnológico del Juguete, seguridad y calidad", url: "https://www.aiju.es/" },
   ],
   "mejores-juegos-mesa-familia": [
-    { label: "UNICEF — Importancia del juego en el desarrollo infantil", url: "https://www.unicef.es/noticia/el-juego-es-un-derecho-de-la-infancia" },
+    { label: "UNICEF y LEGO Foundation (2018) — Learning through Play: el aprendizaje a través del juego en la educación infantil", url: "https://www.unicef.org/sites/default/files/2018-12/UNICEF-Lego-Foundation-Learning-through-Play.pdf" },
     { label: "AIJU — Juguetes educativos y evaluación de calidad", url: "https://www.aiju.es/" },
   ],
   "introduccion-programacion-ninos": [
-    { label: "Ministerio de Educación — Competencia digital en el currículo", url: "https://www.educacion.gob.es/portada.html" },
-    { label: "UNICEF — Tecnología y educación infantil", url: "https://www.unicef.es/noticia/el-juego-es-un-derecho-de-la-infancia" },
+    { label: "BOE — Real Decreto 157/2022, enseñanzas mínimas de Educación Primaria (incluye la competencia digital)", url: "https://www.boe.es/buscar/act.php?id=BOE-A-2022-3296" },
   ],
 };
 
