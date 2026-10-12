@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { posts, getPostBySlug } from "@/data/posts";
-import { getProductBySlug, amazonLink } from "@/data/products";
+import { getProductBySlug, amazonLink, isUnavailableAsin } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -908,7 +908,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   if (!post) notFound();
 
   const content = articleContent[slug] ?? [];
-  const relatedProducts = post.relatedProducts.map((s) => getProductBySlug(s)).filter(Boolean);
+  const relatedProducts = post.relatedProducts.map((s) => getProductBySlug(s)).filter((p) => p && !p.unavailable);
   const relatedPosts = (post.relatedPosts ?? []).map((s) => getPostBySlug(s)).filter(Boolean);
   const relatedSlugs = new Set([post.slug, ...relatedPosts.map((p) => p!.slug)]);
   const sameCategoryPosts = posts
@@ -1043,7 +1043,7 @@ const AUTHOR = {
                   </ul>
                 </div>
               )}
-              {section.cta && (
+              {section.cta && !isUnavailableAsin(section.cta.asin) && (
                 <a
                   href={amazonLink(section.cta.asin)}
                   target="_blank"

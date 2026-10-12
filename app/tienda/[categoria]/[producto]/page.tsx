@@ -25,6 +25,7 @@ export async function generateMetadata({
     alternates: {
       canonical: `https://www.juguetestem.es/tienda/${categoria}/${producto}`,
     },
+    ...(product.unavailable ? { robots: { index: false, follow: true } } : {}),
   };
 }
 
@@ -167,15 +168,20 @@ export default async function ProductoPage({
             {/* Descripción corta */}
             <p className="text-gray-600 text-sm mb-5">{product.shortDescription}</p>
 
+            {product.unavailable && (
+              <p className="mb-3 rounded-xl border border-amber-200 bg-amber-50 p-3 text-sm text-amber-900">
+                Este producto no está disponible ahora mismo en Amazon.es. Te recomendamos ver las alternativas de la misma categoría más abajo.
+              </p>
+            )}
             {/* Botón de compra */}
-            <a
+            {!product.unavailable && <a
               href={amazonLink(product.asin)}
               target="_blank"
               rel="noopener noreferrer sponsored"
               className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-center py-4 px-6 rounded-xl text-base transition-colors mb-2"
             >
               🛒 Ver precio actualizado →
-            </a>
+            </a>}
 
             {/* Botón secundario */}
             <a
@@ -345,10 +351,10 @@ export default async function ProductoPage({
         )}
 
         {/* CTA final */}
-        <div className="rounded-2xl bg-gradient-to-r from-purple-700 to-purple-800 text-white p-8 text-center">
+        {!product.unavailable && <div className="rounded-2xl bg-gradient-to-r from-purple-700 to-purple-800 text-white p-8 text-center">
           <h2 className="text-2xl font-extrabold mb-2">¿Convencido? Cómpralo ahora</h2>
           <p className="text-purple-200 text-sm mb-6 max-w-lg mx-auto">
-            {product.shortDescription} Disponible con envío rápido y devolución garantizada.
+            {product.shortDescription} Consulta en Amazon.es el precio, el vendedor y las condiciones de envío y devolución.
           </p>
           <a
             href={amazonLink(product.asin)}
@@ -361,7 +367,7 @@ export default async function ProductoPage({
           <p className="text-purple-300 text-xs mt-3">
             Enlace de afiliado · Precio actualizado en destino
           </p>
-        </div>
+        </div>}
 
       </div>
     </>

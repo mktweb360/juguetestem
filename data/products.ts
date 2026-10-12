@@ -18,6 +18,8 @@ export interface Product {
   categorySlug: string;
   categoryName?: string;
   relatedPosts?: string[];
+  /** Fecha en que se comprobó que no se puede comprar en Amazon.es: se oculta de listados y guías. */
+  unavailable?: string;
 }
 
 export interface Category {
@@ -77,6 +79,7 @@ export const products: Product[] = [
   // JUGUETES MONTESSORI
   {
     slug: "beeloom-panda-tower-torre-aprendizaje",
+    unavailable: "2026-10-12",
     name: "Beeloom Panda Tower Torre de Aprendizaje Montessori 3 Niveles Gris",
     asin: "B093H92GR2",
     image: "/images/products/beeloom-panda-tower-torre-aprendizaje.jpg",
@@ -96,6 +99,7 @@ export const products: Product[] = [
   },
   {
     slug: "cosyland-torre-aprendizaje-antivuelco",
+    unavailable: "2026-10-12",
     name: "COSYLAND Torre de Aprendizaje Montessori Antivuelco CPC Bambu",
     asin: "B0CZ9837NN",
     image: "/images/products/cosyland-torre-aprendizaje-antivuelco.jpg",
@@ -114,6 +118,7 @@ export const products: Product[] = [
   },
   {
     slug: "torre-rosa-montessori-10-cubos-madera",
+    unavailable: "2026-10-12",
     name: "Torre Rosa Montessori 10 Cubos Madera Natural Fabricada en Galicia",
     asin: "B0B4BL9M15",
     image: "/images/products/torre-rosa-montessori-10-cubos-madera.jpg",
@@ -228,6 +233,7 @@ export const products: Product[] = [
   },
   {
     slug: "virus-juego-cartas-tranjis-games",
+    unavailable: "2026-10-12",
     name: "Virus! Juego de Cartas Tranjis Games Edición Española 8+ años",
     asin: "8460659666",
     image: "/images/products/virus-juego-cartas-tranjis-games.jpg",
@@ -268,6 +274,7 @@ export const products: Product[] = [
   },
   {
     slug: "lego-classic-caja-creativa-xxl-10697",
+    unavailable: "2026-10-12",
     name: "LEGO Classic Caja Creativa XXL 10697 39 Colores Construcción Libre",
     asin: "B00XJ5C4FW",
     image: "/images/products/lego-classic-caja-creativa-xxl-10697.jpg",
@@ -325,6 +332,7 @@ export const products: Product[] = [
   },
   {
     slug: "national-geographic-mega-kit-excavacion-gemas",
+    unavailable: "2026-10-12",
     name: "National Geographic Mega Kit Excavación 15 Gemas Reales Juguete STEM",
     asin: "B0BRN37W2C",
     image: "/images/products/national-geographic-mega-kit-excavacion-gemas.jpg",
@@ -401,6 +409,7 @@ export const products: Product[] = [
 
   {
     slug: "melissa-doug-puzzle-madera-animales-zoo-9-piezas",
+    unavailable: "2026-10-12",
     name: "Melissa & Doug Puzle de Madera Animales del Zoo 9 Piezas — 2+ años",
     asin: "B004KPKW3Q",
     image: "/images/products/melissa-doug-puzzle-madera-animales-zoo-9-piezas.jpg",
@@ -439,6 +448,7 @@ export const products: Product[] = [
 
   {
     slug: "goula-domino-colores-madera-28-piezas",
+    unavailable: "2026-10-12",
     name: "Goula Dominó de Colores en Madera 28 Piezas — 3+ años",
     asin: "B0CV7XR44L",
     image: "/images/products/goula-domino-colores-madera-28-piezas.jpg",
@@ -517,6 +527,7 @@ export const products: Product[] = [
 
   {
     slug: "lego-boost-creative-toolbox-17101-robotica",
+    unavailable: "2026-10-12",
     name: "LEGO Boost Creative Toolbox 17101 — Robot y Codificación 7-12 años",
     asin: "B06X6GN2VQ",
     image: "/images/products/lego-boost-creative-toolbox-17101-robotica.jpg",
@@ -556,6 +567,7 @@ export const products: Product[] = [
 
   {
     slug: "snap-circuits-jr-sc-100-electronica-ninos",
+    unavailable: "2026-10-12",
     name: "Snap Circuits Jr. SC-100 Kit Electrónica 100 Proyectos — 8+ años",
     asin: "B00DO9XIF8",
     image: "/images/products/snap-circuits-jr-sc-100-electronica-ninos.jpg",
@@ -983,6 +995,7 @@ export const products: Product[] = [
 
   {
     slug: "national-geographic-kids-enciclopedia-espacio",
+    unavailable: "2026-10-12",
     name: "National Geographic Kids Gran Enciclopedia del Espacio — 8-12 años",
     asin: "8482988301",
     image: "/images/products/national-geographic-kids-enciclopedia-espacio.jpg",
@@ -1097,6 +1110,7 @@ export const products: Product[] = [
 
   {
     slug: "thames-kosmos-physics-workshop-200-experimentos",
+    unavailable: "2026-10-12",
     name: "Thames & Kosmos Physics Workshop 200 Experimentos de Física — 8+ años",
     asin: "B00MJ8MI2O",
     image: "/images/products/thames-kosmos-physics-workshop-200-experimentos.jpg",
@@ -1319,7 +1333,7 @@ export const products: Product[] = [
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
-  return products.filter((p) => p.categorySlug === categorySlug);
+  return products.filter((p) => p.categorySlug === categorySlug && !p.unavailable);
 }
 
 export function getProductBySlug(slug: string): Product | undefined {
@@ -1327,7 +1341,12 @@ export function getProductBySlug(slug: string): Product | undefined {
 }
 
 export function getFeaturedProducts(count = 6): Product[] {
-  return products.filter((p) => p.badge).slice(0, count);
+  return products.filter((p) => p.badge && !p.unavailable).slice(0, count);
+}
+
+/** true si el ASIN pertenece a un producto marcado como no disponible. */
+export function isUnavailableAsin(asin: string): boolean {
+  return products.some((p) => p.asin === asin && p.unavailable);
 }
 
 export { amazonLink };
