@@ -618,6 +618,17 @@ export const posts: Post[] = [
     ],
     categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de mesa educativos →" },
   },
+  {
+    slug: "como-jugar-virus-juego-cartas-reglas",
+    title: "Cómo se juega a Virus!: reglas del juego de cartas explicadas paso a paso",
+    excerpt: "Las reglas de Virus! de Tranjis Games explicadas con claridad: qué cartas hay, cómo se gana, cómo infectar, vacunar e inmunizar órganos y qué hace cada carta de tratamiento.",
+    category: "Juegos de Mesa",
+    date: "2026-10-12",
+    readTime: 7,
+    relatedProducts: ["dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos"],
+    relatedPosts: ["juegos-cartas-educativos-familia", "mejores-juegos-mesa-familia", "pensamiento-critico-ninos-juegos"],
+    categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de mesa educativos →" },
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {

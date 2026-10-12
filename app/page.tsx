@@ -31,7 +31,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/tienda" className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-xl text-lg transition-colors">
-              Ver tienda →
+              Ver la tienda de juguetes STEM →
             </Link>
             <Link href="/blog" className="bg-white/10 hover:bg-white/20 text-white font-bold px-8 py-3 rounded-xl text-lg transition-colors border border-white/30">
               Leer guías
@@ -62,7 +62,7 @@ export default function HomePage() {
       <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-12">
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-2xl font-extrabold text-gray-900">Productos más recomendados</h2>
-          <Link href="/tienda" className="text-purple-700 font-semibold text-sm hover:underline">Ver todos →</Link>
+          <Link href="/tienda" className="text-purple-700 font-semibold text-sm hover:underline">Ver todos los juguetes STEM →</Link>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {featured.map((p) => (
@@ -79,7 +79,7 @@ export default function HomePage() {
             {[
               { icon: "🔍", title: "Análisis honestos", desc: "Evaluamos cada juguete con criterios pedagógicos reales, sin dejarnos llevar por el marketing." },
               { icon: "👶", title: "Por edades y etapas", desc: "Cada recomendación incluye la franja de edad ideal y el tipo de habilidades que desarrolla." },
-              { icon: "💰", title: "Mejor precio garantizado", desc: "Comparamos precios entre proveedores para que encuentres siempre la mejor oferta disponible." },
+              { icon: "🛒", title: "Enlaces directos a Amazon.es", desc: "Te llevamos a la ficha de Amazon.es de cada producto para que veas allí el precio y la disponibilidad actualizados." },
             ].map((item) => (
               <div key={item.title} className="bg-white rounded-2xl p-6 shadow-sm">
                 <div className="text-3xl mb-3">{item.icon}</div>
