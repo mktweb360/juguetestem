@@ -261,7 +261,7 @@ export default async function ProductoPage({
                   : "Consulta las especificaciones del producto para la edad recomendada. Respeta siempre los límites indicados por el fabricante.",
               },
               {
-                q: `¿Dónde comprar ${product.name} al mejor precio?`,
+                q: `¿Dónde comprar ${product.name}?`,
                 a: `Puedes ver el precio actualizado y comprar ${product.name} directamente a través de nuestro enlace. El precio puede variar según stock y ofertas del momento.`,
               },
               {

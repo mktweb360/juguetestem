@@ -18,7 +18,7 @@ export const posts: Post[] = [
     slug: "mejores-juguetes-montessori-3-anos",
     image: "/images/blog/mejores-juguetes-montessori-3-anos.jpg",
     title: "Los mejores juguetes Montessori para niños de 3 años",
-    excerpt: "Guía completa para elegir juguetes Montessori para niños de 2 a 4 años: materiales, tipos y nuestras recomendaciones más vendidas.",
+    excerpt: "Guía completa para elegir juguetes Montessori para niños de 2 a 4 años: materiales, tipos y nuestras recomendaciones por edad.",
     category: "Montessori",
     date: "2025-01-10",
     readTime: 8,

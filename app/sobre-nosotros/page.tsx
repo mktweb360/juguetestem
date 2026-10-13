@@ -143,7 +143,7 @@ export default function SobreNosotrosPage() {
               Todas las recomendaciones pasan por nuestro proceso de comparación
               de fabricante, certificaciones y opiniones verificadas. No
               publicamos reseñas de productos que no cumplan nuestros
-              estándares, aunque sean los más vendidos del mercado.
+              estándares, aunque sean muy populares.
             </p>
           </section>
 

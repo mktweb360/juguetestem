@@ -57,7 +57,7 @@ export default function OffersSlider({ slides, intervalMs = 4000 }: Props) {
           {/* Overlay adicional en degradado (alpha <= 0.10) para reforzar legibilidad del texto inferior */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent" />
 
-          {/* Badge oferta destacada */}
+          {/* Badge destacado */}
           <div className="absolute top-4 right-4 z-20">
             <span className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-md uppercase tracking-wide">
               {slide.badge}
@@ -78,7 +78,7 @@ export default function OffersSlider({ slides, intervalMs = 4000 }: Props) {
                   href={slide.href}
                   className="text-white text-sm font-semibold underline decoration-white/50 underline-offset-4 hover:decoration-white [text-shadow:0_1px_6px_rgba(0,0,0,0.6)]"
                 >
-                  Ver oferta →
+                  Ver producto →
                 </Link>
               </div>
             </div>
@@ -92,7 +92,7 @@ export default function OffersSlider({ slides, intervalMs = 4000 }: Props) {
           <button
             key={slide.href}
             type="button"
-            aria-label={`Ver oferta ${i + 1}`}
+            aria-label={`Ver destacado ${i + 1}`}
             onClick={() => setActive(i)}
             className={`w-2 h-2 rounded-full transition-all ${
               i === active ? "bg-white w-5" : "bg-white/50"
