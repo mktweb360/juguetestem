@@ -959,7 +959,7 @@ const AUTHOR = {
   "@type": "Organization",
   name: "Equipo Editorial de JugueteSTEM.es",
   url: "https://www.juguetestem.es/sobre-nosotros",
-  description: "Equipo editorial de JugueteSTEM.es (Mkt Web 360 SLU). No somos docentes titulados: comparamos edad recomendada, certificaciones de seguridad y opiniones verificadas, con apoyo de IA bajo revisión editorial.",
+  description: "Equipo editorial de JugueteSTEM.es (Mkt Web 360 SLU). No somos docentes titulados: comparamos edad recomendada, certificaciones de seguridad y fichas del fabricante, con apoyo de IA bajo revisión editorial.",
   knowsAbout: ["juguetes educativos", "metodología Montessori", "educación STEM", "robótica infantil", "juguetes de construcción", "desarrollo cognitivo infantil"],
 };
 

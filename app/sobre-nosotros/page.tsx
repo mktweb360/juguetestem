@@ -14,7 +14,7 @@ const personSchema = {
   "@type": "Organization",
   name: "Equipo Editorial de JugueteSTEM.es",
   url: `${SITE_URL}/sobre-nosotros`,
-  description: "Equipo editorial de JugueteSTEM.es (Mkt Web 360 SLU). No somos docentes ni pedagogos titulados: comparamos edad recomendada, certificaciones de seguridad, materiales y opiniones verificadas de familias antes de recomendar cualquier juguete, con apoyo de IA en investigación y redacción bajo revisión editorial. Respeta siempre la edad mínima indicada por el fabricante.",
+  description: "Equipo editorial de JugueteSTEM.es (Mkt Web 360 SLU). No somos docentes ni pedagogos titulados: comparamos edad recomendada, certificaciones de seguridad, materiales y fichas del fabricante antes de recomendar cualquier juguete, con apoyo de IA en investigación y redacción bajo revisión editorial. Respeta siempre la edad mínima indicada por el fabricante.",
   knowsAbout: [
     "juguetes educativos",
     "metodología Montessori",
@@ -101,8 +101,8 @@ export default function SobreNosotrosPage() {
             </p>
             <p className="text-gray-600 text-sm leading-relaxed mb-3">
               No somos docentes ni pedagogos titulados. Comparamos edad recomendada,
-              certificaciones de seguridad (CE), materiales y opiniones verificadas de
-              otras familias antes de recomendar cualquier juguete, con apoyo de IA en
+              certificaciones de seguridad (CE), materiales y fichas del fabricante
+              antes de recomendar cualquier juguete, con apoyo de IA en
               la investigación y redacción, siempre con revisión editorial. Respeta
               siempre la edad mínima indicada por el fabricante en el packaging.
             </p>
@@ -141,8 +141,8 @@ export default function SobreNosotrosPage() {
             </p>
             <p className="mt-3">
               Todas las recomendaciones pasan por nuestro proceso de comparación
-              de fabricante, certificaciones y opiniones verificadas. No
-              publicamos reseñas de productos que no cumplan nuestros
+              de fichas de fabricante, certificaciones y materiales. No
+              publicamos análisis de productos que no cumplan nuestros
               estándares, aunque sean muy populares.
             </p>
           </section>
