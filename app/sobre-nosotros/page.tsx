@@ -163,8 +163,8 @@ export default function SobreNosotrosPage() {
                 "Valor educativo demostrable: desarrolla habilidades concretas (motricidad, lógica, creatividad, autonomía)",
                 "Materiales seguros y de calidad: certificaciones CE, materiales no tóxicos, durabilidad contrastada",
                 "Coherencia pedagógica: el diseño respeta cómo aprenden los niños, no solo el marketing",
-                "Relación calidad-precio honesta frente a alternativas del mercado",
-                "Opiniones verificadas de familias y educadores, no solo de compradores ocasionales",
+                "Comparación honesta de características frente a alternativas del mercado",
+                "Información contrastada con la ficha técnica y las instrucciones del fabricante",
               ].map((criterion) => (
                 <li key={criterion} className="flex gap-2.5 items-start">
                   <span className="text-purple-500 font-bold shrink-0 mt-0.5">
