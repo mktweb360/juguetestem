@@ -4,6 +4,8 @@ export interface Post {
   excerpt: string;
   category: string;
   date: string;
+  /** Fecha de la última actualización editorial (dateModified y sitemap). */
+  updated?: string;
   readTime: number;
   image?: string;
   relatedProducts: string[];
@@ -16,7 +18,7 @@ export const posts: Post[] = [
     slug: "mejores-juguetes-montessori-3-anos",
     image: "/images/blog/mejores-juguetes-montessori-3-anos.jpg",
     title: "Los mejores juguetes Montessori para niños de 3 años",
-    excerpt: "Guía completa para elegir juguetes Montessori para niños de 2 a 4 años: materiales, tipos y nuestras recomendaciones más vendidas.",
+    excerpt: "Guía completa para elegir juguetes Montessori para niños de 2 a 4 años: materiales, tipos y nuestras recomendaciones por edad.",
     category: "Montessori",
     date: "2025-01-10",
     readTime: 8,
@@ -70,13 +72,15 @@ export const posts: Post[] = [
   {
     slug: "juguetes-regalo-navidad-ninos",
     image: "/images/blog/juguetes-regalo-navidad-ninos.jpg",
-    title: "Los mejores juguetes para regalar en Navidad — Guía por edades",
-    excerpt: "La guía definitiva de juguetes para Navidad organizada por edades: de 0 a 2, de 3 a 6, de 7 a 12 años. Recomendaciones reales.",
+    title: "Los mejores juguetes para regalar en Navidad 2026 — Guía por edades",
+    excerpt: "Guía de juguetes educativos para Navidad 2026 ordenada por edades (0-2, 3-5, 6-8, 9-12 y más de 12 años): qué regalar en cada etapa y cuándo conviene pedirlo para que llegue a tiempo.",
     category: "Guías",
     date: "2025-03-15",
+    updated: "2026-10-13",
     readTime: 12,
-    relatedProducts: ["lego-10698-caja-ladrillos-creativos-grande", "dixit-juego-mesa-asmodee-2021", "geomag-classic-color-91-piezas", "science4you-robotics-alfabot-238-piezas"],
-    categoryCta: { href: "/tienda/construccion-lego", text: "Ver juguetes para regalar →" },
+    relatedProducts: ["small-foot-arcoiris-madera-xl-12-piezas", "hahaland-juego-pesca-tela-montessori", "lego-duplo-tren-vapor-10874-control-app", "magna-tiles-clear-colors-32-piezas", "learning-resources-raton-robot-colby", "ubongo-junior-asmodee-puzzle-rapido", "lego-10698-caja-ladrillos-creativos-grande", "national-geographic-mega-kit-excavacion-gemas", "catan-junior-devir-6-anos", "lego-creator-3in1-casa-arbol-31150", "bresser-junior-telescopio-70-400", "thames-kosmos-intro-chemistry-27-experimentos", "lego-technic-cohete-nasa-artemis-42221", "dixit-juego-mesa-asmodee-2021"],
+    relatedPosts: ["juguetes-educativos-navidad-2025", "regalos-navidad-ninos-inteligentes", "juguetes-reyes-magos-2026", "black-friday-juguetes-educativos"],
+    categoryCta: { href: "/tienda", text: "Ver el catálogo completo →" },
   },
   {
     slug: "introduccion-programacion-ninos",
@@ -125,12 +129,14 @@ export const posts: Post[] = [
   {
     slug: "juguetes-reyes-magos-2026",
     image: "/images/blog/juguetes-reyes-magos-2026.jpg",
-    title: "Los mejores juguetes para Reyes Magos 2026 — Guía de regalos por edad",
-    excerpt: "Guía completa de los mejores juguetes para Reyes Magos 2026 por edad y tipo: STEM, Montessori, juegos de mesa, construcción y más.",
+    title: "Juguetes para Reyes Magos 2027: guía de regalos educativos por edad",
+    excerpt: "Guía de juguetes educativos para Reyes Magos 2027 (6 de enero) ordenada por edades, con ideas para repartir los regalos entre Navidad y Reyes y consejos para pedir a tiempo.",
     category: "Guías",
     date: "2025-07-05",
-    readTime: 9,
-    relatedProducts: ["national-geographic-mega-kit-excavacion-gemas", "catan-junior-devir-6-anos", "lego-10698-caja-ladrillos-creativos-grande", "science4you-robotics-alfabot-238-piezas"],
+    updated: "2026-10-13",
+    readTime: 10,
+    relatedProducts: ["janod-sweet-cocoon-clasificacion-formas-colores", "bieco-arcoiris-madera-7-piezas", "hape-laberinto-bolas-madera-coordinacion", "goula-los-3-cerditos-juego-cooperativo", "escuela-de-monstruos-pack-1-2-3", "diset-yo-aprendo-a-leer", "lego-classic-vehiculos-creativos-11036", "national-geographic-mega-kit-excavacion-gemas", "science4you-dino-kit-excavacion-fosiles", "catan-junior-devir-6-anos", "thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-telescopio-refractor-50mm-ninos", "lego-technic-cohete-nasa-artemis-42221", "rummikub-original-goliath-6-jugadores"],
+    relatedPosts: ["juguetes-regalo-navidad-ninos", "juguetes-educativos-navidad-2025", "black-friday-juguetes-educativos", "mejores-juegos-mesa-familia"],
     categoryCta: { href: "/tienda/libros-educativos", text: "Ver kits educativos →" },
   },
   {
@@ -169,13 +175,15 @@ export const posts: Post[] = [
   {
     slug: "regalos-navidad-ninos-inteligentes",
     image: "/images/blog/regalos-navidad-ninos-inteligentes.jpg",
-    title: "Los mejores regalos de Navidad para niños inteligentes",
-    excerpt: "Guía de regalos de Navidad para niños: juguetes educativos, STEM, Montessori y juegos de mesa que son divertidos y estimulantes.",
+    title: "Regalos de Navidad 2026 para niños inteligentes y curiosos: guía por perfil y edad",
+    excerpt: "Ideas de regalo de Navidad 2026 para niños curiosos según su perfil (científico, constructor, programador, estratega o lector) y su edad, con juguetes educativos que combinan reto y diversión.",
     category: "Guías",
     date: "2025-07-16",
-    readTime: 9,
-    relatedProducts: ["national-geographic-microscopio-kit-37-piezas", "dixit-juego-mesa-asmodee-2021", "science4you-robotics-alfabot-238-piezas", "lego-10698-caja-ladrillos-creativos-grande"],
-    categoryCta: { href: "/tienda/juguetes-stem", text: "Ver juguetes para regalo →" },
+    updated: "2026-10-13",
+    readTime: 10,
+    relatedProducts: ["bresser-junior-microscopio-estereo", "national-geographic-microscopio-kit-37-piezas", "telescopio-astronomico-ninos-8-12-anos-tripode", "lego-technic-cohete-nasa-artemis-42221", "science4you-robotics-alfabot-238-piezas", "ingenieria-increible-35-proyectos-ideaka", "learning-resources-raton-robot-colby", "clementoni-super-doc-robot-programable", "osmo-genius-starter-kit-ipad-educativo", "catan-junior-devir-6-anos", "rummikub-original-goliath-6-jugadores", "ludilo-pillado-juego-cooperativo", "dixit-juego-mesa-asmodee-2021", "mi-primer-atlas-con-pop-ups-sm"],
+    relatedPosts: ["juguetes-ninos-altas-capacidades", "pensamiento-critico-ninos-juegos", "juguetes-regalo-navidad-ninos", "black-friday-juguetes-educativos"],
+    categoryCta: { href: "/tienda/juguetes-stem", text: "Ver juguetes STEM y ciencia →" },
   },
   {
     slug: "torre-aprendizaje-bebe-guia",
@@ -492,14 +500,15 @@ export const posts: Post[] = [
   {
     slug: "juguetes-educativos-navidad-2025",
     image: "/images/blog/juguetes-educativos-navidad-2025.jpg",
-    title: "Juguetes educativos para Navidad — guía de regalos",
-    excerpt: "Guía de regalos educativos para Navidad: cómo acertar por edad, qué presupuesto es razonable y los kits con mayor valor educativo real por euro invertido.",
+    title: "Juguetes educativos para Navidad 2026: regalos que se siguen usando en marzo",
+    excerpt: "Guía de juguetes educativos para Navidad 2026: el criterio de los 3 meses para no fallar, recomendaciones por edad de 0 a más de 12 años y qué kits tienen más recorrido después del 25 de diciembre.",
     category: "Kits Educativos",
     date: "2025-08-27",
-    readTime: 8,
-    relatedProducts: ["lego-10698-caja-ladrillos-creativos-grande", "science4you-robotics-alfabot-238-piezas", "national-geographic-mega-kit-excavacion-gemas"],
-    relatedPosts: ["regalos-educativos-cumpleanos-guia", "juguetes-reyes-magos-2026", "regalos-navidad-ninos-inteligentes"],
-    categoryCta: { href: "/tienda/construccion-lego", text: "Ver regalos educativos →" },
+    updated: "2026-10-13",
+    readTime: 9,
+    relatedProducts: ["lego-10698-caja-ladrillos-creativos-grande", "magna-tiles-clear-colors-32-piezas", "geomag-classic-color-91-piezas", "goula-regletas-10x10-300-piezas-madera", "small-foot-arcoiris-madera-xl-12-piezas", "science4you-robotics-alfabot-238-piezas", "national-geographic-mega-kit-excavacion-gemas", "unglinga-kit-ciencia-150-experimentos", "usborne-gran-libro-experimentos-ciencia", "microscopio-ninos-300x-1200x-led-principiantes", "uscamel-microscopio-ninos-8-12-anos-1200x-optico", "ludilo-pillado-juego-cooperativo"],
+    relatedPosts: ["juguetes-regalo-navidad-ninos", "regalos-navidad-ninos-inteligentes", "juguetes-reyes-magos-2026", "black-friday-juguetes-educativos", "regalos-educativos-cumpleanos-guia"],
+    categoryCta: { href: "/tienda/libros-educativos", text: "Ver kits educativos →" },
   },
   {
     slug: "mejores-juguetes-4-anos",
@@ -628,6 +637,18 @@ export const posts: Post[] = [
     relatedProducts: ["dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos"],
     relatedPosts: ["juegos-cartas-educativos-familia", "mejores-juegos-mesa-familia", "pensamiento-critico-ninos-juegos"],
     categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de mesa educativos →" },
+  },
+  {
+    slug: "black-friday-juguetes-educativos",
+    image: "/images/blog/como-elegir-juguete-educativo.jpg",
+    title: "Black Friday 2026 de juguetes educativos: qué merece la pena comprar y cómo elegir por edad",
+    excerpt: "Qué juguetes educativos merece la pena comprar en Black Friday 2026 (27 de noviembre), cómo preparar la lista de Navidad y Reyes por edades y qué comprobar antes de comprar un juguete rebajado.",
+    category: "Guías",
+    date: "2026-10-13",
+    readTime: 9,
+    relatedProducts: ["lego-10698-caja-ladrillos-creativos-grande", "lego-classic-caja-mediana-10696", "lego-creator-3in1-casa-arbol-31150", "lego-city-comisaria-policia-60316", "magna-tiles-clear-colors-32-piezas", "geomag-classic-color-91-piezas", "cosyland-torre-aprendizaje-antivuelco", "labebe-torre-aprendizaje-plegable-3-en-1", "small-foot-arcoiris-madera-xl-12-piezas", "bresser-junior-telescopio-70-400", "bresser-junior-microscopio-40-1024x-set", "osmo-genius-starter-kit-ipad-educativo", "dobble-juego-cartas-asmodee-velocidad-atencion"],
+    relatedPosts: ["juguetes-regalo-navidad-ninos", "juguetes-reyes-magos-2026", "como-elegir-juguete-educativo", "juguetes-educativos-navidad-2025"],
+    categoryCta: { href: "/tienda", text: "Ver el catálogo completo →" },
   },
 ];
 
