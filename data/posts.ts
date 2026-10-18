@@ -254,7 +254,7 @@ export const posts: Post[] = [
     date: "2025-08-06",
     readTime: 8,
     relatedProducts: ["torre-rosa-montessori-10-cubos-madera", "cosyland-torre-aprendizaje-antivuelco", "beeloom-panda-tower-torre-aprendizaje"],
-    relatedPosts: ["torre-aprendizaje-bebe-guia", "torre-rosa-montessori-beneficios", "mejores-juguetes-4-anos"],
+    relatedPosts: ["juguetes-educativos-1-ano", "torre-aprendizaje-bebe-guia", "torre-rosa-montessori-beneficios", "mejores-juguetes-4-anos"],
     categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes para bebés →" },
   },
   {
@@ -649,6 +649,17 @@ export const posts: Post[] = [
     relatedProducts: ["lego-10698-caja-ladrillos-creativos-grande", "lego-classic-caja-mediana-10696", "lego-creator-3in1-casa-arbol-31150", "lego-city-comisaria-policia-60316", "magna-tiles-clear-colors-32-piezas", "geomag-classic-color-91-piezas", "cosyland-torre-aprendizaje-antivuelco", "labebe-torre-aprendizaje-plegable-3-en-1", "small-foot-arcoiris-madera-xl-12-piezas", "bresser-junior-telescopio-70-400", "bresser-junior-microscopio-40-1024x-set", "osmo-genius-starter-kit-ipad-educativo", "dobble-juego-cartas-asmodee-velocidad-atencion"],
     relatedPosts: ["juguetes-regalo-navidad-ninos", "juguetes-reyes-magos-2026", "como-elegir-juguete-educativo", "juguetes-educativos-navidad-2025"],
     categoryCta: { href: "/tienda", text: "Ver el catálogo completo →" },
+  },
+  {
+    slug: "juguetes-educativos-1-ano",
+    title: "Juguetes educativos para niños de 1 año: guía de 12-24 meses",
+    excerpt: "Qué juguetes educativos elegir para un niño de 1 año según sus hitos de 12 a 24 meses: encajables, arrastre, puzles, bloques, seguridad EN 71 y regalos.",
+    category: "Montessori",
+    date: "2026-10-18",
+    readTime: 9,
+    relatedProducts: ["melissa-doug-puzzle-clavijas-amigos-granja", "hape-picafuerte-xilofono-madera", "fisher-price-telefono-chatter-arrastre", "lego-duplo-caja-creativa-todo-color-10479", "small-foot-arcoiris-madera-xl-12-piezas", "sweety-fox-juguete-montessori-apilar-clasificar", "hahaland-juego-pesca-tela-montessori", "cosyland-torre-aprendizaje-antivuelco"],
+    relatedPosts: ["juguetes-0-2-anos-desarrollo", "mejores-juguetes-montessori-2025", "torre-aprendizaje-bebe-guia", "juguetes-montessori-casa-ambiente-preparado"],
+    categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes Montessori →" },
   },
 ];
 

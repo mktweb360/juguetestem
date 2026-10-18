@@ -20,10 +20,15 @@ export async function generateMetadata({ params }: { params: Promise<{ categoria
   };
 }
 
-const guideContent: Record<string, { intro: string; tips: string[] }> = {
+const guideContent: Record<string, { intro: string; tips: string[]; links?: { href: string; text: string }[] }> = {
   "juguetes-montessori": {
     intro: "Los juguetes Montessori están diseñados para fomentar la autonomía, la concentración y el aprendizaje por descubrimiento. Fabricados con materiales naturales como madera, respetan los ritmos de desarrollo de cada niño.",
     tips: ["Elige materiales naturales: madera, tela, metal. Evita plásticos con sonidos y luces.", "Respeta la edad indicada: los materiales deben suponer un reto adecuado.", "Menos es más: ofrece pocos juguetes a la vez para favorecer la concentración.", "Prioriza la apertura: un juguete sin función única estimula más la creatividad."],
+    links: [
+      { href: "/blog/juguetes-educativos-1-ano", text: "Juguetes educativos para niños de 1 año: guía de 12 a 24 meses" },
+      { href: "/blog/juguetes-0-2-anos-desarrollo", text: "Juguetes para bebés de 0 a 2 años: guía de desarrollo" },
+      { href: "/blog/mejores-juguetes-montessori-2025", text: "Los mejores juguetes Montessori: guía para padres" },
+    ],
   },
   "juguetes-stem": {
     intro: "Los juguetes STEM (Ciencia, Tecnología, Ingeniería y Matemáticas) preparan a los niños para el futuro de manera lúdica. Despiertan la curiosidad científica y desarrollan el pensamiento lógico.",
@@ -195,6 +200,19 @@ export default async function CategoriaPage({ params }: { params: Promise<{ cate
                     </li>
                   ))}
                 </ul>
+                {guide.links && (
+                  <>
+                    <h3 className="font-bold text-gray-800 text-sm mt-5 mb-2">Guías relacionadas:</h3>
+                    <ul className="space-y-2">
+                      {guide.links.map((l) => (
+                        <li key={l.href} className="flex gap-2 text-sm">
+                          <span className="text-purple-500 font-bold shrink-0">→</span>
+                          <Link href={l.href} className="text-purple-700 font-medium hover:text-purple-900 hover:underline">{l.text}</Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </>
+                )}
               </div>
             )}
 
