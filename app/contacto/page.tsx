@@ -73,7 +73,7 @@ export default function ContactoPage() {
           <ul className="list-disc pl-5 space-y-1.5">
             <li><strong>Dudas sobre una guía o un análisis:</strong> si algo de un artículo del <Link href="/blog" className="text-purple-700 hover:underline">blog</Link> no queda claro o quieres saber por qué recomendamos un juguete para una edad concreta.</li>
             <li><strong>Sugerencias de productos o temas:</strong> juguetes educativos, kits STEM, materiales Montessori o juegos de mesa que te gustaría que comparásemos.</li>
-            <li><strong>Errores detectados:</strong> un enlace que no funciona, un producto que ya no está disponible, una edad recomendada mal indicada o cualquier dato que no coincida con la ficha del fabricante. Tu aviso nos ayuda a corregir el contenido.</li>
+            <li><strong>Errores detectados:</strong> un enlace que no funciona, un producto que ya no está disponible, una edad recomendada mal indicada o cualquier dato que no coincida con la ficha del fabricante.</li>
           </ul>
         </section>
 
