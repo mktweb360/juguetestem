@@ -66,6 +66,36 @@ export default function ContactoPage() {
           <p className="text-xs text-gray-400 text-center">Se abrirá tu cliente de correo para enviar a <strong>info@mktweb360.com</strong></p>
         </form>
       )}
+
+      <div className="mt-12 space-y-8 text-gray-700 text-sm leading-relaxed">
+        <section>
+          <h2 className="text-lg font-extrabold text-gray-900 mb-2">Para qué puedes escribirnos</h2>
+          <ul className="list-disc pl-5 space-y-1.5">
+            <li><strong>Dudas sobre una guía o un análisis:</strong> si algo de un artículo del <Link href="/blog" className="text-purple-700 hover:underline">blog</Link> no queda claro o quieres saber por qué recomendamos un juguete para una edad concreta.</li>
+            <li><strong>Sugerencias de productos o temas:</strong> juguetes educativos, kits STEM, materiales Montessori o juegos de mesa que te gustaría que comparásemos.</li>
+            <li><strong>Errores detectados:</strong> un enlace que no funciona, un producto que ya no está disponible, una edad recomendada mal indicada o cualquier dato que no coincida con la ficha del fabricante. Tu aviso nos ayuda a corregir el contenido.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 className="text-lg font-extrabold text-gray-900 mb-2">Lo que no hacemos</h2>
+          <ul className="list-disc pl-5 space-y-1.5">
+            <li><strong>No vendemos directamente:</strong> los productos de la <Link href="/tienda" className="text-purple-700 hover:underline">tienda</Link> se compran en Amazon.es. Los pedidos, envíos, garantías y devoluciones los gestiona Amazon o el vendedor correspondiente, no nosotros.</li>
+            <li><strong>No hacemos valoraciones médicas ni diagnósticos:</strong> no somos docentes, pedagogos ni profesionales sanitarios. Si tienes dudas sobre el desarrollo de tu hijo, consulta con su pediatra o con un especialista.</li>
+            <li><strong>No aceptamos pagos por reseñas positivas:</strong> la presencia de un enlace de afiliado no influye en nuestra valoración de un producto.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 className="text-lg font-extrabold text-gray-900 mb-2">Cómo elegimos y actualizamos los productos</h2>
+          <p>Comparamos edad recomendada, certificaciones de seguridad, materiales y fichas del fabricante antes de recomendar cualquier juguete. Cuando revisamos una guía, la fecha de última actualización aparece al principio del artículo. Explicamos el proceso completo en <Link href="/sobre-nosotros" className="text-purple-700 hover:underline">Sobre nosotros</Link>.</p>
+        </section>
+
+        <section>
+          <h2 className="text-lg font-extrabold text-gray-900 mb-2">Quién está detrás</h2>
+          <p>JugueteSTEM.es es un sitio de Mkt Web 360 SLU. Puedes escribirnos directamente a <a href="mailto:info@mktweb360.com" className="text-purple-700 hover:underline">info@mktweb360.com</a>. Usamos los datos que nos envíes para responder a tu mensaje, como se explica en la <Link href="/politica-de-privacidad" className="text-purple-700 hover:underline">política de privacidad</Link>; los datos del titular están en el <Link href="/aviso-legal" className="text-purple-700 hover:underline">aviso legal</Link>.</p>
+        </section>
+      </div>
     </div>
   );
 }

@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = getPostBySlug(slug);
   if (!post) return {};
   return {
-    title: post.title,
+    title: post.seoTitle ?? post.title,
     description: post.excerpt,
     alternates: { canonical: `/blog/${slug}` },
   };
@@ -38,7 +38,7 @@ interface ArticleSection {
 
 const articleSources: Record<string, { label: string; url: string }[]> = {
   "como-jugar-virus-juego-cartas-reglas": [
-    { label: "Tranjis Games — Virus! El juego de cartas más contagioso. Reglamento (edición accesible del Servicio Bibliográfico de la ONCE, 2023)", url: "https://cti-repos.once.es/cti/biblioteca/Juegos%20y%20Deportes/Juego_braille_virus/Juego_virus_Instrucciones.pdf" },
+    { label: "Tranjis Games — editorial de Virus! (reglamento incluido en la caja del juego)", url: "https://www.tranjisgames.com/" },
     { label: "Tranjis Games — Virus! 2 Evolution (expansión)", url: "https://tranjisgames.com/shop/trg-012evo-virus-2-evolution-1105" },
   ],
   "juegos-aprender-matematicas-ninos-por-edad": [

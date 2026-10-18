@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ categoria
   const cat = categories.find((c) => c.slug === categoria);
   if (!cat) return {};
   return {
-    title: `${cat.name}: guía de compra por edades`,
+    title: `${cat.name}: guía por edades`,
     description: cat.description,
     alternates: { canonical: `https://www.juguetestem.es/tienda/${categoria}` },
   };

@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Aviso legal",
+  title: "Aviso legal y datos del titular",
   description: "Aviso legal de JugueteSTEM.es — Mkt Web 360 SLU, CIF B87679304.",
   alternates: { canonical: "/aviso-legal" },
 };
@@ -25,7 +25,7 @@ export default function AvisoLegalPage() {
             <li><strong>Razón social:</strong> Mkt Web 360 SLU</li>
             <li><strong>CIF:</strong> B87679304</li>
             <li><strong>Domicilio social:</strong> España</li>
-            <li><strong>Email:</strong> info@mktweb360.com</li>
+            <li><strong>Email:</strong> info@mktweb360.com (también desde la <Link href="/contacto" className="text-purple-700 hover:underline">página de contacto</Link>)</li>
             <li><strong>Sitio web:</strong> https://www.juguetestem.es</li>
           </ul>
         </section>
@@ -43,10 +43,14 @@ export default function AvisoLegalPage() {
         </section>
         <section>
           <h2 className="text-lg font-extrabold text-gray-900 mb-2">5. Programa de afiliados</h2>
-          <p>JugueteSTEM.es participa en programas de afiliación con distintos proveedores. Los enlaces identificados como enlaces de afiliado pueden generar comisión para el titular sin coste adicional para el usuario. Consulta el detalle de los programas en nuestra política de privacidad.</p>
+          <p>JugueteSTEM.es participa en programas de afiliación con distintos proveedores. Los enlaces identificados como enlaces de afiliado pueden generar comisión para el titular sin coste adicional para el usuario. Consulta el detalle de los programas en nuestra <Link href="/politica-de-privacidad" className="text-purple-700 hover:underline">política de privacidad</Link>.</p>
         </section>
         <section>
-          <h2 className="text-lg font-extrabold text-gray-900 mb-2">6. Legislación aplicable</h2>
+          <h2 className="text-lg font-extrabold text-gray-900 mb-2">6. Cookies</h2>
+          <p>Las cookies que utiliza este sitio, su finalidad y cómo aceptarlas o rechazarlas se explican en la <Link href="/politica-de-cookies" className="text-purple-700 hover:underline">política de cookies</Link>.</p>
+        </section>
+        <section>
+          <h2 className="text-lg font-extrabold text-gray-900 mb-2">7. Legislación aplicable</h2>
           <p>Este aviso se rige por la legislación española. Para cualquier controversia, las partes se someten a los juzgados y tribunales competentes según la normativa aplicable.</p>
         </section>
         <p className="text-xs text-gray-400">Última actualización: junio 2025</p>

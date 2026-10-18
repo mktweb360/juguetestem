@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Política de cookies",
+  title: "Política de cookies y cómo gestionarlas",
   description: "Qué cookies utilizamos en JugueteSTEM.es y cómo gestionarlas.",
   alternates: { canonical: "/politica-de-cookies" },
 };
@@ -72,7 +72,7 @@ export default function PoliticaCookiesPage() {
           </ul>
         </section>
 
-        <p>Más información en nuestra <Link href="/politica-de-privacidad" className="text-purple-700 hover:underline">política de privacidad</Link> o escríbenos a info@mktweb360.com.</p>
+        <p>Más información en nuestra <Link href="/politica-de-privacidad" className="text-purple-700 hover:underline">política de privacidad</Link> o escríbenos a info@mktweb360.com. Los datos del titular están en el <Link href="/aviso-legal" className="text-purple-700 hover:underline">aviso legal</Link>.</p>
         <p className="text-xs text-gray-400">Última actualización: octubre de 2026</p>
       </div>
     </div>

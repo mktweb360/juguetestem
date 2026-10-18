@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Política de privacidad",
+  title: "Política de privacidad y protección de datos",
   description: "Política de privacidad y protección de datos de JugueteSTEM.es.",
   alternates: { canonical: "/politica-de-privacidad" },
 };
@@ -28,13 +28,14 @@ export default function PoliticaPrivacidadPage() {
             <li><strong>CIF:</strong> B87679304</li>
             <li><strong>Email:</strong> info@mktweb360.com</li>
           </ul>
+          <p className="mt-2">Los datos completos del titular figuran en el <Link href="/aviso-legal" className="text-purple-700 hover:underline">aviso legal</Link>.</p>
         </section>
 
         <section>
           <h2 className="text-lg font-extrabold text-gray-900 mb-2">2. Datos que recopilamos</h2>
           <ul className="space-y-1">
-            <li><strong>Formulario de contacto:</strong> nombre y dirección de email</li>
-            <li><strong>Cookies publicitarias:</strong> con tu consentimiento previo (ver política de cookies)</li>
+            <li><strong><Link href="/contacto" className="text-purple-700 hover:underline">Formulario de contacto</Link>:</strong> nombre y dirección de email</li>
+            <li><strong>Cookies publicitarias:</strong> con tu consentimiento previo (ver <Link href="/politica-de-cookies" className="text-purple-700 hover:underline">política de cookies</Link>)</li>
             <li><strong>Google AdSense:</strong> datos para publicidad personalizada, solo con consentimiento</li>
             <li><strong>Amazon Associates:</strong> Amazon gestiona sus propios datos cuando clicas en nuestros enlaces</li>
           </ul>

@@ -228,7 +228,11 @@ export default function SobreNosotrosPage() {
                   <strong>Programa de afiliación:</strong> Somos
                   afiliados de distintos programas de partners comerciales. Cuando compras a
                   través de nuestros enlaces, recibimos una comisión
-                  sin coste adicional para ti. Más detalle en nuestra política de privacidad.
+                  sin coste adicional para ti. Más detalle en nuestra{" "}
+                  <Link href="/politica-de-privacidad" className="underline hover:text-amber-900">
+                    política de privacidad
+                  </Link>
+                  .
                 </li>
                 <li>
                   <strong>
@@ -264,7 +268,16 @@ export default function SobreNosotrosPage() {
                 className="text-purple-700 hover:underline"
               >
                 info@mktweb360.com
-              </a>
+              </a>{" "}
+              · También puedes escribirnos desde la{" "}
+              <Link href="/contacto" className="text-purple-700 hover:underline">
+                página de contacto
+              </Link>
+              . Los datos legales completos están en el{" "}
+              <Link href="/aviso-legal" className="text-purple-700 hover:underline">
+                aviso legal
+              </Link>
+              .
             </p>
             <p className="mt-2 text-gray-500">
               Portal activo desde 2024 · Contenido revisado editorialmente,
