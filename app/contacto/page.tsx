@@ -32,7 +32,7 @@ export default function ContactoPage() {
         <div className="bg-purple-50 border border-purple-200 rounded-xl p-6 text-center">
           <div className="text-3xl mb-3">✓</div>
           <h2 className="font-bold text-purple-800 text-lg mb-2">¡Mensaje enviado!</h2>
-          <p className="text-purple-700 text-sm">Tu cliente de correo se ha abierto. Respondemos en 24-48h laborables.</p>
+          <p className="text-purple-700 text-sm">Tu cliente de correo se ha abierto. Te responderemos por email.</p>
           <Link href="/" className="mt-4 inline-block text-purple-700 font-semibold text-sm">← Volver al inicio</Link>
         </div>
       ) : (
