@@ -87,7 +87,7 @@ export const posts: Post[] = [
     updated: "2026-10-13",
     readTime: 12,
     relatedProducts: ["small-foot-arcoiris-madera-xl-12-piezas", "hahaland-juego-pesca-tela-montessori", "lego-duplo-tren-vapor-10874-control-app", "magna-tiles-clear-colors-32-piezas", "learning-resources-raton-robot-colby", "ubongo-junior-asmodee-puzzle-rapido", "lego-10698-caja-ladrillos-creativos-grande", "national-geographic-mega-kit-excavacion-gemas", "catan-junior-devir-6-anos", "lego-creator-3in1-casa-arbol-31150", "bresser-junior-telescopio-70-400", "thames-kosmos-intro-chemistry-27-experimentos", "lego-technic-cohete-nasa-artemis-42221", "dixit-juego-mesa-asmodee-2021"],
-    relatedPosts: ["juguetes-educativos-navidad-2025", "regalos-navidad-ninos-inteligentes", "juguetes-reyes-magos-2026", "black-friday-juguetes-educativos"],
+    relatedPosts: ["juguetes-educativos-navidad-2025", "regalos-navidad-ninos-inteligentes", "juguetes-reyes-magos-2026", "regalos-ninos-2-3-anos", "black-friday-juguetes-educativos"],
     categoryCta: { href: "/tienda", text: "Ver el catálogo completo →" },
   },
   {
@@ -149,7 +149,7 @@ export const posts: Post[] = [
     updated: "2026-10-13",
     readTime: 10,
     relatedProducts: ["janod-sweet-cocoon-clasificacion-formas-colores", "bieco-arcoiris-madera-7-piezas", "hape-laberinto-bolas-madera-coordinacion", "goula-los-3-cerditos-juego-cooperativo", "escuela-de-monstruos-pack-1-2-3", "diset-yo-aprendo-a-leer", "lego-classic-vehiculos-creativos-11036", "national-geographic-mega-kit-excavacion-gemas", "science4you-dino-kit-excavacion-fosiles", "catan-junior-devir-6-anos", "thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-telescopio-refractor-50mm-ninos", "lego-technic-cohete-nasa-artemis-42221", "rummikub-original-goliath-6-jugadores"],
-    relatedPosts: ["juguetes-regalo-navidad-ninos", "juguetes-educativos-navidad-2025", "black-friday-juguetes-educativos", "mejores-juegos-mesa-familia"],
+    relatedPosts: ["juguetes-regalo-navidad-ninos", "juguetes-educativos-navidad-2025", "regalos-ninos-2-3-anos", "black-friday-juguetes-educativos", "mejores-juegos-mesa-familia"],
     categoryCta: { href: "/tienda/libros-educativos", text: "Ver kits educativos →" },
   },
   {
@@ -174,6 +174,7 @@ export const posts: Post[] = [
     date: "2025-07-12",
     readTime: 7,
     relatedProducts: ["torre-rosa-montessori-10-cubos-madera", "geomag-classic-color-91-piezas", "cosyland-torre-aprendizaje-antivuelco"],
+    relatedPosts: ["regalos-ninos-2-3-anos", "mejores-juguetes-montessori-3-anos", "mejores-juguetes-4-anos"],
     categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes educativos →" },
   },
   {
@@ -712,8 +713,20 @@ export const posts: Post[] = [
     date: "2026-10-18",
     readTime: 9,
     relatedProducts: ["melissa-doug-puzzle-clavijas-amigos-granja", "hape-picafuerte-xilofono-madera", "fisher-price-telefono-chatter-arrastre", "lego-duplo-caja-creativa-todo-color-10479", "small-foot-arcoiris-madera-xl-12-piezas", "sweety-fox-juguete-montessori-apilar-clasificar", "hahaland-juego-pesca-tela-montessori", "cosyland-torre-aprendizaje-antivuelco"],
-    relatedPosts: ["juguetes-0-2-anos-desarrollo", "mejores-juguetes-montessori-2025", "torre-aprendizaje-bebe-guia", "juguetes-montessori-casa-ambiente-preparado"],
+    relatedPosts: ["juguetes-0-2-anos-desarrollo", "regalos-ninos-2-3-anos", "mejores-juguetes-montessori-2025", "torre-aprendizaje-bebe-guia", "juguetes-montessori-casa-ambiente-preparado"],
     categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes Montessori →" },
+  },
+  {
+    slug: "regalos-ninos-2-3-anos",
+    title: "Regalos para niños de 2 y 3 años: guía de 24 a 36 meses por tipo de niño",
+    seoTitle: "Regalos para niños de 2-3 años: ideas por perfil",
+    excerpt: "Regalos para niños de 2 y 3 años según sus hitos: juego simbólico, primeros puzles, construcción, música y arte, con seguridad EN 71 e ideas por perfil.",
+    category: "Guías",
+    date: "2026-10-18",
+    readTime: 10,
+    relatedProducts: ["playmobil-junior-granja-tractor-71656", "ravensburger-mi-primer-puzle-mascotas-2-4-6-8", "haba-primer-frutal-juego-cooperativo-2-anos", "hape-bloques-musicales-apilables-5-instrumentos", "play-doh-pack-4-botes-clasicos", "janod-sweet-cocoon-clasificacion-formas-colores", "lego-duplo-caja-creativa-todo-color-10479", "lego-duplo-tren-vapor-10874-control-app", "goula-los-3-cerditos-juego-cooperativo", "small-foot-arcoiris-madera-xl-12-piezas"],
+    relatedPosts: ["juguetes-educativos-1-ano", "juguetes-educativos-3-anos", "mejores-juguetes-montessori-3-anos", "juguetes-regalo-navidad-ninos", "juguetes-reyes-magos-2026"],
+    categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes para 2 y 3 años →" },
   },
 ];
 

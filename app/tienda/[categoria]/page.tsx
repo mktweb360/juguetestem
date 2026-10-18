@@ -26,6 +26,7 @@ const guideContent: Record<string, { intro: string; tips: string[]; links?: { hr
     tips: ["Elige materiales naturales: madera, tela, metal. Evita plásticos con sonidos y luces.", "Respeta la edad indicada: los materiales deben suponer un reto adecuado.", "Menos es más: ofrece pocos juguetes a la vez para favorecer la concentración.", "Prioriza la apertura: un juguete sin función única estimula más la creatividad."],
     links: [
       { href: "/blog/juguetes-educativos-1-ano", text: "Juguetes educativos para niños de 1 año: guía de 12 a 24 meses" },
+      { href: "/blog/regalos-ninos-2-3-anos", text: "Regalos para niños de 2 y 3 años: guía de 24 a 36 meses" },
       { href: "/blog/juguetes-0-2-anos-desarrollo", text: "Juguetes para bebés de 0 a 2 años: guía de desarrollo" },
       { href: "/blog/mejores-juguetes-montessori-2025", text: "Los mejores juguetes Montessori: guía para padres" },
     ],
