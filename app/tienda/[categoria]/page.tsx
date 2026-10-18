@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ categoria
   const cat = categories.find((c) => c.slug === categoria);
   if (!cat) return {};
   return {
-    title: `${cat.name} — Mejores juguetes ${cat.name}`,
+    title: `${cat.name}: guía de compra por edades`,
     description: cat.description,
     alternates: { canonical: `https://www.juguetestem.es/tienda/${categoria}` },
   };
@@ -171,7 +171,7 @@ export default async function CategoriaPage({ params }: { params: Promise<{ cate
             <div className="flex items-center justify-between bg-gray-50 border border-gray-200 rounded-lg px-4 py-2.5 mb-5">
               <span className="text-sm text-gray-600">
                 <span className="font-semibold text-gray-900">{catProducts.length} productos</span> en esta categoría
-              </span>
+              </span>
             </div>
 
             <AffiliateDisclosure />
