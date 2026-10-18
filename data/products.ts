@@ -487,6 +487,7 @@ export const products: Product[] = [
     slug: "janod-sweet-cocoon-clasificacion-formas-colores",
     name: "Janod Sweet Cocoon Caja de Clasificación de Formas y Colores — 12m+",
     asin: "B085HZZN58",
+    unavailable: "2026-10-18",
     image: "/images/products/janod-sweet-cocoon-clasificacion-formas-colores.jpg",
     categorySlug: "juguetes-montessori",
     categoryName: "Juguetes Montessori",
