@@ -4,9 +4,19 @@ import type { Metadata } from "next";
 import { categories, products, getProductBySlug, getProductsByCategory, amazonLink } from "@/data/products";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import { getPostBySlug } from "@/data/posts";
-import { productTitle, relatedInCategory } from "@/lib/seo";
+import { productTitle, productTitleUnique, relatedInCategory } from "@/lib/seo";
 
 /* ─── Metadata ────────────────────────────────────────────────────────────── */
+// Imagen de respaldo por categoría para fichas sin imagen propia (ficheros que existen en public/images/products).
+const CATEGORY_IMAGE: Record<string, string> = {
+  "construccion-lego": "/images/products/construcciones.jpg",
+  "juegos-mesa-educativos": "/images/products/juegos-mesa.jpg",
+  "juguetes-stem": "/images/products/kits-ciencia.jpg",
+  "juguetes-montessori": "/images/products/juguetes-montessori.jpg",
+  "libros-educativos": "/images/products/libros-educativos.jpg",
+  "telescopios-microscopios": "/images/products/telescopios-microscopios.jpg",
+};
+
 export async function generateStaticParams() {
   return products.map((p) => ({ categoria: p.categorySlug, producto: p.slug }));
 }
@@ -20,7 +30,7 @@ export async function generateMetadata({
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
-    title: { absolute: productTitle(product.name, "análisis y opinión") },
+    title: { absolute: productTitleUnique(product, products, "análisis y opinión") },
     description: product.shortDescription,
     alternates: {
       canonical: `https://www.juguetestem.es/tienda/${categoria}/${producto}`,
@@ -124,7 +134,7 @@ export default async function ProductoPage({
           {/* Columna imagen */}
           <div className="rounded-2xl overflow-hidden bg-gray-100 flex items-center justify-center">
             <img
-              src={product.image ?? `/images/products/${product.categorySlug}.jpg`}
+              src={product.image ?? CATEGORY_IMAGE[product.categorySlug] ?? "/images/hero-bg.jpg"}
               alt={product.name}
               className="w-full h-72 object-cover"
               loading="eager"
