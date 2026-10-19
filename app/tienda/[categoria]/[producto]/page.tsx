@@ -94,7 +94,7 @@ export default async function ProductoPage({
         name: `¿Es seguro ${product.name}?`,
         acceptedAnswer: {
           "@type": "Answer",
-          text: `${product.name} cumple con la normativa CE de seguridad para juguetes en la Unión Europea.`,
+          text: `Antes de comprar ${product.name}, comprueba en la ficha de Amazon el marcado CE y la edad mínima que indica el fabricante, y respétala.`,
         },
       },
       {
@@ -276,7 +276,7 @@ export default async function ProductoPage({
               },
               {
                 q: `¿Es seguro ${product.name}?`,
-                a: `Sí, ${product.name} cumple con la normativa CE de seguridad para juguetes en la Unión Europea. Respeta siempre los límites de edad indicados y supervisa a los niños pequeños durante el juego.`,
+                a: `Antes de comprar ${product.name}, comprueba en la ficha de Amazon el marcado CE y la edad mínima que indica el fabricante. Respeta siempre esa edad y supervisa a los niños pequeños.`,
               },
               {
                 q: `¿Necesita pilas o baterías ${product.name}?`,

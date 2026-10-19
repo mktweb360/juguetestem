@@ -213,7 +213,7 @@ export const posts: Post[] = [
     date: "2025-08-01",
     readTime: 7,
     relatedProducts: ["cosyland-torre-aprendizaje-antivuelco", "beeloom-panda-tower-torre-aprendizaje", "torre-rosa-montessori-10-cubos-madera"],
-    relatedPosts: ["mejores-juguetes-montessori-2025", "beeloom-panda-tower-analisis", "juguetes-0-2-anos-desarrollo"],
+    relatedPosts: ["mejores-juguetes-montessori-2025", "beeloom-panda-tower-analisis", "cama-montessori-como-elegir", "juguetes-0-2-anos-desarrollo"],
     categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver torres de aprendizaje →" },
   },
   {
@@ -239,7 +239,7 @@ export const posts: Post[] = [
     date: "2025-08-03",
     readTime: 9,
     relatedProducts: ["torre-rosa-montessori-10-cubos-madera", "cosyland-torre-aprendizaje-antivuelco", "beeloom-panda-tower-torre-aprendizaje"],
-    relatedPosts: ["torre-aprendizaje-bebe-guia", "torre-rosa-montessori-beneficios", "juguetes-madera-vs-plastico-diferencias"],
+    relatedPosts: ["cama-montessori-como-elegir", "torre-aprendizaje-bebe-guia", "torre-rosa-montessori-beneficios", "juguetes-madera-vs-plastico-diferencias"],
     categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes Montessori →" },
   },
   {
@@ -727,6 +727,18 @@ export const posts: Post[] = [
     relatedProducts: ["playmobil-junior-granja-tractor-71656", "ravensburger-mi-primer-puzle-mascotas-2-4-6-8", "haba-primer-frutal-juego-cooperativo-2-anos", "hape-bloques-musicales-apilables-5-instrumentos", "play-doh-pack-4-botes-clasicos", "janod-sweet-cocoon-clasificacion-formas-colores", "lego-duplo-caja-creativa-todo-color-10479", "lego-duplo-tren-vapor-10874-control-app", "goula-los-3-cerditos-juego-cooperativo", "small-foot-arcoiris-madera-xl-12-piezas"],
     relatedPosts: ["juguetes-educativos-1-ano", "juguetes-educativos-3-anos", "mejores-juguetes-montessori-3-anos", "juguetes-regalo-navidad-ninos", "juguetes-reyes-magos-2026"],
     categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes para 2 y 3 años →" },
+  },
+  {
+    slug: "cama-montessori-como-elegir",
+    title: "Cama Montessori: guía para elegirla según la edad, el tipo y el colchón",
+    seoTitle: "Cama Montessori: cómo elegirla por edad y medida",
+    excerpt: "Cama Montessori: cuándo dejar la cuna, cama de suelo, casita o con barreras, colchón de 60x120, 70x140 o 90x190 y normas UNE-EN 716 y 747 de seguridad.",
+    category: "Montessori",
+    date: "2026-10-19",
+    readTime: 10,
+    relatedProducts: ["weber-industries-pilou-cama-montessori-70x140", "cool-dreams-apache-wonderland-cama-montessori-70x140", "en-casa-treviolo-cama-casita-montessori-70x140", "smartwood-tipi-cama-casita-montessori-60x120", "smartwood-tila-2l-cama-montessori-90x190-barrera", "atmosphera-bosco-cama-casita-montessori-90x190"],
+    relatedPosts: ["juguetes-montessori-casa-ambiente-preparado", "torre-aprendizaje-bebe-guia", "regalos-ninos-2-3-anos", "juguetes-educativos-1-ano"],
+    categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver camas y juguetes Montessori →" },
   },
 ];
 

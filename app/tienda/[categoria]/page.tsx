@@ -29,6 +29,7 @@ const guideContent: Record<string, { intro: string; tips: string[]; links?: { hr
       { href: "/blog/regalos-ninos-2-3-anos", text: "Regalos para niños de 2 y 3 años: guía de 24 a 36 meses" },
       { href: "/blog/juguetes-0-2-anos-desarrollo", text: "Juguetes para bebés de 0 a 2 años: guía de desarrollo" },
       { href: "/blog/mejores-juguetes-montessori-2025", text: "Los mejores juguetes Montessori: guía para padres" },
+      { href: "/blog/cama-montessori-como-elegir", text: "Cama Montessori: cómo elegirla según la edad, el tipo y el colchón" },
     ],
   },
   "juguetes-stem": {

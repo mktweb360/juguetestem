@@ -16,7 +16,7 @@ JugueteSTEM.es es un portal de análisis, guías de compra y recursos educativos
 ## Tienda de productos
 URL: https://www.juguetestem.es/tienda
 Categorías disponibles con fichas de producto individuales:
-- Juguetes Montessori: https://www.juguetestem.es/tienda/juguetes-montessori — Torres de aprendizaje, Torre Rosa, materiales sensoriales
+- Juguetes Montessori: https://www.juguetestem.es/tienda/juguetes-montessori — Torres de aprendizaje, camas Montessori, Torre Rosa, materiales sensoriales
 - Juguetes STEM y ciencia: https://www.juguetestem.es/tienda/juguetes-stem — Microscopios, kits de química, robótica
 - Juegos de mesa educativos: https://www.juguetestem.es/tienda/juegos-mesa-educativos — Dixit, Catan Junior, Érase una Vez la Vida
 - Juguetes de construcción y LEGO: https://www.juguetestem.es/tienda/construccion-lego — LEGO Classic, Geomag magnético
@@ -37,6 +37,7 @@ Categorías disponibles con fichas de producto individuales:
 - [Juguetes para bebés de 0 a 2 años: guía de desarrollo](https://www.juguetestem.es/blog/juguetes-0-2-anos-desarrollo)
 - [Juguetes educativos para niños de 1 año: guía de 12-24 meses](https://www.juguetestem.es/blog/juguetes-educativos-1-ano)
 - [Regalos para niños de 2 y 3 años: guía de 24 a 36 meses por tipo de niño](https://www.juguetestem.es/blog/regalos-ninos-2-3-anos)
+- [Cama Montessori: guía para elegirla según la edad, el tipo y el colchón](https://www.juguetestem.es/blog/cama-montessori-como-elegir)
 - [Los mejores juguetes para niños de 4 años](https://www.juguetestem.es/blog/mejores-juguetes-4-anos)
 
 ### STEM y Ciencia
