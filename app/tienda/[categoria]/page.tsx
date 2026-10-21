@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { categories, getProductsByCategory } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
+import { CATEGORIA_GUIA } from "@/lib/categoria-guia";
 
 export async function generateStaticParams() {
   return categories.map((c) => ({ categoria: c.slug }));
@@ -57,6 +58,7 @@ export default async function CategoriaPage({ params }: { params: Promise<{ cate
 
   const catProducts = getProductsByCategory(categoria);
   const guide = guideContent[categoria];
+  const extra = CATEGORIA_GUIA[categoria];
 
   const categoriesWithCount = categories.map((c) => ({
     ...c,
@@ -69,6 +71,12 @@ export default async function CategoriaPage({ params }: { params: Promise<{ cate
     name: cat.name,
     description: cat.description,
     url: `https://www.juguetestem.es/tienda/${cat.slug}`,
+  };
+
+  const faqCatSchema = extra && {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: extra.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
   };
 
   const itemListSchema = {
@@ -88,6 +96,7 @@ export default async function CategoriaPage({ params }: { params: Promise<{ cate
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
+      {faqCatSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqCatSchema) }} />}
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
         {/* Breadcrumb */}
@@ -215,6 +224,44 @@ export default async function CategoriaPage({ params }: { params: Promise<{ cate
                     </ul>
                   </>
                 )}
+              </div>
+            )}
+
+            {extra && (
+              <div className="mt-8 space-y-8">
+                <section>
+                  <h2 className="text-lg font-extrabold text-gray-900 mb-4">Cómo elegir bien en {cat.name}</h2>
+                  <div className="space-y-4">
+                    {extra.criterios.map((c) => (
+                      <div key={c.titulo}>
+                        <h3 className="font-bold text-gray-800 text-sm mb-1">{c.titulo}</h3>
+                        <p className="text-gray-600 text-sm leading-relaxed">{c.texto}</p>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+                <section>
+                  <h2 className="text-lg font-extrabold text-gray-900 mb-3">Errores habituales al comprar</h2>
+                  <ul className="space-y-2">
+                    {extra.errores.map((e, i) => (
+                      <li key={i} className="flex gap-2 text-gray-600 text-sm"><span className="text-red-400 font-bold shrink-0">✗</span><span>{e}</span></li>
+                    ))}
+                  </ul>
+                </section>
+                <section>
+                  <h2 className="text-lg font-extrabold text-gray-900 mb-3">Preguntas frecuentes</h2>
+                  <div className="space-y-3">
+                    {extra.faq.map((f) => (
+                      <details key={f.q} className="border border-gray-200 rounded-xl overflow-hidden group">
+                        <summary className="flex justify-between items-center p-4 cursor-pointer font-semibold text-gray-900 hover:bg-purple-50 list-none text-sm">
+                          <span>{f.q}</span>
+                          <span className="text-purple-600 ml-4 shrink-0 group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <div className="px-4 pb-4 text-gray-600 text-sm leading-relaxed bg-gray-50">{f.a}</div>
+                      </details>
+                    ))}
+                  </div>
+                </section>
               </div>
             )}
 

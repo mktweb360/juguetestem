@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 import { categories, products, getProductBySlug, getProductsByCategory, amazonLink } from "@/data/products";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import { getPostBySlug } from "@/data/posts";
-import { productTitle, productTitleUnique, relatedInCategory } from "@/lib/seo";
+import { productTitle, productTitleUnique, relatedInCategory, publicDescription } from "@/lib/seo";
+import { CATEGORIA_GUIA } from "@/lib/categoria-guia";
 
 /* ─── Metadata ────────────────────────────────────────────────────────────── */
 // Imagen de respaldo por categoría para fichas sin imagen propia (ficheros que existen en public/images/products).
@@ -56,6 +57,17 @@ export default async function ProductoPage({
     .map((s) => getPostBySlug(s))
     .filter(Boolean);
 
+  const analisis = publicDescription(product.fullDescription);
+  const guia = CATEGORIA_GUIA[categoria];
+  const edad = product.specs["Edad"];
+  // Preguntas propias de la ficha: la edad, lo que dice la categoría y las alternativas reales del catálogo.
+  const faqs = [
+    ...(edad ? [{ q: `¿Para qué edad es ${product.name}?`, a: `El fabricante lo indica para ${edad}. Úsalo como límite mínimo y comprueba si el niño tiene la destreza para el reto que plantea.` }] : []),
+    ...(guia ? [guia.faq[0]] : []),
+    { q: `¿Qué puntos débiles tiene ${product.name}?`, a: product.cons.length ? `${product.cons.join(". ")}.` : "Consulta la ficha del fabricante." },
+    { q: "¿Con qué otros productos se puede comparar?", a: related.length ? `En esta misma categoría tienes ${related.map((r) => r.name).join(", ")}; más abajo los comparamos con este.` : "Consulta el resto de la categoría." },
+  ];
+
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -70,44 +82,11 @@ export default async function ProductoPage({
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: `¿Para qué edad es ${product.name}?`,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: product.specs["Edad"]
-            ? `${product.name} está recomendado para ${product.specs["Edad"]}.`
-            : "Consulta las especificaciones del producto.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: `¿Dónde comprar ${product.name}?`,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: `Puedes ver el precio actualizado y comprar ${product.name} a través de nuestro enlace. El precio varía según disponibilidad y ofertas.`,
-        },
-      },
-      {
-        "@type": "Question",
-        name: `¿Es seguro ${product.name}?`,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: `Antes de comprar ${product.name}, comprueba en la ficha de Amazon el marcado CE y la edad mínima que indica el fabricante, y respétala.`,
-        },
-      },
-      {
-        "@type": "Question",
-        name: `¿Necesita pilas o baterías ${product.name}?`,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: product.specs["Pilas"] ?? product.specs["Batería"]
-            ? `Consulta la sección de especificaciones para el tipo de alimentación requerido.`
-            : `Consulta las especificaciones del producto para saber si incluye pilas o necesita baterías adicionales.`,
-        },
-      },
-    ],
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
   };
 
   return (
@@ -211,6 +190,28 @@ export default async function ProductoPage({
         {/* Affiliate disclosure */}
         <AffiliateDisclosure />
 
+        {/* Análisis propio */}
+        {analisis && (
+          <section className="my-10">
+            <h2 className="text-xl font-extrabold text-gray-900 mb-3">Qué es y cómo funciona</h2>
+            <p className="text-gray-700 text-sm leading-relaxed">{analisis}</p>
+          </section>
+        )}
+
+        {guia && (
+          <section className="mb-10 rounded-2xl border border-purple-100 bg-purple-50 p-6">
+            <h2 className="text-base font-extrabold text-purple-900 mb-3">Antes de comprar en {cat.name}</h2>
+            <ul className="space-y-2">
+              {guia.antesDeComprar.map((t, i) => (
+                <li key={i} className="text-sm text-purple-900 flex gap-2"><span className="shrink-0 font-bold">→</span>{t}</li>
+              ))}
+            </ul>
+            <p className="text-xs text-purple-800 mt-3">
+              <Link href={`/tienda/${cat.slug}`} className="font-semibold underline">Guía completa de {cat.name}</Link>
+            </p>
+          </section>
+        )}
+
         {/* Pros / Cons */}
         <div className="grid md:grid-cols-2 gap-6 my-10">
           <div className="bg-green-50 border border-green-100 rounded-2xl p-6">
@@ -263,28 +264,7 @@ export default async function ProductoPage({
         <div className="mb-10">
           <h2 className="text-xl font-extrabold text-gray-900 mb-5">Preguntas frecuentes</h2>
           <div className="space-y-3">
-            {[
-              {
-                q: `¿Para qué edad es ${product.name}?`,
-                a: product.specs["Edad"]
-                  ? `${product.name} está recomendado para ${product.specs["Edad"]}. Respeta siempre los límites de edad indicados por el fabricante.`
-                  : "Consulta las especificaciones del producto para la edad recomendada. Respeta siempre los límites indicados por el fabricante.",
-              },
-              {
-                q: `¿Dónde comprar ${product.name}?`,
-                a: `Puedes ver el precio actualizado y comprar ${product.name} directamente a través de nuestro enlace. El precio puede variar según stock y ofertas del momento.`,
-              },
-              {
-                q: `¿Es seguro ${product.name}?`,
-                a: `Antes de comprar ${product.name}, comprueba en la ficha de Amazon el marcado CE y la edad mínima que indica el fabricante. Respeta siempre esa edad y supervisa a los niños pequeños.`,
-              },
-              {
-                q: `¿Necesita pilas o baterías ${product.name}?`,
-                a: product.specs["Pilas"] ?? product.specs["Batería"]
-                  ? `Revisa el apartado de especificaciones donde encontrarás el tipo de alimentación exacto. Algunos modelos incluyen pilas para probar, otros requieren pilas adicionales.`
-                  : `Para saber si necesita pilas o viene con batería incluida, consulta la ficha completa del producto antes de comprarlo.`,
-              },
-            ].map((faq, i) => (
+            {faqs.map((faq, i) => (
               <details
                 key={i}
                 className="border border-gray-200 rounded-xl overflow-hidden group"
@@ -331,6 +311,34 @@ export default async function ProductoPage({
               )}
             </div>
           </div>
+        )}
+
+        {/* Comparativa con alternativas de la categoría */}
+        {related.length > 0 && (
+          <section className="mb-10">
+            <h2 className="text-xl font-extrabold text-gray-900 mb-3">Comparado con otras opciones de la categoría</h2>
+            <div className="overflow-x-auto rounded-2xl border border-gray-100">
+              <table className="w-full text-sm">
+                <thead className="bg-gray-50 text-left text-gray-600">
+                  <tr><th className="px-4 py-3">Producto</th><th className="px-4 py-3">Edad</th><th className="px-4 py-3">Dato clave</th></tr>
+                </thead>
+                <tbody>
+                  {[product, ...related].map((p) => {
+                    const otro = Object.entries(p.specs).find(([k]) => k !== "Edad");
+                    return (
+                      <tr key={p.slug} className={p.slug === product.slug ? "bg-purple-50 font-semibold" : "border-t border-gray-100"}>
+                        <td className="px-4 py-3">
+                          {p.slug === product.slug ? p.name : <Link href={`/tienda/${p.categorySlug}/${p.slug}`} className="text-purple-700 hover:underline">{p.name}</Link>}
+                        </td>
+                        <td className="px-4 py-3 text-gray-600">{p.specs["Edad"] ?? "Según fabricante"}</td>
+                        <td className="px-4 py-3 text-gray-600">{otro ? `${otro[0]}: ${otro[1]}` : "—"}</td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </section>
         )}
 
         {/* Productos relacionados */}

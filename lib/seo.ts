@@ -47,3 +47,9 @@ export function productTitleUnique(
   const corto = productTitle(base, suffix, max - propio.length - 1).slice(0, -(suffix.length + 2));
   return `${corto} ${propio}: ${suffix}`;
 }
+
+/** Descripción larga apta para mostrar: quita la nota interna de verificación («Verificado en vivo… dato interno, no se muestra). »). */
+export function publicDescription(text?: string): string {
+  if (!text) return "";
+  return text.replace(/^Verificado en vivo[^)]*no se muestra\)\.\s*/, "").trim();
+}
