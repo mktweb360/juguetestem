@@ -327,6 +327,23 @@ export const products: Product[] = [
     specs: { "Jugadores": "2-4", "Edad": "6+ años", "Duración": "30 min", "Idioma": "Español + Catalán + Portugués", "Recursos": "Madera, cabras, melaza, espadas" },
     relatedPosts: ["catan-junior-analisis-estrategia", "mejores-juegos-mesa-familia", "juguetes-educativos-6-anos"],
   },
+  // 27/10/2026: la edición suelta de Tranjis (8460659666) sigue sin compra; se enlaza el pack de HiperOcio con el juego original.
+  {
+    slug: "virus-pack-tapete-fundas-deck-box",
+    name: "Pack Virus! de Tranjis Games con Tapete de Neopreno, 110 Fundas y Deck Box — 8 años+",
+    asin: "B0HLZSMKVG",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de mesa educativos",
+    price: "Consultar precio",
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "El juego de cartas Virus! original de Tranjis Games con tapete mini de neopreno, 110 fundas y caja rígida para las cartas. 2-6 jugadores, desde 8 años, 20 minutos.",
+    fullDescription: "Verificado en vivo en Amazon.es el 27/10/2026 (ASIN B0HLZSMKVG, vendido por HiperOcio; dato interno, no se muestra). Pack que incluye Virus! de Tranjis Games, producto original precintado según el vendedor, con tres accesorios: un tapete mini de neopreno Zacatrus con base de goma antideslizante, dos paquetes de fundas transparentes Zacatrus Asia de 57,5 × 89 mm (110 fundas para las 68 cartas del juego) y una deck box rígida para guardarlas. Virus! es para 2 a 6 jugadores a partir de 8 años, con partidas de unos 20 minutos. El pack se monta a mano en Albox (Almería).",
+    pros: ["Juego original de Tranjis Games, en español", "Fundas y deck box para que las cartas aguanten", "Tapete antideslizante para jugar en cualquier mesa"],
+    cons: ["Vendido por un tercero (HiperOcio)", "Es un pack con accesorios: cuesta más que el juego suelto", "Desde 8 años según el fabricante"],
+    specs: { "Juego": "Virus! (Tranjis Games)", "Jugadores": "2-6", "Edad": "Desde 8 años (fabricante)", "Duración": "20 min", "Incluye": "Tapete de neopreno, 110 fundas y deck box" },
+    relatedPosts: ["como-jugar-virus-juego-cartas-reglas", "juegos-cartas-educativos-familia", "mejores-juegos-mesa-familia"],
+  },
   {
     slug: "virus-juego-cartas-tranjis-games",
     unavailable: "2026-10-12",
