@@ -37,6 +37,122 @@ interface ArticleSection {
 }
 
 const articleSources: Record<string, { label: string; url: string }[]> = {
+  "elegir-juguetes-segun-etapa-desarrollo": [
+    {
+      "label": "AEP (En Familia) — Juego y juguetes",
+      "url": "https://www.aeped.es/enfamilia/salud-en-familia/juego-juguetes"
+    },
+    {
+      "label": "OPS/OMS (2019) — Para crecer sanos, los niños tienen que pasar menos tiempo sentados y jugar más",
+      "url": "https://www.paho.org/es/noticias/24-4-2019-para-crecer-sanos-ninos-tienen-que-pasar-menos-tiempo-sentados-jugar-mas"
+    },
+    {
+      "label": "OMS (2020) — Cada movimiento cuenta para mejorar la salud",
+      "url": "https://www.who.int/es/news/item/25-11-2020-every-move-counts-towards-better-health-says-who"
+    },
+    {
+      "label": "CDC — Indicadores del desarrollo a los 18 meses",
+      "url": "https://www.cdc.gov/act-early/es/milestones/18-months.html"
+    },
+    {
+      "label": "CDC — Indicadores del desarrollo a los 2 años",
+      "url": "https://www.cdc.gov/act-early/es/milestones/2-years.html"
+    },
+    {
+      "label": "CDC — Indicadores del desarrollo a los 30 meses",
+      "url": "https://www.cdc.gov/act-early/es/milestones/30-months.html"
+    },
+    {
+      "label": "CDC — Indicadores del desarrollo a los 3 años",
+      "url": "https://www.cdc.gov/act-early/es/milestones/3-years.html"
+    },
+    {
+      "label": "CDC — Indicadores del desarrollo a los 4 años",
+      "url": "https://www.cdc.gov/act-early/es/milestones/4-years.html"
+    },
+    {
+      "label": "CDC — Indicadores del desarrollo a los 5 años",
+      "url": "https://www.cdc.gov/act-early/es/milestones/5-years.html"
+    },
+    {
+      "label": "Consumo Responde (Junta de Andalucía) — Recomendaciones para la compra y elección de juguetes",
+      "url": "https://www.consumoresponde.es/recomendaciones-compra-eleccion-juguetes"
+    },
+    {
+      "label": "AEP (En Familia) — Las pantallas en el cerebro de la infancia y adolescencia",
+      "url": "https://enfamilia.aeped.es/noticias/las-pantallas-en-el-cerebro-infancia-y-adolescencia"
+    }
+  ],
+  "experimentos-caseros-seguros-ninos": [
+    {
+      "label": "Royal Society of Chemistry — Bubble volcanoes (experimento para 9-14 años)",
+      "url": "https://edu.rsc.org/resources/bubble-volcanoes/2026.article"
+    },
+    {
+      "label": "Royal Society of Chemistry — Kitchen roll chromatography (Primary Science)",
+      "url": "https://edu.rsc.org/primary-science/kitchen-roll-chromatography/4012057.article"
+    },
+    {
+      "label": "Royal Society of Chemistry — Investigating surface tension with milk (Primary Science)",
+      "url": "https://edu.rsc.org/primary-science/investigating-surface-tension-with-milk/4012059.article"
+    },
+    {
+      "label": "Royal Society of Chemistry — Colourful chemistry: rainbow density column y homemade lava lamp",
+      "url": "https://edu.rsc.org/outreach/colourful-chemistry/1606.article"
+    },
+    {
+      "label": "Ministerio de Justicia — Servicio de Información Toxicológica (SIT), teléfono 91 562 04 20",
+      "url": "https://www.mjusticia.gob.es/es/institucional/organismos/instituto-nacional/servicios/servicio-informacion/servicio-informacion1"
+    }
+  ],
+  "tiempo-pantalla-ninos-alternativas-juguetes": [
+    {
+      "label": "OPS/OMS (2019) — Para crecer sanos, los niños tienen que pasar menos tiempo sentados y jugar más (directrices de la OMS para menores de 5 años)",
+      "url": "https://www.paho.org/es/noticias/24-4-2019-para-crecer-sanos-ninos-tienen-que-pasar-menos-tiempo-sentados-jugar-mas"
+    },
+    {
+      "label": "AEP (En Familia) — Las pantallas en el cerebro de la infancia y adolescencia (octubre de 2026)",
+      "url": "https://enfamilia.aeped.es/noticias/las-pantallas-en-el-cerebro-infancia-y-adolescencia"
+    },
+    {
+      "label": "AEP (En Familia) — Juego y juguetes",
+      "url": "https://www.aeped.es/enfamilia/salud-en-familia/juego-juguetes"
+    },
+    {
+      "label": "AEP — Plan Digital Familiar",
+      "url": "https://plandigitalfamiliar.aeped.es/plandigitalfamiliar.php"
+    },
+    {
+      "label": "OMS (2020) — Cada movimiento cuenta para mejorar la salud",
+      "url": "https://www.who.int/es/news/item/25-11-2020-every-move-counts-towards-better-health-says-who"
+    },
+    {
+      "label": "CDC — Indicadores del desarrollo a los 5 años",
+      "url": "https://www.cdc.gov/act-early/es/milestones/5-years.html"
+    }
+  ],
+  "seguridad-juguetes-marcado-ce-edad-piezas-pequenas": [
+    {
+      "label": "BOE — Real Decreto 1205/2011, de 26 de agosto, sobre la seguridad de los juguetes (texto consolidado)",
+      "url": "https://www.boe.es/eli/es/rd/2011/08/26/1205/con"
+    },
+    {
+      "label": "EUR-Lex — Directiva 2009/48/CE sobre la seguridad de los juguetes",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32009L0048"
+    },
+    {
+      "label": "AEP (En Familia) — Juego y juguetes (apartado de seguridad)",
+      "url": "https://www.aeped.es/enfamilia/salud-en-familia/juego-juguetes"
+    },
+    {
+      "label": "Consumo Responde (Junta de Andalucía) — Recomendaciones para la compra y elección de juguetes",
+      "url": "https://www.consumoresponde.es/recomendaciones-compra-eleccion-juguetes"
+    },
+    {
+      "label": "Comisión Europea — Safety Gate, sistema de alerta rápida de la UE para productos no alimentarios peligrosos",
+      "url": "https://ec.europa.eu/safety-gate-alerts/screen/webReport"
+    }
+  ],
   "regalos-bebe-1-ano-navidad": [
     {label: "CDC — Indicadores del desarrollo a 1 año de edad", url: "https://www.cdc.gov/act-early/es/milestones/1-year.html"},
     {label: "CDC — Indicadores del desarrollo a los 15 meses", url: "https://www.cdc.gov/act-early/es/milestones/15-months.html"},
@@ -99,6 +215,470 @@ const articleSources: Record<string, { label: string; url: string }[]> = {
 };
 
 const articleContent: Record<string, ArticleSection[]> = {
+  "elegir-juguetes-segun-etapa-desarrollo": [
+    {
+      "text": "La edad que figura en la caja es un mínimo de seguridad, no un diagnóstico de lo que un niño necesita. Dos niños de 4 años pueden tener destrezas e intereses muy distintos, y el mismo niño puede dedicar semanas a un juguete «de pequeño» y abandonarlo de golpe. Esta guía propone elegir por etapas (0-3, 3-6, 6-9 y 9-12 años) a partir de lo que dicen la Asociación Española de Pediatría (AEP), la OMS y los CDC de Estados Unidos, y de la edad indicada por cada fabricante, sin prometer que un juguete acelere nada. Si algo del desarrollo de tu hijo te preocupa, la persona indicada es su pediatra."
+    },
+    {
+      "heading": "La edad de la caja y la etapa del niño no son lo mismo",
+      "text": "La edad del envase la fija el fabricante pensando sobre todo en la seguridad: por ejemplo, si hay piezas que un niño pequeño podría tragar. Dice poco sobre si el juguete le va a interesar. La AEP explica en su página de En Familia que el tipo de juego va cambiando con la edad y con las capacidades del niño, y que el adulto aporta las oportunidades para practicarlo en situaciones seguras. Para elegir regalos, recomienda que el juguete permita manipular, interactuar con los cuidadores, explorar y usar la imaginación. Con esa pauta y tres preguntas (qué sabe hacer ahora, qué está intentando aprender y con quién va a jugar) se acierta más que mirando solo el rango de edad."
+    },
+    {
+      "heading": "De 0 a 3 años: manipular, moverse e imitar",
+      "text": "Es la etapa con más cambios en menos tiempo, así que conviene revisar los juguetes cada pocos meses. Para los más pequeños, la AEP recomienda juegos de manipulación: puzles sencillos, cubiletes y bloques para apilar, juguetes para golpear como tambores y xilófonos, y cubo y pala en el parque. La OMS añade que un bebé de menos de un año debe estar activo varias veces al día, sobre todo con juego interactivo en el suelo, y que de 1 a 4 años conviene sumar al menos 180 minutos diarios de actividad física de cualquier intensidad. Los indicadores de los CDC dibujan cómo cambia el juego: hacia los 18 meses el niño imita tareas de casa, a los 2 años juega con más de un juguete a la vez y a los 30 meses empieza a jugar de forma imaginaria, por ejemplo dando de comer a una muñeca con un bloque de madera.",
+      "list": [
+        "Hasta los 12 meses: objetos que pueda agarrar, golpear y llevarse a la boca (con la edad mínima del fabricante bien comprobada) y mucho suelo para moverse.",
+        "De 1 a 2 años: encajables, apilables, juguetes de arrastre y primeros puzles con pomo.",
+        "De 2 a 3 años: bloques grandes, cocinita, muñecos y vehículos para imitar, y pelotas.",
+        "En todos los casos, mira que ninguna pieza se pueda tragar."
+      ],
+      "cta": {
+        "asin": "B07XDRVG99",
+        "label": "Ver el arcoíris XL de small foot →"
+      }
+    },
+    {
+      "text": "Un ejemplo del catálogo es el arcoíris de madera XL de small foot, con 12 arcos y 2 bolas y recomendado por el fabricante desde los 12 meses: primero se apila, luego se encaja como puzle y más tarde sirve de túnel en el juego simbólico.",
+      "links": [
+        {
+          "href": "/blog/juguetes-0-2-anos-desarrollo",
+          "text": "Juguetes para bebés de 0 a 2 años: guía de desarrollo"
+        }
+      ]
+    },
+    {
+      "heading": "De 3 a 6 años: imaginar, construir y aprender a seguir reglas",
+      "text": "Según los CDC, a los 3 años la mayoría de los niños nota a otros niños y se une a su juego; a los 4 imagina ser otra persona o cosa, y a los 5 sigue las reglas o espera su turno en un juego con otros niños y presta atención durante 5 a 10 minutos a una actividad (el tiempo de pantalla no cuenta para ese indicador). También ensartan cuentas a los 3 y se abotonan algunos botones a los 5: es la etapa de la motricidad fina. La AEP señala que el juego imaginativo favorece el lenguaje, la autorregulación y el pensamiento simbólico, y que los bloques y los puzles ayudan a desarrollar las habilidades motoras y del lenguaje. Encajan bien los disfraces y el juego simbólico, la construcción libre, los puzles de dificultad creciente y los primeros juegos de mesa con pocas reglas y partidas cortas, que sirven para practicar el turno y aceptar que no siempre se gana. Ubongo Junior, del catálogo, es un juego de piezas geométricas para 4-7 años que según su ficha incluye modo cooperativo, útil para empezar sin competir.",
+      "cta": {
+        "asin": "B089WJV1NT",
+        "label": "Ver Ubongo Junior →"
+      },
+      "links": [
+        {
+          "href": "/blog/juego-simbolico-juguetes-por-edad",
+          "text": "Juego simbólico: cocinitas, médicos, herramientas y tiendas, por edades"
+        }
+      ]
+    },
+    {
+      "heading": "De 6 a 9 años: reglas, estrategia y proyectos",
+      "text": "Los indicadores de los CDC terminan a los 5 años, así que a partir de aquí conviene fijarse en lo que el niño hace en casa y en el colegio. Consumo Responde, el servicio de información de la Junta de Andalucía, orienta para la franja de 6 a 10 años hacia puzles más complejos, juguetes de construcción e imitación, juegos con reglas, juegos de habilidad y deportivos, y libros. La OMS recomienda a niños y adolescentes una media de 60 minutos de actividad física al día, así que un balón o una bicicleta también son material de juego. Es buena edad para la estrategia ligera con partidas de media hora, como Catán Junior (desde 6 años y para 2-4 jugadores, según su ficha), y para proyectos que duren varias sesiones: una maqueta, un circuito de canicas o un libro de experimentos.",
+      "cta": {
+        "asin": "B07WC54XF8",
+        "label": "Ver Catán Junior →"
+      },
+      "links": [
+        {
+          "href": "/blog/juguetes-educativos-6-anos",
+          "text": "Juguetes educativos para niños de 6 años"
+        }
+      ]
+    },
+    {
+      "heading": "De 9 a 12 años: retos con resultado visible",
+      "text": "En esta etapa muchos niños se sienten mayores para lo que antes les gustaba y todavía no son adolescentes. Consumo Responde menciona, a partir de los 10 años, juegos de rol y de estrategia, material deportivo, cámaras, videojuegos educativos y novelas. Lo que suele funcionar son los retos cuyo resultado se ve: un kit de química con instrucciones, un modelo de muchas piezas, un juego de estrategia con reglas largas o un instrumento. El Intro to Chemistry de Thames & Kosmos, con 27 experimentos para 8-12 años, es un ejemplo del catálogo; su ficha advierte de que requiere vigilancia de un adulto y de que las instrucciones están sobre todo en inglés. Si a esta edad el niño pide móvil o consola, la AEP recomienda pactar horarios y normas, supervisar contenidos y retrasar el teléfono propio siempre que sea posible.",
+      "cta": {
+        "asin": "B0CDM16V5N",
+        "label": "Ver el kit Intro to Chemistry →"
+      },
+      "links": [
+        {
+          "href": "/blog/tiempo-pantalla-ninos-alternativas-juguetes",
+          "text": "Tiempo de pantalla en niños: pautas y alternativas"
+        }
+      ]
+    },
+    {
+      "heading": "Antes de comprar: cinco comprobaciones",
+      "list": [
+        "Observa qué hace con lo que ya tiene: si lo domina, necesita un reto; si lo evita, quizá todavía es pronto.",
+        "Prefiere juguetes con varios usos, como bloques o disfraces, a los que hacen una sola cosa y se agotan.",
+        "Piensa en quién va a jugar con él. La AEP insiste en que la interacción con los cuidadores es lo que hace que el juego desarrolle el lenguaje, y apunta que los juguetes electrónicos, por sus características, no permiten interactuar con padres y otros niños.",
+        "Lee la edad mínima y las advertencias del envase: son un requisito de seguridad, no una pauta comercial.",
+        "Guarda la mitad de los juguetes y cámbialos cada pocas semanas; un juguete que vuelve parece nuevo."
+      ],
+      "links": [
+        {
+          "href": "/blog/como-elegir-juguete-educativo",
+          "text": "Cómo elegir un juguete educativo de verdad"
+        }
+      ]
+    },
+    {
+      "heading": "Conclusión",
+      "text": "Esta semana, observa a tu hijo jugar veinte minutos sin intervenir y apunta qué hace con las manos, con quién habla y qué repite. Con esas tres notas, elige un solo juguete nuevo de la etapa que toca y retira el que haya dejado de usar. Si algo en su desarrollo te preocupa, llévalo a la consulta de su pediatra: los juguetes no sustituyen una valoración."
+    },
+    {
+      "faqs": [
+        {
+          "q": "¿Qué hago si mi hijo no se interesa por los juguetes de su edad?",
+          "a": "Es habitual que un niño vaya por delante en unas áreas y por detrás en otras. Prueba con un juguete de la etapa anterior o de la siguiente, sin dramatizar. Los CDC explican que sus indicadores son lo que hace la mayoría de los niños (el 75 % o más) a cada edad; si te preocupa, coméntalo con su pediatra."
+        },
+        {
+          "q": "¿Cuántos juguetes necesita un niño?",
+          "a": "No hay una cifra oficial. La AEP plantea la cuestión como de calidad: que los juguetes permitan manipular, explorar, imaginar e interactuar con otras personas. Pocos juguetes bien elegidos y rotados suelen dar más juego que un cuarto lleno."
+        },
+        {
+          "q": "¿Sirven los juguetes electrónicos para aprender?",
+          "a": "La AEP considera que, por sus características, los juguetes electrónicos no permiten la interacción con padres y otros niños, que es clave en el desarrollo. No hace falta evitarlos del todo, pero conviene que no sean la opción principal ni se usen sin compañía."
+        },
+        {
+          "q": "¿Puedo fiarme de la edad que pone el envase?",
+          "a": "Sí para la seguridad: es la edad mínima que el fabricante ha fijado y, en menores de 3 años, tiene que ver con las piezas pequeñas. Para saber si le gustará, fíjate además en lo que el niño sabe hacer y en lo que ya tiene en casa."
+        }
+      ]
+    }
+  ],
+  "experimentos-caseros-seguros-ninos": [
+    {
+      "text": "Un buen experimento casero cabe en una mesa de cocina, usa ingredientes que ya tienes y deja al niño con una pregunta, no solo con una foto de espuma. Estos cinco están adaptados de actividades de la Royal Society of Chemistry (RSC), la sociedad científica británica de química, que las plantea para aula de primaria y primeros cursos de secundaria. Eso importa: en casa, con niños menores de 7 u 8 años, conviene que el adulto haga los pasos delicados y el niño observe, mezcle y explique lo que ve. Cada experimento incluye materiales, pasos, qué se aprende y qué cuidado tener."
+    },
+    {
+      "heading": "Normas comunes antes de empezar",
+      "list": [
+        "Un adulto presente de principio a fin; hacedlo en una mesa que se pueda manchar y cubrid la superficie con periódico, como pide la RSC.",
+        "Nada se prueba ni se bebe. Los recipientes y utensilios que uséis se friegan a fondo antes de volver a usarlos para comida.",
+        "El vinagre es de bajo riesgo, pero la RSC advierte de que puede dañar los ojos o una herida: usad gafas de protección y, si salpica a los ojos, enjuagad con agua abundante.",
+        "Los colorantes artificiales manchan la piel y la ropa: guantes desechables y ropa vieja.",
+        "Si alguien traga algo que no debe, llamad al Servicio de Información Toxicológica (91 562 04 20, atiende las 24 horas todos los días del año) o al 112 si hay síntomas graves."
+      ]
+    },
+    {
+      "heading": "1. Volcán de burbujas",
+      "text": "Materiales: una bandeja de magdalenas, una cucharilla, bicarbonato, vinagre blanco, cuatro colorantes alimentarios artificiales (la RSC señala que los naturales no tienen suficiente concentración) y papel de periódico. La RSC lo etiqueta para 9-14 años.",
+      "list": [
+        "Cubre la mesa con periódico y coloca la bandeja encima.",
+        "Llena hasta la mitad cuatro huecos con vinagre.",
+        "Añade 3 o 4 gotas de un colorante distinto en cada hueco.",
+        "Echa una cucharada colmada de bicarbonato en cada uno y observa."
+      ]
+    },
+    {
+      "text": "Qué aprenden: el vinagre (un ácido) reacciona con el bicarbonato y produce dióxido de carbono, que se ve como burbujas. Como es más denso que el aire, el gas rebosa por el borde como si fuera lava, y la efervescencia para cuando se agota alguno de los dos ingredientes. Precauciones: el bicarbonato es de bajo riesgo y un aditivo alimentario autorizado; protege los ojos del vinagre y no mezcles nada más."
+    },
+    {
+      "heading": "2. Cromatografía con papel de cocina",
+      "text": "Materiales: rotuladores de punta de fieltro, papel de cocina, un vaso o cuenco, agua y tijeras. La RSC indica rotuladores no lavables y recomienda probar antes varias marcas de negro, porque no todas se separan igual. Es una actividad de la RSC para 9-11 años.",
+      "list": [
+        "Corta una tira larga de papel de cocina.",
+        "Dibuja un punto de color a 2 o 3 centímetros de un extremo.",
+        "Pon un poco de agua en el vaso, de modo que el nivel quede por debajo del punto, y apoya ese extremo en el agua dejando el resto colgando por el borde.",
+        "Espera unos minutos y mira cómo el agua sube arrastrando los colores."
+      ]
+    },
+    {
+      "text": "Qué aprenden: la tinta de un rotulador suele ser una mezcla de varios colorantes y el agua arrastra cada uno a una distancia distinta, de modo que se separan. Eso es cromatografía, una técnica que usan los laboratorios para analizar mezclas. Precauciones: lava bien los utensilios antes de volver a usarlos con alimentos."
+    },
+    {
+      "heading": "3. Leche de colores",
+      "text": "Materiales: leche (vale cualquiera), un plato hondo plano, colorante alimentario, lavavajillas, un pincel o un bastoncillo y una pajita. La RSC la propone para 7-9 y 9-11 años.",
+      "list": [
+        "Vierte un poco de leche en el plato.",
+        "Mezcla colorante con algo de leche, moja la pajita, tapa el extremo con el dedo y suelta unas gotas en el plato dejando espacio entre colores.",
+        "Pon lavavajillas en el pincel, en el bastoncillo o en un dedo.",
+        "Toca el centro de la leche con el lavavajillas y mira cómo se mueven los colores."
+      ]
+    },
+    {
+      "text": "Qué aprenden: la leche es una emulsión de grasa en agua y las moléculas del agua de la superficie se atraen formando una especie de piel (tensión superficial). El lavavajillas debilita esa atracción y los colores se extienden y giran. Precauciones: no se bebe la leche con colorante y jabón, y el colorante mancha."
+    },
+    {
+      "heading": "4. Columna de densidad con líquidos de cocina",
+      "text": "Materiales: un recipiente alto y transparente (la RSC sugiere una botella de refresco), miel, leche entera, lavavajillas, agua y aceite vegetal. La propuesta original de la RSC añade alcohol y aceite de lámpara; no los uses, no hacen falta y son inflamables. Edad de la RSC: 9-11 y 11-14 años; con niños menores, ayúdales a verter.",
+      "list": [
+        "Mide cantidades iguales de cada líquido para que las capas salgan del mismo tamaño.",
+        "Vierte despacio, sin que toquen las paredes, la miel, la leche entera y el lavavajillas, por ese orden.",
+        "Añade después, dejándolos resbalar por la pared, el agua y el aceite.",
+        "Mira cómo se ordenan por capas y deja que el niño haga hipótesis antes de cada vertido."
+      ]
+    },
+    {
+      "text": "Qué aprenden: líquidos distintos tienen densidades distintas, es decir, volúmenes iguales con masas diferentes, y al verterlos despacio se colocan por capas según su densidad. Precauciones: la miel y el aceite son cómodos de manejar, pero el recipiente queda pegajoso y no es para beber; fregad con agua caliente."
+    },
+    {
+      "heading": "5. Lámpara de lava casera",
+      "text": "Materiales: un recipiente alto y transparente, aceite vegetal, agua, colorante alimentario y un trozo pequeño de pastilla efervescente (la RSC propone una de la marca Alka-Seltzer). Es el único de los cinco que necesita una precaución especial: la RSC pide valorar la seguridad con esa pastilla, que es un medicamento. La parte y la maneja solo el adulto, que la guarda después fuera del alcance de los niños. Si prefieres evitarla, quédate con los otros cuatro.",
+      "list": [
+        "Llena el recipiente unas tres cuartas partes con aceite.",
+        "Añade agua hasta dejar dos dedos libres arriba.",
+        "Echa unas 10 gotas de colorante y fíjate en qué líquido se tiñe.",
+        "El adulto deja caer un trozo pequeño de pastilla y todos observan."
+      ]
+    },
+    {
+      "text": "Qué aprenden: el aceite y el agua no se mezclan y el colorante solo tiñe el agua; las burbujas de gas de la pastilla suben y arrastran gotas de agua coloreada a través del aceite. Precauciones: no se bebe nada del recipiente y el aceite no se tira por el fregadero: guárdalo en un recipiente cerrado y llévalo al punto limpio."
+    },
+    {
+      "heading": "Cuando quieras más: libros y kits",
+      "text": "Si a tu hijo le engancha y quiere seguir, hay libros con experimentos ya probados y kits con material medido. Tres del catálogo, con la edad indicada en su ficha:",
+      "picks": [
+        {
+          "asin": "B0DSCJFN67",
+          "name": "Thames & Kosmos Kids First Science Kit",
+          "text": "12 experimentos de química con herramientas de tamaño infantil. Desde 5 años y con supervisión adulta; las instrucciones están sobre todo en inglés."
+        },
+        {
+          "asin": "1409573672",
+          "name": "Gran Libro de Experimentos de Ciencia (Usborne)",
+          "text": "64 experimentos caseros ilustrados, en español, con lista de materiales y explicación. De 7 a 12 años."
+        },
+        {
+          "asin": "8467732059",
+          "name": "Mi Gran Libro de Experimentos (Susaeta)",
+          "text": "120 páginas en espiral con experimentos sencillos de casa. Para 5-8 años, con un adulto."
+        }
+      ],
+      "links": [
+        {
+          "href": "/blog/juguetes-stem-casa-sin-comprar",
+          "text": "Juguetes STEM en casa sin comprar nada"
+        },
+        {
+          "href": "/blog/kits-quimica-ninos-seguros-guia",
+          "text": "Kits de química para niños: guía de seguridad"
+        },
+        {
+          "href": "/blog/aprendizaje-basado-proyectos-casa",
+          "text": "Aprendizaje basado en proyectos en casa"
+        }
+      ]
+    },
+    {
+      "text": "Elige hoy uno solo, el que menos material necesite (la cromatografía o la leche de colores), y haz la pregunta antes de empezar: qué crees que va a pasar. Cuando termine, que el niño te lo explique con sus palabras y apúntalo en una hoja. Si repetís el experimento cambiando una cosa, ya estáis haciendo ciencia y no solo un truco."
+    },
+    {
+      "faqs": [
+        {
+          "q": "¿A partir de qué edad pueden hacer experimentos caseros?",
+          "a": "Las actividades de la RSC en las que nos basamos están pensadas para niños de unos 7 a 14 años en el aula. Con menores de esa edad es mejor que el adulto haga los pasos y el niño observe y explique."
+        },
+        {
+          "q": "¿Son peligrosos el vinagre y el bicarbonato?",
+          "a": "Ambos son de bajo riesgo, y el bicarbonato es un aditivo alimentario. Aun así, la RSC avisa de que el vinagre puede dañar los ojos o una herida, por lo que conviene usar gafas de protección."
+        },
+        {
+          "q": "¿Qué hago si el niño traga parte de una mezcla?",
+          "a": "Llama al Servicio de Información Toxicológica (91 562 04 20, 24 horas) y, si hay síntomas graves, al 112. Ten a mano el envase del producto utilizado."
+        },
+        {
+          "q": "¿Puedo usar colorante natural en el volcán?",
+          "a": "La RSC indica que los colorantes naturales no son lo bastante concentrados para ese experimento y propone colorantes artificiales de uso alimentario, que manchan: usa guantes."
+        }
+      ]
+    }
+  ],
+  "tiempo-pantalla-ninos-alternativas-juguetes": [
+    {
+      "text": "Las cifras sobre pantallas cambian según quién las publique y en qué año, y eso desconcierta a muchas familias. Esta guía separa lo que dice cada organismo, explica por qué algunas pautas de la AEP no coinciden entre sí y propone qué poner en su lugar: juguetes y rutinas que ocupen el tiempo que hoy ocupa el móvil, la tableta o la tele. Cuando hablamos de pantallas incluimos televisión, tableta, móvil, ordenador y consola."
+    },
+    {
+      "heading": "Qué recomienda la OMS",
+      "text": "Las directrices de la OMS de 2019 para menores de 5 años, resumidas por la OPS, son las siguientes. Menores de un año: no se recomienda pasar tiempo frente a pantallas. Con 1 año, tampoco. A partir de los 2 y hasta los 4 años, el tiempo dedicado a actividades sedentarias frente a una pantalla no debe superar una hora, y menos es mejor. La misma guía recoge cuánto sueño y movimiento conviene proteger: de 1 a 4 años, al menos 180 minutos diarios de actividad física de cualquier intensidad (60 de ellos moderada o intensa a los 3 y 4 años) y entre 10 y 14 horas de sueño según la edad. Para niños y adolescentes de más edad, la OMS recomienda en 2020 una media de 60 minutos de actividad física al día."
+    },
+    {
+      "heading": "Qué recomienda la AEP y por qué sus pautas han cambiado",
+      "text": "La página de juego y juguetes de En Familia, la web de la AEP para familias, recoge una pauta con cifras: de 0 a 2 años, ninguna pantalla; de 2 a 4 años, no más de una hora al día y solo con juegos apropiados y acompañados por un adulto; a partir de 5 años, no más de dos horas. La página más reciente de la AEP sobre el tema, publicada en octubre de 2026, no da horas y se centra en pautas cualitativas, con tres tramos. De 0 a 2 años: cuantas menos pantallas, mejor, sin usarlas habitualmente para calmar, alimentar o entretener, con las comidas y la hora previa al sueño protegidas; las videollamadas con familiares pueden ser una excepción si va un adulto al lado. De 3 a 5 años: poco tiempo y siempre acompañados, con contenidos educativos y sin ritmos excesivamente rápidos, verlos juntos y fijar momentos y espacios sin pantallas. De 6 a 12 años: límites claros y acompañamiento, con horarios pactados, sin que la pantalla desplace el sueño, el deporte, el estudio o el juego, y sin dispositivos en la habitación por la noche. La AEP ha ido actualizando sus recomendaciones y puede volver a hacerlo: consulta siempre su Plan Digital Familiar para la versión vigente."
+    },
+    {
+      "text": "La misma página añade una idea útil: el problema no es solo el tiempo de pantalla, sino qué sustituye ese tiempo. Entre lo que se pierde cita el juego libre, la actividad física, la lectura y la creatividad, el contacto con la naturaleza, las conversaciones familiares y el sueño.",
+      "links": [
+        {
+          "href": "/blog/beneficios-juego-libre-montessori",
+          "text": "Beneficios del juego libre"
+        }
+      ]
+    },
+    {
+      "heading": "Cómo sustituir la pantalla sin dejar un vacío",
+      "text": "Las pantallas suelen aparecer en momentos concretos: la espera en un restaurante, la hora de cocinar, el trayecto en coche, el cansancio del final del día. Prohibirlas sin ofrecer otra cosa suele acabar en pelea. La AEP pide justamente no usarlas para calmar o entretener a los más pequeños, así que conviene preparar alternativas para cada momento:",
+      "list": [
+        "Esperas: una bolsa con un cuaderno, pegatinas y una baraja pequeña, que solo sale en esas ocasiones.",
+        "Hora de cocinar: una tarea para el niño, como lavar verdura o poner la mesa; los CDC recogen que a los 5 años muchos niños ya hacen tareas simples de la casa.",
+        "Coche: cuentos en audio, juegos de palabras o adivinanzas.",
+        "Final del día: juego en el suelo con un adulto durante diez minutos, sin móvil a la vista.",
+        "Fines de semana: una salida a un parque o a un sitio donde moverse; la OMS recomienda movimiento a diario a todas las edades."
+      ]
+    },
+    {
+      "heading": "Juguetes que ocupan el sitio de la pantalla, por etapa",
+      "text": "No es que un juguete sustituya a una pantalla, sino que da un motivo para que el niño se quede jugando. Cuatro ejemplos del catálogo, con la edad que indica cada ficha:",
+      "picks": [
+        {
+          "asin": "B006GCRJ9Q",
+          "name": "Hape Laberinto de Bolas de Madera",
+          "text": "Bolas de colores que se deslizan por alambres: coordinación ojo-mano y concentración. Desde los 6 meses según el fabricante."
+        },
+        {
+          "asin": "B000CBSNKQ",
+          "name": "Magna-Tiles Clear Colors, 32 piezas",
+          "text": "Piezas magnéticas translúcidas para construir en 2D y 3D en juego libre. Desde 3 años."
+        },
+        {
+          "asin": "B008EK6XEK",
+          "name": "Dobble",
+          "text": "Juego de cartas de atención visual con 5 minijuegos, para 2-8 jugadores. Desde 6 años."
+        },
+        {
+          "asin": "B0CFW1BMCX",
+          "name": "LEGO Creator 3 en 1 Casa en el Árbol 31150",
+          "text": "Un set de 1426 piezas con tres modelos distintos. Desde 8 años."
+        }
+      ]
+    },
+    {
+      "heading": "Juguetes electrónicos y tabletas: qué mirar",
+      "text": "Un juguete con pantalla o con luces y voces sigue siendo una pantalla o una distracción. La AEP indica que los juguetes electrónicos, por sus características, no permiten interactuar con los padres y otros niños, dos aspectos importantes del desarrollo. Si decidís usar una tableta, la AEP recomienda para los 3-5 años contenidos educativos, adecuados a la edad, sin ritmos excesivamente rápidos, y verlos juntos siempre que se pueda. Los CDC señalan además que, para la atención de un niño de 5 años en una actividad de 5 a 10 minutos, el tiempo de pantalla no cuenta.",
+      "links": [
+        {
+          "href": "/blog/mejor-tablet-ninos-educativa-2025",
+          "text": "Mejor tablet educativa para niños"
+        },
+        {
+          "href": "/blog/mejores-juegos-mesa-familia",
+          "text": "Los mejores juegos de mesa para jugar en familia"
+        },
+        {
+          "href": "/blog/juegos-cartas-educativos-familia",
+          "text": "Juegos de cartas educativos para la familia"
+        }
+      ]
+    },
+    {
+      "heading": "Un plan en cinco pasos para casa",
+      "list": [
+        "Elige uno o dos momentos sin pantallas para toda la familia: las comidas y la hora antes de dormir son los que más insiste en proteger la AEP.",
+        "No uses la pantalla para calmar, alimentar o entretener a un niño pequeño.",
+        "Cuando haya pantalla, miradla juntos y elegid el contenido.",
+        "A partir de los 6 años, pactad por escrito horarios y normas, y revisadlos cada cierto tiempo.",
+        "Da ejemplo: la AEP recalca que nuestro uso del móvil es una de las herramientas educativas más importantes."
+      ]
+    },
+    {
+      "heading": "Conclusión",
+      "text": "Empieza por un solo cambio: elige una comida al día sin pantallas para todos, adultos incluidos, y ten preparada una alternativa para el momento más difícil de la tarde. Si mantienes el cambio dos semanas, añade el siguiente. Para dudas concretas sobre tu hijo, consulta con su pediatra y revisa el Plan Digital Familiar de la AEP."
+    },
+    {
+      "faqs": [
+        {
+          "q": "¿Cuánto tiempo de pantalla es aceptable a los 3 años?",
+          "a": "La OMS no recomienda más de una hora de pantalla sedentaria al día de los 2 a los 4 años, y menos es mejor. La AEP, en su página más reciente, pide poco tiempo y siempre acompañados de un adulto. Es un máximo, no un objetivo."
+        },
+        {
+          "q": "¿Las videollamadas con los abuelos cuentan como pantalla?",
+          "a": "Técnicamente sí, pero la AEP las menciona como posible excepción de 0 a 2 años, siempre acompañadas por un adulto."
+        },
+        {
+          "q": "¿Una tableta educativa cuenta como tiempo de pantalla?",
+          "a": "Sí, sigue siendo una pantalla. La AEP pide que los contenidos sean educativos, adecuados a la edad y sin ritmos excesivamente rápidos, y que se vean juntos siempre que sea posible."
+        },
+        {
+          "q": "¿Qué hago si mi hijo se aburre sin pantalla?",
+          "a": "Un rato de aburrimiento es normal al principio y suele dar paso al juego libre. Ayuda tener a mano pocos juguetes abiertos (bloques, cartas, material de dibujo) y jugar con él los primeros diez minutos."
+        }
+      ]
+    }
+  ],
+  "seguridad-juguetes-marcado-ce-edad-piezas-pequenas": [
+    {
+      "text": "Un juguete seguro no es el que no se rompe: es el que cumple la normativa y se ajusta a la edad del niño que lo va a usar. La buena noticia es que casi todo lo que hay que comprobar está en el propio envase o en la ficha de compra. Esta guía recorre lo que exige el Real Decreto 1205/2011, que regula en España la seguridad de los juguetes, qué significa el marcado CE, cómo funciona la regla de las piezas pequeñas para menores de 36 meses y qué hacer después de comprar. Es información orientativa, no asesoramiento jurídico."
+    },
+    {
+      "heading": "Qué se considera un juguete y qué obliga la norma",
+      "text": "El Real Decreto se aplica a los productos diseñados o previstos, exclusivamente o no, para que los usen con fines de juego niños menores de catorce años. Los juguetes comercializados deben llevar el marcado CE (artículo 15), colocado de manera visible, legible e indeleble en el juguete, en una etiqueta o en el envase (artículo 16). Según Consumo Responde, el marcado indica que el fabricante declara que el juguete cumple la normativa de seguridad y que lo ha sometido a las pruebas necesarias. Un juguete sin marcado CE no debería comprarse. El Anexo I enumera además productos que no se consideran juguetes a efectos de la norma; si dudas de si un objeto lo es, fíjate en la edad y en las advertencias que lleva el envase."
+    },
+    {
+      "heading": "Qué información debe acompañar al juguete",
+      "text": "El fabricante debe indicar su nombre o marca y una dirección de contacto en el juguete o, si no es posible, en el envase o en un documento que lo acompañe (artículo 5.6). Las instrucciones y la información de seguridad deben estar al menos en castellano (artículos 5.7 y 12.3), y las advertencias que dependen de la edad tienen que figurar en el envase o ser claramente visibles antes de la compra, también si compras por internet (artículo 12.2). Por eso, al comprar online conviene leer la ficha entera: edad recomendada, advertencias y datos del fabricante deberían estar a la vista. Consumo Responde resume las comprobaciones mínimas de una etiqueta: nombre y marca del producto, marcado CE, nombre y dirección del fabricante, importador o distribuidor, edad recomendada y advertencias de uso, además de la potencia y la tensión en los juguetes eléctricos."
+    },
+    {
+      "heading": "Edad y piezas pequeñas: la regla de los 36 meses",
+      "text": "El Anexo II del Real Decreto exige que los juguetes claramente destinados a menores de 36 meses, y sus componentes y partes separables, tengan dimensiones que impidan tragarlos o inhalarlos. Los juguetes que no están pensados para esa edad pueden llevar piezas pequeñas, pero deben advertirlo: el Anexo V admite textos como «No conviene para niños menores de 36 meses» o «No conviene para niños menores de tres años», o un pictograma, con una breve indicación del peligro. La advertencia no se exige cuando, por su función o dimensiones, el juguete evidentemente no puede dárseles. La consecuencia práctica es que la edad mínima de un juguete no es una sugerencia: un set de piezas pequeñas para 4 años no es un juguete adecuado para un hermano de 2."
+    },
+    {
+      "text": "La AEP añade recomendaciones para casa: mantener las piezas pequeñas, las pilas y los objetos redondos y lisos como canicas o imanes fuera del alcance de los menores de 3 años, supervisar los juegos con globos, tirar los embalajes (sobre todo los plásticos) y revisar de vez en cuando los juguetes por si tienen astillas, piezas sueltas o las tapas de las pilas rotas. Las pilas cuentan entre esas piezas pequeñas, así que en un juguete que las lleve comprueba que la tapa ajusta bien y que no queda ninguna pila suelta a la vista. Si hay un bebé en casa, el mejor momento para revisar es al abrir cada regalo nuevo: retira el embalaje, lee las advertencias y decide dónde se guardará.",
+      "links": [
+        {
+          "href": "/blog/regalos-bebe-1-ano-navidad",
+          "text": "Regalos para un bebé de 1 año: qué le sirve"
+        },
+        {
+          "href": "/blog/juguetes-regalo-navidad-ninos",
+          "text": "Juguetes para regalar en Navidad, guía por edades"
+        }
+      ]
+    },
+    {
+      "heading": "Ejemplos de edades mínimas en el catálogo",
+      "text": "Tres juguetes del catálogo con la edad mínima que indica el fabricante en su ficha, para ver cómo cambia el criterio según el tipo de pieza:",
+      "picks": [
+        {
+          "asin": "B0FPXGPH6P",
+          "name": "LEGO DUPLO Caja Creativa 10479",
+          "text": "80 ladrillos de tamaño DUPLO. Edad mínima: 18 meses."
+        },
+        {
+          "asin": "B000CBSNKQ",
+          "name": "Magna-Tiles Clear Colors, 32 piezas",
+          "text": "Piezas magnéticas. Edad mínima: 3 años."
+        },
+        {
+          "asin": "B00NVDP3ZU",
+          "name": "LEGO Classic 10696 Caja Mediana",
+          "text": "484 piezas en 35 colores. Edad mínima: 4 años."
+        }
+      ]
+    },
+    {
+      "heading": "Advertencias específicas según el tipo de juguete",
+      "text": "El Anexo V recoge avisos propios de ciertos productos. Si ves alguno de estos textos, léelo antes de dárselo a un niño:",
+      "list": [
+        "Juguetes funcionales (los que funcionan como un aparato real, a escala): «Utilícese bajo la vigilancia directa de un adulto», con indicación de la edad mínima.",
+        "Juguetes químicos: «No conviene para niños menores de (edad fijada por el fabricante) años. Utilícese bajo la vigilancia de un adulto.»",
+        "Juguetes para el agua: usar solo en agua donde el niño pueda permanecer de pie y bajo vigilancia de un adulto.",
+        "Juguetes que vienen dentro de un alimento: «Contiene un juguete. Se recomienda la vigilancia de un adulto.»",
+        "Juegos olfativos, de cosmética o de sabores: «Contiene fragancias que pueden causar alergias.»",
+        "Máscaras y cascos de juguete: «Este juguete no ofrece protección»."
+      ],
+      "links": [
+        {
+          "href": "/blog/kits-quimica-ninos-seguros-guia",
+          "text": "Kits de química para niños: guía de seguridad"
+        },
+        {
+          "href": "/blog/construccion-magnetica-beneficios-educativos",
+          "text": "Construcción magnética: beneficios y precauciones"
+        }
+      ]
+    },
+    {
+      "heading": "Después de comprar: instrucciones, garantía y alertas",
+      "text": "Consumo Responde recomienda leer las advertencias, las instrucciones de uso y las de montaje antes de dar el juguete al niño, y conservar la documentación, el ticket y las etiquetas por si hay que reclamar. Según esa misma fuente, los juguetes tienen 3 años de garantía y las compras online permiten desistir en 14 días naturales sin dar motivos. Para comprobar si un producto ha sido señalado como peligroso, la Comisión Europea mantiene Safety Gate, el sistema de alerta rápida para productos no alimentarios peligrosos, con alertas que notifican las autoridades. Y con los juguetes conectados, que se enlazan a una app y a una cuenta y recogen datos de menores, Consumo Responde remite a las recomendaciones de la Agencia Española de Protección de Datos antes de comprarlos."
+    },
+    {
+      "heading": "Conclusión",
+      "text": "Antes de tu próxima compra, comprueba cuatro cosas en el envase o en la ficha: marcado CE, edad y advertencias en castellano, fabricante identificado y, si hay niños menores de 3 años en casa, qué piezas pequeñas lleva. Después, dedica cinco minutos a revisar los juguetes que ya tienes: tapas de pilas, piezas sueltas y roturas. Si dudas de un producto concreto, escribe a la oficina de consumo de tu comunidad autónoma."
+    },
+    {
+      "faqs": [
+        {
+          "q": "¿Qué significa el marcado CE en un juguete?",
+          "a": "Es la declaración del fabricante de que el juguete cumple la normativa europea de seguridad. En España, el Real Decreto 1205/2011 obliga a que los juguetes comercializados lo lleven de forma visible, legible e indeleble. No es un sello de calidad educativa."
+        },
+        {
+          "q": "¿Puedo dar a un niño de 2 años un juguete recomendado desde 3 años?",
+          "a": "No es aconsejable. Los juguetes que no están pensados para menores de 36 meses pueden llevar piezas que se traguen o se inhalen, y por eso llevan la advertencia correspondiente. La edad del envase es una edad mínima de seguridad."
+        },
+        {
+          "q": "¿Qué hago con los juguetes de los hermanos mayores?",
+          "a": "La AEP recomienda mantener las piezas pequeñas, las pilas y los objetos redondos y lisos, como canicas o imanes, fuera del alcance de los menores de 3 años. Lo más práctico es guardar los juguetes de piezas pequeñas en una caja que el pequeño no alcance y jugar con ellos cuando él duerma."
+        },
+        {
+          "q": "¿Qué garantía tienen los juguetes?",
+          "a": "Consumo Responde indica una garantía de 3 años y, en compras online, 14 días naturales para desistir sin dar motivos. Guarda el ticket y la documentación del producto para cualquier reclamación."
+        }
+      ]
+    }
+  ],
   "regalos-bebe-1-ano-navidad": [
     {"text":"Al año, un bebé no necesita muchos regalos: necesita uno o dos que pueda usar ya y que sigan teniendo sentido cuando empiece a caminar y a imitar lo que ve en casa. Esta guía ordena las ideas por el tipo de juego que encaja con esta edad, propone cómo repartir los regalos cuando media familia pregunta qué comprar y repasa lo que conviene evitar por seguridad. Todos los juguetes que citamos son de marcas reconocidas y tienen la edad del fabricante comprobada en su ficha de Amazon.es. Si buscas más detalle sobre el desarrollo de los 12 a los 24 meses, lo tienes en nuestra guía de juguetes educativos para niños de 1 año.","links":[{"href":"/blog/juguetes-educativos-1-ano","text":"Juguetes educativos para niños de 1 año: guía de 12 a 24 meses"}]},
     {"heading":"Nuestras recomendaciones rápidas","text":"Tres regalos que se usan desde el primer día y que sirven para Navidad, Reyes o el primer cumpleaños:","picks":[{"asin":"B00712O2D6","name":"Picafuerte con xilófono de Hape","text":"Martillo, bolas que suenan al caer y un xilófono que se saca para tocarlo. Desde 12 meses."},{"asin":"B07XDRVG99","name":"Arcoíris de madera XL de small foot","text":"12 arcos y 2 bolas para apilar, encajar y, más adelante, construir túneles y casas. Desde 12 meses."},{"asin":"B0FPXGPH6P","name":"LEGO DUPLO Caja Creativa 10479","text":"80 ladrillos grandes para quien ya tiene 18 meses o los cumple pronto."}]},
