@@ -44,7 +44,7 @@ export const posts: Post[] = [
     slug: "tiempo-pantalla-ninos-alternativas-juguetes",
     title: "Tiempo de pantalla en niños: qué recomiendan la AEP y la OMS y qué juguetes lo sustituyen",
     seoTitle: "Tiempo de pantalla en niños: pautas y alternativas",
-    excerpt: "La OMS no recomienda pantallas sedentarias antes de los 2 años y fija un máximo de una hora de 2 a 4. La AEP pide «cuantas menos pantallas, mejor» de 0 a 2 y límites pactados de 6 a 12. Qué dicen y qué juguetes ocupan su lugar.",
+    excerpt: "La OMS no recomienda pantallas antes de los 2 años y fija un máximo de una hora de 2 a 4. La AEP aconseja evitarlas hasta los 6 y menos de una hora al día de los 6 a los 12. Qué dicen y qué juguetes ocupan su lugar.",
     category: "Guías",
     date: "2026-11-04",
     readTime: 8,

@@ -111,12 +111,16 @@ const articleSources: Record<string, { label: string; url: string }[]> = {
       "url": "https://www.paho.org/es/noticias/24-4-2019-para-crecer-sanos-ninos-tienen-que-pasar-menos-tiempo-sentados-jugar-mas"
     },
     {
-      "label": "AEP (En Familia) — Las pantallas en el cerebro de la infancia y adolescencia (octubre de 2026)",
-      "url": "https://enfamilia.aeped.es/noticias/las-pantallas-en-el-cerebro-infancia-y-adolescencia"
+      "label": "AEP — Actualización del Plan Digital Familiar (nota de prensa, 5 de diciembre de 2024)",
+      "url": "https://aeped.es/sites/default/files/20241205_ndp_aep_actualizacion_plan_digital_familiar_def.pdf"
     },
     {
       "label": "AEP (En Familia) — Juego y juguetes",
       "url": "https://www.aeped.es/enfamilia/salud-en-familia/juego-juguetes"
+    },
+    {
+      "label": "Consumer — Así deben usar niños, niñas y adolescentes las pantallas, según la evidencia científica (marzo de 2025)",
+      "url": "https://www.consumer.es/?p=440625"
     },
     {
       "label": "AEP — Plan Digital Familiar",
@@ -358,7 +362,7 @@ const articleContent: Record<string, ArticleSection[]> = {
     },
     {
       "heading": "2. Cromatografía con papel de cocina",
-      "text": "Materiales: rotuladores de punta de fieltro, papel de cocina, un vaso o cuenco, agua y tijeras. La RSC indica rotuladores no lavables y recomienda probar antes varias marcas de negro, porque no todas se separan igual. Es una actividad de la RSC para 9-11 años.",
+      "text": "Materiales: rotuladores de punta de fieltro, papel de cocina, un vaso o cuenco, agua y tijeras. La RSC indica rotuladores no lavables y recomienda probar antes varias marcas de negro, porque no todas se separan igual; otras fuentes divulgativas dicen lo contrario sobre los lavables, así que lo más práctico es probar con dos o tres marcas y quedarte con la que separe mejor los colores. Es una actividad de la RSC para 9-11 años.",
       "list": [
         "Corta una tira larga de papel de cocina.",
         "Dibuja un punto de color a 2 o 3 centímetros de un extremo.",
@@ -477,7 +481,7 @@ const articleContent: Record<string, ArticleSection[]> = {
     },
     {
       "heading": "Qué recomienda la AEP y por qué sus pautas han cambiado",
-      "text": "La página de juego y juguetes de En Familia, la web de la AEP para familias, recoge una pauta con cifras: de 0 a 2 años, ninguna pantalla; de 2 a 4 años, no más de una hora al día y solo con juegos apropiados y acompañados por un adulto; a partir de 5 años, no más de dos horas. La página más reciente de la AEP sobre el tema, publicada en octubre de 2026, no da horas y se centra en pautas cualitativas, con tres tramos. De 0 a 2 años: cuantas menos pantallas, mejor, sin usarlas habitualmente para calmar, alimentar o entretener, con las comidas y la hora previa al sueño protegidas; las videollamadas con familiares pueden ser una excepción si va un adulto al lado. De 3 a 5 años: poco tiempo y siempre acompañados, con contenidos educativos y sin ritmos excesivamente rápidos, verlos juntos y fijar momentos y espacios sin pantallas. De 6 a 12 años: límites claros y acompañamiento, con horarios pactados, sin que la pantalla desplace el sueño, el deporte, el estudio o el juego, y sin dispositivos en la habitación por la noche. La AEP ha ido actualizando sus recomendaciones y puede volver a hacerlo: consulta siempre su Plan Digital Familiar para la versión vigente."
+      "text": "La AEP actualizó su Plan Digital Familiar en diciembre de 2024 y endureció sus pautas. Hasta los 6 años recomienda evitar las pantallas porque, según su planteamiento, no hay un tiempo seguro: solo admite un uso puntual y con un fin concreto, como una videollamada con familiares, y nunca durante las comidas ni antes de dormir. De 6 a 12 años pide menos de una hora al día, contando el tiempo escolar y los deberes, y a partir de los 12-13 años, como máximo dos horas con el mismo criterio. Esas cifras son las que recogió la prensa especializada tras la actualización; para la redacción exacta, consulta el Plan Digital Familiar. Ojo con las versiones antiguas: la página de juego y juguetes de En Familia, la web de la AEP para familias, conserva una pauta anterior con otras cifras (de 0 a 2 años ninguna pantalla, de 2 a 4 no más de una hora al día y, desde los 5, no más de dos horas), y es la que más circula. La diferencia con la OMS es de enfoque: la OMS fija un tope (una hora de pantalla sedentaria al día de los 2 a los 4 años, y menos es mejor), mientras que la AEP aconseja directamente evitarlas hasta los 6 años. Si tienes un niño pequeño, la pauta práctica es la más estricta: evitarlas, y si alguna vez se usan, que sea poco, con un adulto al lado y con contenido adecuado."
     },
     {
       "text": "La misma página añade una idea útil: el problema no es solo el tiempo de pantalla, sino qué sustituye ese tiempo. Entre lo que se pierde cita el juego libre, la actividad física, la lectura y la creatividad, el contacto con la naturaleza, las conversaciones familiares y el sueño.",
@@ -527,7 +531,7 @@ const articleContent: Record<string, ArticleSection[]> = {
     },
     {
       "heading": "Juguetes electrónicos y tabletas: qué mirar",
-      "text": "Un juguete con pantalla o con luces y voces sigue siendo una pantalla o una distracción. La AEP indica que los juguetes electrónicos, por sus características, no permiten interactuar con los padres y otros niños, dos aspectos importantes del desarrollo. Si decidís usar una tableta, la AEP recomienda para los 3-5 años contenidos educativos, adecuados a la edad, sin ritmos excesivamente rápidos, y verlos juntos siempre que se pueda. Los CDC señalan además que, para la atención de un niño de 5 años en una actividad de 5 a 10 minutos, el tiempo de pantalla no cuenta.",
+      "text": "Un juguete con pantalla o con luces y voces sigue siendo una pantalla o una distracción. La AEP indica que los juguetes electrónicos, por sus características, no permiten interactuar con los padres y otros niños, dos aspectos importantes del desarrollo. Aunque lo ideal es evitarlas hasta los 6 años, si decidís usar una tableta, la AEP recomienda contenidos educativos, adecuados a la edad, sin ritmos excesivamente rápidos, y verlos juntos siempre que se pueda. Los CDC señalan además que, para la atención de un niño de 5 años en una actividad de 5 a 10 minutos, el tiempo de pantalla no cuenta.",
       "links": [
         {
           "href": "/blog/mejor-tablet-ninos-educativa-2025",
@@ -561,11 +565,11 @@ const articleContent: Record<string, ArticleSection[]> = {
       "faqs": [
         {
           "q": "¿Cuánto tiempo de pantalla es aceptable a los 3 años?",
-          "a": "La OMS no recomienda más de una hora de pantalla sedentaria al día de los 2 a los 4 años, y menos es mejor. La AEP, en su página más reciente, pide poco tiempo y siempre acompañados de un adulto. Es un máximo, no un objetivo."
+          "a": "La OMS no recomienda más de una hora de pantalla sedentaria al día de los 2 a los 4 años, y menos es mejor. La AEP va más allá y aconseja evitar las pantallas hasta los 6 años porque no hay un tiempo seguro. La cifra de la OMS es un máximo, no un objetivo."
         },
         {
           "q": "¿Las videollamadas con los abuelos cuentan como pantalla?",
-          "a": "Técnicamente sí, pero la AEP las menciona como posible excepción de 0 a 2 años, siempre acompañadas por un adulto."
+          "a": "Técnicamente sí, pero la AEP las admite como excepción en los menores de 6 años, siempre con un fin concreto, como hablar con familiares, y con un adulto al lado."
         },
         {
           "q": "¿Una tableta educativa cuenta como tiempo de pantalla?",
