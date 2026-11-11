@@ -1709,10 +1709,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     .slice(0, 6);
 
 const AUTHOR = {
-  "@type": "Organization",
-  name: "Equipo Editorial de JugueteSTEM.es",
+  "@type": "Person",
+  name: "José Marcos Galindo Sánchez",
+  jobTitle: "Editor responsable",
+  worksFor: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.mktweb360.com" },
   url: "https://www.juguetestem.es/sobre-nosotros",
-  description: "Equipo editorial de JugueteSTEM.es (Mkt Web 360 SLU). No somos docentes titulados: comparamos edad recomendada, certificaciones de seguridad y fichas del fabricante, con apoyo de IA bajo revisión editorial.",
+  description: "Editor responsable de JugueteSTEM.es (Mkt Web 360 SLU). No es docente titulado: compara edad recomendada, certificaciones de seguridad y fichas del fabricante, con apoyo de IA bajo revisión editorial.",
   knowsAbout: ["juguetes educativos", "metodología Montessori", "educación STEM", "robótica infantil", "juguetes de construcción", "desarrollo cognitivo infantil"],
 };
 
@@ -1782,7 +1784,7 @@ const AUTHOR = {
           <span>·</span>
           <span className="flex items-center gap-1 text-gray-500">
             <span>✍️</span>
-            <Link href="/sobre-nosotros" className="font-medium text-purple-700 hover:underline">Equipo Editorial de JugueteSTEM.es</Link>
+            <Link href="/sobre-nosotros" className="font-medium text-purple-700 hover:underline">José Marcos Galindo Sánchez · Editor responsable</Link>
           </span>
         </div>
 

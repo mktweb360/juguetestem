@@ -11,10 +11,12 @@ const SITE_URL = "https://www.juguetestem.es";
 
 const personSchema = {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "Equipo Editorial de JugueteSTEM.es",
+  "@type": "Person",
+  name: "José Marcos Galindo Sánchez",
+  jobTitle: "Editor responsable",
+  worksFor: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.mktweb360.com" },
   url: `${SITE_URL}/sobre-nosotros`,
-  description: "Equipo editorial de JugueteSTEM.es (Mkt Web 360 SLU). No somos docentes ni pedagogos titulados: comparamos edad recomendada, certificaciones de seguridad, materiales y fichas del fabricante antes de recomendar cualquier juguete, con apoyo de IA en investigación y redacción bajo revisión editorial. Respeta siempre la edad mínima indicada por el fabricante.",
+  description: "Editor responsable de JugueteSTEM.es y fundador de Mkt Web 360 SLU, agencia de marketing digital (SEO, analítica y desarrollo web) con sede en El Viso de San Juan (Toledo). No es docente ni pedagogo titulado: compara edad recomendada, certificaciones de seguridad y fichas del fabricante, con apoyo de IA bajo revisión editorial. El contenido es informativo.",
   knowsAbout: [
     "juguetes educativos",
     "metodología Montessori",
@@ -23,11 +25,6 @@ const personSchema = {
     "juguetes de construcción",
     "desarrollo cognitivo infantil",
   ],
-  parentOrganization: {
-    "@type": "Organization",
-    name: "JugueteSTEM.es",
-    url: SITE_URL,
-  },
   sameAs: [SITE_URL],
 };
 
@@ -41,7 +38,7 @@ const orgSchema = {
   taxID: "B87679304",
   foundingDate: "2024",
   description:
-    "Portal especializado en juguetes educativos STEM y materiales Montessori para niños. Comparativas y análisis con criterio pedagógico profesional.",
+    "Portal especializado en juguetes educativos STEM y materiales Montessori para niños. Comparativas basadas en fichas del fabricante, certificaciones de seguridad y fuentes citadas.",
   areaServed: { "@type": "Country", name: "España" },
   knowsAbout: [
     "juguetes educativos",
@@ -90,17 +87,17 @@ export default function SobreNosotrosPage() {
         {/* Author profile card */}
         <div className="bg-white border border-gray-200 rounded-2xl p-6 mb-10 flex gap-5 items-start shadow-sm">
           <div className="shrink-0 w-16 h-16 rounded-full bg-purple-600 flex items-center justify-center text-white text-xl font-extrabold select-none">
-            JS
+            JG
           </div>
           <div>
             <p className="text-lg font-extrabold text-gray-900 leading-tight">
-              Equipo Editorial de JugueteSTEM.es
+              José Marcos Galindo Sánchez
             </p>
             <p className="text-sm text-purple-700 font-semibold mb-2">
-              Mkt Web 360 SLU
+              Editor responsable · Fundador de Mkt Web 360 SLU
             </p>
             <p className="text-gray-600 text-sm leading-relaxed mb-3">
-              No somos docentes ni pedagogos titulados. Comparamos edad recomendada,
+              No soy docente ni pedagogo titulado, y no pruebo personalmente cada juguete. Mi trabajo es editorial: comparo edad recomendada,
               certificaciones de seguridad (CE), materiales y fichas del fabricante
               antes de recomendar cualquier juguete, con apoyo de IA en
               la investigación y redacción, siempre con revisión editorial. Respeta
