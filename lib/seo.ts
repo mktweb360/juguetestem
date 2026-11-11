@@ -48,8 +48,14 @@ export function productTitleUnique(
   return `${corto} ${propio}: ${suffix}`;
 }
 
-/** Descripción larga apta para mostrar: quita la nota interna de verificación («Verificado en vivo… dato interno, no se muestra). »). */
+/** Descripción larga apta para mostrar: quita notas internas, frases de gestión del catálogo y afirmaciones comerciales sin verificar (precio, «más vendido»). */
 export function publicDescription(text?: string): string {
   if (!text) return "";
-  return text.replace(/^Verificado en vivo[^)]*no se muestra\)\.\s*/, "").trim();
+  const limpio = text.replace(/^Verificado en vivo[^)]*no se muestra\)\.\s*/, "").trim();
+  if (/^Nota de catálogo/i.test(limpio)) return "";
+  return limpio
+    .split(/(?<=\.)\s+/)
+    .filter((f) => !/catálogo|ASIN|verificad[oa]|[Ss]ustituye|[Ss]e sustituye|precio|más vendid|líder|referencia del mercado|reseñ|valoracion|★|estrellas|\d,\d\/5/.test(f))
+    .join(" ")
+    .trim();
 }
