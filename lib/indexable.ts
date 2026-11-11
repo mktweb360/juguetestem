@@ -5,7 +5,6 @@
 export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "thames-kosmos-intro-chemistry-27-experimentos",
   "geomag-classic-color-91-piezas",
-  "torre-rosa-montessori-10-cubos-madera",
   "national-geographic-mega-kit-excavacion-gemas",
   "catan-junior-devir-6-anos",
   "cosyland-torre-aprendizaje-antivuelco",
@@ -13,11 +12,12 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "science4you-robotics-alfabot-238-piezas",
   "thames-kosmos-kids-first-science-kit",
   "lego-10698-caja-ladrillos-creativos-grande",
-  "beeloom-panda-tower-torre-aprendizaje",
   "dixit-juego-mesa-asmodee-2021",
   "small-foot-arcoiris-madera-xl-12-piezas",
   "virus-pack-tapete-fundas-deck-box",
   "magna-tiles-clear-colors-32-piezas",
+  "lego-duplo-caja-creativa-todo-color-10479",
+  "national-geographic-microscopio-800x-smartphone",
 ]);
 
 export const isFeaturedProduct = (slug: string) => FEATURED_PRODUCT_SLUGS.has(slug);
