@@ -25,7 +25,7 @@ export const posts: Post[] = [
     image: "/images/blog/juegos-mesa-cooperativos-ninos-edad-como-elegir.jpg",
     date: "2026-11-11",
     readTime: 8,
-    relatedProducts: ["haba-primer-frutal-juego-cooperativo-2-anos", "goula-los-3-cerditos-juego-cooperativo", "ludilo-pillado-juego-cooperativo"],
+    relatedProducts: ["haba-primer-frutal-juego-cooperativo-2-anos", "goula-los-3-cerditos-juego-cooperativo", "ludilo-pillado-juego-cooperativo", "helvetiq-bandido-juego-cartas-cooperativo", "asmodee-dixit-kids-juego-cooperativo"],
     relatedPosts: ["juegos-mesa-educativos-primaria", "mejores-juegos-mesa-familia", "juegos-cartas-educativos-familia", "juguetes-educativos-3-anos"],
     categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de mesa →" },
   },
