@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { categories, products, getProductBySlug, getProductsByCategory, amazonLink } from "@/data/products";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import { getPostBySlug } from "@/data/posts";
+import { isFeaturedProduct } from "@/lib/indexable";
 import { productTitle, productTitleUnique, relatedInCategory, publicDescription } from "@/lib/seo";
 import { CATEGORIA_GUIA } from "@/lib/categoria-guia";
 
@@ -31,12 +32,12 @@ export async function generateMetadata({
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
-    title: { absolute: productTitleUnique(product, products, "análisis y opinión") },
+    title: { absolute: productTitleUnique(product, products, "guía de compra") },
     description: product.shortDescription,
     alternates: {
       canonical: `https://www.juguetestem.es/tienda/${categoria}/${producto}`,
     },
-    ...(product.unavailable ? { robots: { index: false, follow: true } } : {}),
+    robots: product.unavailable || !isFeaturedProduct(product.slug) ? { index: false, follow: true } : { index: true, follow: true },
   };
 }
 
