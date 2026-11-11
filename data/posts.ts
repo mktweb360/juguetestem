@@ -831,6 +831,18 @@ export const posts: Post[] = [
     relatedPosts: ["juguetes-montessori-casa-ambiente-preparado", "torre-aprendizaje-bebe-guia", "regalos-ninos-2-3-anos", "juguetes-educativos-1-ano"],
     categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver camas y juguetes Montessori →" },
   },
+  {
+    slug: "juguetes-viaje-coche-avion-ninos-guia",
+    title: "Juguetes y juegos para viajar con niños en coche, avión o tren: qué llevar según la edad",
+    seoTitle: "Juguetes de viaje para niños: qué llevar por edad",
+    excerpt: "Cinco criterios para elegir juguetes de viaje y una selección por edades, de 1 a más de 6 años: construcción magnética en lata, Dobble, busy board y juego de pesca de tela, con sus ventajas y puntos débiles.",
+    category: "Guías",
+    date: "2026-10-27",
+    readTime: 7,
+    relatedProducts: ["magna-tiles-micromags-viaje-26-piezas", "dobble-juego-cartas-asmodee-velocidad-atencion", "joyreal-busy-board-montessori-19-led", "hahaland-juego-pesca-tela-montessori"],
+    relatedPosts: ["construccion-magnetica-beneficios-educativos", "juegos-cartas-educativos-familia", "mejores-juegos-mesa-familia", "juguetes-0-2-anos-desarrollo"],
+    categoryCta: { href: "/tienda", text: "Ver el catálogo completo →" },
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
