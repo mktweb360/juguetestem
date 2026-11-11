@@ -867,6 +867,7 @@ export const products: Product[] = [
       "juegos-mesa-educativos-primaria",
       "mejores-juegos-mesa-familia",
       "juguetes-regalo-navidad-ninos",
+      "juguetes-viaje-coche-avion-ninos-guia",
     ],
   },
 
@@ -1499,6 +1500,7 @@ export const products: Product[] = [
     relatedPosts: [
       "juguetes-0-2-anos-desarrollo",
       "mejores-juguetes-montessori-2025",
+      "juguetes-viaje-coche-avion-ninos-guia",
     ],
   },
   {
@@ -1739,6 +1741,7 @@ export const products: Product[] = [
     relatedPosts: [
       "juguetes-0-2-anos-desarrollo",
       "mejores-juguetes-montessori-2025",
+      "juguetes-viaje-coche-avion-ninos-guia",
     ],
   },
   {
@@ -1816,6 +1819,7 @@ export const products: Product[] = [
     specs: { "Piezas": "26 (12 cuadrados, 14 triángulos)", "Formato": "Mini, en lata metálica", "Edad": "3+ años" },
     relatedPosts: [
       "construccion-magnetica-beneficios-educativos",
+      "juguetes-viaje-coche-avion-ninos-guia",
     ],
   },
   {
