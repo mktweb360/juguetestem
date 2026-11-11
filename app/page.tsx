@@ -79,7 +79,7 @@ export default function HomePage() {
             {[
               { icon: "🔍", title: "Análisis honestos", desc: "Evaluamos cada juguete con criterios pedagógicos reales, sin dejarnos llevar por el marketing." },
               { icon: "👶", title: "Por edades y etapas", desc: "Cada recomendación incluye la franja de edad ideal y el tipo de habilidades que desarrolla." },
-              { icon: "🛒", title: "Enlaces directos a Amazon.es", desc: "Te llevamos a la ficha de Amazon.es de cada producto para que veas allí el precio y la disponibilidad actualizados." },
+              { icon: "🛒", title: "Enlaces directos a la ficha", desc: "Te llevamos a la ficha de cada producto en la tienda para que veas allí el precio y la disponibilidad actualizados." },
             ].map((item) => (
               <div key={item.title} className="bg-white rounded-2xl p-6 shadow-sm">
                 <div className="text-3xl mb-3">{item.icon}</div>
