@@ -106,7 +106,7 @@ export const posts: Post[] = [
   {
     slug: "calendario-adviento-ninos-sin-chocolate",
     title: "Calendarios de Adviento para niños sin chocolate: LEGO, PLAYMOBIL, ciencia y libros",
-    seoTitle: "Calendario de Adviento para niños sin chocolate",
+    seoTitle: "Calendario de Adviento 2026 para niños sin chocolate",
     excerpt: "Calendarios de Adviento para niños que no son de chocolate: LEGO, PLAYMOBIL, GraviTrax, magia y libros, con la edad del fabricante de cada uno y cuándo comprarlos para que lleguen el 1 de diciembre.",
     category: "Guías",
     date: "2026-10-27",
