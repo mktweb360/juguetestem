@@ -17,6 +17,19 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "juegos-mesa-cooperativos-ninos-edad-como-elegir",
+    title: "Juegos de mesa cooperativos para niños: cuáles elegir según la edad",
+    seoTitle: "Juegos de mesa cooperativos para niños: cómo elegir",
+    excerpt: "Juegos de mesa cooperativos para niños desde 2 años: qué dice la investigación (es mixta), tres juegos del catálogo por edad y cómo jugarlos.",
+    category: "Juegos de Mesa",
+    image: "/images/blog/juegos-mesa-cooperativos-ninos-edad-como-elegir.jpg",
+    date: "2026-11-11",
+    readTime: 8,
+    relatedProducts: ["haba-primer-frutal-juego-cooperativo-2-anos", "goula-los-3-cerditos-juego-cooperativo", "ludilo-pillado-juego-cooperativo", "helvetiq-bandido-juego-cartas-cooperativo", "asmodee-dixit-kids-juego-cooperativo"],
+    relatedPosts: ["juegos-mesa-educativos-primaria", "mejores-juegos-mesa-familia", "juegos-cartas-educativos-familia", "juguetes-educativos-3-anos"],
+    categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de mesa →" },
+  },
+  {
     slug: "elegir-juguetes-segun-etapa-desarrollo",
     title: "Cómo elegir juguetes según la etapa del desarrollo: guía de 0 a 12 años",
     seoTitle: "Juguetes según la etapa del desarrollo, de 0 a 12",
