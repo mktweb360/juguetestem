@@ -856,6 +856,18 @@ export const posts: Post[] = [
     relatedPosts: ["construccion-magnetica-beneficios-educativos", "juegos-cartas-educativos-familia", "mejores-juegos-mesa-familia", "juguetes-0-2-anos-desarrollo"],
     categoryCta: { href: "/tienda", text: "Ver el catálogo completo →" },
   },
+  {
+    slug: "juguetes-stem-sin-pantallas-ideas-por-edad",
+    title: "Juguetes STEM sin pantallas: ideas por edad de 3 a 12 años",
+    seoTitle: "Juguetes STEM sin pantallas: ideas por edad",
+    excerpt: "Ocho juguetes STEM que no necesitan pantalla, de los 3 a los 12 años: robots que se programan con botones o tarjetas, construcción magnética, kits de ciencia, un cohete LEGO Technic y un libro de ingeniería, con sus ventajas y puntos débiles.",
+    category: "STEM",
+    date: "2026-11-13",
+    readTime: 7,
+    relatedProducts: ["learning-resources-raton-robot-colby", "clementoni-super-doc-robot-programable", "magna-tiles-clear-colors-32-piezas", "goula-regletas-10x10-300-piezas-madera", "thames-kosmos-kids-first-science-kit", "ubongo-junior-asmodee-puzzle-rapido", "lego-technic-cohete-nasa-artemis-42221", "ingenieria-increible-35-proyectos-ideaka"],
+    relatedPosts: ["tiempo-pantalla-ninos-alternativas-juguetes", "introduccion-programacion-ninos", "robotica-ninos-primeros-pasos", "mejores-kits-ciencia-ninos", "construccion-magnetica-beneficios-educativos", "juguetes-stem-casa-sin-comprar"],
+    categoryCta: { href: "/tienda/juguetes-stem", text: "Ver juguetes STEM y ciencia →" },
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
