@@ -7,6 +7,9 @@ import ProductCard from "@/components/ProductCard";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import BlogSidebar from "@/components/BlogSidebar";
 import AdSenseAd from "@/components/AdSenseAd";
+import ArticleToc from "@/components/ArticleToc";
+import { anchorId } from "@/lib/anchors";
+import { pickPromo, promoUrl } from "@/lib/promo";
 
 export async function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
@@ -1734,6 +1737,15 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const content = articleContent[slug] ?? [];
   const relatedProducts = post.relatedProducts.map((s) => getProductBySlug(s)).filter((p) => p && !p.unavailable);
   const relatedPosts = (post.relatedPosts ?? []).map((s) => getPostBySlug(s)).filter(Boolean);
+  const hasFaqs = content.some((sec) => sec.faqs && sec.faqs.length > 0);
+  const toc = [
+    ...content.filter((sec) => sec.heading).map((sec) => ({ id: anchorId(sec.heading!), label: sec.heading! })),
+    ...(relatedProducts.length > 0 ? [{ id: "productos", label: "Productos recomendados" }] : []),
+    ...(hasFaqs ? [{ id: "faqs", label: "Preguntas frecuentes" }] : []),
+  ];
+  const promo = pickPromo(slug);
+  const promoHref = promoUrl(promo, "juguetestem.es", slug);
+  const sidebarProducts = relatedProducts.map((p) => p && ({ slug: p.slug, name: p.name, href: `/tienda/${p.categorySlug}/${p.slug}`, image: p.image })).filter(Boolean) as { slug: string; name: string; href: string; image?: string }[];
   const relatedSlugs = new Set([post.slug, ...relatedPosts.map((p) => p!.slug)]);
   const sameCategoryPosts = posts
     .filter((p) => p.category === post.category && !relatedSlugs.has(p.slug))
@@ -1826,12 +1838,13 @@ const AUTHOR = {
         )}
 
         <AffiliateDisclosure />
+        <ArticleToc items={toc} variant="mobile" />
 
         <div className="prose prose-gray max-w-none">
           {content.map((section, i) => (
             <div key={i} className="mb-6">
               {section.heading && (
-                <h2 className="text-xl font-extrabold text-gray-900 mt-8 mb-3">{section.heading}</h2>
+                <h2 id={anchorId(section.heading)} className="scroll-mt-24 text-xl font-extrabold text-gray-900 mt-8 mb-3">{section.heading}</h2>
               )}
               {section.text && <p className="text-gray-700 leading-relaxed">{section.text}</p>}
               {section.list && (
@@ -1934,7 +1947,7 @@ const AUTHOR = {
               )}
               {section.faqs && (
                 <div className="mt-8 space-y-4">
-                  <h2 className="text-xl font-extrabold text-gray-900 mb-4">Preguntas frecuentes</h2>
+                  <h2 id="faqs" className="scroll-mt-24 text-xl font-extrabold text-gray-900 mb-4">Preguntas frecuentes</h2>
                   {section.faqs.map((faq, fi) => (
                     <div key={fi} className="bg-gray-50 rounded-xl p-5">
                       <h3 className="font-bold text-gray-900 mb-2">{faq.q}</h3>
@@ -1949,7 +1962,7 @@ const AUTHOR = {
 
         <AdSenseAd placement="contenido" />
         {relatedProducts.length > 0 && (
-          <div className="mt-12 pt-8 border-t border-gray-100">
+          <div id="productos" className="scroll-mt-24 mt-12 pt-8 border-t border-gray-100">
             <h2 className="text-xl font-extrabold text-gray-900 mb-5">Productos recomendados en este artículo</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {relatedProducts.map((p) => p && <ProductCard key={p.slug} product={p} />)}
@@ -2018,8 +2031,14 @@ const AUTHOR = {
           </ul>
         </div>
       )}
+        <aside aria-label="Mkt Web 360" className="lg:hidden mt-10 rounded-xl border border-violet-100 bg-violet-50/60 p-4">
+          <p className="text-[11px] font-bold uppercase tracking-wide text-violet-700 mb-1">Mkt Web 360 · Nuestra agencia</p>
+          <p className="text-sm font-bold text-gray-900 mb-1">{promo.title}</p>
+          <p className="text-xs text-gray-600 leading-relaxed mb-3">{promo.text}</p>
+          <a href={promoHref} target="_blank" rel="noopener" className="text-sm font-semibold text-violet-700">{promo.cta} →</a>
+        </aside>
       </article>
-        <BlogSidebar ctaHref="/tienda" ctaText="Ver el catálogo de juguetes" />
+        <BlogSidebar toc={toc} products={sidebarProducts} promo={promo} promoHref={promoHref} ctaHref="/tienda" ctaText="Ver el catálogo de juguetes" />
       </div>
       </div>
     </>
