@@ -50,7 +50,7 @@ export const posts: Post[] = [
     date: "2026-11-04",
     readTime: 8,
     relatedProducts: ["small-foot-arcoiris-madera-xl-12-piezas", "ubongo-junior-asmodee-puzzle-rapido", "catan-junior-devir-6-anos", "thames-kosmos-intro-chemistry-27-experimentos"],
-    relatedPosts: ["juguetes-0-2-anos-desarrollo", "regalos-ninos-2-3-anos", "mejores-juguetes-4-anos", "juguetes-educativos-6-anos", "juguetes-educativos-10-anos"],
+    relatedPosts: ["juguetes-0-2-anos-desarrollo", "regalos-ninos-2-3-anos", "mejores-juguetes-4-anos", "juguetes-educativos-6-anos", "juguetes-educativos-10-anos", "juguetes-ninos-necesidades-especiales-tdah-tea"],
     categoryCta: { href: "/tienda", text: "Ver el catálogo de juguetes →" },
   },
   {
@@ -74,7 +74,7 @@ export const posts: Post[] = [
     date: "2026-11-04",
     readTime: 8,
     relatedProducts: ["hape-laberinto-bolas-madera-coordinacion", "magna-tiles-clear-colors-32-piezas", "dobble-juego-cartas-asmodee-velocidad-atencion", "lego-creator-3in1-casa-arbol-31150"],
-    relatedPosts: ["beneficios-juego-libre-montessori", "mejores-juegos-mesa-familia", "juegos-cartas-educativos-familia", "construccion-magnetica-beneficios-educativos", "mejor-tablet-ninos-educativa-2025"],
+    relatedPosts: ["beneficios-juego-libre-montessori", "mejores-juegos-mesa-familia", "juegos-cartas-educativos-familia", "construccion-magnetica-beneficios-educativos", "mejor-tablet-ninos-educativa-2025", "juguetes-stem-sin-pantallas-ideas-por-edad"],
     categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de mesa educativos →" },
   },
   {
@@ -86,7 +86,7 @@ export const posts: Post[] = [
     date: "2026-11-04",
     readTime: 9,
     relatedProducts: ["lego-duplo-caja-creativa-todo-color-10479", "magna-tiles-clear-colors-32-piezas", "lego-classic-caja-mediana-10696"],
-    relatedPosts: ["regalos-bebe-1-ano-navidad", "kits-quimica-ninos-seguros-guia", "construccion-magnetica-beneficios-educativos", "juguetes-madera-vs-plastico-diferencias", "juguetes-regalo-navidad-ninos"],
+    relatedPosts: ["regalos-bebe-1-ano-navidad", "kits-quimica-ninos-seguros-guia", "construccion-magnetica-beneficios-educativos", "juguetes-madera-vs-plastico-diferencias", "juguetes-regalo-navidad-ninos", "juguetes-ninos-necesidades-especiales-tdah-tea"],
     categoryCta: { href: "/tienda", text: "Ver el catálogo de juguetes →" },
   },
   {
@@ -99,7 +99,7 @@ export const posts: Post[] = [
     readTime: 8,
     image: "/images/blog/regalos-bebe-1-ano-navidad.jpg",
     relatedProducts: ["melissa-doug-puzzle-clavijas-amigos-granja", "hape-picafuerte-xilofono-madera", "lego-duplo-caja-creativa-todo-color-10479", "small-foot-arcoiris-madera-xl-12-piezas", "hahaland-juego-pesca-tela-montessori", "sweety-fox-juguete-montessori-apilar-clasificar", "playmobil-junior-granja-tractor-71656", "hape-e3170-cocina-sobremesa-olla-sarten"],
-    relatedPosts: ["juguetes-educativos-1-ano", "regalos-ninos-2-3-anos", "juego-simbolico-juguetes-por-edad", "juguetes-regalo-navidad-ninos", "juguetes-reyes-magos-2026"],
+    relatedPosts: ["juguetes-educativos-1-ano", "regalos-ninos-2-3-anos", "juego-simbolico-juguetes-por-edad", "juguetes-regalo-navidad-ninos", "juguetes-reyes-magos-2026", "seguridad-juguetes-marcado-ce-edad-piezas-pequenas"],
     categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes para 1 año →" },
   },
   {
@@ -199,7 +199,7 @@ export const posts: Post[] = [
     updated: "2026-10-13",
     readTime: 12,
     relatedProducts: ["small-foot-arcoiris-madera-xl-12-piezas", "hahaland-juego-pesca-tela-montessori", "lego-duplo-tren-vapor-10874-control-app", "magna-tiles-clear-colors-32-piezas", "learning-resources-raton-robot-colby", "ubongo-junior-asmodee-puzzle-rapido", "lego-10698-caja-ladrillos-creativos-grande", "national-geographic-mega-kit-excavacion-gemas", "catan-junior-devir-6-anos", "lego-creator-3in1-casa-arbol-31150", "bresser-junior-telescopio-70-400", "thames-kosmos-intro-chemistry-27-experimentos", "lego-technic-cohete-nasa-artemis-42221", "dixit-juego-mesa-asmodee-2021", "lego-technic-camion-volvo-fmx-excavadora-42175", "asmodee-azul-juego-mesa-losetas", "cefa-toys-electrocefa-500-plus-circuitos", "nene-toys-el-frutal-juego-cooperativo-2-anos"],
-    relatedPosts: ["juguetes-educativos-navidad-2025", "regalos-navidad-ninos-inteligentes", "juguetes-reyes-magos-2026", "regalos-ninos-2-3-anos", "black-friday-juguetes-educativos"],
+    relatedPosts: ["juguetes-educativos-navidad-2025", "regalos-navidad-ninos-inteligentes", "juguetes-reyes-magos-2026", "regalos-ninos-2-3-anos", "black-friday-juguetes-educativos", "seguridad-juguetes-marcado-ce-edad-piezas-pequenas"],
     categoryCta: { href: "/tienda", text: "Ver el catálogo completo →" },
   },
   {
@@ -312,7 +312,7 @@ export const posts: Post[] = [
     updated: "2026-10-13",
     readTime: 10,
     relatedProducts: ["bresser-junior-microscopio-estereo", "national-geographic-microscopio-kit-37-piezas", "telescopio-astronomico-ninos-8-12-anos-tripode", "lego-technic-cohete-nasa-artemis-42221", "science4you-robotics-alfabot-238-piezas", "ingenieria-increible-35-proyectos-ideaka", "learning-resources-raton-robot-colby", "clementoni-super-doc-robot-programable", "osmo-genius-starter-kit-ipad-educativo", "catan-junior-devir-6-anos", "rummikub-original-goliath-6-jugadores", "ludilo-pillado-juego-cooperativo", "dixit-juego-mesa-asmodee-2021", "mi-primer-atlas-con-pop-ups-sm"],
-    relatedPosts: ["juguetes-ninos-altas-capacidades", "pensamiento-critico-ninos-juegos", "juguetes-regalo-navidad-ninos", "black-friday-juguetes-educativos"],
+    relatedPosts: ["juguetes-ninos-altas-capacidades", "pensamiento-critico-ninos-juegos", "juguetes-regalo-navidad-ninos", "black-friday-juguetes-educativos", "calendario-adviento-ninos-sin-chocolate"],
     categoryCta: { href: "/tienda/juguetes-stem", text: "Ver juguetes STEM y ciencia →" },
   },
   {
@@ -338,7 +338,7 @@ export const posts: Post[] = [
     date: "2025-08-02",
     readTime: 6,
     relatedProducts: ["cosyland-torre-aprendizaje-antivuelco"],
-    relatedPosts: ["torre-aprendizaje-bebe-guia", "juguetes-montessori-casa-ambiente-preparado", "mejores-juguetes-montessori-2025"],
+    relatedPosts: ["torre-aprendizaje-bebe-guia", "juguetes-montessori-casa-ambiente-preparado", "mejores-juguetes-montessori-2025", "pedagogias-alternativas-juguetes-montessori-waldorf-reggio"],
     categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes Montessori →" },
   },
   {
@@ -364,7 +364,7 @@ export const posts: Post[] = [
     date: "2025-08-04",
     readTime: 7,
     relatedProducts: ["cosyland-torre-aprendizaje-antivuelco", "geomag-classic-color-91-piezas"],
-    relatedPosts: ["torre-rosa-montessori-beneficios", "juguetes-montessori-casa-ambiente-preparado", "geomag-magnetico-construccion-guia"],
+    relatedPosts: ["torre-rosa-montessori-beneficios", "juguetes-montessori-casa-ambiente-preparado", "geomag-magnetico-construccion-guia", "pedagogias-alternativas-juguetes-montessori-waldorf-reggio"],
     categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes de madera →" },
   },
   {
@@ -390,7 +390,7 @@ export const posts: Post[] = [
     date: "2025-08-06",
     readTime: 8,
     relatedProducts: ["cosyland-torre-aprendizaje-antivuelco"],
-    relatedPosts: ["juguetes-educativos-1-ano", "torre-aprendizaje-bebe-guia", "torre-rosa-montessori-beneficios", "mejores-juguetes-4-anos"],
+    relatedPosts: ["juguetes-educativos-1-ano", "torre-aprendizaje-bebe-guia", "torre-rosa-montessori-beneficios", "mejores-juguetes-4-anos", "elegir-juguetes-segun-etapa-desarrollo", "seguridad-juguetes-marcado-ce-edad-piezas-pequenas"],
     categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes para bebés →" },
   },
   {
@@ -403,7 +403,7 @@ export const posts: Post[] = [
     date: "2025-08-07",
     readTime: 8,
     relatedProducts: ["national-geographic-microscopio-kit-37-piezas", "national-geographic-microscopio-800x-smartphone", "thames-kosmos-intro-chemistry-27-experimentos"],
-    relatedPosts: ["national-geographic-juguetes-educativos-analisis", "kits-quimica-ninos-seguros-guia", "mejores-kits-ciencia-ninos"],
+    relatedPosts: ["national-geographic-juguetes-educativos-analisis", "kits-quimica-ninos-seguros-guia", "mejores-kits-ciencia-ninos", "experimentos-caseros-seguros-ninos"],
     categoryCta: { href: "/tienda/juguetes-stem", text: "Ver microscopios y ciencia →" },
   },
   {
@@ -416,7 +416,7 @@ export const posts: Post[] = [
     date: "2025-08-08",
     readTime: 8,
     relatedProducts: ["thames-kosmos-intro-chemistry-27-experimentos", "thames-kosmos-kids-first-science-kit", "national-geographic-mega-kit-excavacion-gemas", "national-geographic-quimica-asquerosa-18-experimentos", "unglinga-kit-cientifico-50-experimentos"],
-    relatedPosts: ["thames-kosmos-analisis-gama-completa", "microscopio-ninos-guia-compra", "robotica-ninos-primeros-pasos"],
+    relatedPosts: ["thames-kosmos-analisis-gama-completa", "microscopio-ninos-guia-compra", "robotica-ninos-primeros-pasos", "experimentos-caseros-seguros-ninos"],
     categoryCta: { href: "/tienda/juguetes-stem", text: "Ver kits de química →" },
   },
   {
@@ -429,7 +429,7 @@ export const posts: Post[] = [
     date: "2025-08-09",
     readTime: 8,
     relatedProducts: ["science4you-robotics-alfabot-238-piezas", "thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-kit-37-piezas", "elegoo-kit-coche-robotico-stem", "cefa-toys-electrocefa-500-plus-circuitos"],
-    relatedPosts: ["kits-quimica-ninos-seguros-guia", "thames-kosmos-analisis-gama-completa", "juguetes-ninos-altas-capacidades"],
+    relatedPosts: ["kits-quimica-ninos-seguros-guia", "thames-kosmos-analisis-gama-completa", "juguetes-ninos-altas-capacidades", "juguetes-stem-ninas-guia"],
     categoryCta: { href: "/tienda/juguetes-stem", text: "Ver kits de robótica →" },
   },
   {
@@ -481,7 +481,7 @@ export const posts: Post[] = [
     date: "2025-08-13",
     readTime: 8,
     relatedProducts: ["dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos", "virus-pack-tapete-fundas-deck-box", "asmodee-azul-juego-mesa-losetas", "spin-master-tetris-juego-mesa-estrategia"],
-    relatedPosts: ["dixit-juego-analisis-opinion", "catan-junior-analisis-estrategia", "mejores-juegos-mesa-familia"],
+    relatedPosts: ["dixit-juego-analisis-opinion", "catan-junior-analisis-estrategia", "mejores-juegos-mesa-familia", "juegos-mesa-cooperativos-ninos-edad-como-elegir", "juegos-aprender-matematicas-ninos-por-edad"],
     categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de mesa →" },
   },
   {
@@ -520,7 +520,7 @@ export const posts: Post[] = [
     date: "2025-08-16",
     readTime: 6,
     relatedProducts: ["virus-pack-tapete-fundas-deck-box", "dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos"],
-    relatedPosts: ["dixit-juego-analisis-opinion", "catan-junior-analisis-estrategia", "juegos-mesa-educativos-primaria"],
+    relatedPosts: ["dixit-juego-analisis-opinion", "catan-junior-analisis-estrategia", "juegos-mesa-educativos-primaria", "juegos-mesa-cooperativos-ninos-edad-como-elegir", "como-jugar-virus-juego-cartas-reglas", "juguetes-viaje-coche-avion-ninos-guia"],
     categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de cartas →" },
   },
   {
@@ -598,7 +598,7 @@ export const posts: Post[] = [
     date: "2025-08-22",
     readTime: 7,
     relatedProducts: ["catan-junior-devir-6-anos", "national-geographic-mega-kit-excavacion-gemas", "geomag-classic-color-91-piezas"],
-    relatedPosts: ["regalos-educativos-cumpleanos-guia", "catan-junior-analisis-estrategia", "excavacion-gemas-minerales-ninos"],
+    relatedPosts: ["regalos-educativos-cumpleanos-guia", "catan-junior-analisis-estrategia", "excavacion-gemas-minerales-ninos", "mejores-juguetes-stem-ninos-5-anos", "juegos-aprender-matematicas-ninos-por-edad"],
     categoryCta: { href: "/tienda/libros-educativos", text: "Ver kits educativos →" },
   },
   {
@@ -637,7 +637,7 @@ export const posts: Post[] = [
     date: "2025-08-25",
     readTime: 8,
     relatedProducts: ["thames-kosmos-kids-first-science-kit", "national-geographic-mega-kit-excavacion-gemas", "science4you-robotics-alfabot-238-piezas"],
-    relatedPosts: ["excavacion-gemas-minerales-ninos", "aprendizaje-basado-proyectos-casa", "pensamiento-critico-ninos-juegos"],
+    relatedPosts: ["excavacion-gemas-minerales-ninos", "aprendizaje-basado-proyectos-casa", "pensamiento-critico-ninos-juegos", "juguetes-stem-sin-pantallas-ideas-por-edad", "experimentos-caseros-seguros-ninos"],
     categoryCta: { href: "/tienda/libros-educativos", text: "Ver kits STEM →" },
   },
   {
@@ -650,7 +650,7 @@ export const posts: Post[] = [
     date: "2025-08-26",
     readTime: 8,
     relatedProducts: ["science4you-robotics-alfabot-238-piezas", "thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-kit-37-piezas"],
-    relatedPosts: ["juguetes-stem-casa-sin-comprar", "juguetes-educativos-10-anos", "robotica-ninos-primeros-pasos"],
+    relatedPosts: ["juguetes-stem-casa-sin-comprar", "juguetes-educativos-10-anos", "robotica-ninos-primeros-pasos", "juegos-aprender-matematicas-ninos-por-edad"],
     categoryCta: { href: "/tienda/libros-educativos", text: "Ver kits educativos →" },
   },
   {
@@ -664,7 +664,7 @@ export const posts: Post[] = [
     updated: "2026-10-13",
     readTime: 9,
     relatedProducts: ["lego-10698-caja-ladrillos-creativos-grande", "magna-tiles-clear-colors-32-piezas", "geomag-classic-color-91-piezas", "goula-regletas-10x10-300-piezas-madera", "small-foot-arcoiris-madera-xl-12-piezas", "science4you-robotics-alfabot-238-piezas", "national-geographic-mega-kit-excavacion-gemas", "unglinga-kit-ciencia-150-experimentos", "usborne-gran-libro-experimentos-ciencia", "microscopio-ninos-300x-1200x-led-principiantes", "uscamel-microscopio-ninos-8-12-anos-1200x-optico", "ludilo-pillado-juego-cooperativo"],
-    relatedPosts: ["juguetes-regalo-navidad-ninos", "regalos-navidad-ninos-inteligentes", "juguetes-reyes-magos-2026", "black-friday-juguetes-educativos", "regalos-educativos-cumpleanos-guia"],
+    relatedPosts: ["juguetes-regalo-navidad-ninos", "regalos-navidad-ninos-inteligentes", "juguetes-reyes-magos-2026", "black-friday-juguetes-educativos", "regalos-educativos-cumpleanos-guia", "calendario-adviento-ninos-sin-chocolate"],
     categoryCta: { href: "/tienda/libros-educativos", text: "Ver kits educativos →" },
   },
   {
@@ -677,7 +677,7 @@ export const posts: Post[] = [
     date: "2025-08-28",
     readTime: 7,
     relatedProducts: ["cosyland-torre-aprendizaje-antivuelco", "geomag-classic-color-91-piezas"],
-    relatedPosts: ["juguetes-0-2-anos-desarrollo", "torre-rosa-montessori-beneficios", "juguetes-montessori-casa-ambiente-preparado"],
+    relatedPosts: ["juguetes-0-2-anos-desarrollo", "torre-rosa-montessori-beneficios", "juguetes-montessori-casa-ambiente-preparado", "mejores-juguetes-stem-ninos-5-anos"],
     categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes para 4 años →" },
   },
   {
@@ -703,7 +703,7 @@ export const posts: Post[] = [
     date: "2025-08-30",
     readTime: 8,
     relatedProducts: ["science4you-robotics-alfabot-238-piezas", "thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-800x-smartphone"],
-    relatedPosts: ["robotica-ninos-primeros-pasos", "thames-kosmos-analisis-gama-completa", "juguetes-educativos-10-anos"],
+    relatedPosts: ["robotica-ninos-primeros-pasos", "thames-kosmos-analisis-gama-completa", "juguetes-educativos-10-anos", "juguetes-ninos-necesidades-especiales-tdah-tea"],
     categoryCta: { href: "/tienda/juguetes-stem", text: "Ver kits STEM →" },
   },
 
@@ -815,7 +815,7 @@ export const posts: Post[] = [
     readTime: 9,
     image: "/images/blog/juguetes-educativos-1-ano.jpg",
     relatedProducts: ["melissa-doug-puzzle-clavijas-amigos-granja", "hape-picafuerte-xilofono-madera", "fisher-price-telefono-chatter-arrastre", "lego-duplo-caja-creativa-todo-color-10479", "small-foot-arcoiris-madera-xl-12-piezas", "sweety-fox-juguete-montessori-apilar-clasificar", "hahaland-juego-pesca-tela-montessori", "cosyland-torre-aprendizaje-antivuelco"],
-    relatedPosts: ["juguetes-0-2-anos-desarrollo", "regalos-ninos-2-3-anos", "mejores-juguetes-montessori-2025", "torre-aprendizaje-bebe-guia", "juguetes-montessori-casa-ambiente-preparado"],
+    relatedPosts: ["juguetes-0-2-anos-desarrollo", "regalos-ninos-2-3-anos", "mejores-juguetes-montessori-2025", "torre-aprendizaje-bebe-guia", "juguetes-montessori-casa-ambiente-preparado", "elegir-juguetes-segun-etapa-desarrollo"],
     categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes Montessori →" },
   },
   {
@@ -828,7 +828,7 @@ export const posts: Post[] = [
     readTime: 10,
     image: "/images/blog/regalos-ninos-2-3-anos.jpg",
     relatedProducts: ["playmobil-junior-granja-tractor-71656", "ravensburger-mi-primer-puzle-mascotas-2-4-6-8", "haba-primer-frutal-juego-cooperativo-2-anos", "hape-bloques-musicales-apilables-5-instrumentos", "play-doh-pack-4-botes-clasicos", "janod-sweet-cocoon-clasificacion-formas-colores", "lego-duplo-caja-creativa-todo-color-10479", "lego-duplo-tren-vapor-10874-control-app", "goula-los-3-cerditos-juego-cooperativo", "small-foot-arcoiris-madera-xl-12-piezas", "nene-toys-el-frutal-juego-cooperativo-2-anos"],
-    relatedPosts: ["juguetes-educativos-1-ano", "juguetes-educativos-3-anos", "mejores-juguetes-montessori-3-anos", "juguetes-regalo-navidad-ninos", "juguetes-reyes-magos-2026"],
+    relatedPosts: ["juguetes-educativos-1-ano", "juguetes-educativos-3-anos", "mejores-juguetes-montessori-3-anos", "juguetes-regalo-navidad-ninos", "juguetes-reyes-magos-2026", "juguetes-viaje-coche-avion-ninos-guia"],
     categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes para 2 y 3 años →" },
   },
   {
