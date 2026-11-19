@@ -17,6 +17,18 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "pedagogias-alternativas-juguetes-montessori-waldorf-reggio",
+    title: "Pedagogías alternativas y juguetes: qué piden Montessori, Waldorf y Reggio Emilia",
+    seoTitle: "Juguetes Montessori, Waldorf y Reggio: diferencias",
+    excerpt: "Montessori, Waldorf y Reggio Emilia explicadas con sus fuentes: qué espera cada pedagogía de un juguete y cuatro opciones del catálogo, de madera y de construcción abierta.",
+    category: "Guías",
+    date: "2026-11-19",
+    readTime: 8,
+    relatedProducts: ["sweety-fox-juguete-montessori-apilar-clasificar", "small-foot-arcoiris-madera-xl-12-piezas", "magna-tiles-clear-colors-32-piezas", "geomag-classic-color-91-piezas"],
+    relatedPosts: ["juguetes-montessori-casa-ambiente-preparado", "beneficios-juego-libre-montessori", "juguetes-madera-vs-plastico-diferencias", "construccion-magnetica-beneficios-educativos"],
+    categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes Montessori y de madera →" },
+  },
+  {
     slug: "juegos-mesa-cooperativos-ninos-edad-como-elegir",
     title: "Juegos de mesa cooperativos para niños: cuáles elegir según la edad",
     seoTitle: "Juegos de mesa cooperativos para niños: cómo elegir",
