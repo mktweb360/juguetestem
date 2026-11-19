@@ -293,7 +293,7 @@ export const products: Product[] = [
   {
     slug: "asmodee-brainbox-matematicas-cartas",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
-    name: "Asmodee BrainBox Matemáticas Juego Educativo de Cartas",
+    name: "Asmodee BrainBox Matemáticas Juego de Cartas",
     asin: "B0B12N48JB",
     categorySlug: "juegos-mesa-educativos",
     categoryName: "Juegos de mesa educativos",
@@ -312,7 +312,7 @@ export const products: Product[] = [
   {
     slug: "learning-resources-isla-matematicas-sumas-restas",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
-    name: "Learning Resources La Isla de las Matemáticas Sumas y Restas 6+",
+    name: "Learning Resources Isla de las Matemáticas 6+",
     asin: "B09SP3TK8G",
     categorySlug: "juegos-mesa-educativos",
     categoryName: "Juegos de mesa educativos",
@@ -350,7 +350,7 @@ export const products: Product[] = [
   {
     slug: "educa-detectives-piratas-puzzle-50-piezas",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
-    name: "Educa Detectives Piratas Puzzle Infantil 2x50 Piezas",
+    name: "Educa Detectives Piratas Puzzle 2x50 Piezas",
     asin: "B08SBJ5BTS",
     categorySlug: "juegos-mesa-educativos",
     categoryName: "Juegos de mesa educativos",
@@ -369,7 +369,7 @@ export const products: Product[] = [
   {
     slug: "thinkfun-cat-crimes-logica-8-anos",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
-    name: "ThinkFun Cat Crimes juego de lógica y reflexión 8+ años",
+    name: "ThinkFun Cat Crimes Juego de Lógica 8+ años",
     asin: "B07Q384441",
     categorySlug: "juegos-mesa-educativos",
     categoryName: "Juegos de mesa educativos",
@@ -388,7 +388,7 @@ export const products: Product[] = [
   {
     slug: "haba-bichos-memoria-calculo-mental",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
-    name: "HABA Bichos juego de mesa de memoria y cálculo mental 6+ años",
+    name: "HABA Bichos Juego de Memoria y Cálculo 6+",
     asin: "B0GQHJW4PR",
     categorySlug: "juegos-mesa-educativos",
     categoryName: "Juegos de mesa educativos",
@@ -407,7 +407,7 @@ export const products: Product[] = [
   {
     slug: "minecraft-heroes-of-the-village-ravensburger",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
-    name: "Ravensburger Minecraft Heroes of the Village juego cooperativo 7+",
+    name: "Ravensburger Minecraft Heroes of the Village 7+",
     asin: "B09T6XXM61",
     categorySlug: "juegos-mesa-educativos",
     categoryName: "Juegos de mesa educativos",
@@ -426,7 +426,7 @@ export const products: Product[] = [
   {
     slug: "devir-carcassonne-colocacion-losetas",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
-    name: "Devir Carcassonne juego de colocación de losetas edición española",
+    name: "Devir Carcassonne Colocación de Losetas",
     asin: "B00W5LCL8G",
     categorySlug: "juegos-mesa-educativos",
     categoryName: "Juegos de mesa educativos",
@@ -579,7 +579,7 @@ export const products: Product[] = [
   {
     slug: "science4you-kit-electronica-circuitos-60-experimentos",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
-    name: "Science4you Kit de Electrónica para Niños 60 Experimentos con Motor",
+    name: "Science4you Kit de Electrónica 60 Experimentos",
     asin: "B0CBDC1JPN",
     categorySlug: "juguetes-stem",
     categoryName: "Juguetes STEM",
@@ -598,7 +598,7 @@ export const products: Product[] = [
   {
     slug: "science4you-mano-hidraulica-cyborg-112-piezas",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
-    name: "Science4you Kit de Mano Hidráulica Cyborg 112 Piezas",
+    name: "Science4you Mano Hidráulica Cyborg 112 Piezas",
     asin: "B0CBDDRLJN",
     categorySlug: "juguetes-stem",
     categoryName: "Juguetes STEM",
