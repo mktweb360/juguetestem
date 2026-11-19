@@ -234,6 +234,25 @@ export const products: Product[] = [
 
   // JUGUETES STEM Y CIENCIA
   {
+    slug: "science4you-robotics-betabot-125-piezas",
+    // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Science4you Robotics Betabot Robot 125 Piezas",
+    asin: "B07B42X1Z3",
+    categorySlug: "juguetes-stem",
+    categoryName: "Juguetes STEM y Ciencia",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Kit para construir un robot de 126 piezas con un motor incorporado que lo hace moverse con pilas AA.",
+    fullDescription: "Kit de robótica de Science4you para montar un robot Betabot. Según la ficha, trae 126 piezas de construcción y, una vez montado, un pequeño motor incorporado que funciona con pilas AA hace que el robot se mueva. Está pensado para niños a partir de 8 años.",
+    pros: ["Robot para montar con 126 piezas, según la ficha", "Incluye un motor para que el robot se mueva", "Pensado para niños a partir de 8 años", "Vendido y enviado por Amazon"],
+    cons: ["Necesita pilas AA, que no se mencionan como incluidas en la ficha", "Es un único modelo de robot: no se programa, se construye y se mueve"],
+    specs: { "Marca": "Science4you", "Piezas": "126", "Edad": "8+ años", "Alimentación": "Pilas AA" },
+    badge: "Para montar y mover",
+    relatedPosts: ["robotica-ninos-primeros-pasos", "juguetes-stem-ninos-8-anos", "introduccion-programacion-ninos"],
+  },
+  {
     slug: "thames-kosmos-intro-chemistry-27-experimentos",
     name: "Thames & Kosmos Intro to Chemistry Kit 27 Experimentos STEM 8-12 años",
     asin: "B0CDM16V5N",
@@ -1450,6 +1469,25 @@ export const products: Product[] = [
 
 
   // TELESCOPIOS Y MICROSCOPIOS
+  {
+    slug: "bresser-telescopio-refractor-viaje-70-400",
+    // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Bresser Telescopio Refractor de Viaje 70/400",
+    asin: "B0BHX68T4C",
+    categorySlug: "telescopios-microscopios",
+    categoryName: "Telescopios y microscopios",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Telescopio refractor de 70 mm de apertura con montura AZ, trípode, mochila y tres oculares, para niños desde 8 años.",
+    fullDescription: "Telescopio refractor de Bresser para iniciarse en la astronomía a partir de 8 años. Según la ficha, tiene una lente de objetivo de 70 mm, montura AZ con trípode y de 20x a 100x aumentos, y una lente inversora de 1,5x que permite también observaciones de día. Incluye mochila, visor 5x24, espejo cenital, tres oculares (H20, H12 y H6), soporte para smartphone y manual.",
+    pros: ["Objetivo de 70 mm con montura AZ y trípode", "Incluye mochila, tres oculares y soporte para smartphone", "Lente inversora de 1,5x para observar también de día", "Vendido y enviado por Amazon"],
+    cons: ["Con aumentos altos la imagen pierde nitidez si el cielo no es oscuro y estable", "Para ver bien los planetas hay que aprender antes a manejar la montura"],
+    specs: { "Marca": "Bresser", "Apertura": "70 mm", "Montura": "AZ con trípode", "Aumentos": "20x a 100x", "Oculares": "H20, H12 y H6" },
+    badge: "Con mochila y accesorios",
+    relatedPosts: ["mejor-telescopio-ninos-principiantes-2025", "juguetes-stem-ninos-8-anos", "juguetes-stem-sin-pantallas-ideas-por-edad"],
+  },
   {
     slug: "telescopio-astronomico-ninos-8-12-anos-tripode",
     name: "Telescopio Astronómico para Niños de 8 a 12 Años con Trípode",
