@@ -234,6 +234,24 @@ export const products: Product[] = [
 
   // JUGUETES STEM Y CIENCIA
   {
+    slug: "national-geographic-sistema-solar-3d-pintar",
+    // Comprobada en amazon.es el 21/11/2026: botón de compra activo, vendido por National Geographic (la marca). Datos solo de la ficha de Amazon.
+    name: "National Geographic Sistema Solar 3D para Pintar",
+    asin: "B0DQ668F8S",
+    categorySlug: "juguetes-stem",
+    categoryName: "Juguetes STEM y Ciencia",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Kit para construir, pintar y decorar un sistema solar 3D con los 8 planetas y el sol, con pintura fosforescente y póster.",
+    fullDescription: "Kit de National Geographic para que los niños construyan, pinten y decoren un modelo 3D del sistema solar con los 8 planetas y el sol, que brilla en la oscuridad. Según la ficha, incluye 6 colores, pintura fosforescente, pincel, paleta, pegatinas y un póster con datos sobre el sistema solar, y los brazos móviles del modelo permiten recolocar los planetas. Mezcla manualidad y astronomía.",
+    pros: ["Los 8 planetas y el sol para pintar y montar", "Incluye pintura fosforescente, pincel, paleta, pegatinas y póster con datos", "Brazos móviles para reorganizar los planetas", "Combina manualidad y primeras nociones de astronomía"],
+    cons: ["Vendido por National Geographic, no por Amazon", "No lo hemos probado: la información procede de la ficha de Amazon", "La ficha que hemos consultado no da la edad recomendada en las viñetas: comprúebala en la propia página"],
+    specs: { "Marca": "National Geographic", "Contenido": "8 planetas y el sol", "Incluye": "Pintura fosforescente, pincel, paleta, pegatinas y póster", "Efecto": "Brilla en la oscuridad" },
+    relatedPosts: ["mejor-telescopio-ninos-principiantes-2025", "juguetes-stem-ninos-8-anos", "juguetes-stem-sin-pantallas-ideas-por-edad"],
+  },
+  {
     slug: "science4you-robotics-betabot-125-piezas",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Science4you Robotics Betabot Robot 125 Piezas",
