@@ -5,6 +5,7 @@ import { categories, getProductsByCategory } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import { CATEGORIA_GUIA } from "@/lib/categoria-guia";
+import { posts } from "@/data/posts";
 
 export async function generateStaticParams() {
   return categories.map((c) => ({ categoria: c.slug }));
@@ -58,6 +59,8 @@ export default async function CategoriaPage({ params }: { params: Promise<{ cate
 
   const catProducts = getProductsByCategory(categoria);
   const guide = guideContent[categoria];
+  const guiasCurso = new Set((guide?.links ?? []).map((l) => l.href));
+  const guiasAuto = posts.filter((p) => p.categoryCta?.href === `/tienda/${categoria}` && !guiasCurso.has(`/blog/${p.slug}`));
   const extra = CATEGORIA_GUIA[categoria];
 
   const categoriesWithCount = categories.map((c) => ({
@@ -197,6 +200,20 @@ export default async function CategoriaPage({ params }: { params: Promise<{ cate
                 <ProductCard key={p.slug} product={p} />
               ))}
             </div>
+
+            {guiasAuto.length > 0 && (
+              <div className="mt-8 bg-white rounded-xl border border-gray-200 p-6">
+                <h2 className="text-lg font-extrabold text-gray-900 mb-3">Más guías sobre {cat.name.toLowerCase()}</h2>
+                <ul className="space-y-2">
+                  {guiasAuto.map((p) => (
+                    <li key={p.slug} className="flex gap-2 text-sm">
+                      <span className="text-purple-500 font-bold shrink-0">→</span>
+                      <Link href={`/blog/${p.slug}`} className="text-purple-700 font-medium hover:text-purple-900 hover:underline">{p.title}</Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
 
             {guide && (
               <div className="bg-white rounded-xl border border-gray-200 p-6">
