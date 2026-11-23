@@ -6,6 +6,10 @@
 export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "ravensburger-gravitrax-pro-starter-set-vertical",
   "coodoo-bloques-magneticos-40-piezas",
+  "learning-resources-exploradores-superheroes-ciencia",
+  "national-geographic-mega-kit-cultivar-6-cristales",
+  "national-geographic-kit-excavacion-dinosaurios-diente-trex",
+  "clementoni-rover-nasa-ciencia-y-juego-61550",
   "thames-kosmos-intro-chemistry-27-experimentos",
   "geomag-classic-color-91-piezas",
   "national-geographic-mega-kit-excavacion-gemas",
