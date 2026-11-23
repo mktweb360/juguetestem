@@ -79,6 +79,7 @@ export const products: Product[] = [
   // ALTAS 27/10/2026 — juego simbólico (guía juego-simbolico-juguetes-por-edad)
   {
     slug: "hape-basicos-cocina-tabla-cortar-verduras",
+    image: "/images/products/hape-basicos-cocina-tabla-cortar-verduras.jpg",
     name: "Hape Básicos de Cocina: Tabla de Cortar con Verduras y Utensilios de Madera — 3 años+",
     asin: "B07MZPPVMZ",
     categorySlug: "juguetes-montessori",
@@ -95,6 +96,7 @@ export const products: Product[] = [
   },
   {
     slug: "hape-e3170-cocina-sobremesa-olla-sarten",
+    image: "/images/products/hape-e3170-cocina-sobremesa-olla-sarten.jpg",
     name: "Hape E3170 Cocina de Juguete de Sobremesa con Olla y Sartén — 18 meses+",
     asin: "B0837KSKK9",
     categorySlug: "juguetes-montessori",
@@ -111,6 +113,7 @@ export const products: Product[] = [
   },
   {
     slug: "melissa-doug-frutas-cortar-madera-17-piezas",
+    image: "/images/products/melissa-doug-frutas-cortar-madera-17-piezas.jpg",
     name: "Melissa & Doug Frutas para Cortar de Madera con Cajón (17 piezas) — 3 años+",
     asin: "B000NV9G88",
     categorySlug: "juguetes-montessori",
@@ -127,6 +130,7 @@ export const products: Product[] = [
   },
   {
     slug: "theo-klein-4383-maletin-medico-14-piezas",
+    image: "/images/products/theo-klein-4383-maletin-medico-14-piezas.jpg",
     name: "Theo Klein 4383 Maletín de Médico de Juguete con 14 Piezas — 3 años+",
     asin: "B0002ML3MK",
     categorySlug: "juguetes-montessori",
@@ -143,6 +147,7 @@ export const products: Product[] = [
   },
   {
     slug: "theo-klein-8676-banco-trabajo-bosch-ixolino",
+    image: "/images/products/theo-klein-8676-banco-trabajo-bosch-ixolino.jpg",
     name: "Theo Klein 8676 Banco de Trabajo Bosch Plegable con Destornillador Ixolino — 3 años+",
     asin: "B071XSPV2H",
     categorySlug: "juguetes-montessori",
@@ -159,6 +164,7 @@ export const products: Product[] = [
   },
   {
     slug: "theo-klein-9356-caja-registradora-escaner-balanza",
+    image: "/images/products/theo-klein-9356-caja-registradora-escaner-balanza.jpg",
     name: "Theo Klein 9356 Caja Registradora de Juguete con Escáner, Balanza y Calculadora — 3 años+",
     asin: "B007CCQXKA",
     categorySlug: "juguetes-montessori",
@@ -235,6 +241,7 @@ export const products: Product[] = [
   // JUGUETES STEM Y CIENCIA
   {
     slug: "national-geographic-sistema-solar-3d-pintar",
+    image: "/images/products/national-geographic-sistema-solar-3d-pintar.jpg",
     // Comprobada en amazon.es el 21/11/2026: botón de compra activo, vendido por National Geographic (la marca). Datos solo de la ficha de Amazon.
     name: "National Geographic Sistema Solar 3D para Pintar",
     asin: "B0DQ668F8S",
@@ -253,6 +260,7 @@ export const products: Product[] = [
   },
   {
     slug: "thinkfun-gravity-maze-juego-logica",
+    image: "/images/products/thinkfun-gravity-maze-juego-logica.jpg",
     // Comprobada en amazon.es el 23/11/2026: botón de compra activo, vendida y enviada por Amazon; aparece entre los más vendidos de Juguetes. Datos solo de la ficha de Amazon.
     name: "ThinkFun Gravity Maze Juego de Lógica +8 años",
     asin: "B08KHLW7TX",
@@ -271,6 +279,7 @@ export const products: Product[] = [
   },
   {
     slug: "ravensburger-gravitrax-core-starter-set-124",
+    image: "/images/products/ravensburger-gravitrax-core-starter-set-124.jpg",
     // Comprobada en amazon.es el 23/11/2026: botón de compra activo, vendida y enviada por Amazon; aparece entre los más vendidos de Juguetes. Datos solo de la ficha de Amazon.
     name: "Ravensburger GraviTrax Core Starter Set Circuito de Canicas 124 Piezas",
     asin: "B0BSXKTRYZ",
@@ -289,6 +298,7 @@ export const products: Product[] = [
   },
   {
     slug: "science4you-robotics-betabot-125-piezas",
+    image: "/images/products/science4you-robotics-betabot-125-piezas.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Science4you Robotics Betabot Robot 125 Piezas",
     asin: "B07B42X1Z3",
@@ -365,6 +375,7 @@ export const products: Product[] = [
   // JUEGOS DE MESA EDUCATIVOS
   {
     slug: "asmodee-brainbox-matematicas-cartas",
+    image: "/images/products/asmodee-brainbox-matematicas-cartas.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Asmodee BrainBox Matemáticas Juego de Cartas",
     asin: "B0B12N48JB",
@@ -384,6 +395,7 @@ export const products: Product[] = [
   },
   {
     slug: "learning-resources-isla-matematicas-sumas-restas",
+    image: "/images/products/learning-resources-isla-matematicas-sumas-restas.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Learning Resources Isla de las Matemáticas 6+",
     asin: "B09SP3TK8G",
@@ -403,6 +415,7 @@ export const products: Product[] = [
   },
   {
     slug: "educa-puzzle-madera-animal-friends-2x50",
+    image: "/images/products/educa-puzzle-madera-animal-friends-2x50.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Educa Puzzle de Madera Animal Friends 2x50 Piezas",
     asin: "B001AMGEIO",
@@ -422,6 +435,7 @@ export const products: Product[] = [
   },
   {
     slug: "educa-detectives-piratas-puzzle-50-piezas",
+    image: "/images/products/educa-detectives-piratas-puzzle-50-piezas.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Educa Detectives Piratas Puzzle 2x50 Piezas",
     asin: "B08SBJ5BTS",
@@ -441,6 +455,7 @@ export const products: Product[] = [
   },
   {
     slug: "thinkfun-cat-crimes-logica-8-anos",
+    image: "/images/products/thinkfun-cat-crimes-logica-8-anos.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "ThinkFun Cat Crimes Juego de Lógica 8+ años",
     asin: "B07Q384441",
@@ -460,6 +475,7 @@ export const products: Product[] = [
   },
   {
     slug: "haba-bichos-memoria-calculo-mental",
+    image: "/images/products/haba-bichos-memoria-calculo-mental.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "HABA Bichos Juego de Memoria y Cálculo 6+",
     asin: "B0GQHJW4PR",
@@ -479,6 +495,7 @@ export const products: Product[] = [
   },
   {
     slug: "minecraft-heroes-of-the-village-ravensburger",
+    image: "/images/products/minecraft-heroes-of-the-village-ravensburger.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Ravensburger Minecraft Heroes of the Village 7+",
     asin: "B09T6XXM61",
@@ -498,6 +515,7 @@ export const products: Product[] = [
   },
   {
     slug: "devir-carcassonne-colocacion-losetas",
+    image: "/images/products/devir-carcassonne-colocacion-losetas.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Devir Carcassonne Colocación de Losetas",
     asin: "B00W5LCL8G",
@@ -555,6 +573,7 @@ export const products: Product[] = [
   // 27/10/2026: la edición suelta de Tranjis (8460659666) sigue sin compra; se enlaza el pack de HiperOcio con el juego original.
   {
     slug: "virus-pack-tapete-fundas-deck-box",
+    image: "/images/products/virus-pack-tapete-fundas-deck-box.jpg",
     name: "Pack Virus! de Tranjis Games con Tapete de Neopreno, 110 Fundas y Deck Box — 8 años+",
     asin: "B0HLZSMKVG",
     categorySlug: "juegos-mesa-educativos",
@@ -651,6 +670,7 @@ export const products: Product[] = [
   // LIBROS Y RECURSOS EDUCATIVOS
   {
     slug: "science4you-kit-electronica-circuitos-60-experimentos",
+    image: "/images/products/science4you-kit-electronica-circuitos-60-experimentos.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Science4you Kit de Electrónica 60 Experimentos",
     asin: "B0CBDC1JPN",
@@ -670,6 +690,7 @@ export const products: Product[] = [
   },
   {
     slug: "science4you-mano-hidraulica-cyborg-112-piezas",
+    image: "/images/products/science4you-mano-hidraulica-cyborg-112-piezas.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Science4you Mano Hidráulica Cyborg 112 Piezas",
     asin: "B0CBDDRLJN",
@@ -862,6 +883,7 @@ export const products: Product[] = [
 
   {
     slug: "janod-sweet-cocoon-clasificacion-formas-colores",
+    image: "/images/products/janod-sweet-cocoon-clasificacion-formas-colores.jpg",
     name: "Janod Sweet Cocoon Perro de Formas y Colores de Madera (J04421) — 2 años+",
     asin: "B085HZZN58",
     categorySlug: "juguetes-montessori",
@@ -1525,6 +1547,7 @@ export const products: Product[] = [
   // TELESCOPIOS Y MICROSCOPIOS
   {
     slug: "bresser-telescopio-refractor-viaje-70-400",
+    image: "/images/products/bresser-telescopio-refractor-viaje-70-400.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Bresser Telescopio Refractor de Viaje 70/400",
     asin: "B0BHX68T4C",
@@ -1725,6 +1748,7 @@ export const products: Product[] = [
 
   {
     slug: "labebe-torre-aprendizaje-plegable-3-en-1",
+    image: "/images/products/labebe-torre-aprendizaje-plegable-3-en-1.jpg",
     name: "Labebe Torre de Aprendizaje Montessori Plegable 3 en 1 con Pizarra",
     asin: "B0DT8Z8BFX",
     categorySlug: "juguetes-montessori",
@@ -1745,6 +1769,7 @@ export const products: Product[] = [
   },
   {
     slug: "sweety-fox-juguete-montessori-apilar-clasificar",
+    image: "/images/products/sweety-fox-juguete-montessori-apilar-clasificar.jpg",
     name: "Sweety Fox Juguete Montessori de Madera para Apilar y Clasificar (1-3 años)",
     asin: "B0C1CMQNMY",
     categorySlug: "juguetes-montessori",
@@ -1766,6 +1791,7 @@ export const products: Product[] = [
   },
   {
     slug: "joyreal-busy-board-montessori-19-led",
+    image: "/images/products/joyreal-busy-board-montessori-19-led.jpg",
     name: "Joyreal Busy Board Montessori de Madera con 10 Interruptores y 19 LED",
     asin: "B0CL7N2D8C",
     categorySlug: "juguetes-montessori",
@@ -1787,6 +1813,7 @@ export const products: Product[] = [
   },
   {
     slug: "mi-gran-libro-de-experimentos-susaeta",
+    image: "/images/products/mi-gran-libro-de-experimentos-susaeta.jpg",
     name: "Mi Gran Libro de Experimentos (Susaeta) — 120 páginas, 5-8 años",
     asin: "8467732059",
     categorySlug: "libros-educativos",
@@ -1807,6 +1834,7 @@ export const products: Product[] = [
   },
   {
     slug: "ingenieria-increible-35-proyectos-ideaka",
+    image: "/images/products/ingenieria-increible-35-proyectos-ideaka.jpg",
     name: "Ingeniería Increíble: 35 Proyectos Alucinantes para Hacer en Casa (Ideaka) — 10-12 años",
     asin: "8414025315",
     categorySlug: "libros-educativos",
@@ -1827,6 +1855,7 @@ export const products: Product[] = [
   },
   {
     slug: "mi-primer-atlas-con-pop-ups-sm",
+    image: "/images/products/mi-primer-atlas-con-pop-ups-sm.jpg",
     name: "Mi Primer Atlas con Pop-ups (Ediciones SM) — 4-7 años",
     asin: "8467556552",
     categorySlug: "libros-educativos",
@@ -1847,6 +1876,7 @@ export const products: Product[] = [
   },
   {
     slug: "lego-classic-vehiculos-creativos-11036",
+    image: "/images/products/lego-classic-vehiculos-creativos-11036.jpg",
     name: "LEGO Classic 11036 Vehículos Creativos — 5+ años, 900 piezas",
     asin: "B0CFW22SBY",
     categorySlug: "construccion-lego",
@@ -1867,6 +1897,7 @@ export const products: Product[] = [
   },
   {
     slug: "lego-classic-caja-mediana-10696",
+    image: "/images/products/lego-classic-caja-mediana-10696.jpg",
     name: "LEGO Classic 10696 Caja de Ladrillos Creativos Mediana — 4+ años, 484 piezas",
     asin: "B00NVDP3ZU",
     categorySlug: "construccion-lego",
@@ -1887,6 +1918,7 @@ export const products: Product[] = [
   },
   {
     slug: "lego-technic-cohete-nasa-artemis-42221",
+    image: "/images/products/lego-technic-cohete-nasa-artemis-42221.jpg",
     name: "LEGO Technic 42221 Cohete del Sistema de Lanzamiento Espacial NASA Artemis — 9+ años",
     asin: "B0FPXDRV4H",
     categorySlug: "construccion-lego",
@@ -1907,6 +1939,7 @@ export const products: Product[] = [
   },
   {
     slug: "learning-resources-raton-robot-colby",
+    image: "/images/products/learning-resources-raton-robot-colby.jpg",
     name: "Learning Resources Code & Go Ratón Robot Colby — Juego de Programación 4+",
     asin: "B01A5YMCH4",
     categorySlug: "juguetes-stem",
@@ -1928,6 +1961,7 @@ export const products: Product[] = [
   },
   {
     slug: "clementoni-super-doc-robot-programable",
+    image: "/images/products/clementoni-super-doc-robot-programable.jpg",
     name: "Clementoni Super Doc Robot Educativo Programable — 5+ años",
     asin: "B086S1DXNT",
     categorySlug: "juguetes-stem",
@@ -1948,6 +1982,7 @@ export const products: Product[] = [
   },
   {
     slug: "bresser-junior-telescopio-70-400",
+    image: "/images/products/bresser-junior-telescopio-70-400.jpg",
     name: "Bresser Junior Telescopio 70/400 con Mochila y Soporte para Smartphone — 8+ años",
     asin: "B0CT3D2W6L",
     categorySlug: "telescopios-microscopios",
@@ -1967,6 +2002,7 @@ export const products: Product[] = [
   },
   {
     slug: "diset-yo-aprendo-a-leer",
+    image: "/images/products/diset-yo-aprendo-a-leer.jpg",
     name: "Diset Yo Aprendo a Leer — Juego Educativo de Lectura Autocorrectivo +5 años",
     asin: "B0068A96N8",
     categorySlug: "juegos-mesa-educativos",
@@ -1987,6 +2023,7 @@ export const products: Product[] = [
   },
   {
     slug: "educa-caza-monstruos",
+    image: "/images/products/educa-caza-monstruos.jpg",
     name: "Educa Caza Monstruos — Juego de Agilidad Visual y Rapidez +5 años",
     asin: "B08BCSFX1X",
     categorySlug: "juegos-mesa-educativos",
@@ -2007,6 +2044,7 @@ export const products: Product[] = [
   },
   {
     slug: "hahaland-juego-pesca-tela-montessori",
+    image: "/images/products/hahaland-juego-pesca-tela-montessori.jpg",
     name: "hahaland Juego de Pesca de Tela Montessori 22 Piezas — 1 año",
     asin: "B0CSFBGQJP",
     categorySlug: "juguetes-montessori",
@@ -2028,6 +2066,7 @@ export const products: Product[] = [
   },
   {
     slug: "bresser-junior-microscopio-40-1024x-set",
+    image: "/images/products/bresser-junior-microscopio-40-1024x-set.jpg",
     name: "Bresser Junior Set de Microscopio 40x-1024x con Ocular USB — 8+ años",
     asin: "B001UJE4XY",
     categorySlug: "telescopios-microscopios",
@@ -2047,6 +2086,7 @@ export const products: Product[] = [
   },
   {
     slug: "bresser-junior-microscopio-estereo",
+    image: "/images/products/bresser-junior-microscopio-estereo.jpg",
     name: "Bresser Junior Microscopio Estéreo Binocular 20x y 50x",
     asin: "B07C3LL8YM",
     categorySlug: "telescopios-microscopios",
@@ -2066,6 +2106,7 @@ export const products: Product[] = [
   },
   {
     slug: "magna-tiles-clear-colors-32-piezas",
+    image: "/images/products/magna-tiles-clear-colors-32-piezas.jpg",
     name: "Magna-Tiles Clear Colors 32 Piezas Magnéticas — 3+ años",
     asin: "B000CBSNKQ",
     categorySlug: "construccion-lego",
@@ -2086,6 +2127,7 @@ export const products: Product[] = [
   },
   {
     slug: "magna-tiles-micromags-viaje-26-piezas",
+    image: "/images/products/magna-tiles-micromags-viaje-26-piezas.jpg",
     name: "Magna-Tiles microMAGS Set de Viaje 26 Piezas en Lata Metálica — 3+ años",
     asin: "B0CX4RLCXW",
     categorySlug: "construccion-lego",
@@ -2106,6 +2148,7 @@ export const products: Product[] = [
   },
   {
     slug: "goula-los-3-cerditos-juego-cooperativo",
+    image: "/images/products/goula-los-3-cerditos-juego-cooperativo.jpg",
     name: "Goula Los 3 Cerditos — Juego de Mesa Cooperativo de Madera 2+ años",
     asin: "B07B37TT7F",
     categorySlug: "juegos-mesa-educativos",
@@ -2126,6 +2169,7 @@ export const products: Product[] = [
   },
   {
     slug: "ludilo-pillado-juego-cooperativo",
+    image: "/images/products/ludilo-pillado-juego-cooperativo.jpg",
     name: "Ludilo Pillado — Juego de Mesa Cooperativo de Deducción 5+ años",
     asin: "B07Q4X195G",
     categorySlug: "juegos-mesa-educativos",
@@ -2188,6 +2232,7 @@ export const products: Product[] = [
   },
   {
     slug: "small-foot-arcoiris-madera-xl-12-piezas",
+    image: "/images/products/small-foot-arcoiris-madera-xl-12-piezas.jpg",
     name: "small foot Arcoíris de Madera XL 12 Piezas con 2 Bolas — 1+ años",
     asin: "B07XDRVG99",
     categorySlug: "juguetes-montessori",
@@ -2208,6 +2253,7 @@ export const products: Product[] = [
   },
   {
     slug: "bieco-arcoiris-madera-7-piezas",
+    image: "/images/products/bieco-arcoiris-madera-7-piezas.jpg",
     name: "Bieco Arcoíris de Madera FSC 7 Piezas en Colores Suaves — 1+ años",
     asin: "B0DWS91TZ7",
     categorySlug: "juguetes-montessori",
@@ -2228,6 +2274,7 @@ export const products: Product[] = [
   },
   {
     slug: "unglinga-kit-ciencia-150-experimentos",
+    image: "/images/products/unglinga-kit-ciencia-150-experimentos.jpg",
     name: "UNGLINGA Kit de Ciencia con 150 Experimentos para Niños",
     asin: "B0C5MRSLP3",
     categorySlug: "juguetes-stem",
@@ -2248,6 +2295,7 @@ export const products: Product[] = [
   },
   {
     slug: "un-cuento-para-cada-letra-sm",
+    image: "/images/products/un-cuento-para-cada-letra-sm.jpg",
     name: "Un Cuento para Cada Letra (Ediciones SM) — 29 cuentos, 3-5 años",
     asin: "8413188407",
     categorySlug: "libros-educativos",
@@ -2268,6 +2316,7 @@ export const products: Product[] = [
   },
   {
     slug: "escuela-de-monstruos-pack-1-2-3",
+    image: "/images/products/escuela-de-monstruos-pack-1-2-3.jpg",
     name: "Aprender a Leer en la Escuela de Monstruos — Pack libros 1, 2 y 3 (letra mayúscula)",
     asin: "8419169986",
     categorySlug: "libros-educativos",
@@ -2288,6 +2337,7 @@ export const products: Product[] = [
   },
   {
     slug: "melissa-doug-puzzle-clavijas-amigos-granja",
+    image: "/images/products/melissa-doug-puzzle-clavijas-amigos-granja.jpg",
     name: "Melissa & Doug Puzle de Madera con Clavijas Amigos de la Granja — 12 meses+",
     asin: "B000FS70QE",
     categorySlug: "juguetes-montessori",
@@ -2308,6 +2358,7 @@ export const products: Product[] = [
   },
   {
     slug: "hape-picafuerte-xilofono-madera",
+    image: "/images/products/hape-picafuerte-xilofono-madera.jpg",
     name: "Hape Picafuerte con Xilófono Deslizable de Madera (E0305) — 12 meses+",
     asin: "B00712O2D6",
     categorySlug: "juguetes-montessori",
@@ -2328,6 +2379,7 @@ export const products: Product[] = [
   },
   {
     slug: "fisher-price-telefono-chatter-arrastre",
+    image: "/images/products/fisher-price-telefono-chatter-arrastre.jpg",
     name: "Fisher-Price Teléfono Chatter de Arrastre (FGW66) — 12 meses+",
     asin: "B01LZYGY8H",
     categorySlug: "juguetes-montessori",
@@ -2348,6 +2400,7 @@ export const products: Product[] = [
   },
   {
     slug: "lego-duplo-caja-creativa-todo-color-10479",
+    image: "/images/products/lego-duplo-caja-creativa-todo-color-10479.jpg",
     name: "LEGO DUPLO Classic Caja Creativa a Todo Color 10479 — 18 meses+",
     asin: "B0FPXGPH6P",
     categorySlug: "construccion-lego",
@@ -2368,6 +2421,7 @@ export const products: Product[] = [
   },
   {
     slug: "haba-primer-frutal-juego-cooperativo-2-anos",
+    image: "/images/products/haba-primer-frutal-juego-cooperativo-2-anos.jpg",
     name: "HABA Mis Primeros Juegos: Primer Frutal (4997) — 2 años+",
     asin: "B00D6JM5EQ",
     categorySlug: "juegos-mesa-educativos",
@@ -2388,6 +2442,7 @@ export const products: Product[] = [
   },
   {
     slug: "ravensburger-mi-primer-puzle-mascotas-2-4-6-8",
+    image: "/images/products/ravensburger-mi-primer-puzle-mascotas-2-4-6-8.jpg",
     name: "Ravensburger My First Puzzles Cute Pets 06951 (2, 4, 6 y 8 piezas) — 2 años+",
     asin: "B01NCRVSYD",
     categorySlug: "juguetes-montessori",
@@ -2408,6 +2463,7 @@ export const products: Product[] = [
   },
   {
     slug: "playmobil-junior-granja-tractor-71656",
+    image: "/images/products/playmobil-junior-granja-tractor-71656.jpg",
     name: "PLAYMOBIL Junior 71656 Aventura en la Granja con Tractor — 12 meses+",
     asin: "B0CS85Q957",
     categorySlug: "construccion-lego",
@@ -2428,6 +2484,7 @@ export const products: Product[] = [
   },
   {
     slug: "hape-bloques-musicales-apilables-5-instrumentos",
+    image: "/images/products/hape-bloques-musicales-apilables-5-instrumentos.jpg",
     name: "Hape Bloques Musicales Apilables con 5 Instrumentos (E0336) — 18 meses+",
     asin: "B074N8YF1D",
     categorySlug: "juguetes-montessori",
@@ -2448,6 +2505,7 @@ export const products: Product[] = [
   },
   {
     slug: "play-doh-pack-4-botes-clasicos",
+    image: "/images/products/play-doh-pack-4-botes-clasicos.jpg",
     name: "Play-Doh Pack de 4 Botes Clásicos (Hasbro) — 2 años+",
     asin: "B01GVGD6C0",
     categorySlug: "juguetes-montessori",
@@ -2469,6 +2527,7 @@ export const products: Product[] = [
   // CAMAS MONTESSORI (19/10/2026): en la categoría Montessori, junto a la torre de aprendizaje
   {
     slug: "weber-industries-pilou-cama-montessori-70x140",
+    image: "/images/products/weber-industries-pilou-cama-montessori-70x140.jpg",
     name: "Weber Industries Cama Montessori Pilou 70 x 140 cm con somier — desde 2 años",
     asin: "B0DNKGZ8MZ",
     categorySlug: "juguetes-montessori",
@@ -2489,6 +2548,7 @@ export const products: Product[] = [
   },
   {
     slug: "cool-dreams-apache-wonderland-cama-montessori-70x140",
+    image: "/images/products/cool-dreams-apache-wonderland-cama-montessori-70x140.jpg",
     name: "Cool Dreams Apache Wonderland Cama Montessori 70 x 140 cm con barrera, haya maciza — desde 2 años",
     asin: "B0CSSYJPCQ",
     categorySlug: "juguetes-montessori",
@@ -2509,6 +2569,7 @@ export const products: Product[] = [
   },
   {
     slug: "en-casa-treviolo-cama-casita-montessori-70x140",
+    image: "/images/products/en-casa-treviolo-cama-casita-montessori-70x140.jpg",
     name: "[en.casa] Cama casita Montessori Treviolo 70 x 140 cm de pino con reja protectora",
     asin: "B08HJHPT1G",
     categorySlug: "juguetes-montessori",
@@ -2529,6 +2590,7 @@ export const products: Product[] = [
   },
   {
     slug: "smartwood-tipi-cama-casita-montessori-60x120",
+    image: "/images/products/smartwood-tipi-cama-casita-montessori-60x120.jpg",
     name: "smartwood Cama casita Montessori Tipi Floor 60 x 120 cm con somier, blanca",
     asin: "B0D31LM45N",
     categorySlug: "juguetes-montessori",
@@ -2549,6 +2611,7 @@ export const products: Product[] = [
   },
   {
     slug: "smartwood-tila-2l-cama-montessori-90x190-barrera",
+    image: "/images/products/smartwood-tila-2l-cama-montessori-90x190-barrera.jpg",
     name: "smartwood TILA 2L Cama Montessori 90 x 190 cm con barrera y somier — desde 3 años",
     asin: "B0CND78SP5",
     categorySlug: "juguetes-montessori",
@@ -2569,6 +2632,7 @@ export const products: Product[] = [
   },
   {
     slug: "atmosphera-bosco-cama-casita-montessori-90x190",
+    image: "/images/products/atmosphera-bosco-cama-casita-montessori-90x190.jpg",
     name: "Atmosphera Cama casita Montessori Bosco 90 x 190 cm de pino con barandillas y somier",
     asin: "B0B6PMQBDZ",
     categorySlug: "juguetes-montessori",
