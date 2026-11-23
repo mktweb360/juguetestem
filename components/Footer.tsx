@@ -56,7 +56,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-700 pt-6 space-y-2 text-xs text-gray-500">
           <p>
-            <strong className="text-gray-400">Aviso de afiliados:</strong> JugueteSTEM.es participa en el Programa de Afiliados de Amazon EU, un programa de publicidad para afiliados diseñado para ofrecer a sitios web un medio para ganar comisiones publicitarias mediante la creación de enlaces a Amazon.es. Los precios son orientativos y pueden variar.
+            <strong className="text-gray-400">Aviso de afiliados:</strong> JugueteSTEM.es participa en el Programa de Afiliados de Amazon EU, un programa de publicidad para afiliados diseñado para ofrecer a sitios web un medio para ganar comisiones publicitarias mediante la creación de enlaces a Amazon.es. En calidad de Afiliado de Amazon, obtengo ingresos por las compras adscritas que cumplen los requisitos aplicables. Los precios son orientativos y pueden variar.
           </p>
           <p>© {new Date().getFullYear()} Mkt Web 360 SLU — CIF B87679304 — info@mktweb360.com</p>
         </div>
