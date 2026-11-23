@@ -4,6 +4,8 @@
 // redirigen con 301 a una página permanente. Si Google AdSense vuelve a señalar contenido de poco valor,
 // se reduce esta lista. Lista generada: al añadir una ficha nueva que cumpla el criterio, hay que sumarla aquí.
 export const FEATURED_PRODUCT_SLUGS = new Set<string>([
+  "ravensburger-gravitrax-pro-starter-set-vertical",
+  "coodoo-bloques-magneticos-40-piezas",
   "thames-kosmos-intro-chemistry-27-experimentos",
   "geomag-classic-color-91-piezas",
   "national-geographic-mega-kit-excavacion-gemas",
