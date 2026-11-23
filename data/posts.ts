@@ -273,7 +273,7 @@ export const posts: Post[] = [
     category: "STEM",
     date: "2025-07-08",
     readTime: 8,
-    relatedProducts: ["thames-kosmos-intro-chemistry-27-experimentos", "thames-kosmos-kids-first-science-kit", "national-geographic-microscopio-kit-37-piezas", "national-geographic-quimica-asquerosa-18-experimentos", "unglinga-kit-cientifico-50-experimentos"],
+    relatedProducts: ["thames-kosmos-intro-chemistry-27-experimentos", "thames-kosmos-kids-first-science-kit", "national-geographic-microscopio-kit-37-piezas", "national-geographic-quimica-asquerosa-18-experimentos", "unglinga-kit-cientifico-50-experimentos", "national-geographic-mega-kit-cultivar-6-cristales", "national-geographic-kit-excavacion-dinosaurios-diente-trex", "clementoni-rover-nasa-ciencia-y-juego-61550"],
     categoryCta: { href: "/tienda/juguetes-stem", text: "Ver kits de ciencia →" },
   },
   {
