@@ -40,6 +40,25 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Campaña de temporada: enlaza desde la portada las guías de Black Friday y Navidad (23/11/2026) */}
+      <section aria-label="Campaña de temporada" className="bg-purple-50 border-y border-purple-100 py-8 px-4">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-xl font-extrabold text-gray-900 mb-1">Black Friday y Navidad: guías para comprar con criterio</h2>
+          <p className="text-sm text-gray-600 mb-4">Lo que conviene mirar antes de comprar para los juguetes de los peques. El precio actual lo ves en la ficha de la tienda.</p>
+          <div className="grid gap-3 sm:grid-cols-2">
+            <Link href="/blog/black-friday-juguetes-educativos" className="block rounded-xl bg-white p-4 shadow-sm hover:shadow-md transition-shadow">
+              <span className="font-bold text-gray-900">Black Friday 2026 de juguetes educativos</span>
+              <span className="block text-sm text-gray-600">cómo elegir por edad</span>
+            </Link>
+            <Link href="/blog/juguetes-regalo-navidad-ninos" className="block rounded-xl bg-white p-4 shadow-sm hover:shadow-md transition-shadow">
+              <span className="font-bold text-gray-900">Juguetes para regalar en Navidad</span>
+              <span className="block text-sm text-gray-600">guía por edades</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+
       {/* Categorías */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
         <h2 className="text-2xl font-extrabold text-gray-900 mb-6 text-center">Explora por categoría</h2>
