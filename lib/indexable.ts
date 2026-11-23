@@ -1,8 +1,8 @@
-// Fichas de producto indexables (revisado 22/11/2026).
-// Criterio: ficha viva (sin `unavailable`), citada al menos por un artículo del blog y con contenido propio
-// (descripción de 300 caracteres o más, 3 ventajas o más y 2 contras o más). Las 15 primeras son las ya
-// indexables antes de esta revisión. El resto de fichas siguen accesibles con noindex,follow y fuera del
-// sitemap. Si Google AdSense vuelve a señalar contenido de poco valor, se reduce esta lista.
+// Fichas de producto indexables (revisado 23/11/2026, decisión de José: sin indexación no hay tráfico).
+// Criterio: ficha viva (sin `unavailable`) y con contenido propio (descripción de 300 caracteres o más,
+// 3 ventajas o más y 2 contras o más). Ya no hace falta que un artículo la cite. Las fichas retiradas
+// redirigen con 301 a una página permanente. Si Google AdSense vuelve a señalar contenido de poco valor,
+// se reduce esta lista. Lista generada: al añadir una ficha nueva que cumpla el criterio, hay que sumarla aquí.
 export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "thames-kosmos-intro-chemistry-27-experimentos",
   "geomag-classic-color-91-piezas",
@@ -91,6 +91,24 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "spin-master-tetris-juego-mesa-estrategia",
   "cefa-toys-electrocefa-500-plus-circuitos",
   "nene-toys-el-frutal-juego-cooperativo-2-anos",
+  "national-geographic-sistema-solar-3d-pintar",
+  "thinkfun-gravity-maze-juego-logica",
+  "ravensburger-gravitrax-core-starter-set-124",
+  "asmodee-brainbox-matematicas-cartas",
+  "educa-detectives-piratas-puzzle-50-piezas",
+  "thinkfun-cat-crimes-logica-8-anos",
+  "minecraft-heroes-of-the-village-ravensburger",
+  "science4you-kit-electronica-circuitos-60-experimentos",
+  "science4you-mano-hidraulica-cyborg-112-piezas",
+  "scrabble-junior-mattel-letras-espanol",
+  "conecta-4-hasbro-juego-estrategia-logica",
+  "lego-technic-monster-jam-grave-digger-42118",
+  "bresser-telescopio-refractor-viaje-70-400",
+  "telescopio-refractor-80-500-adultos-ninos",
+  "arnssien-microscopio-2en1-telescopio-1000x-digital",
+  "learning-resources-balanza-cubos-primaria",
+  "educa-caza-monstruos",
+  "un-cuento-para-cada-letra-sm",
 ]);
 
 export const isFeaturedProduct = (slug: string) => FEATURED_PRODUCT_SLUGS.has(slug);
