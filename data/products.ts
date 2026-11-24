@@ -2894,6 +2894,42 @@ export const products: Product[] = [
     specs: {"Marca": "Clementoni", "Serie": "Ciencia y Juego", "Referencia": "61550", "App": "20 modelos con instrucciones 3D, según la ficha"},
     relatedPosts: ["robotica-ninos-primeros-pasos", "juguetes-stem-ninos-8-anos"],
   },
+  {
+    slug: "learning-resources-stem-explorers-kit-maquinas",
+    // Comprobada en amazon.es el 24/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Learning Resources STEM Explorers Kit de Construcción de Máquinas, 5+ años",
+    asin: "B0C47WG5KH",
+    categorySlug: "juguetes-stem",
+    categoryName: "Juguetes STEM y Ciencia",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Kit de 40 piezas y 10 tarjetas de actividades para construir máquinas y resolver 9 pruebas STEM, a partir de 5 años.",
+    fullDescription: "Kit de construcción de Learning Resources de la serie STEM Explorers, pensado para niños desde los 5 años. Según la ficha de Amazon, plantea 9 pruebas STEM en las que los niños construyen sus propias máquinas con engranajes, aprenden principios básicos de física e ingeniería y desarrollan el razonamiento crítico al probar y ajustar sus diseños. Incluye 40 piezas y 10 tarjetas de actividades, y es compatible con el resto de sets de la serie Gears Gears Gears, que se venden por separado. No se ha probado el producto.",
+    pros: ["Pensado para niños desde 5 años, una edad temprana para STEM", "9 pruebas STEM con tarjetas de actividades incluidas", "Los niños prueban y ajustan sus diseños, según la ficha", "Compatible con otros sets Gears Gears Gears", "Vendido y enviado por Amazon"],
+    cons: ["Solo 40 piezas: se queda corto si el niño quiere montajes grandes", "Los sets compatibles se venden por separado", "No hemos probado el producto: la información procede de la ficha de Amazon"],
+    specs: {"Marca": "Learning Resources", "Serie": "STEM Explorers", "Edad": "5+ años", "Contenido": "40 piezas y 10 tarjetas de actividades"},
+    relatedPosts: ["mejores-juguetes-stem-ninos-5-anos", "juguetes-stem-ninos-8-anos"],
+  },
+  {
+    slug: "devir-carcassonne-junior-juego-mesa-infantil",
+    // Comprobada en amazon.es el 24/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Devir Carcassonne Junior, Juego de Mesa Infantil Estratégico",
+    asin: "B01FVWX0VM",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de mesa educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Versión infantil de Carcassonne para 2 a 4 jugadores, con partidas de unos 20 minutos.",
+    fullDescription: "Carcassonne Junior de Devir es la versión infantil del juego Carcassonne, planteada como primer paso hacia el juego original. Según la ficha de Amazon, es un juego de mesa estratégico para 2 a 4 jugadores con partidas de unos 20 minutos, para jugar en familia con los hijos. El título de la ficha indica 5+ años y los puntos destacados hablan de jugar con niños desde 4 años, por lo que conviene comprobar la edad recomendada en la caja. No se ha probado el producto.",
+    pros: ["Versión infantil de un juego conocido, pensada como primer paso", "Para 2 a 4 jugadores", "Partidas de unos 20 minutos, según la ficha", "Vendido y enviado por Amazon"],
+    cons: ["La ficha da dos edades distintas (5+ en el título, 4 años en los puntos): comprueba la caja", "Es competitivo: no sirve si buscas un juego cooperativo", "No hemos probado el producto: la información procede de la ficha de Amazon"],
+    specs: {"Marca": "Devir", "Jugadores": "2-4", "Duración": "Unos 20 minutos", "Edad": "5+ según el título de la ficha"},
+    relatedPosts: ["mejores-juegos-mesa-familia", "juegos-mesa-educativos-primaria"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {

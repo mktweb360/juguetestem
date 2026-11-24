@@ -161,7 +161,7 @@ export const posts: Post[] = [
     category: "Juegos de Mesa",
     date: "2025-07-10",
     readTime: 8,
-    relatedProducts: ["dixit-juego-mesa-asmodee-2021", "virus-pack-tapete-fundas-deck-box", "catan-junior-devir-6-anos", "asmodee-azul-juego-mesa-losetas", "spin-master-tetris-juego-mesa-estrategia"],
+    relatedProducts: ["dixit-juego-mesa-asmodee-2021", "virus-pack-tapete-fundas-deck-box", "catan-junior-devir-6-anos", "asmodee-azul-juego-mesa-losetas", "spin-master-tetris-juego-mesa-estrategia", "devir-carcassonne-junior-juego-mesa-infantil"],
     categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de mesa →" },
   },
   {
@@ -235,7 +235,7 @@ export const posts: Post[] = [
     category: "STEM",
     date: "2025-07-01",
     readTime: 7,
-    relatedProducts: ["thames-kosmos-kids-first-science-kit", "national-geographic-mega-kit-excavacion-gemas", "geomag-classic-color-91-piezas"],
+    relatedProducts: ["thames-kosmos-kids-first-science-kit", "national-geographic-mega-kit-excavacion-gemas", "geomag-classic-color-91-piezas", "learning-resources-stem-explorers-kit-maquinas"],
     categoryCta: { href: "/tienda/juguetes-stem", text: "Ver juguetes STEM →" },
   },
   {

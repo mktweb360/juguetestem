@@ -36,6 +36,8 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "national-geographic-telescopio-refractor-50mm-ninos",
   "osmo-genius-starter-kit-ipad-educativo",
   "dobble-juego-cartas-asmodee-velocidad-atencion",
+  "devir-carcassonne-junior-juego-mesa-infantil",
+  "learning-resources-stem-explorers-kit-maquinas",
   "ubongo-junior-asmodee-puzzle-rapido",
   "lego-city-comisaria-policia-60316",
   "lego-creator-3in1-casa-arbol-31150",
