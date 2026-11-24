@@ -149,7 +149,7 @@ export const posts: Post[] = [
     category: "STEM",
     date: "2025-01-20",
     readTime: 9,
-    relatedProducts: ["thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-kit-37-piezas", "national-geographic-microscopio-800x-smartphone", "cefa-toys-electrocefa-500-plus-circuitos"],
+    relatedProducts: ["thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-kit-37-piezas", "national-geographic-microscopio-800x-smartphone", "cefa-toys-electrocefa-500-plus-circuitos", "clementoni-laboratorio-mecanica-coche-carreras-90-piezas", "clementoni-laboratorio-mecanica-xtreme-motocross-170-piezas", "knex-deluxe-80-modelos-408-piezas"],
     categoryCta: { href: "/tienda/juguetes-stem", text: "Ver juguetes STEM →" },
   },
   {
@@ -532,7 +532,7 @@ export const posts: Post[] = [
     category: "Construcción y LEGO",
     date: "2025-08-17",
     readTime: 7,
-    relatedProducts: ["lego-10698-caja-ladrillos-creativos-grande", "geomag-classic-color-91-piezas", "lego-technic-bmw-m4-gt3-evo-42226", "lego-technic-ferrari-fxx-k-42212"],
+    relatedProducts: ["lego-10698-caja-ladrillos-creativos-grande", "geomag-classic-color-91-piezas", "lego-technic-bmw-m4-gt3-evo-42226", "lego-technic-ferrari-fxx-k-42212", "knex-deluxe-80-modelos-408-piezas"],
     relatedPosts: ["lego-classic-10698-analisis", "geomag-magnetico-construccion-guia", "mejores-lego-educativos"],
     categoryCta: { href: "/tienda/construccion-lego", text: "Ver sets de construcción →" },
   },
