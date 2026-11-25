@@ -117,6 +117,8 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "learning-resources-balanza-cubos-primaria",
   "educa-caza-monstruos",
   "un-cuento-para-cada-letra-sm",
+  "programa-tus-juegos-con-scratch-3-dk",
+  "programa-tus-proyectos-con-scratch-3-dk",
   "knex-deluxe-80-modelos-408-piezas",
   "clementoni-laboratorio-mecanica-coche-carreras-90-piezas",
   "clementoni-laboratorio-mecanica-xtreme-motocross-170-piezas",

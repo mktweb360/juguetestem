@@ -211,7 +211,7 @@ export const posts: Post[] = [
     category: "STEM",
     date: "2025-04-01",
     readTime: 9,
-    relatedProducts: ["science4you-robotics-alfabot-238-piezas", "thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-kit-37-piezas"],
+    relatedProducts: ["science4you-robotics-alfabot-238-piezas", "thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-kit-37-piezas", "programa-tus-juegos-con-scratch-3-dk", "programa-tus-proyectos-con-scratch-3-dk"],
     categoryCta: { href: "/tienda/juguetes-stem", text: "Ver juguetes STEM →" },
   },
   {
