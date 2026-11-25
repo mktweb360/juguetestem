@@ -3038,6 +3038,24 @@ export const products: Product[] = [
     specs: { "Marca": "Learning Resources", "Componentes": "122", "Jugadores": "2 o más", "Edad": "A partir de 5 años", "Pilas": "No necesita", "Vendido por": "Amazon" },
     relatedPosts: ["introduccion-programacion-ninos", "mejores-juguetes-stem-ninos-5-anos"],
   },
+  {
+    slug: "thinkfun-maze-pop-juego-logica-8-anos",
+    // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "ThinkFun Maze Pop: juego de lógica con varilla magnética, 60 retos, desde 8 años",
+    asin: "B0FKBMZ7K8",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de Mesa Educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Juego de lógica de ThinkFun con 60 retos progresivos y una varilla magnética para mover las piezas y trazar un camino que pase por todas y vuelva al inicio; desde 8 años.",
+    fullDescription: "Juego de lógica de ThinkFun para jugar en solitario. Según la ficha de Amazon, plantea 60 retos de dificultad creciente en los que hay que trazar un camino que pase por todas las piezas y regrese al punto de partida, sin movimientos en diagonal. Las piezas se mueven con una varilla magnética. Está indicado a partir de 8 años y trabaja el pensamiento lógico, la concentración y la coordinación. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "60 retos con dificultad progresiva", "Reglas sencillas, aptas desde 8 años", "Varilla magnética para mover las piezas"],
+    cons: ["Se juega en solitario, sin componente de juego en familia", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "ThinkFun", "Retos": "60", "Edad": "A partir de 8 años", "Mecánica": "Varilla magnética", "Vendido por": "Amazon" },
+    relatedPosts: ["juegos-mesa-educativos-primaria", "pensamiento-critico-ninos-juegos"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
