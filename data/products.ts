@@ -2984,6 +2984,42 @@ export const products: Product[] = [
     specs: { "Marca": "Clementoni", "Serie": "Ciencia y Juego", "Componentes": "Más de 170", "Edad": "8+", "Modelo": "Moto de cross" },
     relatedPosts: ["juguetes-stem-ninos-8-anos"],
   },
+  {
+    slug: "programa-tus-juegos-con-scratch-3-dk",
+    // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Programa tus juegos con Scratch 3.0 (DK) — a partir de 9 años",
+    asin: "024170300X",
+    categorySlug: "libros-educativos",
+    categoryName: "Kits y recursos educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Guía paso a paso de DK, con texto de Carol Vorderman, para crear videojuegos propios con Scratch 3.0. 224 páginas en español, para lectores desde 9 años.",
+    fullDescription: "Libro de la colección Scratch para niños de DK, con Carol Vorderman como autora, que guía paso a paso en la creación de videojuegos con Scratch 3.0. Según la ficha de Amazon, es una edición nueva publicada el 12 de septiembre de 2024, tiene 224 páginas, está en español y se recomienda a partir de 9 años. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Guía paso a paso centrada en crear videojuegos", "224 páginas en español", "Edición nueva de 2024"],
+    cons: ["Hace falta un ordenador o tableta con acceso a Scratch para seguirlo", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Autora": "Carol Vorderman", "Editorial": "DK", "Páginas": "224", "Formato": "Tapa blanda", "Idioma": "Español", "Edad": "A partir de 9 años" },
+    relatedPosts: ["introduccion-programacion-ninos", "mejores-kits-ciencia-ninos"],
+  },
+  {
+    slug: "programa-tus-proyectos-con-scratch-3-dk",
+    // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Programa tus proyectos con Scratch 3.0 (DK) — a partir de 9 años",
+    asin: "0241432456",
+    categorySlug: "libros-educativos",
+    categoryName: "Kits y recursos educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Guía visual de DK para programar animaciones, juegos, ilusiones ópticas y música con Scratch 3.0. 224 páginas en español, desde 9 años.",
+    fullDescription: "Libro de DK de la colección Scratch para niños, planteado como guía visual paso a paso para programar animaciones, juegos, ilusiones ópticas, música y otros proyectos con Scratch 3.0. Según la ficha de Amazon, se publicó el 6 de febrero de 2020, tiene 224 páginas, está en español y se recomienda a partir de 9 años. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Proyectos variados: animación, juegos, ilusiones ópticas y música", "224 páginas en español", "Guía visual paso a paso"],
+    cons: ["Hace falta un ordenador o tableta con acceso a Scratch para seguirlo", "Edición de 2020: existe una más reciente centrada en videojuegos", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Autor": "DK", "Editorial": "DK", "Páginas": "224", "Formato": "Tapa blanda", "Idioma": "Español", "Edad": "A partir de 9 años" },
+    relatedPosts: ["introduccion-programacion-ninos", "mejores-kits-ciencia-ninos"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
