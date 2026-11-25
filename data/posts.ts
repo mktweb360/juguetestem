@@ -185,7 +185,7 @@ export const posts: Post[] = [
     category: "Guías",
     date: "2025-03-01",
     readTime: 8,
-    relatedProducts: ["cosyland-torre-aprendizaje-antivuelco", "national-geographic-mega-kit-excavacion-gemas"],
+    relatedProducts: ["cosyland-torre-aprendizaje-antivuelco", "national-geographic-mega-kit-excavacion-gemas", "ravensburger-puzzle-mapa-del-mundo-200-xxl"],
     categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes educativos →" },
   },
   {
@@ -480,7 +480,7 @@ export const posts: Post[] = [
     category: "Juegos de Mesa",
     date: "2025-08-13",
     readTime: 8,
-    relatedProducts: ["dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos", "virus-pack-tapete-fundas-deck-box", "asmodee-azul-juego-mesa-losetas", "spin-master-tetris-juego-mesa-estrategia", "thinkfun-maze-pop-juego-logica-8-anos"],
+    relatedProducts: ["dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos", "virus-pack-tapete-fundas-deck-box", "asmodee-azul-juego-mesa-losetas", "spin-master-tetris-juego-mesa-estrategia", "thinkfun-maze-pop-juego-logica-8-anos", "ravensburger-puzzle-mapa-del-mundo-200-xxl"],
     relatedPosts: ["dixit-juego-analisis-opinion", "catan-junior-analisis-estrategia", "mejores-juegos-mesa-familia", "juegos-mesa-cooperativos-ninos-edad-como-elegir", "juegos-aprender-matematicas-ninos-por-edad"],
     categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de mesa →" },
   },
