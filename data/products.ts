@@ -3039,6 +3039,24 @@ export const products: Product[] = [
     relatedPosts: ["introduccion-programacion-ninos", "mejores-juguetes-stem-ninos-5-anos"],
   },
   {
+    slug: "ravensburger-puzzle-mapa-del-mundo-200-xxl",
+    // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Ravensburger Mapa del Mundo: puzle XXL de 200 piezas, desde 8 años",
+    asin: "B07ZJHH3MT",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de Mesa Educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Puzle XXL de 200 piezas con un mapa del mundo, tecnología Soft-Click y póster explicativo; desde 8 años.",
+    fullDescription: "Puzle de Ravensburger de 200 piezas XXL con un mapa del mundo, indicado a partir de 8 años. Según la ficha de Amazon, incluye un póster explicativo para armarlo, las piezas encajan con la tecnología Soft-Click y está fabricado con cartón reciclado. Es un puzle para hacer solo o en familia que sirve de apoyo para empezar a situar continentes y países. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "200 piezas XXL, de tamaño cómodo para manos de 8 años", "Póster explicativo incluido", "Piezas Soft-Click y cartón reciclado"],
+    cons: ["Es un puzle: no explica geografía por sí solo, hace falta acompañarlo con conversación o un atlas", "Con 200 piezas puede quedarse corto para niños con mucha práctica en puzles", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Ravensburger", "Piezas": "200 XXL", "Edad": "A partir de 8 años", "Tema": "Mapa del mundo", "Incluye": "Póster explicativo", "Vendido por": "Amazon" },
+    relatedPosts: ["juegos-mesa-educativos-primaria", "como-elegir-juguete-educativo"],
+  },
+  {
     slug: "thinkfun-maze-pop-juego-logica-8-anos",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "ThinkFun Maze Pop: juego de lógica con varilla magnética, 60 retos, desde 8 años",
