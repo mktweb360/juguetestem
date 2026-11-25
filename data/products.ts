@@ -3020,6 +3020,24 @@ export const products: Product[] = [
     specs: { "Autor": "DK", "Editorial": "DK", "Páginas": "224", "Formato": "Tapa blanda", "Idioma": "Español", "Edad": "A partir de 9 años" },
     relatedPosts: ["introduccion-programacion-ninos", "mejores-kits-ciencia-ninos"],
   },
+  {
+    slug: "learning-resources-code-go-mouse-mania",
+    // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Learning Resources Code & Go Mouse Mania: juego de mesa de codificación, 5+ años",
+    asin: "B078WMLTJN",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de Mesa Educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Juego de mesa STEM de Learning Resources en el que los niños crean secuencias de codificación para mover un ratón por el tablero hasta el queso; para 2 o más jugadores, desde 5 años.",
+    fullDescription: "Juego de mesa educativo de Learning Resources que introduce la codificación sin pantallas: los niños crean secuencias para mover el ratón por el tablero y llegar al queso. Según la ficha de Amazon, incluye tablero, dados, tarjetas de codificación y piezas adicionales, hasta 122 componentes, no necesita pilas y se juega con 2 o más jugadores, en familia o en clase. Está indicado a partir de 5 años. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Introduce la secuencia y la planificación paso a paso sin pantallas", "Para 2 o más jugadores, en familia o en clase", "No necesita pilas"],
+    cons: ["La ficha no detalla la duración de una partida", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Learning Resources", "Componentes": "122", "Jugadores": "2 o más", "Edad": "A partir de 5 años", "Pilas": "No necesita", "Vendido por": "Amazon" },
+    relatedPosts: ["introduccion-programacion-ninos", "mejores-juguetes-stem-ninos-5-anos"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {

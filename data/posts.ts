@@ -211,7 +211,7 @@ export const posts: Post[] = [
     category: "STEM",
     date: "2025-04-01",
     readTime: 9,
-    relatedProducts: ["science4you-robotics-alfabot-238-piezas", "thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-kit-37-piezas", "programa-tus-juegos-con-scratch-3-dk", "programa-tus-proyectos-con-scratch-3-dk"],
+    relatedProducts: ["science4you-robotics-alfabot-238-piezas", "thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-kit-37-piezas", "programa-tus-juegos-con-scratch-3-dk", "programa-tus-proyectos-con-scratch-3-dk", "learning-resources-code-go-mouse-mania"],
     categoryCta: { href: "/tienda/juguetes-stem", text: "Ver juguetes STEM →" },
   },
   {
@@ -235,7 +235,7 @@ export const posts: Post[] = [
     category: "STEM",
     date: "2025-07-01",
     readTime: 7,
-    relatedProducts: ["thames-kosmos-kids-first-science-kit", "national-geographic-mega-kit-excavacion-gemas", "geomag-classic-color-91-piezas", "learning-resources-stem-explorers-kit-maquinas"],
+    relatedProducts: ["thames-kosmos-kids-first-science-kit", "national-geographic-mega-kit-excavacion-gemas", "geomag-classic-color-91-piezas", "learning-resources-stem-explorers-kit-maquinas", "learning-resources-code-go-mouse-mania"],
     categoryCta: { href: "/tienda/juguetes-stem", text: "Ver juguetes STEM →" },
   },
   {
