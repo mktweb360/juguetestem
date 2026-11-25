@@ -120,6 +120,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "programa-tus-juegos-con-scratch-3-dk",
   "programa-tus-proyectos-con-scratch-3-dk",
   "learning-resources-code-go-mouse-mania",
+  "thinkfun-maze-pop-juego-logica-8-anos",
   "knex-deluxe-80-modelos-408-piezas",
   "clementoni-laboratorio-mecanica-coche-carreras-90-piezas",
   "clementoni-laboratorio-mecanica-xtreme-motocross-170-piezas",
