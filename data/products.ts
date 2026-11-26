@@ -3092,6 +3092,24 @@ export const products: Product[] = [
     specs: { "Marca": "ThinkFun", "Edad": "A partir de 8 años", "Jugadores": "Uno", "Mecánica": "Deslizar piezas para liberar el coche rojo", "Formato": "Compacto y portátil", "Vendido por": "Amazon" },
     relatedPosts: ["juegos-mesa-educativos-primaria", "pensamiento-critico-ninos-juegos"],
   },
+  {
+    slug: "thinkfun-rush-hour-jr-juego-logica-5-anos",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "ThinkFun Rush Hour Jr.: juego de lógica con 40 desafíos, desde 5 años",
+    asin: "B0D3LWM5MS",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de Mesa Educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Versión infantil del atasco de ThinkFun: mover los coches para sacar el coche de bomberos, con 40 tarjetas de desafío en 4 niveles y 15 coches en 3D; desde 5 años.",
+    fullDescription: "Versión para los más pequeños del clásico juego de lógica de ThinkFun. Según la ficha de Amazon, el objetivo es mover los coches para sacar el coche de bomberos del atasco. La caja incluye un tablero con tapa, 40 tarjetas de desafío con cuatro niveles de dificultad y sus soluciones, 15 coches en 3D y una bolsa de viaje. La edad recomendada es a partir de 5 años, la edición está en castellano y puede jugar una persona o más. Entrena el razonamiento lógico y la resolución de problemas. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "40 desafíos en 4 niveles de dificultad, con soluciones", "15 coches en 3D y bolsa de viaje", "Edición en castellano, desde 5 años"],
+    cons: ["40 desafíos pueden quedarse cortos para un niño que avance rápido", "Pensado para jugar en solitario o con ayuda; no es un juego competitivo de mesa", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "ThinkFun", "Edad": "A partir de 5 años", "Desafíos": "40 tarjetas en 4 niveles", "Piezas": "15 coches en 3D y tablero con tapa", "Idioma": "Castellano", "Vendido por": "Amazon" },
+    relatedPosts: ["mejores-juguetes-stem-ninos-5-anos", "pensamiento-critico-ninos-juegos"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
