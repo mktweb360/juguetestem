@@ -3134,6 +3134,7 @@ export const products: Product[] = [
   },
   {
     slug: "thinkfun-rush-hour-duel-2-jugadores-8-anos",
+    image: "https://m.media-amazon.com/images/I/71Rbp+IppLL._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "ThinkFun Rush Hour Duel: juego de lógica para 2 jugadores, 8+",
     asin: "B0GHTP21TQ",
@@ -3152,6 +3153,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-junior-4-en-raya-gigante",
+    image: "https://m.media-amazon.com/images/I/71rQwrES4fL._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Junior Juego de 4 en raya gigante, sin BPA, con bolsa",
     asin: "B08J8BQN82",
