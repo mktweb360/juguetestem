@@ -161,7 +161,7 @@ export const posts: Post[] = [
     category: "Juegos de Mesa",
     date: "2025-07-10",
     readTime: 8,
-    relatedProducts: ["dixit-juego-mesa-asmodee-2021", "virus-pack-tapete-fundas-deck-box", "catan-junior-devir-6-anos", "asmodee-azul-juego-mesa-losetas", "spin-master-tetris-juego-mesa-estrategia", "devir-carcassonne-junior-juego-mesa-infantil"],
+    relatedProducts: ["dixit-juego-mesa-asmodee-2021", "virus-pack-tapete-fundas-deck-box", "catan-junior-devir-6-anos", "asmodee-azul-juego-mesa-losetas", "spin-master-tetris-juego-mesa-estrategia", "devir-carcassonne-junior-juego-mesa-infantil", "mattel-blokus-juego-estrategia-familia-7-anos"],
     categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de mesa →" },
   },
   {
@@ -480,7 +480,7 @@ export const posts: Post[] = [
     category: "Juegos de Mesa",
     date: "2025-08-13",
     readTime: 8,
-    relatedProducts: ["dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos", "virus-pack-tapete-fundas-deck-box", "asmodee-azul-juego-mesa-losetas", "spin-master-tetris-juego-mesa-estrategia", "thinkfun-maze-pop-juego-logica-8-anos", "thinkfun-rush-hour-atasco-juego-logica-8-anos", "ravensburger-puzzle-mapa-del-mundo-200-xxl"],
+    relatedProducts: ["dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos", "virus-pack-tapete-fundas-deck-box", "asmodee-azul-juego-mesa-losetas", "spin-master-tetris-juego-mesa-estrategia", "thinkfun-maze-pop-juego-logica-8-anos", "thinkfun-rush-hour-atasco-juego-logica-8-anos", "ravensburger-puzzle-mapa-del-mundo-200-xxl", "mattel-blokus-juego-estrategia-familia-7-anos"],
     relatedPosts: ["dixit-juego-analisis-opinion", "catan-junior-analisis-estrategia", "mejores-juegos-mesa-familia", "juegos-mesa-cooperativos-ninos-edad-como-elegir", "juegos-aprender-matematicas-ninos-por-edad"],
     categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de mesa →" },
   },

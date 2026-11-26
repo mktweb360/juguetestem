@@ -3128,6 +3128,24 @@ export const products: Product[] = [
     specs: { "Marca": "ThinkFun", "Edad": "A partir de 8 años", "Retos": "120", "Mecánica": "Deslizar vehículos para liberar el coche bloqueado", "Idioma": "Castellano", "Vendido por": "Amazon" },
     relatedPosts: ["juegos-mesa-educativos-primaria", "pensamiento-critico-ninos-juegos"],
   },
+  {
+    slug: "mattel-blokus-juego-estrategia-familia-7-anos",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Mattel Games Blokus: juego de estrategia para niños y familias, 7+",
+    asin: "B00FBWBM3G",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de Mesa Educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Juego de estrategia de Mattel en el que cada jugador coloca sus 21 piezas en el tablero tocando solo esquinas; reglas que se aprenden en menos de un minuto, desde 7 años.",
+    fullDescription: "Blokus es un juego de estrategia de Mattel Games pensado para jugar en familia. Según la ficha de Amazon, por turnos los jugadores colocan sus 21 piezas en el tablero y cada pieza debe tocar a otra del mismo color solo por las esquinas. Se trata de marcar territorio y bloquear a los rivales, y la partida termina cuando nadie puede colocar más piezas: gana quien se queda con menos piezas sin colocar. La ficha dice que se aprende a jugar en menos de un minuto, la edad recomendada es a partir de 7 años y la caja mide unos 25,4 x 25,4 cm. Trabaja la planificación espacial y la anticipación. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Reglas que se aprenden en menos de un minuto, según la ficha", "Trabaja la planificación espacial y pensar antes de colocar", "Para jugar en familia, desde 7 años"],
+    cons: ["La ficha no indica el número de jugadores: conviene comprobarlo antes de comprar", "Partidas competitivas: hay que aceptar que a veces te bloqueen", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Mattel Games", "Edad": "A partir de 7 años", "Piezas": "21 por jugador", "Mecánica": "Colocar piezas tocando solo esquinas del mismo color", "Tamaño": "25,4 x 25,4 cm aprox.", "Idioma": "Plurilingüe", "Vendido por": "Amazon" },
+    relatedPosts: ["mejores-juegos-mesa-familia", "juegos-mesa-educativos-primaria"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
