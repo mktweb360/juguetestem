@@ -235,7 +235,7 @@ export const posts: Post[] = [
     category: "STEM",
     date: "2025-07-01",
     readTime: 7,
-    relatedProducts: ["thames-kosmos-kids-first-science-kit", "national-geographic-mega-kit-excavacion-gemas", "geomag-classic-color-91-piezas", "learning-resources-stem-explorers-kit-maquinas", "learning-resources-code-go-mouse-mania"],
+    relatedProducts: ["thames-kosmos-kids-first-science-kit", "national-geographic-mega-kit-excavacion-gemas", "geomag-classic-color-91-piezas", "learning-resources-stem-explorers-kit-maquinas", "learning-resources-code-go-mouse-mania", "thinkfun-rush-hour-jr-juego-logica-5-anos"],
     categoryCta: { href: "/tienda/juguetes-stem", text: "Ver juguetes STEM →" },
   },
   {
@@ -689,7 +689,7 @@ export const posts: Post[] = [
     category: "Kits Educativos",
     date: "2025-08-29",
     readTime: 8,
-    relatedProducts: ["dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos", "thames-kosmos-intro-chemistry-27-experimentos", "thinkfun-maze-pop-juego-logica-8-anos", "thinkfun-rush-hour-atasco-juego-logica-8-anos"],
+    relatedProducts: ["dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos", "thames-kosmos-intro-chemistry-27-experimentos", "thinkfun-maze-pop-juego-logica-8-anos", "thinkfun-rush-hour-atasco-juego-logica-8-anos", "thinkfun-rush-hour-jr-juego-logica-5-anos"],
     relatedPosts: ["juegos-mesa-educativos-primaria", "juguetes-stem-casa-sin-comprar", "aprendizaje-basado-proyectos-casa"],
     categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos →" },
   },
