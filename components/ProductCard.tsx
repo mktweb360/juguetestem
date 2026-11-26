@@ -15,8 +15,13 @@ const CATEGORY_IMAGES: Record<string, string> = {
   "telescopios-microscopios": "/images/products/telescopios-microscopios.jpg",
 };
 
+/** Imagen de la ficha: propia, oficial de Amazon sincronizada o, como último recurso, la de su categoría. */
+export function productImageSrc(product: Product): string {
+  return product.image ?? syncedImage(product.asin) ?? CATEGORY_IMAGES[product.categorySlug] ?? "/images/products/juguetes-montessori.jpg";
+}
+
 export default function ProductCard({ product }: Props) {
-  const imgSrc = product.image ?? syncedImage(product.asin) ?? CATEGORY_IMAGES[product.categorySlug] ?? "/images/products/juguetes-montessori.jpg";
+  const imgSrc = productImageSrc(product);
   return (
     <div className="bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col">
       <Link href={`/tienda/${product.categorySlug}/${product.slug}`} className="block overflow-hidden bg-gray-50">

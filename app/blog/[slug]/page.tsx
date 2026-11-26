@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { posts, getPostBySlug } from "@/data/posts";
 import { getProductBySlug, amazonLink, isUnavailableAsin } from "@/data/products";
+import { productImageSrc } from "@/components/ProductCard";
 import ProductCard from "@/components/ProductCard";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -1764,7 +1765,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   ];
   const promo = pickPromo(slug);
   const promoHref = promoUrl(promo, "juguetestem.es", slug);
-  const sidebarProducts = relatedProducts.map((p) => p && ({ slug: p.slug, name: p.name, href: `/tienda/${p.categorySlug}/${p.slug}`, image: p.image })).filter(Boolean) as { slug: string; name: string; href: string; image?: string }[];
+  const sidebarProducts = relatedProducts.map((p) => p && ({ slug: p.slug, name: p.name, href: `/tienda/${p.categorySlug}/${p.slug}`, image: productImageSrc(p) })).filter(Boolean) as { slug: string; name: string; href: string; image?: string }[];
   const relatedSlugs = new Set([post.slug, ...relatedPosts.map((p) => p!.slug)]);
   // Ventana circular desde la posición del artículo: así todos los artículos de la categoría reciben enlaces entrantes (antes todos enlazaban a los mismos 6).
   const postIdx = posts.findIndex((p) => p.slug === post.slug);

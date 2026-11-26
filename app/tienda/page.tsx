@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { categories, getProductsByCategory } from "@/data/products";
+import { productImageSrc } from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Tienda de juguetes educativos y STEM para niños",
@@ -125,6 +126,9 @@ export default function TiendaPage() {
                           href={`/tienda/${cat.slug}/${product.slug}`}
                           className="bg-white border border-gray-200 rounded-xl p-4 hover:shadow-md hover:border-purple-200 transition-all group"
                         >
+                          <div className="mb-3 overflow-hidden rounded-lg bg-gray-50">
+                            <img src={productImageSrc(product)} alt={product.name} width={400} height={160} loading="lazy" className="h-40 w-full object-contain" />
+                          </div>
                           <div className="flex items-start justify-between gap-2 mb-2">
                             <h3 className="font-semibold text-gray-900 text-sm leading-snug group-hover:text-purple-700 transition-colors line-clamp-2">{product.name}</h3>
                             {product.badge && (
