@@ -159,6 +159,7 @@ export const products: Product[] = [
   },
   {
     slug: "theo-klein-9356-caja-registradora-escaner-balanza",
+    unavailable: "2026-11-26",
     name: "Theo Klein 9356 Caja Registradora de Juguete con Escáner, Balanza y Calculadora — 3 años+",
     asin: "B007CCQXKA",
     categorySlug: "juguetes-montessori",
@@ -345,6 +346,7 @@ export const products: Product[] = [
   },
   {
     slug: "national-geographic-microscopio-800x-smartphone",
+    unavailable: "2026-11-26",
     name: "National Geographic Microscopio 40x-800x con Soporte Smartphone 25 piezas",
     asin: "B07YZ7Q67T",
     image: "/images/products/national-geographic-microscopio-800x-smartphone.jpg",
@@ -517,6 +519,7 @@ export const products: Product[] = [
   },
   {
     slug: "dixit-juego-mesa-asmodee-2021",
+    unavailable: "2026-11-26",
     name: "Dixit Juego de Mesa Asmodee Edición 2021 8+ años 3-8 Jugadores",
     asin: "B001OH9EDW",
     image: "/images/products/dixit-juego-mesa-asmodee-2021.jpg",
@@ -555,6 +558,7 @@ export const products: Product[] = [
   // 27/10/2026: la edición suelta de Tranjis (8460659666) sigue sin compra; se enlaza el pack de HiperOcio con el juego original.
   {
     slug: "virus-pack-tapete-fundas-deck-box",
+    unavailable: "2026-11-26",
     name: "Pack Virus! de Tranjis Games con Tapete de Neopreno, 110 Fundas y Deck Box — 8 años+",
     asin: "B0HLZSMKVG",
     categorySlug: "juegos-mesa-educativos",
@@ -823,7 +827,6 @@ export const products: Product[] = [
 
   {
     slug: "goula-domino-colores-madera-28-piezas",
-    unavailable: "2026-10-12",
     name: "Goula Dominó de Colores en Madera 28 Piezas — 3+ años",
     asin: "B0CV7XR44L",
     image: "/images/products/goula-domino-colores-madera-28-piezas.jpg",
@@ -1215,6 +1218,7 @@ export const products: Product[] = [
 
   {
     slug: "lego-city-comisaria-policia-60316",
+    unavailable: "2026-11-26",
     name: "LEGO City Comisaría de Policía 60316 — 7+ años 668 piezas",
     asin: "B09BNWHBTY",
     image: "/images/products/lego-city-comisaria-policia-60316.jpg",

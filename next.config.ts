@@ -24,10 +24,14 @@ const nextConfig: NextConfig = {
     return [
       { source: "/tienda/juguetes-montessori/beeloom-panda-tower-torre-aprendizaje", destination: "/tienda/juguetes-montessori/cosyland-torre-aprendizaje-antivuelco", permanent: true },
       { source: "/tienda/juguetes-montessori/torre-rosa-montessori-10-cubos-madera", destination: "/tienda/juguetes-montessori/cosyland-torre-aprendizaje-antivuelco", permanent: true },
-      { source: "/tienda/juegos-mesa-educativos/virus-juego-cartas-tranjis-games", destination: "/tienda/juegos-mesa-educativos/virus-pack-tapete-fundas-deck-box", permanent: true },
+      { source: "/tienda/juegos-mesa-educativos/virus-juego-cartas-tranjis-games", destination: "/tienda/juegos-mesa-educativos/dobble-juego-cartas-asmodee-velocidad-atencion", permanent: true },
       { source: "/tienda/construccion-lego/lego-classic-caja-creativa-xxl-10697", destination: "/tienda/construccion-lego/lego-10698-caja-ladrillos-creativos-grande", permanent: true },
       { source: "/tienda/juguetes-montessori/melissa-doug-puzzle-madera-animales-zoo-9-piezas", destination: "/tienda/juguetes-montessori", permanent: true },
-      { source: "/tienda/juguetes-montessori/goula-domino-colores-madera-28-piezas", destination: "/tienda/juguetes-montessori", permanent: true },
+      { source: "/tienda/juguetes-stem/national-geographic-microscopio-800x-smartphone", destination: "/tienda/juguetes-stem/national-geographic-microscopio-kit-37-piezas", permanent: true },
+      { source: "/tienda/juegos-mesa-educativos/dixit-juego-mesa-asmodee-2021", destination: "/tienda/juegos-mesa-educativos/asmodee-dixit-kids-juego-cooperativo", permanent: true },
+      { source: "/tienda/juegos-mesa-educativos/virus-pack-tapete-fundas-deck-box", destination: "/tienda/juegos-mesa-educativos/dobble-juego-cartas-asmodee-velocidad-atencion", permanent: true },
+      { source: "/tienda/construccion-lego/lego-city-comisaria-policia-60316", destination: "/tienda/construccion-lego/lego-creator-3in1-casa-arbol-31150", permanent: true },
+      { source: "/tienda/juguetes-montessori/theo-klein-9356-caja-registradora-escaner-balanza", destination: "/tienda/juguetes-montessori/theo-klein-4383-maletin-medico-14-piezas", permanent: true },
       { source: "/tienda/juguetes-stem/lego-boost-creative-toolbox-17101-robotica", destination: "/tienda/juguetes-stem", permanent: true },
       { source: "/tienda/juguetes-stem/snap-circuits-jr-sc-100-electronica-ninos", destination: "/tienda/juguetes-stem", permanent: true },
       { source: "/tienda/libros-educativos/national-geographic-kids-enciclopedia-espacio", destination: "/tienda/libros-educativos", permanent: true },
@@ -199,7 +203,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/tienda/:categoria/dixit-juego-mesa",
-        destination: "/tienda/juegos-mesa-educativos/dixit-juego-mesa-asmodee-2021",
+        destination: "/tienda/juegos-mesa-educativos/asmodee-dixit-kids-juego-cooperativo",
         permanent: true,
       },
       {
@@ -209,7 +213,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/tienda/:categoria/virus-juego-cartas",
-        destination: "/tienda/juegos-mesa-educativos/virus-pack-tapete-fundas-deck-box",
+        destination: "/tienda/juegos-mesa-educativos/dobble-juego-cartas-asmodee-velocidad-atencion",
         permanent: true,
       },
       {
