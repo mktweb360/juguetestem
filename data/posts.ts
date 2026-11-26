@@ -735,7 +735,7 @@ export const posts: Post[] = [
     category: "STEM",
     date: "2025-08-07",
     readTime: 9,
-    relatedProducts: ["national-geographic-microscopio-kit-37-piezas", "national-geographic-mega-kit-excavacion-gemas", "thames-kosmos-kids-first-science-kit", "celestron-astromaster-130eq-telescopio-reflector-newtoniano"],
+    relatedProducts: ["national-geographic-microscopio-kit-37-piezas", "national-geographic-mega-kit-excavacion-gemas", "thames-kosmos-kids-first-science-kit", "celestron-astromaster-130eq-telescopio-reflector-newtoniano", "bresser-junior-telescopio-refractor-50-360-tienda"],
     relatedPosts: [
       "mejores-kits-ciencia-ninos",
       "juguetes-stem-ninos-8-anos",

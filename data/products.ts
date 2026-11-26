@@ -3260,6 +3260,24 @@ export const products: Product[] = [
     specs: { "Marca": "Celestron", "Modelo": "AstroMaster 130EQ (31045)", "Tipo": "Reflector newtoniano", "Montura": "Ecuatorial alemana manual", "Oculares": "20 mm y 10 mm", "Buscador": "Punto rojo StarPointer", "Garantía": "2 años", "Peso del paquete": "7,71 kg", "Vendido por": "Amazon" },
     relatedPosts: ["mejor-telescopio-ninos-principiantes-2025"],
   },
+  {
+    slug: "bresser-junior-telescopio-refractor-50-360-tienda",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Bresser Junior Telescopio refractor 50/360 con tienda de campaña, set de iniciación a la astronomía",
+    asin: "B0C5XW5Y4H",
+    categorySlug: "telescopios-microscopios",
+    categoryName: "Telescopios y Microscopios",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Set de iniciación a la astronomía de Bresser Junior: refractor acromático de 50 mm y 360 mm de focal con trípode, dos oculares (20 y 6 mm) y una tienda de campaña para interior. Desde 8 años.",
+    fullDescription: "Set de astronomía para niños de Bresser Junior que reúne un telescopio refractor y una tienda de campaña para montar un rincón propio en la habitación. Según la ficha de Amazon, el telescopio es un refractor acromático de 50 mm de apertura y 360 mm de distancia focal, con montura azimutal de manejo sencillo, trípode ajustable hasta 110 cm y espejo cenital. Incluye dos oculares (20 mm y 6 mm) que dan 18x y 60x aumentos, y la imagen se ve vertical. La tienda, de uso interior, mide 100 x 100 x 130 cm y tiene dos ventanas redondas. El tubo mide 38 x 70 x 10 cm y el conjunto pesa 1.500 g. La ficha lo recomienda a partir de 8 años. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Telescopio, trípode, dos oculares y tienda de campaña en un solo set", "Montura azimutal de manejo sencillo, pensada para niños desde 8 años", "Imagen vertical y 18x o 60x aumentos con los oculares incluidos"],
+    cons: ["Con 50 mm de apertura es un telescopio de iniciación, no para observación avanzada", "La tienda es solo para interior y ocupa 100 x 100 cm de suelo", "Conviene que un adulto ayude a montarlo y a apuntarlo las primeras veces", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Bresser Junior", "Tipo": "Refractor acromático", "Apertura": "50 mm", "Distancia focal": "360 mm", "Oculares": "20 mm y 6 mm (18x y 60x)", "Montura": "Azimutal", "Altura del trípode": "Hasta 110 cm", "Tienda": "100 x 100 x 130 cm, interior", "Edad": "A partir de 8 años", "Vendido por": "Amazon" },
+    relatedPosts: ["mejor-telescopio-ninos-principiantes-2025"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
