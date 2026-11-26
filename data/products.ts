@@ -3224,6 +3224,24 @@ export const products: Product[] = [
     specs: { "Marca": "LEGO Technic", "Referencia": "42210", "Piezas": "1410", "Edad recomendada": "18-99 años", "Medidas del paquete": "45,6 x 28,2 x 11,8 cm", "Peso": "1,98 kg", "Vendido por": "Amazon" },
     relatedPosts: ["mejores-lego-educativos"],
   },
+  {
+    slug: "lego-technic-ford-gt40-mkii-1966-42223",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "LEGO Technic Coche de Carreras Ford GT40 MKII de 1966 42223",
+    asin: "B0FPXDNT2N",
+    categorySlug: "construccion-lego",
+    categoryName: "Construcción y LEGO",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Maqueta LEGO Technic de 793 piezas del coche de carreras Ford GT40 MKII de 1966, con motor V8 visible bajo la cubierta. Para mayores de 18 años según la ficha.",
+    fullDescription: "Maqueta de coche clásico de la colección LEGO Technic para adultos. Según la ficha de Amazon, reproduce el Ford GT40 MKII de 1966 en 793 piezas, con decoración en negro y plata, una rueda en el techo para conducirlo y una cubierta que se abre para ver el motor V8. Está pensado para exponerlo como decoración en casa o en la oficina. Mide 38,2 x 26,2 x 7,05 cm el paquete y la edad recomendada por el fabricante es de 18 a 99 años. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "793 piezas: un montaje más corto que los sets Technic grandes", "Motor V8 visible al abrir la cubierta", "Acabado negro y plata pensado para exponerlo"],
+    cons: ["Pensado para mayores de 18 años según el fabricante: no es un set para niños", "Es una maqueta de exposición: interesa sobre todo a quien disfrute del montaje y del coche clásico", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "LEGO Technic", "Referencia": "42223", "Piezas": "793", "Edad recomendada": "18-99 años", "Medidas del paquete": "38,2 x 26,2 x 7,05 cm", "Vendido por": "Amazon" },
+    relatedPosts: ["mejores-lego-educativos"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
