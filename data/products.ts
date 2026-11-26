@@ -3129,6 +3129,24 @@ export const products: Product[] = [
     relatedPosts: ["juegos-mesa-educativos-primaria", "pensamiento-critico-ninos-juegos"],
   },
   {
+    slug: "thinkfun-rush-hour-duel-2-jugadores-8-anos",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "ThinkFun Rush Hour Duel: juego de lógica para 2 jugadores, 8+",
+    asin: "B0GHTP21TQ",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de Mesa Educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Versión de Rush Hour para dos jugadores, con 40 desafíos de lógica en los que cada jugador intenta escapar del atasco antes que su rival, desde 8 años.",
+    fullDescription: "Variante competitiva del juego de lógica Rush Hour de ThinkFun. Según la ficha de Amazon, está pensada para dos jugadores y reúne 40 desafíos de lógica en los que hay que mover los vehículos para abrirse camino antes que el rival. El título y la descripción la sitúan a partir de 8 años y la presentan como una opción de regalo para quienes disfrutan con los retos de ingenio. Es un juego distinto del Rush Hour clásico y del Deluxe, que se juegan en solitario. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Pensado para dos jugadores: se puede jugar en pareja o entre hermanos", "40 desafíos de lógica", "Mezcla razonamiento y competición"],
+    cons: ["Necesita rival: no se juega en solitario", "40 desafíos, menos que las ediciones clásica y Deluxe", "La ficha no detalla el número de piezas ni la duración de las partidas", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "ThinkFun", "Edad": "A partir de 8 años (según título y descripción)", "Jugadores": "2", "Desafíos": "40", "Mecánica": "Mover vehículos para escapar del atasco antes que el rival", "Vendido por": "Amazon" },
+    relatedPosts: ["juegos-mesa-educativos-primaria", "pensamiento-critico-ninos-juegos"],
+  },
+  {
     slug: "mattel-blokus-juego-estrategia-familia-7-anos",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Mattel Games Blokus: juego de estrategia para niños y familias, 7+",

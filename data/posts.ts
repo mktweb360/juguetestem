@@ -161,7 +161,7 @@ export const posts: Post[] = [
     category: "Juegos de Mesa",
     date: "2025-07-10",
     readTime: 8,
-    relatedProducts: ["dixit-juego-mesa-asmodee-2021", "virus-pack-tapete-fundas-deck-box", "catan-junior-devir-6-anos", "asmodee-azul-juego-mesa-losetas", "spin-master-tetris-juego-mesa-estrategia", "devir-carcassonne-junior-juego-mesa-infantil", "mattel-blokus-juego-estrategia-familia-7-anos"],
+    relatedProducts: ["dixit-juego-mesa-asmodee-2021", "virus-pack-tapete-fundas-deck-box", "catan-junior-devir-6-anos", "asmodee-azul-juego-mesa-losetas", "spin-master-tetris-juego-mesa-estrategia", "devir-carcassonne-junior-juego-mesa-infantil", "mattel-blokus-juego-estrategia-familia-7-anos", "thinkfun-rush-hour-duel-2-jugadores-8-anos"],
     categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de mesa →" },
   },
   {
