@@ -73,7 +73,7 @@ export const posts: Post[] = [
     category: "Guías",
     date: "2026-11-04",
     readTime: 8,
-    relatedProducts: ["hape-laberinto-bolas-madera-coordinacion", "magna-tiles-clear-colors-32-piezas", "dobble-juego-cartas-asmodee-velocidad-atencion", "lego-creator-3in1-casa-arbol-31150"],
+    relatedProducts: ["hape-laberinto-bolas-madera-coordinacion", "magna-tiles-clear-colors-32-piezas", "dobble-juego-cartas-asmodee-velocidad-atencion", "lego-creator-3in1-casa-arbol-31150", "faba-cuentacuentos-interactivo-starter-set-audio"],
     relatedPosts: ["beneficios-juego-libre-montessori", "mejores-juegos-mesa-familia", "juegos-cartas-educativos-familia", "construccion-magnetica-beneficios-educativos", "mejor-tablet-ninos-educativa-2025", "juguetes-stem-sin-pantallas-ideas-por-edad"],
     categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de mesa educativos →" },
   },

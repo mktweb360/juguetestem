@@ -126,6 +126,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "thinkfun-rush-hour-deluxe-120-retos-8-anos",
   "thinkfun-rush-hour-duel-2-jugadores-8-anos",
   "amazon-basics-junior-4-en-raya-gigante",
+  "faba-cuentacuentos-interactivo-starter-set-audio",
   "mattel-blokus-juego-estrategia-familia-7-anos",
   "ravensburger-puzzle-mapa-del-mundo-200-xxl",
   "knex-deluxe-80-modelos-408-piezas",
