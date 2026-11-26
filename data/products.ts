@@ -3206,6 +3206,24 @@ export const products: Product[] = [
     specs: { "Marca": "Mattel Games", "Edad": "A partir de 7 años", "Piezas": "21 por jugador", "Mecánica": "Colocar piezas tocando solo esquinas del mismo color", "Tamaño": "25,4 x 25,4 cm aprox.", "Idioma": "Plurilingüe", "Vendido por": "Amazon" },
     relatedPosts: ["mejores-juegos-mesa-familia", "juegos-mesa-educativos-primaria"],
   },
+  {
+    slug: "lego-technic-nissan-skyline-gt-r-r34-42210",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "LEGO Technic Coche Nissan Skyline GT-R (R34) de 2 Fast 2 Furious 42210",
+    asin: "B0DRCXL888",
+    categorySlug: "construccion-lego",
+    categoryName: "Construcción y LEGO",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Maqueta LEGO Technic de 1410 piezas del Nissan Skyline GT-R (R34) de 2 Fast 2 Furious, con dirección, suspensión, motor de 6 cilindros y función de derrape. Para mayores de 18 años según la ficha.",
+    fullDescription: "Maqueta de coche de la colección LEGO Technic para adultos. Según la ficha de Amazon, reproduce el Nissan Skyline GT-R (R34) de 2 Fast 2 Furious en 1410 piezas, con dirección, suspensión delantera y trasera, puertas que se abren, alerón ajustable, 3 bombonas de óxido nitroso y un motor de 6 cilindros con pistones móviles. Incluye la función de derrape, la primera en LEGO Technic, que levanta el coche para recrear maniobras de la película. Las instrucciones vienen con el set y también en versión digital en la app LEGO Builder. Mide 45,6 x 28,2 x 11,8 cm y pesa 1,98 kg el paquete; la edad recomendada por el fabricante es de 18 a 99 años. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "1410 piezas con mecanismos reales: dirección, suspensión y motor de 6 cilindros", "Función de derrape para jugar o exponerlo", "Instrucciones también digitales en la app LEGO Builder"],
+    cons: ["Pensado para mayores de 18 años según el fabricante: no es un set para niños", "Montaje largo que exige paciencia", "Inspirado en una película concreta: interesa sobre todo a quien la conozca", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "LEGO Technic", "Referencia": "42210", "Piezas": "1410", "Edad recomendada": "18-99 años", "Medidas del paquete": "45,6 x 28,2 x 11,8 cm", "Peso": "1,98 kg", "Vendido por": "Amazon" },
+    relatedPosts: ["mejores-lego-educativos"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
