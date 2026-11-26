@@ -3242,6 +3242,24 @@ export const products: Product[] = [
     specs: { "Marca": "LEGO Technic", "Referencia": "42223", "Piezas": "793", "Edad recomendada": "18-99 años", "Medidas del paquete": "38,2 x 26,2 x 7,05 cm", "Vendido por": "Amazon" },
     relatedPosts: ["mejores-lego-educativos"],
   },
+  {
+    slug: "celestron-astromaster-130eq-telescopio-reflector-newtoniano",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Celestron AstroMaster 130EQ Telescopio reflector newtoniano (31045)",
+    asin: "B000MLL6RS",
+    categorySlug: "telescopios-microscopios",
+    categoryName: "Telescopios y Microscopios",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Telescopio reflector newtoniano de Celestron sobre montura ecuatorial alemana manual, con trípode, dos oculares (20 mm y 10 mm) y buscador de punto rojo StarPointer.",
+    fullDescription: "Telescopio reflector newtoniano de Celestron, modelo AstroMaster 130EQ (referencia 31045). Según la ficha de Amazon, ofrece óptica de cristal totalmente recubierta y una montura ecuatorial alemana manual con dos botones de control para apuntar de forma suave y precisa, sobre un marco ligero y un trípode. Incluye dos oculares (20 mm y 10 mm), un buscador de punto rojo StarPointer y la descarga gratuita de un programa de astronomía, y tiene dos años de garantía. El paquete mide 88,9 x 48,26 x 30,48 cm y pesa 7,71 kg. La ficha no es coherente al dar el tamaño del espejo (114 mm y 130 mm en distintos apartados): conviene confirmarlo en Amazon antes de comprar. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Montura ecuatorial para seguir los astros con dos botones de control", "Incluye trípode, dos oculares (20 mm y 10 mm) y buscador de punto rojo", "Marca especializada en telescopios, con dos años de garantía según la ficha"],
+    cons: ["La ficha da dos medidas distintas para el espejo (114 y 130 mm): hay que confirmarlo antes de comprar", "La montura ecuatorial exige aprender a alinearla: no es tan inmediato como un telescopio sencillo", "Pesa 7,71 kg y mide casi 90 cm en caja: ocupa espacio para guardarlo", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Celestron", "Modelo": "AstroMaster 130EQ (31045)", "Tipo": "Reflector newtoniano", "Montura": "Ecuatorial alemana manual", "Oculares": "20 mm y 10 mm", "Buscador": "Punto rojo StarPointer", "Garantía": "2 años", "Peso del paquete": "7,71 kg", "Vendido por": "Amazon" },
+    relatedPosts: ["mejor-telescopio-ninos-principiantes-2025"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
