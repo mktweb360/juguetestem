@@ -123,6 +123,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "thinkfun-maze-pop-juego-logica-8-anos",
   "thinkfun-rush-hour-atasco-juego-logica-8-anos",
   "thinkfun-rush-hour-jr-juego-logica-5-anos",
+  "thinkfun-rush-hour-deluxe-120-retos-8-anos",
   "ravensburger-puzzle-mapa-del-mundo-200-xxl",
   "knex-deluxe-80-modelos-408-piezas",
   "clementoni-laboratorio-mecanica-coche-carreras-90-piezas",

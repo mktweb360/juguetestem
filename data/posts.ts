@@ -689,7 +689,7 @@ export const posts: Post[] = [
     category: "Kits Educativos",
     date: "2025-08-29",
     readTime: 8,
-    relatedProducts: ["dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos", "thames-kosmos-intro-chemistry-27-experimentos", "thinkfun-maze-pop-juego-logica-8-anos", "thinkfun-rush-hour-atasco-juego-logica-8-anos", "thinkfun-rush-hour-jr-juego-logica-5-anos"],
+    relatedProducts: ["dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos", "thames-kosmos-intro-chemistry-27-experimentos", "thinkfun-maze-pop-juego-logica-8-anos", "thinkfun-rush-hour-atasco-juego-logica-8-anos", "thinkfun-rush-hour-jr-juego-logica-5-anos", "thinkfun-rush-hour-deluxe-120-retos-8-anos"],
     relatedPosts: ["juegos-mesa-educativos-primaria", "juguetes-stem-casa-sin-comprar", "aprendizaje-basado-proyectos-casa"],
     categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos →" },
   },

@@ -3110,6 +3110,24 @@ export const products: Product[] = [
     specs: { "Marca": "ThinkFun", "Edad": "A partir de 5 años", "Desafíos": "40 tarjetas en 4 niveles", "Piezas": "15 coches en 3D y tablero con tapa", "Idioma": "Castellano", "Vendido por": "Amazon" },
     relatedPosts: ["mejores-juguetes-stem-ninos-5-anos", "pensamiento-critico-ninos-juegos"],
   },
+  {
+    slug: "thinkfun-rush-hour-deluxe-120-retos-8-anos",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "ThinkFun Rush Hour Deluxe: juego de lógica con 120 retos, 8+",
+    asin: "B0DDL4S6XC",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de Mesa Educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Edición Deluxe del atasco de ThinkFun, con 120 retos de dificultad progresiva, en castellano y desde 8 años.",
+    fullDescription: "Edición ampliada del clásico juego de lógica de ThinkFun. Según la ficha de Amazon, el objetivo es mover los vehículos para liberar el coche bloqueado, con 120 retos y niveles de dificultad que se adaptan al progreso del niño. La edición está en castellano y la edad recomendada es a partir de 8 años. La ficha la presenta como evolución natural de Rush Hour Junior, con el que es compatible. Trabaja la planificación, la concentración y la resolución de problemas. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "120 retos con dificultad progresiva", "Edición en castellano, desde 8 años", "Compatible con Rush Hour Junior, según la ficha"],
+    cons: ["Se juega en solitario, sin componente de juego en familia", "Para niños que ya dominan retos sencillos; los más pequeños tienen la versión Junior", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "ThinkFun", "Edad": "A partir de 8 años", "Retos": "120", "Mecánica": "Deslizar vehículos para liberar el coche bloqueado", "Idioma": "Castellano", "Vendido por": "Amazon" },
+    relatedPosts: ["juegos-mesa-educativos-primaria", "pensamiento-critico-ninos-juegos"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
