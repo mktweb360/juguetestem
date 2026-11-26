@@ -3147,6 +3147,24 @@ export const products: Product[] = [
     relatedPosts: ["juegos-mesa-educativos-primaria", "pensamiento-critico-ninos-juegos"],
   },
   {
+    slug: "amazon-basics-junior-4-en-raya-gigante",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Junior Juego de 4 en raya gigante, sin BPA, con bolsa",
+    asin: "B08J8BQN82",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de Mesa Educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "4 en raya de tamaño gigante para niños y adultos, sin BPA, con 42 anillas, mecanismo de resorte para vaciar las fichas y bolsa de transporte.",
+    fullDescription: "Versión gigante del clásico 4 en raya de Amazon Basics Junior, para jugar de dos en interior o exterior. Según la ficha de Amazon, está hecho de polipropileno y polietileno resistentes a los rayos UV, sin BPA, para que no pierda color ni se agriete. Incluye el marco, dos paneles laterales, 42 anillas y una bolsa de transporte, y un mecanismo deslizante con resorte vacía todas las fichas a la vez para empezar otra partida enseguida. La ficha lo presenta como un juego para ejercitar el conteo, la coordinación ojo-mano, la estrategia y la resolución de problemas. Mide 106,68 x 55,88 x 83,82 cm y pesa 11,34 kg. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Tamaño gigante, para jugar en el jardín o en casa", "Plástico sin BPA y resistente a los rayos UV según la ficha", "El resorte vacía las fichas de golpe y agiliza las partidas", "Bolsa de transporte incluida"],
+    cons: ["Es un juego de dos: no se juega en solitario", "Con 11,34 kg y más de un metro de ancho, ocupa y pesa más que un juego de mesa", "La ficha no indica una edad mínima recomendada", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics Junior", "Jugadores": "2", "Anillas": "42", "Material": "Polipropileno y polietileno, sin BPA", "Medidas": "106,68 x 55,88 x 83,82 cm", "Peso": "11,34 kg", "Modelo": "DS-CG037", "Vendido por": "Amazon" },
+    relatedPosts: ["juegos-mesa-educativos-primaria", "mejores-juegos-mesa-familia"],
+  },
+  {
     slug: "mattel-blokus-juego-estrategia-familia-7-anos",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Mattel Games Blokus: juego de estrategia para niños y familias, 7+",
