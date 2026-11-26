@@ -7,6 +7,7 @@ import { getPostBySlug } from "@/data/posts";
 import { isFeaturedProduct } from "@/lib/indexable";
 import { productTitle, productTitleUnique, relatedInCategory, publicDescription } from "@/lib/seo";
 import { CATEGORIA_GUIA } from "@/lib/categoria-guia";
+import { syncedImage } from "@/lib/amazon-sync";
 
 /* ─── Metadata ────────────────────────────────────────────────────────────── */
 // Imagen de respaldo por categoría para fichas sin imagen propia (ficheros que existen en public/images/products).
@@ -114,7 +115,7 @@ export default async function ProductoPage({
           {/* Columna imagen */}
           <div className="rounded-2xl overflow-hidden bg-gray-100 flex items-center justify-center">
             <img
-              src={product.image ?? CATEGORY_IMAGE[product.categorySlug] ?? "/images/hero-bg.jpg"}
+              src={product.image ?? syncedImage(product.asin) ?? CATEGORY_IMAGE[product.categorySlug] ?? "/images/hero-bg.jpg"}
               alt={product.name}
               className="w-full h-72 object-cover"
               loading="eager"
