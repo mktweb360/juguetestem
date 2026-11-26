@@ -8,6 +8,7 @@ import { isFeaturedProduct } from "@/lib/indexable";
 import { productTitle, productTitleUnique, relatedInCategory, publicDescription } from "@/lib/seo";
 import { CATEGORIA_GUIA } from "@/lib/categoria-guia";
 import { syncedImage } from "@/lib/amazon-sync";
+import { productImageSrc } from "@/components/ProductCard";
 
 /* ─── Metadata ────────────────────────────────────────────────────────────── */
 // Imagen de respaldo por categoría para fichas sin imagen propia (ficheros que existen en public/images/products).
@@ -354,6 +355,10 @@ export default async function ProductoPage({
                   href={`/tienda/${p.categorySlug}/${p.slug}`}
                   className="border border-gray-100 rounded-xl p-4 hover:border-purple-200 hover:shadow-md transition-all group"
                 >
+                  <div className="mb-3 overflow-hidden rounded-lg bg-gray-50">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={productImageSrc(p)} alt={p.name} width={300} height={128} loading="lazy" className="h-32 w-full object-contain" />
+                  </div>
                   {p.badge && (
                     <span className="inline-block text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full mb-2">
                       {p.badge}
