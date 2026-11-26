@@ -3074,6 +3074,24 @@ export const products: Product[] = [
     specs: { "Marca": "ThinkFun", "Retos": "60", "Edad": "A partir de 8 años", "Mecánica": "Varilla magnética", "Vendido por": "Amazon" },
     relatedPosts: ["juegos-mesa-educativos-primaria", "pensamiento-critico-ninos-juegos"],
   },
+  {
+    slug: "thinkfun-rush-hour-atasco-juego-logica-8-anos",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "ThinkFun Rush Hour: juego de lógica del atasco de tráfico, desde 8 años",
+    asin: "B0CZRYZ3K5",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de Mesa Educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Rompecabezas de ThinkFun en el que hay que deslizar los coches de un atasco hasta liberar el vehículo rojo; desde 8 años y con varios niveles de dificultad.",
+    fullDescription: "Clásico juego de lógica de ThinkFun. Según la ficha de Amazon, el reto consiste en resolver un atasco deslizando los coches hasta dejar salir al vehículo rojo. Está indicado desde 8 años, trabaja la resolución de problemas y la concentración, y también puede resultar un desafío para adultos gracias a sus distintos niveles de dificultad. Es compacto y portátil, así que cabe en una mochila o en un viaje. Se juega en solitario. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Reglas fáciles de entender: deslizar coches hasta liberar el rojo", "Varios niveles de dificultad, también para adultos", "Compacto y portátil"],
+    cons: ["Se juega en solitario, sin componente de juego en familia", "La ficha no detalla el número de retos incluidos: conviene comprobarlo antes de comprar", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "ThinkFun", "Edad": "A partir de 8 años", "Jugadores": "Uno", "Mecánica": "Deslizar piezas para liberar el coche rojo", "Formato": "Compacto y portátil", "Vendido por": "Amazon" },
+    relatedPosts: ["juegos-mesa-educativos-primaria", "pensamiento-critico-ninos-juegos"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
