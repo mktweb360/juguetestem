@@ -4,6 +4,7 @@
 // redirigen con 301 a una página permanente. Si Google AdSense vuelve a señalar contenido de poco valor,
 // se reduce esta lista. Lista generada: al añadir una ficha nueva que cumpla el criterio, hay que sumarla aquí.
 export const FEATURED_PRODUCT_SLUGS = new Set<string>([
+  "bresser-junior-telescopio-refractor-50-360-tienda",
   "celestron-astromaster-130eq-telescopio-reflector-newtoniano",
   "lego-technic-ford-gt40-mkii-1966-42223",
   "lego-technic-nissan-skyline-gt-r-r34-42210",
