@@ -3152,6 +3152,24 @@ export const products: Product[] = [
     relatedPosts: ["juegos-mesa-educativos-primaria", "pensamiento-critico-ninos-juegos"],
   },
   {
+    slug: "faba-cuentacuentos-interactivo-starter-set-audio",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "FABA+ Cuentacuentos interactivo de audio para niños de 0 a 10 años (Starter set)",
+    asin: "B0DCKYW3CW",
+    categorySlug: "juguetes-montessori",
+    categoryName: "Juguetes Montessori",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Altavoz Bluetooth sin pantalla con volumen limitado a 85 dB para que los niños escuchen cuentos, canciones y rimas por sí solos acercando un Personaje Sonoro.",
+    fullDescription: "Dispositivo de audio de FABA para que niños y niñas escuchen cuentos, canciones y rimas de forma autónoma, sin pantalla. Según la ficha de Amazon, el Starter set incluye el altavoz Bluetooth, con el volumen limitado a 85 dB, el Personaje Sonoro FabaMe y un cable USB de carga. Basta con acercar un Personaje Sonoro al círculo rojo para que empiece el audio. Con FabaMe se pueden grabar historias o canciones propias de hasta 90 minutos o crear listas personalizadas. Tiene una rutina de sueño con piezas instrumentales y sonidos de la naturaleza y una luz de noche. La primera vez hay que configurarlo con la app para móvil MyFaba y la conexión Wi-Fi. Existen más de 150 Personajes Sonoros que se compran por separado, con contenidos en español, italiano, inglés y francés. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Sin pantalla: el niño lo maneja solo acercando un personaje", "Volumen limitado a 85 dB según la ficha", "Incluye FabaMe para grabar historias propias de hasta 90 minutos", "Rutina de sueño y luz de noche"],
+    cons: ["Para empezar necesita configurarse con la app MyFaba y Wi-Fi", "Los Personajes Sonoros con los cuentos se compran por separado: el Starter set solo trae FabaMe", "Es un altavoz de audio: no sustituye al juego con las manos ni a la lectura compartida", "La ficha no detalla medidas, peso ni duración de la batería", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "FABA", "Edad": "De 0 a 10 años (según el título)", "Incluye": "Altavoz Bluetooth, Personaje Sonoro FabaMe y cable USB", "Volumen": "Limitado a 85 dB", "Grabación": "Hasta 90 minutos con FabaMe", "Idiomas": "Español, italiano, inglés y francés", "Configuración": "App MyFaba y Wi-Fi", "Vendido por": "Amazon" },
+    relatedPosts: ["tiempo-pantalla-ninos-alternativas-juguetes"],
+  },
+  {
     slug: "amazon-basics-junior-4-en-raya-gigante",
     image: "https://m.media-amazon.com/images/I/71rQwrES4fL._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
