@@ -1,5 +1,1526 @@
 {
- "generatedAt": null,
+ "generatedAt": "2026-11-26",
  "marketplace": "www.amazon.es",
- "items": {}
+ "items": {
+  "1409573672": {
+   "status": "ok",
+   "title": "365 experimentos para pequeños científicos (365 ideas para manualidades)",
+   "image": "https://m.media-amazon.com/images/I/51drSNEbL8L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "0241432456": {
+   "status": "ok",
+   "title": "Programa tus proyectos con Scratch 3.0 (Scratch para niños): Una guía visual para programar animaciones, juegos, ilusiones ópticas, música ¡y mucho más! (Paso a paso)",
+   "image": "https://m.media-amazon.com/images/I/51ytcCeQkqL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "024170300X": {
+   "status": "ok",
+   "title": "Programa tus juegos con Scratch 3.0. Nueva edición (Scratch para niños) (Paso a paso)",
+   "image": "https://m.media-amazon.com/images/I/41qo6uTJ7dL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "8413188407": {
+   "status": "ok",
+   "title": "Un cuento para cada letra. Aprende las 29 letras y sonidos del abecedario (El país de las letras)",
+   "image": "https://m.media-amazon.com/images/I/51UrDQIjShL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "8414025315": {
+   "status": "ok",
+   "title": "Ingeniería increíble: 35 proyectos alucinantes para hacer en casa (Ideaka)",
+   "image": "https://m.media-amazon.com/images/I/51she0fMQ7L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "8419169986": {
+   "status": "ok",
+   "title": "Aprender a leer en la Escuela de Monstruos - Pack con los libros 1, 2 y 3: En letra MAYÚSCULA para aprender a leer (Libros para niños a partir de 5 ... (libros para niños a partir de 5 años)",
+   "image": "https://m.media-amazon.com/images/I/5185-Xdke7L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "8460659666": {
+   "status": "ok",
+   "title": "Tranjis games - Virus - Juego de cartas (TRG-01vir) (1138753.62)",
+   "image": "https://m.media-amazon.com/images/I/51IfDFqq2TL._SL500_.jpg",
+   "availability": {
+    "type": "LEADTIME",
+    "message": "Envío en 3 a 7 meses"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "8467556552": {
+   "status": "ok",
+   "title": "Mi primer atlas con pop-ups",
+   "image": "https://m.media-amazon.com/images/I/61Bg05+IB4L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "8467732059": {
+   "status": "ok",
+   "title": "Mi gran libro de experimentos (El Gran Libro De...)",
+   "image": "https://m.media-amazon.com/images/I/614tk6qfe-L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "8482988301": {
+   "status": "ok",
+   "title": "Enciclopedia del espacio (National Geographic Kids)",
+   "image": "https://m.media-amazon.com/images/I/51qjHnIy4NL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B000296LRK": {
+   "status": "ok",
+   "title": "Learning Resources Balanza de cubos de primaria",
+   "image": "https://m.media-amazon.com/images/I/51gJgoGy1TL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0002ML3MK": {
+   "status": "ok",
+   "title": "Theo Klein 4383 Maletín de médico, de médico de 14 Piezas con Estetoscopio, termómetro, jeringuilla y práctica asa de Transporte, Medidas 28 cm x 9.5 cm x 22 cm, Juguete para niños a Partir de 3 años",
+   "image": "https://m.media-amazon.com/images/I/41xPIUTMcuL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B000CBSNKQ": {
+   "status": "ok",
+   "title": "Magna-Tiles 2132, Clear Colors 32 Piece Set",
+   "image": "https://m.media-amazon.com/images/I/51x87JEhZSL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon UK",
+   "checkedAt": "2026-11-26"
+  },
+  "B000FS70QE": {
+   "status": "ok",
+   "title": "MELISSA & DOUG - Puzzle 1 Año Amigos de la Granja, Puzzle de Madera Animales con Clavijas para Fácil Agarre, Rompecabezas Niños, 6073092, Juguetes Montessori, Regalo Niño 1 año +",
+   "image": "https://m.media-amazon.com/images/I/512j4h8waNL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B000M8GZTA": {
+   "status": "ok",
+   "title": "Fournier Parchis y Oca 33x33 cm Tablero, multicolor, única (521111)",
+   "image": "https://m.media-amazon.com/images/I/41g0rw14WvL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B000NV9G88": {
+   "status": "ok",
+   "title": "Melissa & Doug - Juego de Frutas para Cortar - Comida de Juguete de Madera, cajón de Madera, 17 Piezas, niñas y niños, Ideal para Edades de 3, 4 y 5 años",
+   "image": "https://m.media-amazon.com/images/I/51tYi8U1B1L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 3 en stock."
+   },
+   "merchant": "Spinkids",
+   "checkedAt": "2026-11-26"
+  },
+  "B001AMGEIO": {
+   "status": "ok",
+   "title": "Educa - Puzzle Madera Animal Friends | 2x50 Piezas | Puzzle 4 Años | Pack de 2: puzzle madera de 50 piezas cada uno. Cada uno mide 26 x 18 cm. Desde 4 años. Un puzzle 4 años.",
+   "image": "https://m.media-amazon.com/images/I/51y1nGcIxaL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B001OH9EDW": {
+   "status": "ok",
+   "title": "Asmodee Dixit Juego Edición Clásica",
+   "image": "https://m.media-amazon.com/images/I/61D-OTLRL8L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B001UJE4XY": {
+   "status": "ok",
+   "title": "Bresser JUNIOR 40x-1024x Microscopio Set, negro, plata | Luz incidente y transmitida, Ocular USB HD para PC, Windows 10 y 11, Portaobjetos, Experimento Artemia, Maletín rígido",
+   "image": "https://m.media-amazon.com/images/I/51Lud6qUveL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0042VNNS4": {
+   "status": "ok",
+   "title": "Goula Regletas 10x10 – Juego Educativo Matemático Preescolar desde 3 Años | Juego educativo matemático con 300 regletas de colores y tamaños para aprender números, lógica, regalo para las fiestas",
+   "image": "https://m.media-amazon.com/images/I/41rQCO43doL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "PAPELMAX",
+   "checkedAt": "2026-11-26"
+  },
+  "B004KPKW3Q": {
+   "status": "ok",
+   "title": "Melissa & Doug Puzzle Animales Salvajes con Sonidos, Rompecabezas de Madera para niños, Tablero de Madera Resistente, Juguete Educativo, Montessori, Regalo para niños y niñas de 2 3 4 años",
+   "image": "https://m.media-amazon.com/images/I/51sJP3WIjxL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0068A96N8": {
+   "status": "ok",
+   "title": "Diset Yo Aprendo a Leer – Juego Educativo de Lectura para Niños +5 Años | Juego de Ortografía con 90 Ejercicios, 3 Niveles y Maletín – Favorece la Lectura y el Vocabulario, regalo para las fiestas",
+   "image": "https://m.media-amazon.com/images/I/51JQ+OVo+rL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B006GCRJ9Q": {
+   "status": "ok",
+   "title": "Hape E1800 Toy, Multicolor",
+   "image": "https://m.media-amazon.com/images/I/41+XWt5qwLL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00712O2D6": {
+   "status": "ok",
+   "title": "Hape Picafuerte Xilófono | Incluye xilófono deslizable | Juguete de madera duradero y galardonado | Juguete musical de golpeteo para niños pequeños",
+   "image": "https://m.media-amazon.com/images/I/41ZNhrdAnTL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B007CCQXKA": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B008EK6XEK": {
+   "status": "ok",
+   "title": "Asmodee Dobble Clasico, Juego de Cartas de Observación y Velocidad | Para Niños y Adultos, Juego de Mesa, 15 Minutos de Juego, A Partir de 6 años, 2-8 Jugadores",
+   "image": "https://m.media-amazon.com/images/I/51tkUQs4J5L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00D6JM5EQ": {
+   "status": "ok",
+   "title": "HABA My Very First Games - Juego de mesa Mi primer huerto, +2 años | Juego de huerto de madera, 1-4 jugadores, fabricado en Alemania, promueve la motricidad fina y habilidades sociales",
+   "image": "https://m.media-amazon.com/images/I/51G+o1VDbwL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00DO9XIF8": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B00E5WMF6Q": {
+   "status": "ok",
+   "title": "Mattel Games Scrabble Junior, juego de mesa, edición en español +6 años | Diversión clásica de palabras con 2 niveles, tablero a doble cara y 84 fichas; de 2 a 4 jugadores",
+   "image": "https://m.media-amazon.com/images/I/51ToXfJhf+L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00FBWBM3G": {
+   "status": "ok",
+   "title": "Mattel Games Blokus Juego de Estrategia para niños y familias | Tus piezas solo pueden tocarse en las esquinas en este juego clásico de estrategia, con 84 piezas de cuatro colores, BJV44",
+   "image": "https://m.media-amazon.com/images/I/51-AxyzJGSL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00MJ8MI2O": {
+   "status": "ok",
+   "title": "Thames & Kosmos , 625314, Physics Pro (V 2.0), Advanced Physics Kit, Build Hydraulic and Pneumatic Machines, 31 Experiments, Ages 8+",
+   "image": "https://m.media-amazon.com/images/I/517KRAeM0jL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B00NVDP3ZU": {
+   "status": "ok",
+   "title": "LEGO Classic Caja de Ladrillos Creativos Mediana 10696 | Juguetes para niños de 4+ años, juego de construcción con base verde, coches y animales, regalo de cumpleaños, 484 piezas",
+   "image": "https://m.media-amazon.com/images/I/418l4bG3TJL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00PY3EYQO": {
+   "status": "ok",
+   "title": "LEGO Classic Caja de Ladrillos Creativos Grande 10698 | Juguetes para niños de 4+ años, juego con 2 bases verdes, animales, casas y coches, regalo de cumpleaños, 790 piezas",
+   "image": "https://m.media-amazon.com/images/I/51r4hQNyvjL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00W5LCL8G": {
+   "status": "ok",
+   "title": "Devir - Carcassonne, Colocación de Losetas, Medieval, SdJ 2001, Versión Española",
+   "image": "https://m.media-amazon.com/images/I/41koD5lnXtL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00XJ5C4FW": {
+   "status": "ok",
+   "title": "LEGO Classic - Caja Creativa XXL - 10697, a partir de 4 años",
+   "image": "https://m.media-amazon.com/images/I/51i7q5zqWjL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 2 en stock."
+   },
+   "merchant": "Amazon UK",
+   "checkedAt": "2026-11-26"
+  },
+  "B01A5YMCH4": {
+   "status": "ok",
+   "title": "Learning Resources Code & Go Ratón Robot Colby, Juego de Programación, 4+ | Explora retos de laberintos con un robot programable, creando rutas paso a paso que introducen secuencias y aprendizaje STEM",
+   "image": "https://m.media-amazon.com/images/I/51BxFm9MX4L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B01FVWX0VM": {
+   "status": "ok",
+   "title": "Devir - Carcassonne Junior, Juego de Mesa Infantil Estratégico, 2-4 Jugadores, 5+ Años (BGCARJTR)",
+   "image": "https://m.media-amazon.com/images/I/51PhyGNkGsL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B01GVGD6C0": {
+   "status": "ok",
+   "title": "Play-Doh Hasbro, Pack de 4 Botes Clásicos, Juguetes de Arte y Manualidades para Niños y Niñas de 2 Años o Más, Actividades Creativas, Verde, Rojo, Amarillo y Azul, Regalos para Fiestas",
+   "image": "https://m.media-amazon.com/images/I/41jMUO8PI8L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "FLOWTOYS",
+   "checkedAt": "2026-11-26"
+  },
+  "B01LZYGY8H": {
+   "status": "ok",
+   "title": "Fisher-Price Teléfono Chatter Parlanchin de Arrastre | Teléfono de juguete con dial giratorio, ruedas y juego para caminar, niños 1+ años, FGW66",
+   "image": "https://m.media-amazon.com/images/I/41YUt1LYiJL._SL500_.jpg",
+   "availability": {
+    "type": "LEADTIME",
+    "message": "Envío en 3 a 7 meses"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B01MZ4FJ0N": {
+   "status": "ok",
+   "title": "Geomag Classic Color Construcciones magnéticas y Juegos educativos, 91 Piezas (263), Multicolor",
+   "image": "https://m.media-amazon.com/images/I/41uTrAhyDbL._SL500_.jpg",
+   "availability": {
+    "type": "AVAILABLE_DATE",
+    "message": ""
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B01N97I50S": {
+   "status": "ok",
+   "title": "Helvetiq - Bandido, Juegos Educativos 6 Años O Más, Juegos De Mesa para Niños, Juego De Cartas para Niños, Juego Cooperativo, Jugar En Familia, Juego De Viaje, 15 Min. 1-4 Jugadores",
+   "image": "https://m.media-amazon.com/images/I/41yvgKhVmKL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B01NCRVSYD": {
+   "status": "ok",
+   "title": "Puzle Infantil Ravensburger, 06951 Cute Pets, mi Primer Rompecabezas de 2, 4, 6, 8 Piezas, Rompecabezas para niños a Partir de 2 años",
+   "image": "https://m.media-amazon.com/images/I/51ucAp5stfL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B06X6GN2VQ": {
+   "status": "ok",
+   "title": "LEGO 17101 Boost Caja de Herramientas Creativas, Juego de construcción, Multicolor",
+   "image": "https://m.media-amazon.com/images/I/51bEUcnYYyL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B071XSPV2H": {
+   "status": "ok",
+   "title": "Theo Klein 8676 Banco de trabajo Bosch I Con destornillador eléctrico Ixolino de Bosch a pilas I Plegable y fácil de transportar I Para niños a partir de 3 años",
+   "image": "https://m.media-amazon.com/images/I/41xAbTvSCpL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07474MMB5": {
+   "status": "ok",
+   "title": "ELEGOO Kit de Coche Robótico Educativo y Stem de Juguete para Niño | Seguimiento de Línea, Sensor Ultrasónico, Módulo Infrarrojo (IR), Compatibles con Arduino IDE y la Placa UNO R3",
+   "image": "https://m.media-amazon.com/images/I/51HWb2FqOwL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "ELEGOO ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B074N8YF1D": {
+   "status": "ok",
+   "title": "Music Set For Kids, Hape Multi Musical Block Set, With 5 Musical Instruments. 18 months +",
+   "image": "https://m.media-amazon.com/images/I/41BBwYUp-7L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07658Q3J6": {
+   "status": "ok",
+   "title": "LEGO Duplo Tren de Vapor de Juguete para Niños y Niñas de 2 a 5 años con Luz y Sonido, Set con 16 Vías para Trenes y Figuras Educativas para Bebés, Idea de Regalo Infantil 10874",
+   "image": "https://m.media-amazon.com/images/I/51M9Ip1mNiL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Brickcomplete",
+   "checkedAt": "2026-11-26"
+  },
+  "B078WMLTJN": {
+   "status": "ok",
+   "title": "Learning Resources Code & Go Mouse Mania, Juego de Mesa Educativo Stem, 5+ | Compite por llegar al queso creando secuencias y desarrolla programación, resolución de problemas y lógica en cada partida",
+   "image": "https://m.media-amazon.com/images/I/51coIoIKHWL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07B37TT7F": {
+   "status": "ok",
+   "title": "Goula Los 3 Cerditos - Juego de Mesa Educativo Preescolar para Niños 2 Años | A Partir de 2 Años, Juego Infantil de 1 a 4 Jugadores con Piezas de Madera y Tablero Puzle - Regalo para Las Fiestas",
+   "image": "https://m.media-amazon.com/images/I/51m3fN4qdzL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07B42X1Z3": {
+   "status": "ok",
+   "title": "Science4you Robotics Betabot - Kit Robotica de 125 Piezas, Construye tu Robot Interactivo, Juegos de Construcciones, Juguetes de Montar, Regalos para Niños y Niñas de 8 9 10+ años",
+   "image": "https://m.media-amazon.com/images/I/51n7FAIeVzL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07B495BJG": {
+   "status": "ok",
+   "title": "Science4you Robotics Alfabot 3 en 1 - Kit Robotica de 238 Piezas, Construye tu Proprio Robot, Juegos y Juguetes de Construcciones, Regalos para Niños de 6 7 8 9 10+ Años",
+   "image": "https://m.media-amazon.com/images/I/51Q2DSRxu0L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07BYVCNJ3": {
+   "status": "ok",
+   "title": "Asmodee Azul, Juego de Mesa de Colocación de Losetas y Estrategia | Para Adultos y Familias, Decora el Palacio Real de Évora, A Partir de 8 Años, De 2 a 4 Jugadores, 30-45 Minutos, Español",
+   "image": "https://m.media-amazon.com/images/I/511R+9PhXML._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07C3LL8YM": {
+   "status": "ok",
+   "title": "Bresser Microscopio estéreo Junior blanco",
+   "image": "https://m.media-amazon.com/images/I/41PkbKbMUcL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07M7XDYG7": {
+   "status": "ok",
+   "title": "Learning Resources Cubos MathLink para Matemáticas, Set de 100, 6+ Años | Construye modelos con 100 cubos para explorar valor posicional, fracciones, multiplicación, división y volumen paso a paso",
+   "image": "https://m.media-amazon.com/images/I/51LmGiNNPcL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07MZPPVMZ": {
+   "status": "ok",
+   "title": "Hape Básicos de Cocina – Set de Madera para Niños de 3+ con Verduras, Utensilios y Tabla de Cortar",
+   "image": "https://m.media-amazon.com/images/I/41J3BUdiHCL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07Q384441": {
+   "status": "ok",
+   "title": "ThinkFun Cat Crimes, juego de lógica y reflexión, a partir de 8 años | 40 desafíos para resolver paso a paso, desde nivel principiante hasta experto, para jugar solo o en grupo con amigos",
+   "image": "https://m.media-amazon.com/images/I/51p5qN-TiYL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07Q4X195G": {
+   "status": "ok",
+   "title": "Ludilo - Pillado | Juego Cooperativo de Detectives | Juego de Mesa 5 Años | Juego cooperativo de detectives para 2 a 4 jugadores: buscad pistas y descubrid qué zorro se llevó la tarta antes de que huya",
+   "image": "https://m.media-amazon.com/images/I/51EZwrOd1YL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Toytown Europe",
+   "checkedAt": "2026-11-26"
+  },
+  "B07SBTXGQR": {
+   "status": "ok",
+   "title": "Osmo - Genius Starter Kit for iPad - 5 Educational Learning Games - Ages 6-10 - Math, Spelling, Creativity & More - Stem Toy iPad Base Included",
+   "image": "https://m.media-amazon.com/images/I/51cIfZXnXeL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon UK",
+   "checkedAt": "2026-11-26"
+  },
+  "B07TLD2M71": {
+   "status": "ok",
+   "title": "Goliath - Rummikub Original 6 Jugadores - Una Estrategia desde 6 Años | Formad grupos o escaleras con las fichas numeradas - el famoso clásico para toda la familia - colores variados",
+   "image": "https://m.media-amazon.com/images/I/51P3m+EIeBL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07WC54XF8": {
+   "status": "ok",
+   "title": "Devir - Catan Junior, Juego de Mesa en Español Catalan y Portugués, Juego de Mesa infantil, Juego de 6 años, Juego en Familia, Divertido (BGCATJU)",
+   "image": "https://m.media-amazon.com/images/I/51FC049-O4L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07XDRVG99": {
+   "status": "ok",
+   "title": "11412 Bloques de Madera Arcoíris XL, Small Foot, Arco de 12 Partes con 2 Bolas para Kindergarten y Desarrollo.",
+   "image": "https://m.media-amazon.com/images/I/41-lVHuQPwL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07YZ7Q67T": {
+   "status": "ok",
+   "title": "National Geographic Microscopio 40x-800x con Soporte para cámara de Smartphone y Accesorios para un fácil Inicio en el microscosmos",
+   "image": "https://m.media-amazon.com/images/I/41IX2UVBlXL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B07ZJHH3MT": {
+   "status": "ok",
+   "title": "Ravensburger - Mapa del Mundo, Puzzle niños 8 años, Puzzle 200 Piezas XXL | Puzzle XXL de 200 piezas con mapa del mundo, educativo y divertido, ideal como regalo original para niños a partir de 8 años.",
+   "image": "https://m.media-amazon.com/images/I/51zxbR+RotL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0837KSKK9": {
+   "status": "ok",
+   "title": "Hape E3170 Kitchen Set",
+   "image": "https://m.media-amazon.com/images/I/41vx6z7fILL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B08483YST4": {
+   "status": "ok",
+   "title": "Hasbro Gaming Conecta 4, Juego de Mesa de 2 Jugadores, Diversión en Familia, Juguete de Habilidad para Niños y Niñas de 6 Años en Adelante",
+   "image": "https://m.media-amazon.com/images/I/51af-+0-JPL._SL500_.jpg",
+   "availability": {
+    "type": "LEADTIME",
+    "message": "Envío en 4 a 7 meses"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B085HZZN58": {
+   "status": "ok",
+   "title": "Janod - Perro de Formas y Colores de Madera - Colección Sweet Cocoon - Juguete de Estímulo para Bebés Pintado al Agua - Aprender Las Formas y Los Colores - A Partir de 2 Años, J04421",
+   "image": "https://m.media-amazon.com/images/I/41srI-SqhJL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 4 en stock."
+   },
+   "merchant": "Educar jugando - Juguetes Educativos",
+   "checkedAt": "2026-11-26"
+  },
+  "B086S1DXNT": {
+   "status": "ok",
+   "title": "Clementoni - Super Doc - Robot Educativo y Programable para Niños +5 años, Juguete con 4 Personajes y Desafíos de Juego, Fomenta el Pensamiento Lógico, 55379",
+   "image": "https://m.media-amazon.com/images/I/51TaIulq-4L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "dinydon",
+   "checkedAt": "2026-11-26"
+  },
+  "B089WJV1NT": {
+   "status": "ok",
+   "title": "Ubongo Junior (trilingüe, ES/Cat/por)",
+   "image": "https://m.media-amazon.com/images/I/51K5vcGEKJL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "PALUTA TOY MARKET (Envío 24/48h Lab.)",
+   "checkedAt": "2026-11-26"
+  },
+  "B08BCSFX1X": {
+   "status": "ok",
+   "title": "Educa - Caza Monstruos | Juego de Mesa Infantil de Agilidad Visual y Rapidez | Juguete Educativo Recomendado a Partir de 5 años (18861)",
+   "image": "https://m.media-amazon.com/images/I/51V6Q8BNMlL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B08G4K8Y1F": {
+   "status": "ok",
+   "title": "LEGO 42118 Technic Monster Jam Grave Digger, Camión 2en1 Monstruo o Buggy Todoterreno, Juguete de Construcción, Regalo para Niños y Niñas a Partir de 7 Años",
+   "image": "https://m.media-amazon.com/images/I/5115CJkH18S._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 2 en stock."
+   },
+   "merchant": "VIBESSTORE",
+   "checkedAt": "2026-11-26"
+  },
+  "B08HJHPT1G": {
+   "status": "ok",
+   "title": "[en.casa] Cama infantil Treviolo forma de casita pino 70x140 cm natural | Cama Montessori bordes redondeados con barandillas somier 70 kg",
+   "image": "https://m.media-amazon.com/images/I/41cWqZzyPYL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Premium xl",
+   "checkedAt": "2026-11-26"
+  },
+  "B08KHLW7TX": {
+   "status": "ok",
+   "title": "ThinkFun - Gravity Maze, Juego de lógica +8 años, desafío para Resolver | Juego de lógica Gravity Maze con retos para resolver, para niños desde 8 años, paso a paso y durante un reto de razonamiento.",
+   "image": "https://m.media-amazon.com/images/I/51pGZCZa0KL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B08SBJ5BTS": {
+   "status": "ok",
+   "title": "Educa - Detectives Piratas, Puzzle Infantil de 50 Piezas, Móntalo y Busca los Objetos escondidos, 4 años (18896)",
+   "image": "https://m.media-amazon.com/images/I/51h9E0+GlaL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Weip",
+   "checkedAt": "2026-11-26"
+  },
+  "B08SY3J5XN": {
+   "status": "ok",
+   "title": "National Geographic Kit de excavación de Dinosaurios, fascinantes Kits de excavación para niños con réplica de Diente T-Rex y fósil Genuino de Caca de Dinosaurio | Kits de Ciencia educativa Stem",
+   "image": "https://m.media-amazon.com/images/I/51SG71DouiL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 2 en stock."
+   },
+   "merchant": "Real Merch",
+   "checkedAt": "2026-11-26"
+  },
+  "B093H92GR2": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B09BNWHBTY": {
+   "status": "ok",
+   "title": "Lego City Comisaría de Policía 60316 | Juguetes para niños de 6+ años, coche patrulla, helicóptero y camión de la basura, regalo de cumpleaños, 668 piezas",
+   "image": "https://m.media-amazon.com/images/I/51fjL2aHV2L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B09KNYST9B": {
+   "status": "ok",
+   "title": "National Geographic - Telescopio refractor de 50 mm para niños y | Soporte de trípode, 2 oculares, diagonal de estrella, longitud focal de 360 mm, visualización de luna y naturaleza",
+   "image": "https://m.media-amazon.com/images/I/31mzDtoQ7dL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon US",
+   "checkedAt": "2026-11-26"
+  },
+  "B09SP3TK8G": {
+   "status": "ok",
+   "title": "Learning Resources La Isla de las Matemáticas, Sumas y Restas, Juego, 6+ | Enfréntate a los peligros de la isla, resuelve sumas y restas y escapa del volcán mientras practicas cálculo mental.",
+   "image": "https://m.media-amazon.com/images/I/51ZivSnpQWL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B09T6XXM61": {
+   "status": "ok",
+   "title": "Ravensburger - Minecraft Heroes of The Village, Juego 7+, 2-4 Jugadores | Juego de mesa familiar Minecraft Heroes of the Village para 2-4 jugadores, recomendado desde 7 años y para partidas en grupo.",
+   "image": "https://m.media-amazon.com/images/I/51qqGuVsQQL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B09ZDRP5DM": {
+   "status": "ok",
+   "title": "NATIONAL GEOGRAPHIC Microscopio para niños, Kit Stem con un microscopio Infantil fácil de Usar, Zoom de hasta 400x, Diapositivas en Blanco y preparadas, especímenes de Roca y minerales, Juego de 37",
+   "image": "https://m.media-amazon.com/images/I/51i8mbiayTL._SL500_.jpg",
+   "availability": {
+    "type": "LEADTIME",
+    "message": "Envío en 6 a 7 días"
+   },
+   "merchant": "ZURICA",
+   "checkedAt": "2026-11-26"
+  },
+  "B0B12N48JB": {
+   "status": "ok",
+   "title": "Asmodee BrainBox Matemáticas, Juego Educativo de Cartas | Memoria y Observación para Familias y Niños, A Partir de 8 Años, A Partir de 1 Jugador, 15-30 Minutos por Partida, Español",
+   "image": "https://m.media-amazon.com/images/I/519AFXajWYL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0B21X19VC": {
+   "status": "ok",
+   "title": "Clementoni - 61550 - Ciencia y Juego - Rover de la NASA - Juego de construcción, Juguetes científicos, Kit de Ciencia para niños de 8 años, Juguetes Stem, versión en inglés",
+   "image": "https://m.media-amazon.com/images/I/51NCUjpy9wL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0B432HMMY": {
+   "status": "ok",
+   "title": "Cefa Toys - Electrocefa 500 Plus, Juego Educativo, Incluye 500 Circuitos y Proyectos de Electricidad, con Sonido, Bombillas y Alarmas, Apto para Niños a Partir de 8 Años",
+   "image": "https://m.media-amazon.com/images/I/31uCtbL2TaL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0B4BL9M15": {
+   "status": "ok",
+   "title": "Torre Rosa Montessori, material de 10 cubos de diferentes tamaños y pesos. Madera y tintes naturales. Fabricado en Galicia. Personalización de nombre sin coste.",
+   "image": "https://m.media-amazon.com/images/I/21gR44tPNOL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0B6PMQBDZ": {
+   "status": "ok",
+   "title": "Cama Infantil Estilo cabaña Bosco de Atmosphera, 90 x 190 cm, Madera de Pino, Estilo Montessori, Incluye somier y barandillas, para Dormitorio.",
+   "image": "https://m.media-amazon.com/images/I/418ueSkMUaL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "DECORATION BRANDS",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BGLTYW59": {
+   "status": "ok",
+   "title": "Bloques Magnéticos de Construcción Juguete Educativo Montessori para Niños y Niñas de 3 y 4 Años Bloques Magnéticos para Construcción Infantil Juguetes para Niños 3 Años Juguetes para Niños 3 Años",
+   "image": "https://m.media-amazon.com/images/I/51N991XVuML._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Soyee EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BHLHQ91M": {
+   "status": "ok",
+   "title": "UNGLINGA Kit Científico con 50+ Experimentos para Niños, Kit de Ciencias Juego de química, Excavación de Piedras Preciosas, Volcán,Stem Juguetes Kit de Ciencia para Niños",
+   "image": "https://m.media-amazon.com/images/I/51dnactdBdL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Unglinga ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BHX68T4C": {
+   "status": "ok",
+   "title": "Bresser telescopio astronómico Refractor de Viaje para niños y Principiantes 70/400 Montura AZ con trípode, Adaptador para móvil, Mochila Verde",
+   "image": "https://m.media-amazon.com/images/I/41YQR3zazHL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BSXC9P6J": {
+   "status": "ok",
+   "title": "Ravensburger - GraviTrax Pro Starter Set Vertical, Pista canicas 145 pz, 8+ | Starter Set GraviTrax PRO con 145 piezas para crear pistas de canicas a varios niveles. Para niños y adultos desde 8 años.",
+   "image": "https://m.media-amazon.com/images/I/515tQNB-7PL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BSXKTRYZ": {
+   "status": "ok",
+   "title": "Ravensburger - GraviTrax Core Starter Set, Circuito Canicas 124 pz, 8+ años | GraviTrax Core Starter Set circuito canicas 124 pz, Niños +8, Juego STEM, Compatible con todos los productos GraviTrax",
+   "image": "https://m.media-amazon.com/images/I/51XlQonUEyL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0C1CMQNMY": {
+   "status": "ok",
+   "title": "Sweety Fox - Juguetes Montessori de Apilamiento y de Selección - 1 2 3 años | Colores Pastel · Juguete para Actividades y Desarrollo de Madera · Favorece el Aprendizaje Temprano",
+   "image": "https://m.media-amazon.com/images/I/41Wq2m4DZbL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "BMS España",
+   "checkedAt": "2026-11-26"
+  },
+  "B0C47WG5KH": {
+   "status": "ok",
+   "title": "Learning Resources Stem Explorers Kit de Construcción de Máquinas, 5+ años | Construye máquinas con engranajes y poleas, resuelve retos STEM y explora física e ingeniería mientras desarrollas la lógica",
+   "image": "https://m.media-amazon.com/images/I/51jm3YuFDML._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0C5MRSLP3": {
+   "status": "ok",
+   "title": "UNGLINGA Kits de Ciencia de 150 experimentos para niños, proyectos Stem Juguetes educativos para niños, Ideas de Regalo de cumpleaños",
+   "image": "https://m.media-amazon.com/images/I/51byCjoRuXL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Unglinga ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B0C8T4X73R": {
+   "status": "ok",
+   "title": "Escape Room Niños 5-12 Años: Magia | Juego Familiar Regalo | 1-5 Jugadores | Diversión Niños y Adultos. Regalo Original. Juego Familiar Infantil. Ideal Aire Libre. Juegos De Mesa Niños 5 Años O Más",
+   "image": "https://m.media-amazon.com/images/I/51Bpbagqi4L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "EPIC ENIGMAS Juegos de Escape Room",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CBD9RK76": {
+   "status": "ok",
+   "title": "Science4you Kit de Excavación de Fósiles para Niños 6+ Años – Aprende sobre Paleontología, Kit de Excavación, Descubre Todos los Increíbles Fósiles, Regalo de Paleontología para Niñas y Niños 6 7 8 9+",
+   "image": "https://m.media-amazon.com/images/I/51EavuaVFpL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CBDC1JPN": {
+   "status": "ok",
+   "title": "Science4you Kit de Electrónica para Niños – Juego de Circuitos, Kit Robótico, 60 Experimentos con Motor incluido, Juguete STEM, Juguetes Electrónicos y Educativos para Niños y Niñas de 8 9 10 11+ Años",
+   "image": "https://m.media-amazon.com/images/I/51jcozBQjpL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CBDDRLJN": {
+   "status": "ok",
+   "title": "Science4you Kit de Mano Hidráulica Cyborg - Construye tu Propia Mano Robótica Gigante con 112 Piezas, Juguetes Stem Iron, Regalo de Robots Kits de Modelismo para Niños y Niñas de 10 11 12 13 14+ años",
+   "image": "https://m.media-amazon.com/images/I/51sSHqYTh8L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CDM16V5N": {
+   "status": "ok",
+   "title": "Intro to Chemistry",
+   "image": "https://m.media-amazon.com/images/I/41xfjJXR1DL._SL500_.jpg",
+   "availability": {
+    "type": "LEADTIME",
+    "message": "Envío en 2 a 3 días"
+   },
+   "merchant": "PBShop ES TRACKED",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CFW1BMCX": {
+   "status": "ok",
+   "title": "LEGO Creator 3 en 1 Safari de Animales Salvajes 31150 | Juguetes para niños de 9+ años, convertible en jirafa, gacelas o león, regalo de cumpleaños, 780 piezas",
+   "image": "https://m.media-amazon.com/images/I/51kULhmONQL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 4 en stock."
+   },
+   "merchant": "dinydon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CFW22SBY": {
+   "status": "ok",
+   "title": "LEGO Classic Vehículos Creativos 11036 | Juguetes para niños de 5+ años, maquetas de coches urbanos: coche de policía, camión y más, regalo de cumpleaños, 900 piezas",
+   "image": "https://m.media-amazon.com/images/I/515LMhjpURL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "Disponible para envío en 1 o 2 días"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CJ9S3XB5": {
+   "status": "ok",
+   "title": "Nene Toys El Frutal, Juego de Mesa Cooperativo para Niños Desde 2 Años | Juego Infantil de Madera para Aprender Colores y Números – Fomenta el Trabajo en Equipo y el Aprendizaje en Familia",
+   "image": "https://m.media-amazon.com/images/I/51X98JzRS1L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Nene Official",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CL7N2D8C": {
+   "status": "ok",
+   "title": "Joyreal Busy Board Montessori 1 2 3 Año, Tablero Montessori Juguetes Niños Niña, Juegos Educativos de Madera con 19 LED, Regalos Juguetes Sensoriales Bebe",
+   "image": "https://m.media-amazon.com/images/I/51mxHsMHBxL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Joyreal Official",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CND78SP5": {
+   "status": "ok",
+   "title": "smartwood Cama Infantil 90x190 cm con Barrera, Madera, TILA 2L | Cama Montessori, somier de láminas hasta 230 kg, certificado FSC, bordes redondeados, montaje fácil, desde 3 años",
+   "image": "https://m.media-amazon.com/images/I/41caZDfGn6L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "SMARTWOOD",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CS85Q957": {
+   "status": "ok",
+   "title": "PLAYMOBIL JUNIOR, 71656 JUNIOR: aventura en la granja con tractor, remolque y animales , de 1 a 4 años",
+   "image": "https://m.media-amazon.com/images/I/41PMz4AtufL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CSFBGQJP": {
+   "status": "ok",
+   "title": "hahaland Juguetes Niños 1 año Montessori Juego Pesca de Tela, 22 Piezas | Juguetes Montessori para Niños 1 2 3 años, Interactivo & Educativo, Regalo Bebe 1 año Niño Niña",
+   "image": "https://m.media-amazon.com/images/I/51kvHWgPK0L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Hahaland Toys",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CSSYJPCQ": {
+   "status": "ok",
+   "title": "Cama Montessori 70x140 con barrera, Natural | Apache Wonderland CoolDreams | Tipo tipi, para niños a partir de 2 años. Madera de haya. Colchón no incluido.",
+   "image": "https://m.media-amazon.com/images/I/41LqbQC+PfL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Cool Dreams",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CT3D2W6L": {
+   "status": "ok",
+   "title": "Bresser Junior 70/400 - Telescopio para niños a Partir de 8 años, astronomía Principiantes, telescopio con Mochila, Accesorios y Soporte para Smartphone, Cielo Nocturno Azul",
+   "image": "https://m.media-amazon.com/images/I/41pOH75ujgL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CV7XR44L": {
+   "status": "ok",
+   "title": "Dominó Granja",
+   "image": "https://m.media-amazon.com/images/I/41gL+4RAS3L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "dinydon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CWH1W4W3": {
+   "status": "ok",
+   "title": "LEGO Technic Camión FMX y Excavadora Eléctrica EC230 Volvo 42175 | Juguetes para niños de 10+ años, decoración de la estantería, vehículos de obra, regalo de cumpleaños, 2274 piezas",
+   "image": "https://m.media-amazon.com/images/I/511B4XNvDyL._SL500_.jpg",
+   "availability": {
+    "type": "AVAILABLE_DATE",
+    "message": ""
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CX4RLCXW": {
+   "status": "ok",
+   "title": "Magna-Tiles microMAGS - Juego de construcción magnética de viaje de 26 piezas, fichas magnéticas portátiles para juego creativo y aprendizaje STEM, juguete de viaje compacto para niños a partir de 3",
+   "image": "https://m.media-amazon.com/images/I/41tSGORy3NL._SL500_.jpg",
+   "availability": {
+    "type": "AVAILABLE_DATE",
+    "message": ""
+   },
+   "merchant": "QwertyCom",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CZRYZ3K5": {
+   "status": "ok",
+   "title": "ThinkFun - Rush Hour®, Juego de lógica desde 8 años, desafío para resolver | Juego de lógica Rush Hour® con retos para resolver, para niños a partir de 8 años, paso a paso y para completar cada desafío.",
+   "image": "https://m.media-amazon.com/images/I/51UcGuSWGRL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0D31LM45N": {
+   "status": "ok",
+   "title": "smartwood Cama Casita 60x120 cm con Somier, de Madera, Blanco, Tipi F | Cama Montessori baja, barrera de seguridad, acceso 14 cm, carga 230 kg, madera FSC, bordes redondeados, montaje fácil",
+   "image": "https://m.media-amazon.com/images/I/51ndkN2jM7L._SL500_.jpg",
+   "availability": {
+    "type": "LEADTIME",
+    "message": "Envío en 4 a 5 días"
+   },
+   "merchant": "SMARTWOOD",
+   "checkedAt": "2026-11-26"
+  },
+  "B0D321VBL1": {
+   "status": "ok",
+   "title": "Learning Resources, Stem, exploradores superhéroes de la Ciencia, Kit científico para niños y niñas de 6 años, Incluye 10 experimentos",
+   "image": "https://m.media-amazon.com/images/I/51GXHuM7UkL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 4 en stock (hay más unidades en camino)."
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0D3LWM5MS": {
+   "status": "ok",
+   "title": "ThinkFun - Rush Hour® Jr., Juego de lógica +5 años, desafío para Resolver | Juego de lógica Rush Hour® Jr. con retos para resolver, para niños a partir de 5 años, paso a paso, como actividad de lógica.",
+   "image": "https://m.media-amazon.com/images/I/51daKaUefiL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DDL4S6XC": {
+   "status": "ok",
+   "title": "ThinkFun - Rush Hour Deluxe | Juego de Lógica 120 Retos para Niños 8+ | Rush Hour Deluxe con 120 retos de dificultad progresiva. Mueve los vehículos, libera el coche rojo y pon a prueba tu lógica.",
+   "image": "https://m.media-amazon.com/images/I/51Yerr4+2IL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DFG88GYG": {
+   "status": "ok",
+   "title": "Microscopio para Niños Principiantes, 300X-1200X Microscopio Profesional con Iluminación LED y Soporte, Microscope for Kids Experimentos Científicos, Ciencia para Niños, Ccasa, Escuela, Laboratorio",
+   "image": "https://m.media-amazon.com/images/I/41bFFxCJfKL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "SHMSHNG",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DNKGZ8MZ": {
+   "status": "ok",
+   "title": "Weber Industries Cama Pilou 70 x 140 + somier, Blanco y Natural",
+   "image": "https://m.media-amazon.com/images/I/51AM2W4m9kL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DQ668F8S": {
+   "status": "ok",
+   "title": "National Geographic Sistema Solar 3D para Construir, Pintar y Decorar | Modelo que brilla en la oscuridad con brazos móviles, manualidades del espacio y proyecto STEM para niños",
+   "image": "https://m.media-amazon.com/images/I/51-JMABDXYL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "National Geographic Science Toys",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DRW8WDB1": {
+   "status": "ok",
+   "title": "Basic Fun K'NEX Deluxe – Construye 80 Modelos con 408 Piezas y Bolsa de Almacenamiento – Juego Stem para niños a Partir de 7 años",
+   "image": "https://m.media-amazon.com/images/I/516K+9VJO5L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DSCFYKF7": {
+   "status": "ok",
+   "title": "Spin Master Games Tetris Juego de Mesa de Estrategia y Velocidad +8 Años | Tetris juego de mesa para 2-4 jugadores. Juego de estrategia y habilidad para toda la familia desde 8 años.",
+   "image": "https://m.media-amazon.com/images/I/51rVt4yPJ6L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 3 en stock (hay más unidades en camino)."
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DSCJFN67": {
+   "status": "ok",
+   "title": "Kids First: Kit de ciencia | Conjunto de experimentos | Explora la introducción a la química, herramientas incluidas, manual ilustrado, aprendizaje y educación de ciencias STEM",
+   "image": "https://m.media-amazon.com/images/I/51rVF88tOZL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon US",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DSJXN81Y": {
+   "status": "ok",
+   "title": "National Geographic Química Asquerosa con 18 Experimentos para Niños | Disecciona un cerebro, explota glóbulos rojos y más, experimentos pegajosos y juego de ciencia STEM",
+   "image": "https://m.media-amazon.com/images/I/51795s1995L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "National Geographic Science Toys",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DT8Z8BFX": {
+   "status": "ok",
+   "title": "Labebe Torre de Aprendizaje, Montessori Torre Plegable per niño, Multifuncional Learning Tower con Pizarra, 3 en 1 Torretta Torre de Aprendizaje a Partir de 1 Año-Blanco y Madera",
+   "image": "https://m.media-amazon.com/images/I/41x6LOJ+O-L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "hangzhou yue gou mao yi you xian gon si",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DTY7F7Y3": {
+   "status": "ok",
+   "title": "National Geographic Mega Kit para Cultivar 6 Cristales para Niños | Base iluminada, experimento de cristalización, kit de ciencia y actividad STEM para niños de 8-12 años",
+   "image": "https://m.media-amazon.com/images/I/51CBPaSB7kL._SL500_.jpg",
+   "availability": {
+    "type": "AVAILABLE_DATE",
+    "message": ""
+   },
+   "merchant": "National Geographic Science Toys",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DTYJ3VKH": {
+   "status": "ok",
+   "title": "National Geographic Mega Kit de Excavación de Gemas y Minerales para Niños | Excava piedras preciosas y cristales, crea una colección de minerales, juego educativo de geología para niños",
+   "image": "https://m.media-amazon.com/images/I/61AaVuyKqfL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "National Geographic Science Toys",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DWDRX69Q": {
+   "status": "ok",
+   "title": "LEGO Technic Ferrari FXX K 42212 | Juguetes para niños de 10+ años, maqueta de coche de carreras con motor V12 y diferencial, regalo de cumpleaños, 897 piezas",
+   "image": "https://m.media-amazon.com/images/I/514tttmkQ8L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DWS91TZ7": {
+   "status": "ok",
+   "title": "Bieco Arco iris de madera corzo Ella | Torre apilable bebé | juego de montaje de madera arco iris Montessori arco iris decoración torre apilable a partir de 1 año arco iris de madera para niños",
+   "image": "https://m.media-amazon.com/images/I/41i4W42vMKL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0DXJTQ89Z": {
+   "status": "ok",
+   "title": "Luzsco Telescopio astronómico para niños de 8 a 12 años con trípode | Telescopio para principiantes con apertura de 50 mm | Regalo educativo para niños y niñas de 6 a 12 años | Portátil | 2 oculares",
+   "image": "https://m.media-amazon.com/images/I/51+yITzHdtL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Luzsco",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DZBQMFKN": {
+   "status": "ok",
+   "title": "USCAMEL Microscopio para Niños 8-12 años: microscopio Adultos Óptico 1200X",
+   "image": "https://m.media-amazon.com/images/I/51fZJ6Vi0TL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "EUROsales",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FKBMZ7K8": {
+   "status": "ok",
+   "title": "ThinkFun - Maze Pop, Juego de lógica Desde 8 años, desafío para Resolver | Juego de lógica Maze Pop con retos para resolver, para niños desde 8 años, paso a paso y para poner a prueba el razonamiento.",
+   "image": "https://m.media-amazon.com/images/I/41iei4Cl10L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FPXDRV4H": {
+   "status": "ok",
+   "title": "LEGO Technic Cohete del Sistema de Lanzamiento Espacial NASA Artemis 42221 | Juguetes para niños de 9+ años, cohete espacial con 4 astronautas y función de propulsión, regalo de cumpleaños, 632 piezas",
+   "image": "https://m.media-amazon.com/images/I/41Xtx5fxaDL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FPXFKGQR": {
+   "status": "ok",
+   "title": "LEGO Technic Coche de Carreras BMW M4 GT3 EVO 42226 | Juguetes para niños de 11+ años, maqueta de vehículo con motor V6, dirección y puertas que se abren, regalo gamer, 747 piezas",
+   "image": "https://m.media-amazon.com/images/I/51ODoWjsccL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FPXGPH6P": {
+   "status": "ok",
+   "title": "LEGO Duplo Classic Caja Creativa a Todo Color 10479 | Juguetes educativos para niñas y niños de 1+ años, ladrillos de números y animales, regalo de cumpleaños, 80 piezas",
+   "image": "https://m.media-amazon.com/images/I/51QO0suXjNL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FS1JKJBB": {
+   "status": "ok",
+   "title": "YENGUAN Telescopio para Adultos y niños – 80500 Refractor Telescopio para Principiantes – Portátil con Mochila, Soporte para teléfono – Versión Azul eléctrico",
+   "image": "https://m.media-amazon.com/images/I/41vGvReGYzL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Guanxingji-EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0G8K4WGXX": {
+   "status": "ok",
+   "title": "Asmodee Kids Dixit Kids, Juego de Mesa cooperativo para niños | Juego de Mesa Familiar con Preciosas Ilustraciones, A Partir de 6 años, De 3 a 6 Jugadores, Duración: 25 Minutos, Español",
+   "image": "https://m.media-amazon.com/images/I/51ZPa6SIlNL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GNZNGP3M": {
+   "status": "ok",
+   "title": "Clementoni - Ciencia y Juego, Laboratorio de Mecánica: Xtreme Motocross, Kit de Construcción Stem, Más de 170 Componentes, Edad 8+, Fabricado en Italia, 55665",
+   "image": "https://m.media-amazon.com/images/I/51kdKUxckjL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GNZZKKTH": {
+   "status": "ok",
+   "title": "Clementoni - Ciencia y Juego, Laboratorio de Mecánica: Coche de Carreras, Kit de Construcción Stem, +90 Componentes, Edad 8+, Fabricado en Italia, 55672",
+   "image": "https://m.media-amazon.com/images/I/51ro+E6TMlL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GQHJW4PR": {
+   "status": "ok",
+   "title": "HABA 2013336004 - Bichos, Juego Infantil de Mesa de Memoria y cálculo Mental (Sumas hasta 10). Más 6 años",
+   "image": "https://m.media-amazon.com/images/I/41h0YqoKwUL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GRVP38M8": {
+   "status": "ok",
+   "title": "ARNSSIEN Microscopio para niños 2en1 Telescopio 1000x STEM Digital Portátil | Microscopio Digital 1080P, pantalla 2\", kit científico, exploración al aire libre, regalo niños y niñas 6-12 años, Inskam387",
+   "image": "https://m.media-amazon.com/images/I/41rbyEV1RAL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "ARNSSIEN-EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0H2LDYFQL": {
+   "status": "ok",
+   "title": "COSYLAND Torre de Aprendizaje Montessori para Niños Mayores de 18 Meses, Estructura Antivuelco y Estable (Natural Oscuro)",
+   "image": "https://m.media-amazon.com/images/I/41zyOhqgS+L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0HLZSMKVG": {
+   "status": "ok",
+   "title": "Pack Virus! Juego de Cartas con Tapete de Neopreno, 110 Fundas y Deck Box | Virus! de Tranjis Games con tapete mini de neopreno Zacatrus, 2 paquetes de fundas Asia y caja guarda-cartas.",
+   "image": "https://m.media-amazon.com/images/I/41iPYTZcP3L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  }
+ }
 }
