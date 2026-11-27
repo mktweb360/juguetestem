@@ -3414,6 +3414,25 @@ export const products: Product[] = [
     relatedPosts: ["mejores-lego-educativos", "lego-vs-otras-marcas-construccion", "juguetes-regalo-navidad-ninos"],
   },
   {
+    slug: "lego-technic-porsche-gt4-e-performance-42176",
+    image: "https://m.media-amazon.com/images/I/71cOLfwlptL._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "LEGO Technic Coche de Carreras Porsche GT4 e-Performance 42176",
+    asin: "B0CWH44JKC",
+    categorySlug: "construccion-lego",
+    categoryName: "Construcción y LEGO",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Coche teledirigido LEGO Technic del Porsche GT4 e-Performance para mayores de 10 años, con app CONTROL+, luces, puertas y pila recargable.",
+    fullDescription: "Kit de maqueta de LEGO Technic del Porsche GT4 e-Performance, un coche teledirigido para niños y niñas a partir de 10 años. Según la ficha de Amazon, viene con CONTROL+, una app que permite manejar la dirección, controlar las luces y recibir datos técnicos en tiempo real. El coche avanza y retrocede, abre las puertas y enciende las luces, y el set incluye una pila recargable para alimentarlo. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Se maneja desde la app CONTROL+, con datos técnicos en tiempo real, según la ficha", "Dirección, luces y puertas que se abren", "Incluye pila recargable"],
+    cons: ["Recomendado a partir de 10 años según la ficha: un montaje de Technic exige paciencia", "Necesita un dispositivo compatible con la app CONTROL+ para manejarlo", "La ficha no indica el número de piezas en el resumen", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: {"Marca": "LEGO", "Línea": "Technic", "Referencia": "42176", "Edad": "10+ años", "Control": "App CONTROL+", "Batería": "Pila recargable incluida", "Vendido por": "Amazon"},
+    relatedPosts: ["mejores-lego-educativos", "lego-vs-otras-marcas-construccion", "juguetes-regalo-navidad-ninos"],
+  },
+  {
     slug: "celestron-astromaster-130eq-telescopio-reflector-newtoniano",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Celestron AstroMaster 130EQ Telescopio reflector newtoniano (31045)",
