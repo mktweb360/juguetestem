@@ -7,6 +7,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "bresser-junior-telescopio-refractor-50-360-tienda",
   "celestron-astromaster-130eq-telescopio-reflector-newtoniano",
   "lego-technic-ford-gt40-mkii-1966-42223",
+  "lego-technic-bugatti-chiron-pur-sport-42222",
   "lego-technic-nissan-skyline-gt-r-r34-42210",
   "ravensburger-gravitrax-pro-starter-set-vertical",
   "coodoo-bloques-magneticos-40-piezas",
