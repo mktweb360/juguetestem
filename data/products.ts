@@ -654,6 +654,25 @@ export const products: Product[] = [
 
   // LIBROS Y RECURSOS EDUCATIVOS
   {
+    slug: "science4you-mega-kit-cientifico-250-experimentos",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Science4you Mega Kit Científico 250 Experimentos",
+    asin: "B0CBD9V3R8",
+    categorySlug: "juguetes-stem",
+    categoryName: "Juguetes STEM",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Kit de Science4you con 250 experimentos de física, química, geología y biología, indicado por el fabricante desde 8 años.",
+    fullDescription: "Mega kit científico de Science4you que, según la ficha de Amazon, reúne 250 experimentos de física, química, geología y biología. El fabricante lo indica para niños desde 8 años y plantea los experimentos bajo supervisión de un adulto. La ficha no detalla qué materiales ni qué experimentos concretos incluye, así que conviene revisar el contenido en la propia ficha antes de comprar. Mide unos 8 x 38,2 x 29 cm y pesa 600 g. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["250 experimentos de cuatro áreas científicas, según la ficha", "Indicado por el fabricante desde 8 años", "Vendido y enviado por Amazon"],
+    cons: ["La ficha no detalla el contenido concreto ni los materiales incluidos", "Requiere la supervisión de un adulto, según el fabricante", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Science4you", "Experimentos": "250", "Edad indicada": "Desde 8 años", "Áreas": "Física, química, geología y biología", "Medidas": "8 x 38,2 x 29 cm", "Peso": "600 g" },
+    badge: "250 experimentos desde 8 años",
+    relatedPosts: ["mejores-kits-ciencia-ninos"],
+  },
+  {
     slug: "science4you-kit-electronica-circuitos-60-experimentos",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Science4you Kit de Electrónica 60 Experimentos",
