@@ -3433,6 +3433,25 @@ export const products: Product[] = [
     relatedPosts: ["mejores-lego-educativos", "lego-vs-otras-marcas-construccion", "juguetes-regalo-navidad-ninos"],
   },
   {
+    slug: "lego-technic-ducati-desmo450-mx-42238",
+    image: "https://m.media-amazon.com/images/I/71pxTkZnonL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "LEGO Technic Moto Ducati Desmo450 MX Factory 42238",
+    asin: "B0GGSN9TB3",
+    categorySlug: "construccion-lego",
+    categoryName: "Construcción y LEGO",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Maqueta LEGO Technic de una moto de motocross Ducati Desmo450 MX Factory, con dirección funcional, motor monocilíndrico y suspensión delantera y trasera.",
+    fullDescription: "Kit de construcción de LEGO Technic de la moto de motocross Ducati Desmo450 MX Factory, en color rojo y con el número 222. Según la ficha de Amazon, tiene dirección funcional, motor monocilíndrico y suspensión delantera y trasera, y el motor se acciona por cadena desde la rueda trasera para ofrecer un funcionamiento mecánico realista. La ficha lo presenta como una introducción a la ingeniería dentro del aprendizaje STEM y como decoración para una estantería o un escritorio. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Dirección funcional, motor monocilíndrico y suspensión delantera y trasera, según la ficha", "Motor accionado por cadena desde la rueda trasera: ayuda a ver cómo se transmite el movimiento", "Sirve para montar y exponer"],
+    cons: ["Un montaje de Technic exige paciencia y constancia", "La ficha no indica el número de piezas en el resumen", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: {"Marca": "LEGO", "Línea": "Technic", "Referencia": "42238", "Edad": "A partir de 10 años", "Vendido por": "Amazon"},
+    relatedPosts: ["mejores-lego-educativos", "lego-vs-otras-marcas-construccion", "juguetes-regalo-navidad-ninos"],
+  },
+  {
     slug: "celestron-astromaster-130eq-telescopio-reflector-newtoniano",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Celestron AstroMaster 130EQ Telescopio reflector newtoniano (31045)",

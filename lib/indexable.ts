@@ -10,6 +10,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "lego-technic-bugatti-chiron-pur-sport-42222",
   "lego-technic-ferrari-488-pista-42235",
   "lego-technic-porsche-gt4-e-performance-42176",
+  "lego-technic-ducati-desmo450-mx-42238",
   "lego-technic-nissan-skyline-gt-r-r34-42210",
   "ravensburger-gravitrax-pro-starter-set-vertical",
   "coodoo-bloques-magneticos-40-piezas",
