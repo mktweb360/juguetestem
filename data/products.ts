@@ -3376,6 +3376,25 @@ export const products: Product[] = [
     relatedPosts: ["mejores-lego-educativos"],
   },
   {
+    slug: "lego-technic-bugatti-chiron-pur-sport-42222",
+    image: "https://m.media-amazon.com/images/I/71NgIMc+voL._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "LEGO Technic Hipercoche Bugatti Chiron Pur Sport 42222",
+    asin: "B0FPXDNXZH",
+    categorySlug: "construccion-lego",
+    categoryName: "Construcción y LEGO",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Maqueta LEGO Technic del hipercoche Bugatti Chiron Pur Sport para mayores de 9 años, con dirección, motor W16, puertas y capó que se abren.",
+    fullDescription: "Kit de maqueta de coche de LEGO Technic para niños y niñas a partir de 9 años aficionados a los coches de carreras. Según la ficha de Amazon, reproduce el hipercoche Bugatti Chiron Pur Sport con dirección, motor W16, puertas y capó que se abren, carrocería naranja y decoración en negro. Sirve para montarlo, jugar con él y exponerlo en una estantería. Incluye un código canjeable para desbloquear una versión digital del coche en el videojuego en línea Asphalt Legends. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Dirección, motor W16, puertas y capó que se abren, según la ficha", "Sirve para montar, jugar y exponer", "Código canjeable para Asphalt Legends"],
+    cons: ["Recomendado a partir de 9 años según la ficha: un montaje de Technic exige paciencia y, a esa edad, ayuda", "La ficha no indica el número de piezas en el resumen", "El código de Asphalt Legends solo sirve si se juega a ese videojuego en línea", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: {"Marca": "LEGO", "Línea": "Technic", "Referencia": "42222", "Edad": "9+ años", "Extra": "Código para Asphalt Legends", "Vendido por": "Amazon"},
+    relatedPosts: ["mejores-lego-educativos", "lego-vs-otras-marcas-construccion", "juguetes-regalo-navidad-ninos"],
+  },
+  {
     slug: "celestron-astromaster-130eq-telescopio-reflector-newtoniano",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Celestron AstroMaster 130EQ Telescopio reflector newtoniano (31045)",

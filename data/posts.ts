@@ -298,7 +298,7 @@ export const posts: Post[] = [
     category: "Construcción y LEGO",
     date: "2025-07-14",
     readTime: 7,
-    relatedProducts: ["lego-10698-caja-ladrillos-creativos-grande", "geomag-classic-color-91-piezas", "lego-technic-bmw-m4-gt3-evo-42226", "lego-technic-ferrari-fxx-k-42212", "lego-technic-camion-volvo-fmx-excavadora-42175", "lego-technic-nissan-skyline-gt-r-r34-42210", "lego-technic-ford-gt40-mkii-1966-42223"],
+    relatedProducts: ["lego-10698-caja-ladrillos-creativos-grande", "geomag-classic-color-91-piezas", "lego-technic-bmw-m4-gt3-evo-42226", "lego-technic-ferrari-fxx-k-42212", "lego-technic-camion-volvo-fmx-excavadora-42175", "lego-technic-nissan-skyline-gt-r-r34-42210", "lego-technic-ford-gt40-mkii-1966-42223", "lego-technic-bugatti-chiron-pur-sport-42222"],
     categoryCta: { href: "/tienda/construccion-lego", text: "Ver sets LEGO →" },
   },
   {
