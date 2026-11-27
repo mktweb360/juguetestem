@@ -366,6 +366,25 @@ export const products: Product[] = [
 
   // JUEGOS DE MESA EDUCATIVOS
   {
+    slug: "asmodee-brainbox-ciencia-cartas-memoria",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Asmodee BrainBox Ciencia, juego de cartas de memoria y observación",
+    asin: "B0C2J5RYM4",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de mesa educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Juego de cartas ilustradas de memoria y observación sobre ciencia, con 55 cartas, para jugar en solitario o en familia, desde 8 años.",
+    fullDescription: "BrainBox Ciencia es un juego de cartas de Asmodee, con fabricante Beezerwizzer Studio según la ficha de Amazon. Se observa una carta ilustrada durante diez segundos y después hay que responder a una pregunta sobre lo que se ha visto, con contenidos de biología, física y química. La ficha lo describe como apto para jugar en grupo o en solitario, con partidas de unos 10 minutos, y lo indica a partir de 8 años (edad recomendada por el fabricante: de 8 a 12 años). Incluye 55 cartas, reglamento, relojes de arena y un dado, en una caja de unos 12 cm de lado. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Memoria, observación y primeras nociones de ciencia en un mismo juego", "Partidas cortas, de unos 10 minutos", "Se puede jugar en solitario o en grupo", "Formato compacto, fácil de llevar", "Vendido y enviado por Amazon"],
+    cons: ["Hay que leer con soltura las preguntas, así que encaja mejor hacia los 8 años", "La ficha no concreta el número de preguntas", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Asmodee", "Fabricante": "Beezerwizzer Studio", "Cartas": "55", "Edad recomendada": "8 a 12 años", "Duración": "Unos 10 minutos", "Jugadores": "En solitario o en grupo" },
+    badge: "Memoria y ciencia",
+    relatedPosts: ["juegos-mesa-educativos-primaria", "mejores-juegos-mesa-familia"],
+  },
+  {
     slug: "asmodee-brainbox-matematicas-cartas",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Asmodee BrainBox Matemáticas Juego de Cartas",
