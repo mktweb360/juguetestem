@@ -289,6 +289,25 @@ export const products: Product[] = [
     relatedPosts: ["juguetes-stem-ninos-8-anos", "juguetes-stem-sin-pantallas-ideas-por-edad"],
   },
   {
+    slug: "ravensburger-gravitrax-action-set-twist-101-piezas",
+    image: "https://m.media-amazon.com/images/I/61xWyTESnjL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Ravensburger GraviTrax Action Set Twist 101 Piezas Extensión",
+    asin: "B0CFY1XW6L",
+    categorySlug: "juguetes-stem",
+    categoryName: "Juguetes STEM y Ciencia",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Set de 101 piezas con 2 elementos de acción para ampliar circuitos de canicas GraviTrax, para mayores de 8 años.",
+    fullDescription: "El GraviTrax Action Set Twist de Ravensburger es un set de 101 piezas para construir circuitos de canicas, pensado para niños y adultos a partir de 8 años. Según la ficha de Amazon, incluye 2 elementos de acción que aportan nuevos movimientos al circuito y permiten recorridos más dinámicos, y es compatible con todos los sets GraviTrax. La ficha lo presenta como un juego de construcción STEM. Mide unos 33,8 x 33,8 x 8,3 cm y pesa 1,95 kg. Su número de modelo es 22576. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "101 piezas con 2 elementos de acción, según la ficha", "Compatible con todos los GraviTrax", "Juego de construcción STEM para 8 años en adelante"],
+    cons: ["Se presenta como set de inicio y extensión: para recorridos grandes conviene combinarlo con otros sets GraviTrax", "Recomendado a partir de 8 años según la ficha", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: {"Marca": "Ravensburger", "Serie": "GraviTrax", "Modelo": "22576", "Piezas": "101", "Edad recomendada": "8 - 99 años", "Vendido por": "Amazon"},
+    relatedPosts: ["juguetes-stem-ninos-8-anos", "juguetes-stem-sin-pantallas-ideas-por-edad"],
+  },
+  {
     slug: "science4you-robotics-betabot-125-piezas",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Science4you Robotics Betabot Robot 125 Piezas",
