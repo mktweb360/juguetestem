@@ -2129,6 +2129,25 @@ export const products: Product[] = [
     ],
   },
   {
+    slug: "maldito-games-pistas-cruzadas-juego-palabras-cooperativo",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Maldito Games Pistas Cruzadas, juego cooperativo de palabras y asociación",
+    asin: "B0BFCH7TMR",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de mesa educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Juego cooperativo de palabras y asociación de ideas para 2 a 6 jugadores, con partidas de 5 a 10 minutos, indicado desde 7 años.",
+    fullDescription: "Pistas Cruzadas es un juego de mesa cooperativo de palabras de Maldito Games, con fabricante Devir según la ficha de Amazon. Los jugadores dan pistas que conectan conceptos para completar una cuadrícula, trabajando en equipo. Admite de 2 a 6 jugadores, las partidas duran entre 5 y 10 minutos, el fabricante lo indica a partir de 7 años y la ficha dice que la dificultad es ajustable. La caja es pequeña, de unos 11 x 4 cm, y pesa 277 g. La ficha no detalla el número de cartas ni el contenido exacto de la caja. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Cooperativo: se juega en equipo, sin perdedores individuales", "Partidas cortas, de 5 a 10 minutos", "Indicado por el fabricante desde 7 años, con dificultad ajustable según la ficha", "Vendido y enviado por Amazon"],
+    cons: ["Es un juego de palabras en español: requiere lectura fluida, así que los más pequeños del rango pueden necesitar ayuda", "La ficha no detalla el contenido exacto de la caja", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Maldito Games", "Fabricante": "Devir", "Jugadores": "2 a 6", "Duración": "5 a 10 minutos", "Edad indicada": "Desde 7 años", "Peso": "277 g" },
+    badge: "Cooperativo de palabras, desde 7 años",
+    relatedPosts: ["juegos-mesa-cooperativos-ninos-edad-como-elegir"],
+  },
+  {
     slug: "cefa-toys-tweak-juego-cartas-calculo-mental",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "CEFA Toys Tweak! Juego de cartas de cálculo mental",
