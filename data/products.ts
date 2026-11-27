@@ -366,6 +366,25 @@ export const products: Product[] = [
 
   // JUEGOS DE MESA EDUCATIVOS
   {
+    slug: "educa-identic-natura-juego-memoria-parejas-animales",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Educa Identic Natura, juego de memoria y cartas con parejas de animales",
+    asin: "B004EPXMWA",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de mesa educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Juego de memoria de Educa con 110 cartas y 55 parejas de animales con plumas, pelo o escamas, recomendado de 6 a 9 años.",
+    fullDescription: "Identic Natura es un juego de memoria y cartas de Educa, marca española de juguetes. Según la ficha de Amazon, hay que encontrar las 55 parejas de animales con plumas, pelo o escamas escondidas entre las 110 cartas. La ficha indica que ejercita la memoria, la concentración y la agudeza visual, que las cartas son de cartón resistente y que la edad recomendada es de 6 a 9 años, aunque también se puede jugar desde los 4 años en compañía de un adulto, según el fabricante. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["110 cartas y 55 parejas de animales, con mucha variedad", "Trabaja la memoria, la concentración y la agudeza visual", "Edad recomendada de 6 a 9 años, jugable desde 4 con un adulto, según el fabricante", "Cartas de cartón resistente, según la ficha", "Vendido y enviado por Amazon"],
+    cons: ["Con tantas parejas, las partidas completas pueden alargarse para los más pequeños", "La ficha no detalla el número de jugadores ni la duración", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Educa", "Cartas": "110 (55 parejas)", "Tema": "Animales con plumas, pelo o escamas", "Edad recomendada": "6 a 9 años" },
+    badge: "Memoria con animales",
+    relatedPosts: ["juegos-mesa-educativos-primaria"],
+  },
+  {
     slug: "asmodee-brainbox-imagenes-cartas-memoria",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Asmodee BrainBox Imágenes, juego de cartas de memoria y observación",
