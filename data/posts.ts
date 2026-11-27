@@ -770,7 +770,7 @@ export const posts: Post[] = [
     category: "STEM",
     date: "2026-10-01",
     readTime: 9,
-    relatedProducts: ["goula-regletas-10x10-300-piezas-madera", "fournier-parchis-oca-tablero-33x33", "learning-resources-cubos-mathlink-actividades", "rummikub-original-goliath-6-jugadores"],
+    relatedProducts: ["goula-regletas-10x10-300-piezas-madera", "fournier-parchis-oca-tablero-33x33", "learning-resources-cubos-mathlink-actividades", "rummikub-original-goliath-6-jugadores", "cefa-toys-tweak-juego-cartas-calculo-mental"],
     relatedPosts: [
       "juegos-mesa-educativos-primaria",
       "pensamiento-critico-ninos-juegos",
