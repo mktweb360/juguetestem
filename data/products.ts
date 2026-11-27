@@ -3395,6 +3395,25 @@ export const products: Product[] = [
     relatedPosts: ["mejores-lego-educativos", "lego-vs-otras-marcas-construccion", "juguetes-regalo-navidad-ninos"],
   },
   {
+    slug: "lego-technic-ferrari-488-pista-42235",
+    image: "https://m.media-amazon.com/images/I/81rJ6+6KUBL._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "LEGO Technic Coche Ferrari 488 Pista 42235",
+    asin: "B0GGPHC9VT",
+    categorySlug: "construccion-lego",
+    categoryName: "Construcción y LEGO",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Maqueta LEGO Technic del Ferrari 488 Pista para mayores de 9 años, con motor V8 de pistones móviles, diferencial, dirección y puertas que se abren.",
+    fullDescription: "Kit de construcción de LEGO Technic del deportivo Ferrari 488 Pista para niños y niñas a partir de 9 años. Según la ficha de Amazon, permite explorar principios básicos de ingeniería con un motor V8 de pistones móviles, el diferencial, la dirección y las puertas que se abren. Una vez montado, sirve para jugar o para exponerlo como pieza decorativa en una estantería o un escritorio. Incluye un código para desbloquear un diseño LEGO Technic en el videojuego Forza Horizon 6, que exige tener una copia del juego y está sujeto a términos y condiciones. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Motor V8 con pistones móviles, diferencial y dirección, según la ficha", "Puertas que se abren", "Sirve para montar, jugar y exponer"],
+    cons: ["Recomendado a partir de 9 años según la ficha: un montaje de Technic exige paciencia y, a esa edad, ayuda", "La ficha no indica el número de piezas en el resumen", "El código de Forza Horizon 6 exige tener ese videojuego", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: {"Marca": "LEGO", "Línea": "Technic", "Referencia": "42235", "Edad": "9+ años", "Extra": "Código para Forza Horizon 6", "Vendido por": "Amazon"},
+    relatedPosts: ["mejores-lego-educativos", "lego-vs-otras-marcas-construccion", "juguetes-regalo-navidad-ninos"],
+  },
+  {
     slug: "celestron-astromaster-130eq-telescopio-reflector-newtoniano",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Celestron AstroMaster 130EQ Telescopio reflector newtoniano (31045)",
