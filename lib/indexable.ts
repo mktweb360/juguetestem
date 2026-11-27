@@ -106,6 +106,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "national-geographic-sistema-solar-3d-pintar",
   "thinkfun-gravity-maze-juego-logica",
   "ravensburger-gravitrax-core-starter-set-124",
+  "asmodee-brainbox-imagenes-cartas-memoria",
   "asmodee-brainbox-el-mundo-cartas-memoria",
   "asmodee-brainbox-ciencia-cartas-memoria",
   "asmodee-brainbox-matematicas-cartas",
