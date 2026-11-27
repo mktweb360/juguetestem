@@ -366,6 +366,25 @@ export const products: Product[] = [
 
   // JUEGOS DE MESA EDUCATIVOS
   {
+    slug: "asmodee-brainbox-el-mundo-cartas-memoria",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Asmodee BrainBox El Mundo, juego de cartas de memoria y observación",
+    asin: "B08T9QCX15",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de mesa educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Juego de cartas de memoria y observación sobre países y culturas del mundo, en solitario o en grupo, desde 8 años.",
+    fullDescription: "BrainBox El Mundo es un juego de cartas de Asmodee, con fabricante Green Board Games según la ficha de Amazon. Se observa una carta ilustrada durante diez segundos y después hay que responder a una pregunta sobre lo que se ha visto, con datos sobre países y culturas. La ficha lo describe como apto para jugar en solitario, para batir récords personales, o en grupo, con partidas de unos 10 minutos, y lo indica a partir de 8 años. Incluye reglamento, un reloj de arena, cartas y dados, en una caja de unos 10 cm de lado. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Memoria, observación y cultura general sobre países y culturas", "Partidas cortas, de unos 10 minutos", "Se puede jugar en solitario o en grupo", "Formato compacto, fácil de llevar", "Vendido y enviado por Amazon"],
+    cons: ["Hay que leer con soltura las preguntas, así que encaja mejor hacia los 8 años", "La ficha no concreta el número de cartas ni de preguntas", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Asmodee", "Fabricante": "Green Board Games", "Edad indicada": "Desde 8 años", "Duración": "Unos 10 minutos", "Jugadores": "En solitario o en grupo", "Tema": "Países y culturas del mundo" },
+    badge: "Memoria y mundo",
+    relatedPosts: ["juegos-mesa-educativos-primaria", "mejores-juegos-mesa-familia"],
+  },
+  {
     slug: "asmodee-brainbox-ciencia-cartas-memoria",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Asmodee BrainBox Ciencia, juego de cartas de memoria y observación",
