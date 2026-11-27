@@ -519,7 +519,7 @@ export const posts: Post[] = [
     category: "Juegos de Mesa",
     date: "2025-08-16",
     readTime: 6,
-    relatedProducts: ["virus-pack-tapete-fundas-deck-box", "dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos"],
+    relatedProducts: ["virus-pack-tapete-fundas-deck-box", "dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos", "asmodee-brainbox-imagenes-cartas-memoria"],
     relatedPosts: ["dixit-juego-analisis-opinion", "catan-junior-analisis-estrategia", "juegos-mesa-educativos-primaria", "juegos-mesa-cooperativos-ninos-edad-como-elegir", "como-jugar-virus-juego-cartas-reglas", "juguetes-viaje-coche-avion-ninos-guia"],
     categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de cartas →" },
   },

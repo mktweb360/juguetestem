@@ -366,6 +366,25 @@ export const products: Product[] = [
 
   // JUEGOS DE MESA EDUCATIVOS
   {
+    slug: "asmodee-brainbox-imagenes-cartas-memoria",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Asmodee BrainBox Imágenes, juego de cartas de memoria y observación",
+    asin: "B08T9QWBZL",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de mesa educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Juego de cartas de memoria y observación con imágenes, para uno o más jugadores y desde 4 años.",
+    fullDescription: "BrainBox Imágenes es un juego de cartas de Asmodee, con fabricante Green Board Games según la ficha de Amazon. Se intentan memorizar las imágenes de una carta durante diez segundos y después hay que responder a una pregunta sobre la carta vista. La ficha indica que ayuda a mejorar la observación y la memoria, que se puede jugar con uno o más jugadores y que está recomendado a partir de 4 años. Incluye reglamento, un reloj de arena, cartas y dados, en una caja de unos 10 cm de lado. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Memoria y observación con imágenes, sin depender de la lectura fluida según la mecánica descrita", "Edad indicada desde 4 años, más baja que otras versiones de la serie", "Se puede jugar en solitario o con más jugadores", "Formato compacto, fácil de llevar", "Vendido y enviado por Amazon"],
+    cons: ["La ficha no concreta el número de cartas ni de preguntas", "A los 4 años probablemente haga falta un adulto que lea las preguntas", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Asmodee", "Fabricante": "Green Board Games", "Edad recomendada": "Desde 4 años", "Jugadores": "1 o más", "Tiempo de observación": "10 segundos por carta" },
+    badge: "Memoria desde 4 años",
+    relatedPosts: ["juegos-cartas-educativos-familia"],
+  },
+  {
     slug: "asmodee-brainbox-el-mundo-cartas-memoria",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Asmodee BrainBox El Mundo, juego de cartas de memoria y observación",
