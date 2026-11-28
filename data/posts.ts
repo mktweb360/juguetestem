@@ -415,7 +415,7 @@ export const posts: Post[] = [
     category: "STEM",
     date: "2025-08-08",
     readTime: 8,
-    relatedProducts: ["thames-kosmos-intro-chemistry-27-experimentos", "thames-kosmos-kids-first-science-kit", "national-geographic-mega-kit-excavacion-gemas", "national-geographic-quimica-asquerosa-18-experimentos", "unglinga-kit-cientifico-50-experimentos"],
+    relatedProducts: ["thames-kosmos-intro-chemistry-27-experimentos", "thames-kosmos-kids-first-science-kit", "national-geographic-mega-kit-excavacion-gemas", "national-geographic-quimica-asquerosa-18-experimentos", "unglinga-kit-cientifico-50-experimentos", "science4you-laboratorio-quimica-25-experimentos-8-anos"],
     relatedPosts: ["thames-kosmos-analisis-gama-completa", "microscopio-ninos-guia-compra", "robotica-ninos-primeros-pasos", "experimentos-caseros-seguros-ninos"],
     categoryCta: { href: "/tienda/juguetes-stem", text: "Ver kits de química →" },
   },
