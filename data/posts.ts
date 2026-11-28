@@ -558,7 +558,7 @@ export const posts: Post[] = [
     category: "Construcción y LEGO",
     date: "2025-08-19",
     readTime: 7,
-    relatedProducts: ["geomag-classic-color-91-piezas", "lego-10698-caja-ladrillos-creativos-grande"],
+    relatedProducts: ["geomag-classic-color-91-piezas", "geomag-classic-green-line-93-piezas-magneticas-reciclado", "lego-10698-caja-ladrillos-creativos-grande"],
     relatedPosts: ["construccion-magnetica-beneficios-educativos", "lego-vs-otras-marcas-construccion", "juguetes-madera-vs-plastico-diferencias"],
     categoryCta: { href: "/tienda/construccion-lego", text: "Ver Geomag →" },
   },
