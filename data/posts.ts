@@ -285,7 +285,7 @@ export const posts: Post[] = [
     category: "Guías",
     date: "2025-07-12",
     readTime: 7,
-    relatedProducts: ["cosyland-torre-aprendizaje-antivuelco", "geomag-classic-color-91-piezas"],
+    relatedProducts: ["cosyland-torre-aprendizaje-antivuelco", "geomag-classic-color-91-piezas", "smartgames-jardin-gnomos-48-desafios"],
     relatedPosts: ["regalos-ninos-2-3-anos", "mejores-juguetes-montessori-3-anos", "mejores-juguetes-4-anos"],
     categoryCta: { href: "/tienda/juguetes-montessori", text: "Ver juguetes educativos →" },
   },

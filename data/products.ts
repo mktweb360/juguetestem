@@ -503,6 +503,26 @@ export const products: Product[] = [
     relatedPosts: ["juegos-mesa-educativos-primaria"],
   },
   {
+    slug: "smartgames-jardin-gnomos-48-desafios",
+    image: "https://m.media-amazon.com/images/I/71NVbYoeENL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "SmartGames El jardín de los gnomos, 48 desafíos",
+    asin: "B0DB65BW59",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de mesa educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Rompecabezas de SmartGames con piezas de madera y 48 desafíos para un jugador, recomendado desde los 3 años.",
+    fullDescription: "El jardín de los gnomos es un rompecabezas infantil de SmartGames con piezas de madera. Según la ficha de Amazon, propone 48 desafíos para un solo jugador en los que hay que colocar las piezas para que los gnomos queden como en la imagen del reto, y la ficha lo recomienda a partir de 3 años. Invita a apilar, contar y buscar con figuras pequeñas, y la ficha indica que se puede jugar con varios niños para ver quién resuelve cada desafío en menos tiempo. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Piezas de madera, según la ficha", "48 desafíos pensados para empezar desde los 3 años", "Juego sin pantallas que trabaja la lógica y la visión espacial"],
+    cons: ["Es para un solo jugador por defecto", "La ficha no detalla las medidas ni el número de piezas", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "SmartGames", "Jugadores": "1", "Desafíos": "48", "Material": "Piezas de madera", "Edad recomendada": "Desde 3 años", "Vendido por": "Amazon" },
+    badge: "Lógica desde 3 años",
+    relatedPosts: ["juguetes-educativos-3-anos"],
+  },
+  {
     slug: "asmodee-brainbox-imagenes-cartas-memoria",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Asmodee BrainBox Imágenes, juego de cartas de memoria y observación",
