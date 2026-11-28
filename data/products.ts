@@ -714,6 +714,25 @@ export const products: Product[] = [
     relatedPosts: ["pensamiento-critico-ninos-juegos"],
   },
   {
+    slug: "science4you-laboratorio-quimica-25-experimentos-8-anos",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Science4you Laboratorio de Química 25 Experimentos 8+ años",
+    asin: "B08DD9FVQV",
+    categorySlug: "juguetes-stem",
+    categoryName: "Juguetes STEM",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Kit de química de Science4you con 25 experimentos para niños de 8 a 14 años, como una columna espumosa o estalactitas y estalagmitas.",
+    fullDescription: "Laboratorio de química de Science4you para niños de 8 a 14 años. Según la ficha de Amazon, incluye 23 contenidos y manualidades y propone 25 experimentos, entre ellos hacer una columna espumosa a partir de la producción de un gas, ver crecer estalactitas y estalagmitas con distintos reactivos y trabajar con modelos moleculares. Trae un libro educativo en varios idiomas, español incluido, que guía cada experimento, y se plantea desde la metodología STEAM. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "25 experimentos de química, según la ficha", "Incluye libro educativo con la guía de cada experimento, en español entre otros idiomas", "Pensado para niños de 8 a 14 años"],
+    cons: ["Los 25 experimentos se agotan: después tiene poca rejugabilidad", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Science4you", "Edad indicada": "8 a 14 años", "Experimentos": "25", "Contenidos y manualidades": "23", "Medidas": "38 x 8 x 29 cm", "Vendido por": "Amazon" },
+    badge: "Química desde 8 años",
+    relatedPosts: ["kits-quimica-ninos-seguros-guia"],
+  },
+  {
     slug: "haba-bichos-memoria-calculo-mental",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "HABA Bichos Juego de Memoria y Cálculo 6+",
