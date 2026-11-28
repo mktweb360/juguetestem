@@ -483,6 +483,26 @@ export const products: Product[] = [
     relatedPosts: ["juegos-mesa-educativos-primaria"],
   },
   {
+    slug: "smartgames-iq-quub-sg494",
+    image: "https://m.media-amazon.com/images/I/61M24LfZtTL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "SmartGames IQ Quub, rompecabezas 2D y 3D de 10 piezas",
+    asin: "B0GMY3WV6L",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de mesa educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Rompecabezas de SmartGames con 10 piezas, tablero portátil y libro de retos con soluciones, para resolver en plano o armando un cubo 3D.",
+    fullDescription: "IQ Quub es un rompecabezas de lógica de SmartGames. Según la ficha de Amazon, combina dos modos de juego, uno en plano y otro en 3D, en el que hay que construir un cubo con las piezas. Incluye un tablero portátil, 10 piezas y un libro con retos y soluciones, y la ficha indica que está recomendado de 6 a 10 años. Está en español, mide unos 14,4 x 9,7 x 0,1 cm, pesa 180 g y su número de modelo es SG494. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Dos modos de juego: en plano y en 3D", "Incluye libro con retos y soluciones", "Tablero portátil y ligero: unos 180 g"],
+    cons: ["La ficha no indica cuántos retos incluye el libro", "Es un juego para un solo jugador por defecto", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "SmartGames", "Modelo": "SG494", "Piezas": "10", "Modos": "2D y 3D", "Edad recomendada": "6 a 10 años", "Peso": "180 g", "Vendido por": "Amazon" },
+    badge: "Lógica en 2D y 3D",
+    relatedPosts: ["juegos-mesa-educativos-primaria"],
+  },
+  {
     slug: "asmodee-brainbox-imagenes-cartas-memoria",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Asmodee BrainBox Imágenes, juego de cartas de memoria y observación",
