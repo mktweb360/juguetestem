@@ -695,6 +695,25 @@ export const products: Product[] = [
     relatedPosts: ["pensamiento-critico-ninos-juegos", "juegos-mesa-educativos-primaria", "mejores-juegos-mesa-familia"],
   },
   {
+    slug: "thinkfun-minecraft-mtp-puzzle-magnetico-viaje-8-anos",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "ThinkFun Minecraft Puzzle Magnético de Viaje 8+ años",
+    asin: "B09TFYLJMR",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de mesa educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Juego de razonamiento deductivo de ThinkFun con 9 imanes de Minecraft para resolver retos con pistas visuales. Desde 8 años, en castellano.",
+    fullDescription: "Puzzle magnético de viaje de ThinkFun con temática Minecraft. Según la ficha de Amazon, es un juego de razonamiento deductivo: se elige un reto, se examinan las pistas visuales positivas y negativas y se colocan los 9 imanes de armas y armaduras en la mesa de artesanía, y cada reto tiene una única disposición correcta. Es para 1 o más jugadores, desde 8 años, y la edición es en castellano. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Trabaja el razonamiento deductivo con pistas visuales, según la ficha", "Formato de viaje con piezas magnéticas", "Se juega en solitario o en grupo, desde 8 años"],
+    cons: ["Es un rompecabezas de lógica, no un juego de turnos competitivo", "Los retos son finitos: la rejugabilidad depende de cuántos haya", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "ThinkFun", "Edad indicada": "Desde 8 años", "Jugadores": "1 o más", "Piezas": "9 imanes", "Idioma": "Castellano", "Vendido por": "Amazon" },
+    badge: "Lógica desde 8 años",
+    relatedPosts: ["pensamiento-critico-ninos-juegos"],
+  },
+  {
     slug: "haba-bichos-memoria-calculo-mental",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "HABA Bichos Juego de Memoria y Cálculo 6+",
