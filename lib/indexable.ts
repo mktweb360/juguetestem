@@ -111,6 +111,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "thinkfun-gravity-maze-juego-logica",
   "ravensburger-gravitrax-core-starter-set-124",
   "ravensburger-gravitrax-action-set-twist-101-piezas",
+  "clementoni-kit-cristales-55533",
   "educa-identic-natura-juego-memoria-parejas-animales",
   "asmodee-brainbox-imagenes-cartas-memoria",
   "asmodee-brainbox-el-mundo-cartas-memoria",

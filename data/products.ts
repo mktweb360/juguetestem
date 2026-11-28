@@ -308,6 +308,25 @@ export const products: Product[] = [
     relatedPosts: ["juguetes-stem-ninos-8-anos", "juguetes-stem-sin-pantallas-ideas-por-edad"],
   },
   {
+    slug: "clementoni-kit-cristales-55533",
+    image: "https://m.media-amazon.com/images/I/81+Wp2WXikL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Clementoni Kit Cristales 55533 Juego científico",
+    asin: "B0CXF13BFC",
+    categorySlug: "juguetes-stem",
+    categoryName: "Juguetes STEM y Ciencia",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Kit científico en español para crear cristales, con manual ilustrado y las materias primas necesarias, para mayores de 8 años.",
+    fullDescription: "Kit científico de Clementoni, en español y fabricado en Italia, para crear cristales propios siguiendo un manual ilustrado con los experimentos paso a paso. Según la ficha de Amazon, contiene todo lo necesario, incluidas las materias primas indispensables, y está pensado para estimular la creatividad y la curiosidad y para que los niños entiendan principios científicos que hay detrás de objetos cotidianos. La ficha lo recomienda a partir de 8 años. Mide unos 5,5 x 15 x 21 cm y pesa 220 g. Su número de modelo es 55533. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Incluye las materias primas y un manual ilustrado paso a paso, según la ficha", "Está en español", "Introduce principios científicos con un experimento corto"],
+    cons: ["Recomendado a partir de 8 años según la ficha: conviene la supervisión de un adulto con las materias primas del kit", "Es un kit de un solo uso: los materiales se consumen", "La ficha no detalla la cantidad de experimentos que permite", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: {"Marca": "Clementoni", "Modelo": "55533", "Edad recomendada": "A partir de 8 años", "Idioma": "Español", "Origen": "Italia", "Peso": "220 g", "Vendido por": "Amazon"},
+    relatedPosts: ["juguetes-stem-ninos-8-anos", "juguetes-stem-sin-pantallas-ideas-por-edad"],
+  },
+  {
     slug: "science4you-robotics-betabot-125-piezas",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Science4you Robotics Betabot Robot 125 Piezas",
