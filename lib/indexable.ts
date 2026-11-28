@@ -125,6 +125,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "asmodee-brainbox-matematicas-cartas",
   "educa-detectives-piratas-puzzle-50-piezas",
   "thinkfun-cat-crimes-logica-8-anos",
+  "thinkfun-minecraft-mtp-puzzle-magnetico-viaje-8-anos",
   "minecraft-heroes-of-the-village-ravensburger",
   "maldito-games-pistas-cruzadas-juego-palabras-cooperativo",
   "cefa-toys-tweak-juego-cartas-calculo-mental",
