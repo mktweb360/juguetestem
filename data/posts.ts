@@ -480,7 +480,7 @@ export const posts: Post[] = [
     category: "Juegos de Mesa",
     date: "2025-08-13",
     readTime: 8,
-    relatedProducts: ["dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos", "virus-pack-tapete-fundas-deck-box", "asmodee-azul-juego-mesa-losetas", "spin-master-tetris-juego-mesa-estrategia", "thinkfun-maze-pop-juego-logica-8-anos", "thinkfun-rush-hour-atasco-juego-logica-8-anos", "ravensburger-puzzle-mapa-del-mundo-200-xxl", "mattel-blokus-juego-estrategia-familia-7-anos", "asmodee-brainbox-ciencia-cartas-memoria", "educa-identic-natura-juego-memoria-parejas-animales", "smartgames-iq-circuit-sg467"],
+    relatedProducts: ["dixit-juego-mesa-asmodee-2021", "catan-junior-devir-6-anos", "virus-pack-tapete-fundas-deck-box", "asmodee-azul-juego-mesa-losetas", "spin-master-tetris-juego-mesa-estrategia", "thinkfun-maze-pop-juego-logica-8-anos", "thinkfun-rush-hour-atasco-juego-logica-8-anos", "ravensburger-puzzle-mapa-del-mundo-200-xxl", "mattel-blokus-juego-estrategia-familia-7-anos", "asmodee-brainbox-ciencia-cartas-memoria", "educa-identic-natura-juego-memoria-parejas-animales", "smartgames-iq-circuit-sg467", "smartgames-gatos-y-cajas-60-desafios"],
     relatedPosts: ["dixit-juego-analisis-opinion", "catan-junior-analisis-estrategia", "mejores-juegos-mesa-familia", "juegos-mesa-cooperativos-ninos-edad-como-elegir", "juegos-aprender-matematicas-ninos-por-edad"],
     categoryCta: { href: "/tienda/juegos-mesa-educativos", text: "Ver juegos de mesa →" },
   },
