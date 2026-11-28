@@ -523,6 +523,26 @@ export const products: Product[] = [
     relatedPosts: ["juguetes-educativos-3-anos"],
   },
   {
+    slug: "janod-mapa-magnetico-peninsula-iberica",
+    image: "https://m.media-amazon.com/images/I/71qvTX8MjHL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Janod Mapa magnético de la Península Ibérica, 60 imanes",
+    asin: "B07GSQQ4TD",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de mesa educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Puzle magnético de madera de Janod con 60 piezas imantadas y el mapa de España por regiones, de 5 a 12 años.",
+    fullDescription: "Puzle de madera de Janod con forma de mapa de España. Según la ficha de Amazon, tiene 60 piezas, cada una con el nombre y la capital de una región junto a ilustraciones de especialidades locales y lugares turísticos. Cada pieza es un imán que se fija al tablero, de modo que el mapa se puede colgar en la pared. Mide 40 x 30 cm, pesa 960 g, está fabricado en madera (contrachapado y tablero de fibra de densidad media), la ficha lo recomienda de 5 a 12 años y su número de modelo es J05478. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Cada pieza es un imán: no se pierden y el mapa se puede colgar", "Incluye el nombre y la capital de cada región, según la ficha", "Madera y formato de 40 x 30 cm"],
+    cons: ["Es un puzle de geografía de España: no sirve para otros mapas", "Pesa unos 960 g, más que un puzle de cartón", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Janod", "Modelo": "J05478", "Piezas": "60", "Medidas": "40 x 30 cm", "Material": "Madera", "Edad recomendada": "5 a 12 años", "Vendido por": "Amazon" },
+    badge: "Geografía de España",
+    relatedPosts: ["juegos-mesa-educativos-primaria"],
+  },
+  {
     slug: "asmodee-brainbox-imagenes-cartas-memoria",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Asmodee BrainBox Imágenes, juego de cartas de memoria y observación",
