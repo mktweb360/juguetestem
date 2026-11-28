@@ -733,6 +733,25 @@ export const products: Product[] = [
     relatedPosts: ["kits-quimica-ninos-seguros-guia"],
   },
   {
+    slug: "science4you-super-kit-cientifico-150-experimentos-8-anos",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Science4you Super Kit Científico 150 Experimentos 8+ años",
+    asin: "B01AM6GMVW",
+    categorySlug: "juguetes-stem",
+    categoryName: "Juguetes STEM",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Kit de ciencias de Science4you con 150 experimentos y 68 contenidos y manualidades, con volcán, slime y tornado, para niños desde 8 años.",
+    fullDescription: "Super kit científico de Science4you para niños desde 8 años. Según la ficha de Amazon, propone 150 experimentos con 68 contenidos y manualidades, entre ellos un volcán, explosiones químicas, slime y un tornado. Incluye un libro educativo en 6 idiomas que guía los experimentos. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "150 experimentos de química y otras ciencias, según la ficha", "68 contenidos y manualidades", "Incluye libro educativo en 6 idiomas"],
+    cons: ["Es un kit de varios temas: no profundiza en uno solo", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Science4you", "Edad indicada": "Desde 8 años", "Experimentos": "150", "Contenidos y manualidades": "68", "Libro": "6 idiomas", "Vendido por": "Amazon" },
+    badge: "150 experimentos",
+    relatedPosts: ["kits-quimica-ninos-seguros-guia"],
+  },
+  {
     slug: "haba-bichos-memoria-calculo-mental",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "HABA Bichos Juego de Memoria y Cálculo 6+",

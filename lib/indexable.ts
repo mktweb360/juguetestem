@@ -127,6 +127,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "thinkfun-cat-crimes-logica-8-anos",
   "thinkfun-minecraft-mtp-puzzle-magnetico-viaje-8-anos",
   "science4you-laboratorio-quimica-25-experimentos-8-anos",
+  "science4you-super-kit-cientifico-150-experimentos-8-anos",
   "minecraft-heroes-of-the-village-ravensburger",
   "maldito-games-pistas-cruzadas-juego-palabras-cooperativo",
   "cefa-toys-tweak-juego-cartas-calculo-mental",
