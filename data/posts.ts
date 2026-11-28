@@ -149,7 +149,7 @@ export const posts: Post[] = [
     category: "STEM",
     date: "2025-01-20",
     readTime: 9,
-    relatedProducts: ["thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-kit-37-piezas", "national-geographic-microscopio-800x-smartphone", "cefa-toys-electrocefa-500-plus-circuitos", "clementoni-laboratorio-mecanica-coche-carreras-90-piezas", "clementoni-laboratorio-mecanica-xtreme-motocross-170-piezas", "knex-deluxe-80-modelos-408-piezas", "ravensburger-gravitrax-action-set-twist-101-piezas"],
+    relatedProducts: ["thames-kosmos-intro-chemistry-27-experimentos", "national-geographic-microscopio-kit-37-piezas", "national-geographic-microscopio-800x-smartphone", "cefa-toys-electrocefa-500-plus-circuitos", "clementoni-laboratorio-mecanica-coche-carreras-90-piezas", "clementoni-laboratorio-mecanica-xtreme-motocross-170-piezas", "knex-deluxe-80-modelos-408-piezas", "ravensburger-gravitrax-action-set-twist-101-piezas", "clementoni-kit-cristales-55533"],
     categoryCta: { href: "/tienda/juguetes-stem", text: "Ver juguetes STEM →" },
   },
   {
