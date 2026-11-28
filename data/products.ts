@@ -443,6 +443,26 @@ export const products: Product[] = [
     relatedPosts: ["juegos-mesa-educativos-primaria"],
   },
   {
+    slug: "smartgames-gatos-y-cajas-60-desafios",
+    image: "https://m.media-amazon.com/images/I/716z1lyxhgL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "SmartGames Gatos y Cajas, rompecabezas de 60 desafíos",
+    asin: "B0C7WMJP79",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de mesa educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Rompecabezas de lógica para un jugador con 60 desafíos, de SmartGames: hay que meter todos los gatos en las cajas moviendo las piezas, desde 7 años.",
+    fullDescription: "Gatos y Cajas es un rompecabezas de lógica de SmartGames para un solo jugador. Según la ficha de Amazon, hay que mover las piezas una a una hasta que todos los gatos queden dentro de una caja de cartón, con 60 desafíos, y desarrolla la concentración, la lógica, la resolución de problemas y la planificación. La ficha lo recomienda desde 7 años y señala que es un juego para un jugador. Mide unos 17 x 5 x 24,5 cm y pesa 400 g. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "60 desafíos de dificultad creciente en un solo juego", "Trabaja la planificación y la lógica sin pantallas", "Recomendado desde 7 años según la ficha"],
+    cons: ["Es para un solo jugador, aunque la ficha admite resolverlo entre varios por turnos", "La ficha indica China como país de origen", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "SmartGames", "Jugadores": "1", "Desafíos": "60", "Edad recomendada": "A partir de 7 años", "Peso": "400 g", "Vendido por": "Amazon" },
+    badge: "Lógica sin pantallas",
+    relatedPosts: ["juegos-mesa-educativos-primaria"],
+  },
+  {
     slug: "asmodee-brainbox-imagenes-cartas-memoria",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Asmodee BrainBox Imágenes, juego de cartas de memoria y observación",
