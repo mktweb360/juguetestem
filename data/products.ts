@@ -463,6 +463,26 @@ export const products: Product[] = [
     relatedPosts: ["juegos-mesa-educativos-primaria"],
   },
   {
+    slug: "smartgames-ardillas-60-desafios",
+    image: "https://m.media-amazon.com/images/I/71T18n3vmZL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "SmartGames Ardillas, rompecabezas de 60 desafíos",
+    asin: "B07DGKPWTH",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de mesa educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Rompecabezas de lógica para un jugador con 60 desafíos, de SmartGames, recomendado de 6 a 10 años.",
+    fullDescription: "Ardillas es un rompecabezas de lógica de SmartGames para un solo jugador. Según la ficha de Amazon, consiste en resolver retos con 60 desafíos y fomenta habilidades cognitivas, y está recomendado para niños de 6 a 10 años. La ficha indica que se puede jugar por turnos en familia o con amigos, comparando quién lo resuelve antes. Mide unos 17 x 4,5 x 24 cm y su número de modelo es SG425ES. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "60 desafíos en un formato pensado para empezar desde los 6 años", "Juego sin pantallas que trabaja la lógica", "Puede jugarse por turnos, viendo quién lo resuelve antes"],
+    cons: ["Es para un solo jugador por defecto", "La ficha no detalla las piezas ni los niveles", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "SmartGames", "Modelo": "SG425ES", "Jugadores": "1", "Desafíos": "60", "Edad recomendada": "6 a 10 años", "Vendido por": "Amazon" },
+    badge: "Lógica desde 6 años",
+    relatedPosts: ["juegos-mesa-educativos-primaria"],
+  },
+  {
     slug: "asmodee-brainbox-imagenes-cartas-memoria",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Asmodee BrainBox Imágenes, juego de cartas de memoria y observación",
