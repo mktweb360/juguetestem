@@ -117,6 +117,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "smartgames-iq-circuit-sg467",
   "smartgames-gatos-y-cajas-60-desafios",
   "smartgames-ardillas-60-desafios",
+  "smartgames-iq-quub-sg494",
   "asmodee-brainbox-el-mundo-cartas-memoria",
   "asmodee-brainbox-ciencia-cartas-memoria",
   "asmodee-brainbox-matematicas-cartas",
