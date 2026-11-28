@@ -114,6 +114,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "clementoni-kit-cristales-55533",
   "educa-identic-natura-juego-memoria-parejas-animales",
   "asmodee-brainbox-imagenes-cartas-memoria",
+  "smartgames-iq-circuit-sg467",
   "asmodee-brainbox-el-mundo-cartas-memoria",
   "asmodee-brainbox-ciencia-cartas-memoria",
   "asmodee-brainbox-matematicas-cartas",

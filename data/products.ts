@@ -423,6 +423,26 @@ export const products: Product[] = [
     relatedPosts: ["juegos-mesa-educativos-primaria"],
   },
   {
+    slug: "smartgames-iq-circuit-sg467",
+    image: "https://m.media-amazon.com/images/I/71E8dm6JYvL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "SmartGames IQ Circuit SG467, rompecabezas de lógica",
+    asin: "B096L4QZ5W",
+    categorySlug: "juegos-mesa-educativos",
+    categoryName: "Juegos de mesa educativos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Rompecabezas de lógica para un jugador con 120 desafíos en 4 niveles, de SmartGames, para mayores de 7 años.",
+    fullDescription: "IQ Circuit es un rompecabezas de lógica de SmartGames para un solo jugador. Según la ficha de Amazon, incluye 120 desafíos repartidos en 4 niveles de dificultad y trabaja la concentración, la resolución de problemas, la visión espacial y la lógica. La ficha indica una edad recomendada desde 7 años y un tamaño de unos 10 x 3 x 14 cm, con un peso de 150 g, lo que lo hace fácil de llevar de viaje. Su número de modelo es SG467 y consta como fabricado en España. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "120 desafíos en 4 niveles, para que la dificultad crezca poco a poco", "Formato compacto, fácil de llevar de viaje", "Juego en solitario que trabaja la lógica y la visión espacial"],
+    cons: ["Es para un solo jugador: no sirve como juego de mesa en grupo", "La ficha no detalla las piezas ni cómo se miden los niveles", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "SmartGames", "Modelo": "SG467", "Jugadores": "1", "Desafíos": "120 en 4 niveles", "Edad recomendada": "A partir de 7 años", "Peso": "150 g", "Vendido por": "Amazon" },
+    badge: "Lógica en solitario",
+    relatedPosts: ["juegos-mesa-educativos-primaria"],
+  },
+  {
     slug: "asmodee-brainbox-imagenes-cartas-memoria",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Asmodee BrainBox Imágenes, juego de cartas de memoria y observación",
