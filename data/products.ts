@@ -752,6 +752,24 @@ export const products: Product[] = [
     relatedPosts: ["kits-quimica-ninos-seguros-guia"],
   },
   {
+    slug: "geomag-classic-green-line-93-piezas-magneticas-reciclado",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Geomag Classic Green Line 93 Piezas Magnéticas de Plástico Reciclado",
+    asin: "B0862J5CBP",
+    categorySlug: "construccion-lego",
+    categoryName: "Construcción y LEGO",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Set de construcción magnética Geomag de la línea Green Line, con 93 piezas y caja de plástico 100 % reciclado.",
+    fullDescription: "Geomag Classic Green Line es un juego de construcción magnética de 93 piezas. Según la ficha de Amazon, incluye 44 bolas metálicas no magnéticas y 44 barras magnéticas de varios colores, además de paneles base, y la caja está fabricada con plástico 100 % reciclado. La ficha lo presenta como juego educativo de la categoría STEM que favorece la coordinación ojo-mano, y sus elementos son compatibles con las colecciones Classic de Geomag. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "93 piezas: bolas metálicas, barras magnéticas y paneles base, según la ficha", "Caja de plástico 100 % reciclado, línea Green Line", "Compatible con las colecciones Classic de Geomag, según la ficha"],
+    cons: ["No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Geomag", "Línea": "Classic Green Line", "Piezas": "93", "Bolas metálicas": "44", "Barras magnéticas": "44", "Material de la caja": "Plástico 100 % reciclado", "Vendido por": "Amazon" },
+    relatedPosts: ["geomag-magnetico-construccion-guia"],
+  },
+  {
     slug: "haba-bichos-memoria-calculo-mental",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "HABA Bichos Juego de Memoria y Cálculo 6+",
